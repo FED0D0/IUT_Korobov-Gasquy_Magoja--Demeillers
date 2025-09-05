@@ -3,8 +3,11 @@
 #include <xc.h>
 #include "ChipConfig.h"
 #include "IO.h"
+#include "Timer.h"
 
 int main(void) {
+    InitTimer23();
+    InitTimer1();
     InitIO();
     LED_BLANCHE_1 = 1;
     LED_BLEUE_1 = 1;
@@ -18,5 +21,6 @@ int main(void) {
     LED_VERTE_2 = 1;
 
     while (1) {
+        
     }
 }
