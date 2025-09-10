@@ -6,9 +6,11 @@
 #include "Timer.h"
 
 int main(void) {
+    InitOscillator();
+    InitIO();
+    
     InitTimer23();
     InitTimer1();
-    InitIO();
     LED_BLANCHE_1 = 1;
     LED_BLEUE_1 = 1;
     LED_ORANGE_1 = 1;

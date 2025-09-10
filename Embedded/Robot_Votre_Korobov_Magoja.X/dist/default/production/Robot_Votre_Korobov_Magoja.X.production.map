@@ -86,9 +86,9 @@ Default Scalar Model: Small
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200               0x152           0x1fb  (507)
-.text                        0x352               0x152           0x1fb  (507)
+.text                        0x352               0x154           0x1fe  (510)
 
-                 Total "program" memory used (bytes):          0x3f6  (1014) <1%
+                 Total "program" memory used (bytes):          0x3f9  (1017) <1%
 
 
 Auxflash Memory  [Origin = 0x7fc000, Length = 0x3ffa]
@@ -237,7 +237,7 @@ usercode
 
 __FGS             0xf80004          0x2
  *(__FGS.sec*)
- __FGS.sec        0xf80004          0x2 /CW/_FGS
+ __FGS.sec        0xf80004          0x2 /CW/_FGSØï
                   0xf80004                  __FGS.sec
 
 __FOSCSEL
@@ -279,12 +279,12 @@ __FUID0
  .debug_abbrev    0x00014f         0x99 build/default/production/IO.o
  .debug_abbrev    0x0001e8         0xda build/default/production/timer.o
 
-.debug_line       0x000000        0x4aa
+.debug_line       0x000000        0x4ab
  *(.debug_line)
- .debug_line      0x000000        0x11c build/default/production/main.o
- .debug_line      0x00011c        0x127 build/default/production/ChipConfig.o
- .debug_line      0x000243        0x127 build/default/production/IO.o
- .debug_line      0x00036a        0x140 build/default/production/timer.o
+ .debug_line      0x000000        0x11d build/default/production/main.o
+ .debug_line      0x00011d        0x127 build/default/production/ChipConfig.o
+ .debug_line      0x000244        0x127 build/default/production/IO.o
+ .debug_line      0x00036b        0x140 build/default/production/timer.o
 
 .debug_frame      0x000000        0x14e
  *(.debug_frame)
@@ -3144,7 +3144,7 @@ LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libm-elf.a
 LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a
 END GROUP
 OUTPUT(dist/default/production/Robot_Votre_Korobov_Magoja.X.production.elf elf32-pic30)
-LOAD /CW/_FGS
+LOAD /CW/_FGSØï
 LOAD default_isr
 
 .debug_pubtypes
@@ -3205,7 +3205,7 @@ __c30_signature
  .ivt._T3Interrupt
                   0x000024          0x2 build/default/production/timer.o
 
-.text             0x000352        0x152
+.text             0x000352        0x154
  .text            0x000352         0x96 build/default/production/ChipConfig.o
                   0x000352                  _InitOscillator
  .text            0x0003e8         0x50 build/default/production/timer.o
@@ -3215,5 +3215,5 @@ __c30_signature
                   0x000438                  _InitIO
                   0x000462                  _LockIO
                   0x000474                  _UnlockIO
- .text            0x000486         0x1e build/default/production/main.o
+ .text            0x000486         0x20 build/default/production/main.o
                   0x000486                  _main
