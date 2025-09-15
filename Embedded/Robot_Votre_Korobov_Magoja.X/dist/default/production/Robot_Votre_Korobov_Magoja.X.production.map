@@ -121,10 +121,10 @@ Default Scalar Model: Small
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200               0x8aa           0xcff  (3327)
-.text                        0xaaa               0x2ca           0x42f  (1071)
-.dinit                       0xd74                0x18            0x24  (36)
+.text                        0xaaa               0x2c8           0x42c  (1068)
+.dinit                       0xd72                0x18            0x24  (36)
 
-                 Total "program" memory used (bytes):         0x1152  (4434) <1%
+                 Total "program" memory used (bytes):         0x114f  (4431) <1%
 
 
 Auxflash Memory  [Origin = 0x7fc000, Length = 0x3ffa]
@@ -395,7 +395,7 @@ usercode
 
 __FGS             0xf80004          0x2
  *(__FGS.sec*)
- __FGS.sec        0xf80004          0x2 /CW/_FGSpw;
+ __FGS.sec        0xf80004          0x2 /CW/_FGS°·+
                   0xf80004                  __FGS.sec
 
 __FOSCSEL
@@ -3401,7 +3401,7 @@ LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libm-elf.a
 LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a
 END GROUP
 OUTPUT(dist/default/production/Robot_Votre_Korobov_Magoja.X.production.elf elf32-pic30)
-LOAD /CW/_FGSpw;
+LOAD /CW/_FGS°·+
 LOAD default_isr
 LOAD data_init
 
@@ -3499,7 +3499,7 @@ __c30_signature
  .ivt._T3Interrupt
                   0x000024          0x2 build/default/production/timer.o
 
-.text             0x000aaa        0x2ca
+.text             0x000aaa        0x2c8
  .text            0x000aaa        0x10e build/default/production/ToolBox.o
                   0x000aaa                  _Abs
                   0x000ad6                  _Max
@@ -3519,8 +3519,8 @@ __c30_signature
  .text            0x000cfe         0x4e build/default/production/timer.o
                   0x000cfe                  _InitTimer1
                   0x000d1a                  _InitTimer23
- .text            0x000d4c         0x28 build/default/production/main.o
+ .text            0x000d4c         0x26 build/default/production/main.o
                   0x000d4c                  _main
 
-.dinit            0x000d74         0x18
- .dinit           0x000d74         0x18 data_init
+.dinit            0x000d72         0x18
+ .dinit           0x000d72         0x18 data_init

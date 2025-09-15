@@ -22,4 +22,5 @@ void PWMSetSpeed(float vitesseEnPourcents)
 {
 PDC1 = vitesseEnPourcents * PWMPER + talon;
 SDC1 = talon;
+
 }
