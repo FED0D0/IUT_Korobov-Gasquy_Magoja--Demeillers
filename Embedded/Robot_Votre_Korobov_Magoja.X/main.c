@@ -14,7 +14,8 @@ int main(void) {
     InitTimer1();
 
     InitPWM();
-    PWMSetSpeed(0.0);
+    PWMSetSpeed(0,0);
+    PWMSetSpeed(0,1);
     LED_BLANCHE_1 = 1;
     LED_BLEUE_1 = 1;
     LED_ORANGE_1 = 1;

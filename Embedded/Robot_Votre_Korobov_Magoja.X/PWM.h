@@ -4,11 +4,12 @@
  *
  * Created on 10 septembre 2025, 09:46
  */
-
+#define MOTEUR_DROIT 1
+#define MOTEUR_GAUCHE 0
 #ifndef PWM_H
 
 
-void PWMSetSpeed(float vitesseEnPourcents);
+void PWMSetSpeed(float vitesseEnPourcents, float Moteur);
 void InitPWM(void );
 
 #endif 
