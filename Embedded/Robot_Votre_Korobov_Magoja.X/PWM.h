@@ -9,7 +9,9 @@
 #ifndef PWM_H
 
 
-void PWMSetSpeed(float vitesseEnPourcents, float Moteur);
+//void PWMSetSpeed(float vitesseEnPourcents, float Moteur);
+void PWMSetSpeedConsigne(float vitesseEnPourcents, float Moteur);
+void PWMUpdateSpeed();
 void InitPWM(void );
 
 #endif 
