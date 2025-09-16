@@ -5,7 +5,7 @@
 #include "IO.h"
 #include "Timer.h"
 #include "PWM.h"
-
+#include "ADC.h"
 int main(void) {
     InitOscillator();
     InitIO();
@@ -13,6 +13,8 @@ int main(void) {
     InitTimer23();
     InitTimer1();
 
+    InitADC1();
+    
     InitPWM();
     PWMSetSpeedConsigne(0,0);
     PWMSetSpeedConsigne(0,1);

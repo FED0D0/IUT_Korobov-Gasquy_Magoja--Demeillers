@@ -1,11 +1,11 @@
 #include <xc.h>
-#include "timer.h"
+#include "Timer.h"
 #include "IO.h"
 #include "PWM.h"
+#include "ADC.h"
 //Initialisation d?un timer 16 bits
 
 void InitTimer1(void) {
-    void PWMUpdateSpeed();
     //Timer1 pour horodater les mesures (1ms)
     T1CONbits.TON = 0; // Disable Timer
     T1CONbits.TCKPS = 0b10; //Prescaler
@@ -25,6 +25,8 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     IFS0bits.T1IF = 0;
     LED_BLANCHE_1 = !LED_BLANCHE_1;
     PWMUpdateSpeed();
+    ADC1StartConversionSequence();
+    //InitADC1();
 }
 //Initialisation d?un timer 32 bits
 
