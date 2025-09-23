@@ -1,1025 +1,162 @@
-9701 1758016856438 XXXX 1758016856438, Thread 9701: XXXX 1758016856438, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856438 XXXX 1758016856438, Thread 9701: XXXX 1758016856438, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856440 XXXX 1758016856440, Thread 9701: XXXX 1758016856440, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856440 XXXX 1758016856440, Thread 9701: XXXX 1758016856440, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856440 XXXX 1758016856440, Thread 9701: XXXX 1758016856440, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856446 XXXX 1758016856446, Thread 9701: XXXX 1758016856446, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856446 XXXX 1758016856446, Thread 9701: XXXX 1758016856446, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856446 XXXX 1758016856446, Thread 9701: XXXX 1758016856446, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856448 XXXX 1758016856448, Thread 9701: XXXX 1758016856448, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856448 XXXX 1758016856448, Thread 9701: XXXX 1758016856448, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856448 XXXX 1758016856448, Thread 9701: XXXX 1758016856448, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856454 XXXX 1758016856454, Thread 9701: XXXX 1758016856454, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856454 XXXX 1758016856454, Thread 9701: XXXX 1758016856454, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856454 XXXX 1758016856454, Thread 9701: XXXX 1758016856454, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856456 XXXX 1758016856456, Thread 9701: XXXX 1758016856456, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856456 XXXX 1758016856456, Thread 9701: XXXX 1758016856456, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856456 XXXX 1758016856456, Thread 9701: XXXX 1758016856456, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856462 XXXX 1758016856462, Thread 9701: XXXX 1758016856462, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856462 XXXX 1758016856462, Thread 9701: XXXX 1758016856462, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856462 XXXX 1758016856462, Thread 9701: XXXX 1758016856462, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856465 XXXX 1758016856465, Thread 9701: XXXX 1758016856465, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856465 XXXX 1758016856465, Thread 9701: XXXX 1758016856465, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856465 XXXX 1758016856465, Thread 9701: XXXX 1758016856465, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856471 XXXX 1758016856471, Thread 9701: XXXX 1758016856471, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856471 XXXX 1758016856471, Thread 9701: XXXX 1758016856471, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856471 XXXX 1758016856471, Thread 9701: XXXX 1758016856471, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856473 XXXX 1758016856473, Thread 9701: XXXX 1758016856473, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856473 XXXX 1758016856473, Thread 9701: XXXX 1758016856473, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856473 XXXX 1758016856473, Thread 9701: XXXX 1758016856473, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856479 XXXX 1758016856479, Thread 9701: XXXX 1758016856479, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856479 XXXX 1758016856479, Thread 9701: XXXX 1758016856479, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856479 XXXX 1758016856479, Thread 9701: XXXX 1758016856479, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856480 XXXX 1758016856480, Thread 9701: XXXX 1758016856480, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856480 XXXX 1758016856480, Thread 9701: XXXX 1758016856480, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856480 XXXX 1758016856480, Thread 9701: XXXX 1758016856480, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856486 XXXX 1758016856485, Thread 9701: XXXX 1758016856485, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856486 XXXX 1758016856486, Thread 9701: XXXX 1758016856486, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856486 XXXX 1758016856486, Thread 9701: XXXX 1758016856486, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856488 XXXX 1758016856488, Thread 9701: XXXX 1758016856488, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856488 XXXX 1758016856488, Thread 9701: XXXX 1758016856488, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856488 XXXX 1758016856488, Thread 9701: XXXX 1758016856488, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856494 XXXX 1758016856494, Thread 9701: XXXX 1758016856494, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856494 XXXX 1758016856494, Thread 9701: XXXX 1758016856494, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856494 XXXX 1758016856494, Thread 9701: XXXX 1758016856494, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856496 XXXX 1758016856496, Thread 9701: XXXX 1758016856496, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856496 XXXX 1758016856496, Thread 9701: XXXX 1758016856496, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856496 XXXX 1758016856496, Thread 9701: XXXX 1758016856496, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856502 XXXX 1758016856502, Thread 9701: XXXX 1758016856502, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856502 XXXX 1758016856502, Thread 9701: XXXX 1758016856502, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856502 XXXX 1758016856502, Thread 9701: XXXX 1758016856502, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856504 XXXX 1758016856504, Thread 9701: XXXX 1758016856504, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856504 XXXX 1758016856504, Thread 9701: XXXX 1758016856504, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856504 XXXX 1758016856504, Thread 9701: XXXX 1758016856504, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856510 XXXX 1758016856510, Thread 9701: XXXX 1758016856510, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856510 XXXX 1758016856510, Thread 9701: XXXX 1758016856510, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856510 XXXX 1758016856510, Thread 9701: XXXX 1758016856510, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856511 XXXX 1758016856511, Thread 9701: XXXX 1758016856511, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856511 XXXX 1758016856511, Thread 9701: XXXX 1758016856511, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856511 XXXX 1758016856511, Thread 9701: XXXX 1758016856511, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856516 XXXX 1758016856516, Thread 9701: XXXX 1758016856516, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856517 XXXX 1758016856517, Thread 9701: XXXX 1758016856516, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856517 XXXX 1758016856517, Thread 9701: XXXX 1758016856517, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856519 XXXX 1758016856519, Thread 9701: XXXX 1758016856519, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856519 XXXX 1758016856519, Thread 9701: XXXX 1758016856519, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856519 XXXX 1758016856519, Thread 9701: XXXX 1758016856519, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856524 XXXX 1758016856524, Thread 9701: XXXX 1758016856524, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856525 XXXX 1758016856525, Thread 9701: XXXX 1758016856525, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856525 XXXX 1758016856525, Thread 9701: XXXX 1758016856525, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856527 XXXX 1758016856527, Thread 9701: XXXX 1758016856527, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856527 XXXX 1758016856527, Thread 9701: XXXX 1758016856527, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856527 XXXX 1758016856527, Thread 9701: XXXX 1758016856527, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856533 XXXX 1758016856533, Thread 9701: XXXX 1758016856533, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856533 XXXX 1758016856533, Thread 9701: XXXX 1758016856533, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856533 XXXX 1758016856533, Thread 9701: XXXX 1758016856533, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856535 XXXX 1758016856535, Thread 9701: XXXX 1758016856535, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856535 XXXX 1758016856535, Thread 9701: XXXX 1758016856535, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856535 XXXX 1758016856535, Thread 9701: XXXX 1758016856535, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856541 XXXX 1758016856541, Thread 9701: XXXX 1758016856541, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856541 XXXX 1758016856541, Thread 9701: XXXX 1758016856541, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856541 XXXX 1758016856541, Thread 9701: XXXX 1758016856541, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856543 XXXX 1758016856543, Thread 9701: XXXX 1758016856543, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856543 XXXX 1758016856543, Thread 9701: XXXX 1758016856543, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856543 XXXX 1758016856543, Thread 9701: XXXX 1758016856543, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856549 XXXX 1758016856549, Thread 9701: XXXX 1758016856549, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856549 XXXX 1758016856549, Thread 9701: XXXX 1758016856549, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856549 XXXX 1758016856549, Thread 9701: XXXX 1758016856549, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856552 XXXX 1758016856552, Thread 9701: XXXX 1758016856552, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856552 XXXX 1758016856552, Thread 9701: XXXX 1758016856552, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856552 XXXX 1758016856552, Thread 9701: XXXX 1758016856552, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856558 XXXX 1758016856558, Thread 9701: XXXX 1758016856558, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856558 XXXX 1758016856558, Thread 9701: XXXX 1758016856558, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadSFR  
-9701 1758016856558 XXXX 1758016856558, Thread 9701: XXXX 1758016856558, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9701 1758016856560 XXXX 1758016856560, Thread 9701: XXXX 1758016856560, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016856560 XXXX 1758016856560, Thread 9701: XXXX 1758016856560, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016856560 XXXX 1758016856560, Thread 9701: XXXX 1758016856560, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteSFR  
-9701 1758016856566 XXXX 1758016856566, Thread 9701: XXXX 1758016856566, Exiting Thread 9701: Commands::runScriptWithDownload(WriteSFR)  
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:SetFreezePerihperalInfo
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 none
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+374 1758612024795 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is null
 
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
-9701 1758016856566 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9701 1758016856566 XXXX 1758016856566, Thread 9701: XXXX 1758016856566, Entering Thread 9701: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
-9701 1758016856567 XXXX 1758016856567, Thread 9701: XXXX 1758016856567, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016856567 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:GetPC
-9701 1758016856567 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016856567 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
-9701 1758016856567 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+374 1758612024795 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:GetFirmwareInfo
+374 1758612024795 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
+374 1758612024795 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 null
+374 1758612024795 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
+374 1758612024808 XXXX 1758612024808, Thread 374: com.Send returned false 
+374 1758612024808 XXXX 1758612024808, Thread 374: execCommand: exception after writeSideChanel null 
+374 1758612024808 GEN4_CONNECT_DIAGNOSTICS:Removing plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@3edd9806
+374 1758612024808 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+374 1758612024808 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+374 1758612024808 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.Disconnect
+374 1758612024808 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Detach to remove tool from plug and play list
+374 1758612024808 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.DisconnectFromMPlabComm
+374 1758612024808 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Disconnect
+381 1758612049733 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
+381 1758612049733 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9015, AttachedToolVID = 4d8
+381 1758612049733 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
+381 1758612049733 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9015, AttachedToolVID = 4d8
+381 1758612049762 com.microchip.mplab.mdbcore.RealICETool.RIDbgToolCom
+381 1758612049762 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
+381 1758612049762 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
+381 1758612049762 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@2dcb4bb1
+381 1758612049762 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+381 1758612049762 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@2dcb4bb1
+381 1758612049762 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
 
-9701 1758016856585 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:RunTarget
-9701 1758016856585 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9701 1758016856585 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.mdbcore.RI4Tool.DebugHandler@42e838b9
-9701 1758016856585 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9701 1758016856586 XXXX 1758016856585, Thread 9701: XXXX 1758016856585, Entering Thread 9701: Commands::runScriptBasic, script name = Run, timeOut = -1 ms  
-9701 1758016856586 XXXX 1758016856586, Thread 9701: XXXX 1758016856586, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016856586 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:RunTarget
-9701 1758016856586 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016856586 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9701 1758016856586 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-9701 1758016856843 XXXX 1758016856843, Thread 9701: XXXX 1758016856843, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016856845 XXXX 1758016856845, Thread 9701: XXXX 1758016856845, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016856945 XXXX 1758016856945, Thread 9701: XXXX 1758016856945, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016856947 XXXX 1758016856947, Thread 9701: XXXX 1758016856947, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857051 XXXX 1758016857051, Thread 9701: XXXX 1758016857051, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857053 XXXX 1758016857053, Thread 9701: XXXX 1758016857053, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857153 XXXX 1758016857153, Thread 9701: XXXX 1758016857153, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857155 XXXX 1758016857155, Thread 9701: XXXX 1758016857155, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857254 XXXX 1758016857254, Thread 9701: XXXX 1758016857254, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857256 XXXX 1758016857256, Thread 9701: XXXX 1758016857256, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857356 XXXX 1758016857356, Thread 9701: XXXX 1758016857356, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857358 XXXX 1758016857358, Thread 9701: XXXX 1758016857358, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857460 XXXX 1758016857460, Thread 9701: XXXX 1758016857460, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857462 XXXX 1758016857462, Thread 9701: XXXX 1758016857462, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857562 XXXX 1758016857562, Thread 9701: XXXX 1758016857562, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857564 XXXX 1758016857564, Thread 9701: XXXX 1758016857564, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857663 XXXX 1758016857663, Thread 9701: XXXX 1758016857663, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857665 XXXX 1758016857665, Thread 9701: XXXX 1758016857665, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857764 XXXX 1758016857764, Thread 9701: XXXX 1758016857764, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857766 XXXX 1758016857766, Thread 9701: XXXX 1758016857766, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857866 XXXX 1758016857866, Thread 9701: XXXX 1758016857866, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857868 XXXX 1758016857868, Thread 9701: XXXX 1758016857868, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016857969 XXXX 1758016857969, Thread 9701: XXXX 1758016857969, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016857971 XXXX 1758016857971, Thread 9701: XXXX 1758016857971, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858069 XXXX 1758016858069, Thread 9701: XXXX 1758016858069, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858071 XXXX 1758016858071, Thread 9701: XXXX 1758016858071, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858172 XXXX 1758016858172, Thread 9701: XXXX 1758016858172, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858174 XXXX 1758016858174, Thread 9701: XXXX 1758016858174, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858273 XXXX 1758016858273, Thread 9701: XXXX 1758016858273, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858275 XXXX 1758016858275, Thread 9701: XXXX 1758016858275, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858380 XXXX 1758016858380, Thread 9701: XXXX 1758016858380, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858382 XXXX 1758016858382, Thread 9701: XXXX 1758016858382, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858483 XXXX 1758016858483, Thread 9701: XXXX 1758016858483, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858485 XXXX 1758016858485, Thread 9701: XXXX 1758016858485, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858585 XXXX 1758016858585, Thread 9701: XXXX 1758016858585, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858587 XXXX 1758016858587, Thread 9701: XXXX 1758016858587, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858686 XXXX 1758016858686, Thread 9701: XXXX 1758016858686, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858688 XXXX 1758016858688, Thread 9701: XXXX 1758016858688, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858788 XXXX 1758016858788, Thread 9701: XXXX 1758016858788, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858790 XXXX 1758016858790, Thread 9701: XXXX 1758016858790, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858890 XXXX 1758016858890, Thread 9701: XXXX 1758016858890, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858892 XXXX 1758016858892, Thread 9701: XXXX 1758016858892, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016858996 XXXX 1758016858996, Thread 9701: XXXX 1758016858996, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016858998 XXXX 1758016858998, Thread 9701: XXXX 1758016858998, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859098 XXXX 1758016859098, Thread 9701: XXXX 1758016859098, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859100 XXXX 1758016859100, Thread 9701: XXXX 1758016859100, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859203 XXXX 1758016859203, Thread 9701: XXXX 1758016859203, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859204 XXXX 1758016859204, Thread 9701: XXXX 1758016859204, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859304 XXXX 1758016859304, Thread 9701: XXXX 1758016859304, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859306 XXXX 1758016859306, Thread 9701: XXXX 1758016859306, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859406 XXXX 1758016859406, Thread 9701: XXXX 1758016859406, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859408 XXXX 1758016859408, Thread 9701: XXXX 1758016859408, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859513 XXXX 1758016859513, Thread 9701: XXXX 1758016859513, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859515 XXXX 1758016859515, Thread 9701: XXXX 1758016859515, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859620 XXXX 1758016859620, Thread 9701: XXXX 1758016859620, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859621 XXXX 1758016859621, Thread 9701: XXXX 1758016859621, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859722 XXXX 1758016859722, Thread 9701: XXXX 1758016859722, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859724 XXXX 1758016859724, Thread 9701: XXXX 1758016859724, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859824 XXXX 1758016859824, Thread 9701: XXXX 1758016859824, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859826 XXXX 1758016859826, Thread 9701: XXXX 1758016859826, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016859926 XXXX 1758016859926, Thread 9701: XXXX 1758016859926, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016859928 XXXX 1758016859928, Thread 9701: XXXX 1758016859928, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860032 XXXX 1758016860032, Thread 9701: XXXX 1758016860032, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860034 XXXX 1758016860034, Thread 9701: XXXX 1758016860034, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860135 XXXX 1758016860135, Thread 9701: XXXX 1758016860135, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860137 XXXX 1758016860137, Thread 9701: XXXX 1758016860137, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860236 XXXX 1758016860236, Thread 9701: XXXX 1758016860236, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860238 XXXX 1758016860238, Thread 9701: XXXX 1758016860238, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860338 XXXX 1758016860338, Thread 9701: XXXX 1758016860338, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860340 XXXX 1758016860340, Thread 9701: XXXX 1758016860340, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860439 XXXX 1758016860439, Thread 9701: XXXX 1758016860439, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860441 XXXX 1758016860441, Thread 9701: XXXX 1758016860441, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860542 XXXX 1758016860542, Thread 9701: XXXX 1758016860542, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860544 XXXX 1758016860544, Thread 9701: XXXX 1758016860544, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860644 XXXX 1758016860644, Thread 9701: XXXX 1758016860644, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860646 XXXX 1758016860646, Thread 9701: XXXX 1758016860646, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860745 XXXX 1758016860745, Thread 9701: XXXX 1758016860745, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860747 XXXX 1758016860747, Thread 9701: XXXX 1758016860747, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860854 XXXX 1758016860854, Thread 9701: XXXX 1758016860854, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860856 XXXX 1758016860856, Thread 9701: XXXX 1758016860856, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016860956 XXXX 1758016860956, Thread 9701: XXXX 1758016860956, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016860958 XXXX 1758016860958, Thread 9701: XXXX 1758016860958, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861057 XXXX 1758016861057, Thread 9701: XXXX 1758016861057, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861059 XXXX 1758016861059, Thread 9701: XXXX 1758016861059, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861162 XXXX 1758016861162, Thread 9701: XXXX 1758016861162, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861164 XXXX 1758016861164, Thread 9701: XXXX 1758016861164, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861271 XXXX 1758016861271, Thread 9701: XXXX 1758016861271, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861273 XXXX 1758016861273, Thread 9701: XXXX 1758016861273, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861372 XXXX 1758016861372, Thread 9701: XXXX 1758016861372, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861374 XXXX 1758016861374, Thread 9701: XXXX 1758016861374, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861474 XXXX 1758016861474, Thread 9701: XXXX 1758016861474, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861476 XXXX 1758016861476, Thread 9701: XXXX 1758016861476, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861584 XXXX 1758016861584, Thread 9701: XXXX 1758016861584, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861585 XXXX 1758016861585, Thread 9701: XXXX 1758016861585, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861686 XXXX 1758016861686, Thread 9701: XXXX 1758016861686, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861688 XXXX 1758016861688, Thread 9701: XXXX 1758016861688, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861788 XXXX 1758016861788, Thread 9701: XXXX 1758016861788, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861790 XXXX 1758016861790, Thread 9701: XXXX 1758016861790, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016861889 XXXX 1758016861889, Thread 9701: XXXX 1758016861889, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016861891 XXXX 1758016861891, Thread 9701: XXXX 1758016861891, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862001 XXXX 1758016862001, Thread 9701: XXXX 1758016862001, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862003 XXXX 1758016862003, Thread 9701: XXXX 1758016862003, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862102 XXXX 1758016862102, Thread 9701: XXXX 1758016862102, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862104 XXXX 1758016862104, Thread 9701: XXXX 1758016862104, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862203 XXXX 1758016862203, Thread 9701: XXXX 1758016862203, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862205 XXXX 1758016862205, Thread 9701: XXXX 1758016862205, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862305 XXXX 1758016862305, Thread 9701: XXXX 1758016862305, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862307 XXXX 1758016862307, Thread 9701: XXXX 1758016862307, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862406 XXXX 1758016862406, Thread 9701: XXXX 1758016862406, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862408 XXXX 1758016862408, Thread 9701: XXXX 1758016862408, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862507 XXXX 1758016862507, Thread 9701: XXXX 1758016862507, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862509 XXXX 1758016862509, Thread 9701: XXXX 1758016862509, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862609 XXXX 1758016862609, Thread 9701: XXXX 1758016862609, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862611 XXXX 1758016862611, Thread 9701: XXXX 1758016862611, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862710 XXXX 1758016862710, Thread 9701: XXXX 1758016862710, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862712 XXXX 1758016862712, Thread 9701: XXXX 1758016862712, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862812 XXXX 1758016862812, Thread 9701: XXXX 1758016862812, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862814 XXXX 1758016862814, Thread 9701: XXXX 1758016862814, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016862920 XXXX 1758016862920, Thread 9701: XXXX 1758016862920, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016862921 XXXX 1758016862921, Thread 9701: XXXX 1758016862921, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863034 XXXX 1758016863034, Thread 9701: XXXX 1758016863034, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863036 XXXX 1758016863036, Thread 9701: XXXX 1758016863036, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863136 XXXX 1758016863136, Thread 9701: XXXX 1758016863136, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863137 XXXX 1758016863137, Thread 9701: XXXX 1758016863137, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863238 XXXX 1758016863238, Thread 9701: XXXX 1758016863238, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863240 XXXX 1758016863240, Thread 9701: XXXX 1758016863240, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863340 XXXX 1758016863340, Thread 9701: XXXX 1758016863340, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863342 XXXX 1758016863342, Thread 9701: XXXX 1758016863342, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863441 XXXX 1758016863441, Thread 9701: XXXX 1758016863441, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863442 XXXX 1758016863442, Thread 9701: XXXX 1758016863442, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863556 XXXX 1758016863556, Thread 9701: XXXX 1758016863556, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863557 XXXX 1758016863557, Thread 9701: XXXX 1758016863557, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863666 XXXX 1758016863666, Thread 9701: XXXX 1758016863666, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863667 XXXX 1758016863667, Thread 9701: XXXX 1758016863667, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863768 XXXX 1758016863768, Thread 9701: XXXX 1758016863768, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863770 XXXX 1758016863770, Thread 9701: XXXX 1758016863770, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863872 XXXX 1758016863872, Thread 9701: XXXX 1758016863872, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863873 XXXX 1758016863873, Thread 9701: XXXX 1758016863873, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016863974 XXXX 1758016863974, Thread 9701: XXXX 1758016863974, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016863975 XXXX 1758016863975, Thread 9701: XXXX 1758016863975, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864075 XXXX 1758016864075, Thread 9701: XXXX 1758016864075, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864076 XXXX 1758016864076, Thread 9701: XXXX 1758016864076, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864180 XXXX 1758016864180, Thread 9701: XXXX 1758016864180, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864181 XXXX 1758016864181, Thread 9701: XXXX 1758016864181, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864284 XXXX 1758016864284, Thread 9701: XXXX 1758016864284, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864286 XXXX 1758016864286, Thread 9701: XXXX 1758016864286, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864386 XXXX 1758016864386, Thread 9701: XXXX 1758016864386, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864387 XXXX 1758016864387, Thread 9701: XXXX 1758016864387, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864488 XXXX 1758016864488, Thread 9701: XXXX 1758016864488, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864489 XXXX 1758016864489, Thread 9701: XXXX 1758016864489, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864590 XXXX 1758016864590, Thread 9701: XXXX 1758016864590, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864592 XXXX 1758016864592, Thread 9701: XXXX 1758016864592, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864691 XXXX 1758016864691, Thread 9701: XXXX 1758016864691, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864693 XXXX 1758016864693, Thread 9701: XXXX 1758016864693, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864793 XXXX 1758016864793, Thread 9701: XXXX 1758016864793, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864795 XXXX 1758016864795, Thread 9701: XXXX 1758016864795, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016864904 XXXX 1758016864904, Thread 9701: XXXX 1758016864904, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016864905 XXXX 1758016864905, Thread 9701: XXXX 1758016864905, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865007 XXXX 1758016865007, Thread 9701: XXXX 1758016865007, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865008 XXXX 1758016865008, Thread 9701: XXXX 1758016865008, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865112 XXXX 1758016865112, Thread 9701: XXXX 1758016865112, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865113 XXXX 1758016865113, Thread 9701: XXXX 1758016865113, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865214 XXXX 1758016865214, Thread 9701: XXXX 1758016865214, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865215 XXXX 1758016865215, Thread 9701: XXXX 1758016865215, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865315 XXXX 1758016865315, Thread 9701: XXXX 1758016865315, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865317 XXXX 1758016865317, Thread 9701: XXXX 1758016865317, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865416 XXXX 1758016865416, Thread 9701: XXXX 1758016865416, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865418 XXXX 1758016865418, Thread 9701: XXXX 1758016865418, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865519 XXXX 1758016865519, Thread 9701: XXXX 1758016865519, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865520 XXXX 1758016865520, Thread 9701: XXXX 1758016865520, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865622 XXXX 1758016865622, Thread 9701: XXXX 1758016865622, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865623 XXXX 1758016865623, Thread 9701: XXXX 1758016865623, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865724 XXXX 1758016865724, Thread 9701: XXXX 1758016865724, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865725 XXXX 1758016865725, Thread 9701: XXXX 1758016865725, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865825 XXXX 1758016865825, Thread 9701: XXXX 1758016865825, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865827 XXXX 1758016865827, Thread 9701: XXXX 1758016865827, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016865926 XXXX 1758016865926, Thread 9701: XXXX 1758016865926, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016865927 XXXX 1758016865927, Thread 9701: XXXX 1758016865927, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866033 XXXX 1758016866033, Thread 9701: XXXX 1758016866033, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866034 XXXX 1758016866034, Thread 9701: XXXX 1758016866034, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866135 XXXX 1758016866135, Thread 9701: XXXX 1758016866135, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866137 XXXX 1758016866137, Thread 9701: XXXX 1758016866137, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866236 XXXX 1758016866236, Thread 9701: XXXX 1758016866236, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866238 XXXX 1758016866238, Thread 9701: XXXX 1758016866238, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866340 XXXX 1758016866340, Thread 9701: XXXX 1758016866340, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866342 XXXX 1758016866342, Thread 9701: XXXX 1758016866342, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866442 XXXX 1758016866442, Thread 9701: XXXX 1758016866442, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866444 XXXX 1758016866444, Thread 9701: XXXX 1758016866444, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866547 XXXX 1758016866547, Thread 9701: XXXX 1758016866547, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866548 XXXX 1758016866548, Thread 9701: XXXX 1758016866548, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866650 XXXX 1758016866650, Thread 9701: XXXX 1758016866650, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866651 XXXX 1758016866651, Thread 9701: XXXX 1758016866651, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866751 XXXX 1758016866751, Thread 9701: XXXX 1758016866751, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866753 XXXX 1758016866753, Thread 9701: XXXX 1758016866753, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866853 XXXX 1758016866853, Thread 9701: XXXX 1758016866853, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866854 XXXX 1758016866854, Thread 9701: XXXX 1758016866854, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016866958 XXXX 1758016866958, Thread 9701: XXXX 1758016866958, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016866959 XXXX 1758016866959, Thread 9701: XXXX 1758016866959, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867060 XXXX 1758016867060, Thread 9701: XXXX 1758016867060, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867061 XXXX 1758016867061, Thread 9701: XXXX 1758016867061, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867161 XXXX 1758016867161, Thread 9701: XXXX 1758016867161, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867162 XXXX 1758016867162, Thread 9701: XXXX 1758016867162, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867262 XXXX 1758016867262, Thread 9701: XXXX 1758016867262, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867264 XXXX 1758016867264, Thread 9701: XXXX 1758016867264, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867364 XXXX 1758016867364, Thread 9701: XXXX 1758016867364, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867366 XXXX 1758016867366, Thread 9701: XXXX 1758016867366, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867468 XXXX 1758016867468, Thread 9701: XXXX 1758016867468, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867470 XXXX 1758016867470, Thread 9701: XXXX 1758016867470, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867568 XXXX 1758016867568, Thread 9701: XXXX 1758016867568, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867570 XXXX 1758016867570, Thread 9701: XXXX 1758016867570, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867675 XXXX 1758016867675, Thread 9701: XXXX 1758016867675, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867677 XXXX 1758016867677, Thread 9701: XXXX 1758016867677, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867776 XXXX 1758016867776, Thread 9701: XXXX 1758016867776, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867778 XXXX 1758016867778, Thread 9701: XXXX 1758016867778, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867878 XXXX 1758016867878, Thread 9701: XXXX 1758016867878, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867880 XXXX 1758016867880, Thread 9701: XXXX 1758016867880, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016867979 XXXX 1758016867979, Thread 9701: XXXX 1758016867979, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016867980 XXXX 1758016867980, Thread 9701: XXXX 1758016867980, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868084 XXXX 1758016868084, Thread 9701: XXXX 1758016868084, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868085 XXXX 1758016868085, Thread 9701: XXXX 1758016868085, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868185 XXXX 1758016868185, Thread 9701: XXXX 1758016868185, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868186 XXXX 1758016868186, Thread 9701: XXXX 1758016868186, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868290 XXXX 1758016868290, Thread 9701: XXXX 1758016868290, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868291 XXXX 1758016868291, Thread 9701: XXXX 1758016868291, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868392 XXXX 1758016868392, Thread 9701: XXXX 1758016868392, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868393 XXXX 1758016868393, Thread 9701: XXXX 1758016868393, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868493 XXXX 1758016868493, Thread 9701: XXXX 1758016868493, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868495 XXXX 1758016868495, Thread 9701: XXXX 1758016868495, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868594 XXXX 1758016868594, Thread 9701: XXXX 1758016868594, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868595 XXXX 1758016868595, Thread 9701: XXXX 1758016868595, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868698 XXXX 1758016868698, Thread 9701: XXXX 1758016868698, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868699 XXXX 1758016868699, Thread 9701: XXXX 1758016868699, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868800 XXXX 1758016868800, Thread 9701: XXXX 1758016868800, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868802 XXXX 1758016868802, Thread 9701: XXXX 1758016868802, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016868901 XXXX 1758016868901, Thread 9701: XXXX 1758016868901, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016868902 XXXX 1758016868902, Thread 9701: XXXX 1758016868902, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869006 XXXX 1758016869006, Thread 9701: XXXX 1758016869006, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869008 XXXX 1758016869008, Thread 9701: XXXX 1758016869008, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869108 XXXX 1758016869108, Thread 9701: XXXX 1758016869108, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869110 XXXX 1758016869110, Thread 9701: XXXX 1758016869110, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869209 XXXX 1758016869209, Thread 9701: XXXX 1758016869209, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869210 XXXX 1758016869210, Thread 9701: XXXX 1758016869210, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869314 XXXX 1758016869314, Thread 9701: XXXX 1758016869314, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869315 XXXX 1758016869315, Thread 9701: XXXX 1758016869315, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869416 XXXX 1758016869416, Thread 9701: XXXX 1758016869416, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869418 XXXX 1758016869418, Thread 9701: XXXX 1758016869418, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869518 XXXX 1758016869518, Thread 9701: XXXX 1758016869518, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869519 XXXX 1758016869519, Thread 9701: XXXX 1758016869519, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869620 XXXX 1758016869620, Thread 9701: XXXX 1758016869620, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869621 XXXX 1758016869621, Thread 9701: XXXX 1758016869621, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869720 XXXX 1758016869720, Thread 9701: XXXX 1758016869720, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869721 XXXX 1758016869721, Thread 9701: XXXX 1758016869721, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869822 XXXX 1758016869822, Thread 9701: XXXX 1758016869822, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869825 XXXX 1758016869825, Thread 9701: XXXX 1758016869825, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016869923 XXXX 1758016869923, Thread 9701: XXXX 1758016869923, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016869924 XXXX 1758016869924, Thread 9701: XXXX 1758016869924, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870024 XXXX 1758016870024, Thread 9701: XXXX 1758016870024, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870025 XXXX 1758016870025, Thread 9701: XXXX 1758016870025, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870127 XXXX 1758016870127, Thread 9701: XXXX 1758016870127, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870129 XXXX 1758016870129, Thread 9701: XXXX 1758016870129, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870227 XXXX 1758016870227, Thread 9701: XXXX 1758016870227, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870229 XXXX 1758016870229, Thread 9701: XXXX 1758016870229, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870332 XXXX 1758016870332, Thread 9701: XXXX 1758016870332, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870333 XXXX 1758016870333, Thread 9701: XXXX 1758016870333, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870432 XXXX 1758016870432, Thread 9701: XXXX 1758016870432, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870433 XXXX 1758016870433, Thread 9701: XXXX 1758016870433, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870532 XXXX 1758016870532, Thread 9701: XXXX 1758016870532, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870534 XXXX 1758016870534, Thread 9701: XXXX 1758016870534, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870634 XXXX 1758016870634, Thread 9701: XXXX 1758016870634, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870635 XXXX 1758016870635, Thread 9701: XXXX 1758016870635, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870735 XXXX 1758016870735, Thread 9701: XXXX 1758016870735, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870736 XXXX 1758016870736, Thread 9701: XXXX 1758016870736, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870835 XXXX 1758016870835, Thread 9701: XXXX 1758016870835, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870836 XXXX 1758016870836, Thread 9701: XXXX 1758016870836, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016870935 XXXX 1758016870935, Thread 9701: XXXX 1758016870935, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016870936 XXXX 1758016870936, Thread 9701: XXXX 1758016870936, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871035 XXXX 1758016871035, Thread 9701: XXXX 1758016871035, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871036 XXXX 1758016871036, Thread 9701: XXXX 1758016871036, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871135 XXXX 1758016871135, Thread 9701: XXXX 1758016871135, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871136 XXXX 1758016871136, Thread 9701: XXXX 1758016871136, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871236 XXXX 1758016871236, Thread 9701: XXXX 1758016871236, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871237 XXXX 1758016871237, Thread 9701: XXXX 1758016871237, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871336 XXXX 1758016871336, Thread 9701: XXXX 1758016871336, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871337 XXXX 1758016871337, Thread 9701: XXXX 1758016871337, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871436 XXXX 1758016871436, Thread 9701: XXXX 1758016871436, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871437 XXXX 1758016871437, Thread 9701: XXXX 1758016871437, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871545 XXXX 1758016871545, Thread 9701: XXXX 1758016871545, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871546 XXXX 1758016871546, Thread 9701: XXXX 1758016871546, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871646 XXXX 1758016871646, Thread 9701: XXXX 1758016871646, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871647 XXXX 1758016871647, Thread 9701: XXXX 1758016871647, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871746 XXXX 1758016871746, Thread 9701: XXXX 1758016871746, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871747 XXXX 1758016871747, Thread 9701: XXXX 1758016871747, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871848 XXXX 1758016871848, Thread 9701: XXXX 1758016871848, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871849 XXXX 1758016871849, Thread 9701: XXXX 1758016871849, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016871951 XXXX 1758016871951, Thread 9701: XXXX 1758016871951, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016871952 XXXX 1758016871952, Thread 9701: XXXX 1758016871952, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872054 XXXX 1758016872054, Thread 9701: XXXX 1758016872054, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872055 XXXX 1758016872055, Thread 9701: XXXX 1758016872055, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872158 XXXX 1758016872158, Thread 9701: XXXX 1758016872158, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872159 XXXX 1758016872159, Thread 9701: XXXX 1758016872159, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872262 XXXX 1758016872262, Thread 9701: XXXX 1758016872262, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872263 XXXX 1758016872263, Thread 9701: XXXX 1758016872263, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872362 XXXX 1758016872362, Thread 9701: XXXX 1758016872362, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872363 XXXX 1758016872363, Thread 9701: XXXX 1758016872363, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872463 XXXX 1758016872463, Thread 9701: XXXX 1758016872463, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872464 XXXX 1758016872464, Thread 9701: XXXX 1758016872464, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872563 XXXX 1758016872563, Thread 9701: XXXX 1758016872563, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872564 XXXX 1758016872564, Thread 9701: XXXX 1758016872564, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872663 XXXX 1758016872663, Thread 9701: XXXX 1758016872663, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872664 XXXX 1758016872664, Thread 9701: XXXX 1758016872664, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872764 XXXX 1758016872764, Thread 9701: XXXX 1758016872764, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872765 XXXX 1758016872765, Thread 9701: XXXX 1758016872765, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872872 XXXX 1758016872872, Thread 9701: XXXX 1758016872872, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872873 XXXX 1758016872873, Thread 9701: XXXX 1758016872873, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016872974 XXXX 1758016872974, Thread 9701: XXXX 1758016872974, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016872975 XXXX 1758016872975, Thread 9701: XXXX 1758016872975, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873076 XXXX 1758016873076, Thread 9701: XXXX 1758016873076, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873077 XXXX 1758016873077, Thread 9701: XXXX 1758016873077, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873178 XXXX 1758016873178, Thread 9701: XXXX 1758016873178, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873179 XXXX 1758016873179, Thread 9701: XXXX 1758016873179, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873279 XXXX 1758016873279, Thread 9701: XXXX 1758016873279, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873280 XXXX 1758016873280, Thread 9701: XXXX 1758016873280, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873379 XXXX 1758016873379, Thread 9701: XXXX 1758016873379, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873381 XXXX 1758016873381, Thread 9701: XXXX 1758016873381, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873480 XXXX 1758016873480, Thread 9701: XXXX 1758016873480, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873481 XXXX 1758016873481, Thread 9701: XXXX 1758016873481, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873581 XXXX 1758016873581, Thread 9701: XXXX 1758016873581, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873582 XXXX 1758016873582, Thread 9701: XXXX 1758016873582, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873684 XXXX 1758016873684, Thread 9701: XXXX 1758016873684, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873685 XXXX 1758016873685, Thread 9701: XXXX 1758016873685, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873784 XXXX 1758016873784, Thread 9701: XXXX 1758016873784, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873785 XXXX 1758016873785, Thread 9701: XXXX 1758016873785, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873885 XXXX 1758016873885, Thread 9701: XXXX 1758016873885, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873886 XXXX 1758016873886, Thread 9701: XXXX 1758016873886, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016873985 XXXX 1758016873985, Thread 9701: XXXX 1758016873985, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016873986 XXXX 1758016873986, Thread 9701: XXXX 1758016873986, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874088 XXXX 1758016874088, Thread 9701: XXXX 1758016874088, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874089 XXXX 1758016874089, Thread 9701: XXXX 1758016874089, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874193 XXXX 1758016874193, Thread 9701: XXXX 1758016874193, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874194 XXXX 1758016874194, Thread 9701: XXXX 1758016874194, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874294 XXXX 1758016874294, Thread 9701: XXXX 1758016874294, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874295 XXXX 1758016874295, Thread 9701: XXXX 1758016874295, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874397 XXXX 1758016874397, Thread 9701: XXXX 1758016874397, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874398 XXXX 1758016874398, Thread 9701: XXXX 1758016874398, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874497 XXXX 1758016874497, Thread 9701: XXXX 1758016874497, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874498 XXXX 1758016874498, Thread 9701: XXXX 1758016874498, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874598 XXXX 1758016874598, Thread 9701: XXXX 1758016874598, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874599 XXXX 1758016874599, Thread 9701: XXXX 1758016874599, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874710 XXXX 1758016874710, Thread 9701: XXXX 1758016874710, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874711 XXXX 1758016874711, Thread 9701: XXXX 1758016874711, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874814 XXXX 1758016874814, Thread 9701: XXXX 1758016874814, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874815 XXXX 1758016874815, Thread 9701: XXXX 1758016874815, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016874914 XXXX 1758016874914, Thread 9701: XXXX 1758016874914, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016874915 XXXX 1758016874915, Thread 9701: XXXX 1758016874915, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875020 XXXX 1758016875020, Thread 9701: XXXX 1758016875020, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875021 XXXX 1758016875021, Thread 9701: XXXX 1758016875021, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875121 XXXX 1758016875121, Thread 9701: XXXX 1758016875121, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875122 XXXX 1758016875122, Thread 9701: XXXX 1758016875122, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875223 XXXX 1758016875223, Thread 9701: XXXX 1758016875223, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875224 XXXX 1758016875224, Thread 9701: XXXX 1758016875224, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875330 XXXX 1758016875330, Thread 9701: XXXX 1758016875330, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875331 XXXX 1758016875331, Thread 9701: XXXX 1758016875331, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875431 XXXX 1758016875431, Thread 9701: XXXX 1758016875431, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875433 XXXX 1758016875433, Thread 9701: XXXX 1758016875433, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875533 XXXX 1758016875533, Thread 9701: XXXX 1758016875533, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875534 XXXX 1758016875534, Thread 9701: XXXX 1758016875534, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875634 XXXX 1758016875634, Thread 9701: XXXX 1758016875634, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875635 XXXX 1758016875635, Thread 9701: XXXX 1758016875635, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875734 XXXX 1758016875734, Thread 9701: XXXX 1758016875734, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875735 XXXX 1758016875735, Thread 9701: XXXX 1758016875735, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875836 XXXX 1758016875836, Thread 9701: XXXX 1758016875836, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875837 XXXX 1758016875837, Thread 9701: XXXX 1758016875837, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016875936 XXXX 1758016875936, Thread 9701: XXXX 1758016875936, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016875938 XXXX 1758016875938, Thread 9701: XXXX 1758016875938, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876037 XXXX 1758016876037, Thread 9701: XXXX 1758016876037, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876038 XXXX 1758016876038, Thread 9701: XXXX 1758016876038, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876140 XXXX 1758016876140, Thread 9701: XXXX 1758016876140, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876141 XXXX 1758016876141, Thread 9701: XXXX 1758016876141, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876247 XXXX 1758016876247, Thread 9701: XXXX 1758016876247, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876249 XXXX 1758016876249, Thread 9701: XXXX 1758016876249, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876350 XXXX 1758016876350, Thread 9701: XXXX 1758016876350, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876351 XXXX 1758016876351, Thread 9701: XXXX 1758016876351, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876450 XXXX 1758016876450, Thread 9701: XXXX 1758016876450, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876451 XXXX 1758016876451, Thread 9701: XXXX 1758016876451, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876550 XXXX 1758016876550, Thread 9701: XXXX 1758016876550, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876552 XXXX 1758016876551, Thread 9701: XXXX 1758016876551, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876665 XXXX 1758016876665, Thread 9701: XXXX 1758016876665, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876667 XXXX 1758016876667, Thread 9701: XXXX 1758016876667, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876765 XXXX 1758016876765, Thread 9701: XXXX 1758016876765, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876767 XXXX 1758016876767, Thread 9701: XXXX 1758016876767, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876874 XXXX 1758016876874, Thread 9701: XXXX 1758016876874, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876875 XXXX 1758016876875, Thread 9701: XXXX 1758016876875, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016876976 XXXX 1758016876976, Thread 9701: XXXX 1758016876976, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016876979 XXXX 1758016876979, Thread 9701: XXXX 1758016876979, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877079 XXXX 1758016877079, Thread 9701: XXXX 1758016877079, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877081 XXXX 1758016877081, Thread 9701: XXXX 1758016877081, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877182 XXXX 1758016877182, Thread 9701: XXXX 1758016877182, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877184 XXXX 1758016877184, Thread 9701: XXXX 1758016877184, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877283 XXXX 1758016877283, Thread 9701: XXXX 1758016877283, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877285 XXXX 1758016877285, Thread 9701: XXXX 1758016877285, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877384 XXXX 1758016877384, Thread 9701: XXXX 1758016877384, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877386 XXXX 1758016877386, Thread 9701: XXXX 1758016877386, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877485 XXXX 1758016877485, Thread 9701: XXXX 1758016877485, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877487 XXXX 1758016877487, Thread 9701: XXXX 1758016877487, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877590 XXXX 1758016877590, Thread 9701: XXXX 1758016877590, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877592 XXXX 1758016877592, Thread 9701: XXXX 1758016877592, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877692 XXXX 1758016877692, Thread 9701: XXXX 1758016877692, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877694 XXXX 1758016877694, Thread 9701: XXXX 1758016877694, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877795 XXXX 1758016877795, Thread 9701: XXXX 1758016877795, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877797 XXXX 1758016877797, Thread 9701: XXXX 1758016877797, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016877899 XXXX 1758016877899, Thread 9701: XXXX 1758016877899, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016877901 XXXX 1758016877901, Thread 9701: XXXX 1758016877901, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878001 XXXX 1758016878001, Thread 9701: XXXX 1758016878001, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878003 XXXX 1758016878003, Thread 9701: XXXX 1758016878003, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878101 XXXX 1758016878101, Thread 9701: XXXX 1758016878101, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878103 XXXX 1758016878103, Thread 9701: XXXX 1758016878103, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878202 XXXX 1758016878202, Thread 9701: XXXX 1758016878202, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878204 XXXX 1758016878204, Thread 9701: XXXX 1758016878204, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878302 XXXX 1758016878302, Thread 9701: XXXX 1758016878302, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878304 XXXX 1758016878304, Thread 9701: XXXX 1758016878304, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878414 XXXX 1758016878414, Thread 9701: XXXX 1758016878414, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878416 XXXX 1758016878416, Thread 9701: XXXX 1758016878416, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878515 XXXX 1758016878515, Thread 9701: XXXX 1758016878515, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878517 XXXX 1758016878517, Thread 9701: XXXX 1758016878517, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878616 XXXX 1758016878616, Thread 9701: XXXX 1758016878616, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878618 XXXX 1758016878618, Thread 9701: XXXX 1758016878618, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878717 XXXX 1758016878717, Thread 9701: XXXX 1758016878717, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878719 XXXX 1758016878719, Thread 9701: XXXX 1758016878719, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878825 XXXX 1758016878825, Thread 9701: XXXX 1758016878825, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878827 XXXX 1758016878827, Thread 9701: XXXX 1758016878827, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016878930 XXXX 1758016878930, Thread 9701: XXXX 1758016878930, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016878932 XXXX 1758016878932, Thread 9701: XXXX 1758016878932, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879032 XXXX 1758016879032, Thread 9701: XXXX 1758016879032, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879034 XXXX 1758016879034, Thread 9701: XXXX 1758016879034, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879133 XXXX 1758016879133, Thread 9701: XXXX 1758016879133, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879135 XXXX 1758016879135, Thread 9701: XXXX 1758016879135, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879233 XXXX 1758016879233, Thread 9701: XXXX 1758016879233, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879235 XXXX 1758016879235, Thread 9701: XXXX 1758016879235, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879336 XXXX 1758016879336, Thread 9701: XXXX 1758016879336, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879338 XXXX 1758016879338, Thread 9701: XXXX 1758016879338, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879444 XXXX 1758016879444, Thread 9701: XXXX 1758016879444, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879446 XXXX 1758016879446, Thread 9701: XXXX 1758016879446, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879544 XXXX 1758016879544, Thread 9701: XXXX 1758016879544, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879546 XXXX 1758016879546, Thread 9701: XXXX 1758016879546, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879650 XXXX 1758016879650, Thread 9701: XXXX 1758016879650, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879653 XXXX 1758016879653, Thread 9701: XXXX 1758016879653, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879750 XXXX 1758016879750, Thread 9701: XXXX 1758016879750, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879752 XXXX 1758016879752, Thread 9701: XXXX 1758016879752, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879850 XXXX 1758016879850, Thread 9701: XXXX 1758016879850, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879853 XXXX 1758016879853, Thread 9701: XXXX 1758016879853, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016879952 XXXX 1758016879952, Thread 9701: XXXX 1758016879952, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016879954 XXXX 1758016879954, Thread 9701: XXXX 1758016879954, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880053 XXXX 1758016880053, Thread 9701: XXXX 1758016880053, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880055 XXXX 1758016880055, Thread 9701: XXXX 1758016880055, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880164 XXXX 1758016880164, Thread 9701: XXXX 1758016880164, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880166 XXXX 1758016880166, Thread 9701: XXXX 1758016880166, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880267 XXXX 1758016880267, Thread 9701: XXXX 1758016880267, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880270 XXXX 1758016880270, Thread 9701: XXXX 1758016880270, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880370 XXXX 1758016880370, Thread 9701: XXXX 1758016880370, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880372 XXXX 1758016880372, Thread 9701: XXXX 1758016880372, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880475 XXXX 1758016880475, Thread 9701: XXXX 1758016880475, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880477 XXXX 1758016880477, Thread 9701: XXXX 1758016880477, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880578 XXXX 1758016880578, Thread 9701: XXXX 1758016880578, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880580 XXXX 1758016880580, Thread 9701: XXXX 1758016880580, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880680 XXXX 1758016880680, Thread 9701: XXXX 1758016880680, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880682 XXXX 1758016880682, Thread 9701: XXXX 1758016880682, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880782 XXXX 1758016880782, Thread 9701: XXXX 1758016880782, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880785 XXXX 1758016880785, Thread 9701: XXXX 1758016880785, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880883 XXXX 1758016880883, Thread 9701: XXXX 1758016880883, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880885 XXXX 1758016880885, Thread 9701: XXXX 1758016880885, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016880985 XXXX 1758016880985, Thread 9701: XXXX 1758016880985, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016880987 XXXX 1758016880987, Thread 9701: XXXX 1758016880987, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881086 XXXX 1758016881086, Thread 9701: XXXX 1758016881086, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881088 XXXX 1758016881088, Thread 9701: XXXX 1758016881088, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881186 XXXX 1758016881186, Thread 9701: XXXX 1758016881186, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881188 XXXX 1758016881188, Thread 9701: XXXX 1758016881188, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881287 XXXX 1758016881287, Thread 9701: XXXX 1758016881287, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881289 XXXX 1758016881289, Thread 9701: XXXX 1758016881289, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881388 XXXX 1758016881388, Thread 9701: XXXX 1758016881388, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881390 XXXX 1758016881390, Thread 9701: XXXX 1758016881390, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881489 XXXX 1758016881489, Thread 9701: XXXX 1758016881489, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881491 XXXX 1758016881491, Thread 9701: XXXX 1758016881491, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881594 XXXX 1758016881594, Thread 9701: XXXX 1758016881594, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881596 XXXX 1758016881596, Thread 9701: XXXX 1758016881596, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881695 XXXX 1758016881695, Thread 9701: XXXX 1758016881695, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881697 XXXX 1758016881697, Thread 9701: XXXX 1758016881697, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881796 XXXX 1758016881796, Thread 9701: XXXX 1758016881796, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881798 XXXX 1758016881798, Thread 9701: XXXX 1758016881798, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016881897 XXXX 1758016881897, Thread 9701: XXXX 1758016881897, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016881899 XXXX 1758016881899, Thread 9701: XXXX 1758016881899, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882000 XXXX 1758016882000, Thread 9701: XXXX 1758016882000, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882002 XXXX 1758016882002, Thread 9701: XXXX 1758016882002, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882101 XXXX 1758016882101, Thread 9701: XXXX 1758016882101, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882103 XXXX 1758016882103, Thread 9701: XXXX 1758016882103, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882202 XXXX 1758016882202, Thread 9701: XXXX 1758016882202, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882204 XXXX 1758016882204, Thread 9701: XXXX 1758016882204, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882302 XXXX 1758016882302, Thread 9701: XXXX 1758016882302, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882304 XXXX 1758016882304, Thread 9701: XXXX 1758016882304, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882403 XXXX 1758016882403, Thread 9701: XXXX 1758016882403, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882405 XXXX 1758016882405, Thread 9701: XXXX 1758016882405, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882504 XXXX 1758016882504, Thread 9701: XXXX 1758016882504, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882506 XXXX 1758016882506, Thread 9701: XXXX 1758016882506, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882604 XXXX 1758016882604, Thread 9701: XXXX 1758016882604, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882606 XXXX 1758016882606, Thread 9701: XXXX 1758016882606, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882704 XXXX 1758016882704, Thread 9701: XXXX 1758016882704, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882706 XXXX 1758016882706, Thread 9701: XXXX 1758016882706, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882805 XXXX 1758016882805, Thread 9701: XXXX 1758016882805, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882807 XXXX 1758016882807, Thread 9701: XXXX 1758016882807, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016882912 XXXX 1758016882912, Thread 9701: XXXX 1758016882912, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016882914 XXXX 1758016882914, Thread 9701: XXXX 1758016882914, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883014 XXXX 1758016883014, Thread 9701: XXXX 1758016883014, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883016 XXXX 1758016883016, Thread 9701: XXXX 1758016883016, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883114 XXXX 1758016883114, Thread 9701: XXXX 1758016883114, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883116 XXXX 1758016883116, Thread 9701: XXXX 1758016883116, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883216 XXXX 1758016883216, Thread 9701: XXXX 1758016883216, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883218 XXXX 1758016883218, Thread 9701: XXXX 1758016883218, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883320 XXXX 1758016883320, Thread 9701: XXXX 1758016883320, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883322 XXXX 1758016883322, Thread 9701: XXXX 1758016883322, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883420 XXXX 1758016883420, Thread 9701: XXXX 1758016883420, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883422 XXXX 1758016883422, Thread 9701: XXXX 1758016883422, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883520 XXXX 1758016883520, Thread 9701: XXXX 1758016883520, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883522 XXXX 1758016883522, Thread 9701: XXXX 1758016883522, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883620 XXXX 1758016883620, Thread 9701: XXXX 1758016883620, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883622 XXXX 1758016883622, Thread 9701: XXXX 1758016883622, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883720 XXXX 1758016883720, Thread 9701: XXXX 1758016883720, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883722 XXXX 1758016883722, Thread 9701: XXXX 1758016883722, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883820 XXXX 1758016883820, Thread 9701: XXXX 1758016883820, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883822 XXXX 1758016883822, Thread 9701: XXXX 1758016883822, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016883929 XXXX 1758016883929, Thread 9701: XXXX 1758016883929, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016883931 XXXX 1758016883931, Thread 9701: XXXX 1758016883931, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884029 XXXX 1758016884029, Thread 9701: XXXX 1758016884029, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884031 XXXX 1758016884031, Thread 9701: XXXX 1758016884031, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884130 XXXX 1758016884130, Thread 9701: XXXX 1758016884130, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884132 XXXX 1758016884132, Thread 9701: XXXX 1758016884132, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884231 XXXX 1758016884231, Thread 9701: XXXX 1758016884231, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884233 XXXX 1758016884233, Thread 9701: XXXX 1758016884233, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884333 XXXX 1758016884333, Thread 9701: XXXX 1758016884333, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884335 XXXX 1758016884335, Thread 9701: XXXX 1758016884335, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884434 XXXX 1758016884434, Thread 9701: XXXX 1758016884434, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884436 XXXX 1758016884436, Thread 9701: XXXX 1758016884436, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884535 XXXX 1758016884535, Thread 9701: XXXX 1758016884535, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884537 XXXX 1758016884537, Thread 9701: XXXX 1758016884537, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884635 XXXX 1758016884635, Thread 9701: XXXX 1758016884635, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884637 XXXX 1758016884637, Thread 9701: XXXX 1758016884637, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884737 XXXX 1758016884737, Thread 9701: XXXX 1758016884737, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884739 XXXX 1758016884739, Thread 9701: XXXX 1758016884739, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884837 XXXX 1758016884837, Thread 9701: XXXX 1758016884837, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884839 XXXX 1758016884839, Thread 9701: XXXX 1758016884839, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016884937 XXXX 1758016884937, Thread 9701: XXXX 1758016884937, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016884939 XXXX 1758016884939, Thread 9701: XXXX 1758016884939, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016885038 XXXX 1758016885038, Thread 9701: XXXX 1758016885038, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016885040 XXXX 1758016885040, Thread 9701: XXXX 1758016885040, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016885139 XXXX 1758016885139, Thread 9701: XXXX 1758016885139, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016885141 XXXX 1758016885141, Thread 9701: XXXX 1758016885141, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016885239 XXXX 1758016885239, Thread 9701: XXXX 1758016885239, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016885241 XXXX 1758016885241, Thread 9701: XXXX 1758016885241, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016885339 XXXX 1758016885339, Thread 9701: XXXX 1758016885339, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016885341 XXXX 1758016885341, Thread 9701: XXXX 1758016885341, Exiting Thread 9701: Commands::runScriptBasic  
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:init
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: Values:
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: pcAddress = 0000002e, Vpp = 3,25, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0,00, deviceName = dsPIC33EP512MU814, programmerType = DSPIC33EP
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: MemInfo values:
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = ffffff, exists = true, startAddr = 00000000, endAddr = 007fffff, rowSize = 0800, rowEraseSize = 0800, addrInc = 0002, widthProgram = 0004
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = ffff, exists = true, startAddr = 00f80004, endAddr = 00f80011, rowSize = 0001, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 00ff, exists = true, startAddr = 00f80012, endAddr = 00f80013, rowSize = 0001, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = ffffff, exists = true, startAddr = 00800000, endAddr = 00800fff, rowSize = 0800, rowEraseSize = 0800, addrInc = 0002, widthProgram = 0004
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0002, widthProgram = 0002
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 7fffffff, exists = true, startAddr = 00ff0000, endAddr = 00ff0003, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 DeviceInfo: CfgRequiredBitsMask Values:
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80004, Mask = 00000003
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80006, Mask = 00000087
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80008, Mask = 000000e7
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f8000a, Mask = 000000ff
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f8000c, Mask = 0000003f
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f8000e, Mask = 00000077
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Address = 00f80010, Mask = 00000003
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 BasicInfo: Values:
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 BasicInfo: InputStream = com.microchip.mplab.libs.toolpacksupport.EquatableFileInputStream@73a2e727, ToolFlavor = PIC32C
+381 1758612049790 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:init
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 none
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9701 1758016885359 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:HaltTarget
-9701 1758016885359 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9701 1758016885359 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
-9701 1758016885359 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9701 1758016885359 XXXX 1758016885359, Thread 9701: XXXX 1758016885359, Entering Thread 9701: Commands::runScriptBasic, script name = Halt, timeOut = -1 ms  
-9701 1758016885362 XXXX 1758016885362, Thread 9701: XXXX 1758016885362, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016885362 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:HaltTarget
-9701 1758016885362 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016885362 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9701 1758016885362 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-9701 1758016885362 XXXX 1758016885362, Thread 9701: XXXX 1758016885362, Entering Thread 9701: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
-9701 1758016885363 XXXX 1758016885363, Thread 9701: XXXX 1758016885363, Exiting Thread 9701: Commands::runScriptBasic  
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4DebugInterface
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.RI4DebugInterfaceImpl@71c64851
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9701 1758016885379 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9701 1758016885379 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9701 1758016885379 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
-9701 1758016885379 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0068
-9701 1758016885379 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd006b
-9701 1758016885379 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 4
-9701 1758016885379 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9701 1758016885379 XXXX 1758016885379, Thread 9701: XXXX 1758016885379, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadEmu  
-9701 1758016885379 XXXX 1758016885379, Thread 9701: XXXX 1758016885379, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x4 bytes long  
-9701 1758016885382 XXXX 1758016885382, Thread 9701: XXXX 1758016885382, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016885382 XXXX 1758016885382, Thread 9701: XXXX 1758016885382, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4ProgramInterface
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.RI4ProgramInterfaceImpl@702f1c1f
+381 1758612049791 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0000
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd000b
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
-9701 1758016885382 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9701 1758016885382 XXXX 1758016885382, Thread 9701: XXXX 1758016885382, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadEmu  
-9701 1758016885382 XXXX 1758016885382, Thread 9701: XXXX 1758016885382, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
-9701 1758016885386 XXXX 1758016885386, Thread 9701: XXXX 1758016885386, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016885386 XXXX 1758016885386, Thread 9701: XXXX 1758016885386, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4ConnectInterface
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ArmToolsController.comm.ICD4ArmConnectInterfaceImpl@41aeda29
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugWriteTargetMemory
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0000
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd006b
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 108
-9701 1758016885386 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9701 1758016885386 XXXX 1758016885386, Thread 9701: XXXX 1758016885386, Entering Thread 9701: Commands::runScriptWithUpload, script name = ReadEmu  
-9701 1758016885386 XXXX 1758016885386, Thread 9701: XXXX 1758016885386, Entering Thread 9701: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x6c bytes long  
-9701 1758016885388 XXXX 1758016885388, Thread 9701: XXXX 1758016885388, Exiting Thread 9701: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9701 1758016885388 XXXX 1758016885388, Thread 9701: XXXX 1758016885388, Exiting Thread 9701: Commands::runScriptWithUpload  
-9701 1758016885388 XXXX 1758016885388, Thread 9701: XXXX 1758016885388, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteEmu  
-9701 1758016885391 XXXX 1758016885391, Thread 9701: XXXX 1758016885391, Exiting Thread 9701: Commands::runScriptWithDownload(WriteEmu)  
-9701 1758016885391 XXXX 1758016885391, Thread 9701: XXXX 1758016885391, Entering Thread 9701: Commands::runScriptWithDownload, script name = WriteEmu  
-9701 1758016885396 XXXX 1758016885396, Thread 9701: XXXX 1758016885396, Exiting Thread 9701: Commands::runScriptWithDownload(WriteEmu)  
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugWriteTargetMemory
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 RI4ControllerDiagnosticsInterface
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.RI4ControllerDiagnosticsInterfaceImpl@36cf876e
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
-9701 1758016885396 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9701 1758016885396 XXXX 1758016885396, Thread 9701: XXXX 1758016885396, Entering Thread 9701: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
-9701 1758016885397 XXXX 1758016885397, Thread 9701: XXXX 1758016885397, Exiting Thread 9701: Commands::runScriptBasic  
-9701 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:GetPC
-9701 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9701 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1022
-9701 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 ProgrammerToGo
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 null
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9542 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
-9542 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
-9542 1758016885397 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885397 XXXX 1758016885397, Thread 9542: XXXX 1758016885397, Entering Thread 9542: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
-9542 1758016885399 XXXX 1758016885399, Thread 9542: XXXX 1758016885399, Exiting Thread 9542: Commands::runScriptBasic  
-9542 1758016885399 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:GetPC
-9542 1758016885399 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885399 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1022
-9542 1758016885399 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Pre:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Status
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Post:GetInterfaceProvider
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.implementations.OpStatus@551bd04d
+381 1758612049792 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9542 1758016885400 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885400 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885400 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885400 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101e
-9542 1758016885400 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101f
-9542 1758016885400 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9542 1758016885400 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885400 XXXX 1758016885400, Thread 9542: XXXX 1758016885400, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885400 XXXX 1758016885400, Thread 9542: XXXX 1758016885400, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9542 1758016885404 XXXX 1758016885404, Thread 9542: XXXX 1758016885404, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885404 XXXX 1758016885404, Thread 9542: XXXX 1758016885404, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885404 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885404 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885404 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885404 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Pre:SetProgramExec
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Test
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 800000
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Length = 6126
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Post:SetProgramExec
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 true
+381 1758612049878 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return End
 
-9542 1758016885405 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885405 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885405 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885405 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101e
-9542 1758016885405 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101f
-9542 1758016885405 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9542 1758016885405 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885405 XXXX 1758016885405, Thread 9542: XXXX 1758016885405, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885405 XXXX 1758016885405, Thread 9542: XXXX 1758016885405, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9542 1758016885408 XXXX 1758016885408, Thread 9542: XXXX 1758016885408, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885408 XXXX 1758016885408, Thread 9542: XXXX 1758016885408, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885408 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885408 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885408 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885408 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049880 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Pre:SetDebugExec
+381 1758612049880 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049880 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Test
+381 1758612049880 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 800000
+381 1758612049880 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Length = 2064
+381 1758612049880 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Post:SetDebugExec
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 true
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_dsPIC33EP512MU814 Return End
 
-9542 1758016885410 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885410 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885410 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885410 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
-9542 1758016885410 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
-9542 1758016885410 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9542 1758016885410 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885410 XXXX 1758016885410, Thread 9542: XXXX 1758016885410, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885410 XXXX 1758016885410, Thread 9542: XXXX 1758016885410, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9542 1758016885413 XXXX 1758016885413, Thread 9542: XXXX 1758016885413, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885413 XXXX 1758016885413, Thread 9542: XXXX 1758016885413, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:EstablishCommunincations
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.mdbcore.ICD4Tool.ICD4Com@20b2204b
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Post:EstablishCommunincations
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return Value
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 true
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return End
 
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1c
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1d
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9542 1758016885413 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885413 XXXX 1758016885413, Thread 9542: XXXX 1758016885413, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885413 XXXX 1758016885413, Thread 9542: XXXX 1758016885413, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9542 1758016885415 XXXX 1758016885415, Thread 9542: XXXX 1758016885415, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885415 XXXX 1758016885415, Thread 9542: XXXX 1758016885415, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1018
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1019
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9542 1758016885415 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885415 XXXX 1758016885415, Thread 9542: XXXX 1758016885415, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885415 XXXX 1758016885415, Thread 9542: XXXX 1758016885415, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9542 1758016885418 XXXX 1758016885418, Thread 9542: XXXX 1758016885418, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885418 XXXX 1758016885418, Thread 9542: XXXX 1758016885418, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1008
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1013
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
-9542 1758016885418 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885418 XXXX 1758016885418, Thread 9542: XXXX 1758016885418, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885418 XXXX 1758016885418, Thread 9542: XXXX 1758016885418, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
-9542 1758016885421 XXXX 1758016885421, Thread 9542: XXXX 1758016885421, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885421 XXXX 1758016885421, Thread 9542: XXXX 1758016885421, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 c
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 17
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
-9542 1758016885421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885421 XXXX 1758016885421, Thread 9542: XXXX 1758016885421, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885421 XXXX 1758016885421, Thread 9542: XXXX 1758016885421, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
-9542 1758016885424 XXXX 1758016885424, Thread 9542: XXXX 1758016885424, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885424 XXXX 1758016885424, Thread 9542: XXXX 1758016885424, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1014
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1017
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 4
-9542 1758016885424 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885424 XXXX 1758016885424, Thread 9542: XXXX 1758016885424, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885424 XXXX 1758016885424, Thread 9542: XXXX 1758016885424, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x4 bytes long  
-9542 1758016885427 XXXX 1758016885427, Thread 9542: XXXX 1758016885427, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885427 XXXX 1758016885427, Thread 9542: XXXX 1758016885427, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1c
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1d
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9542 1758016885427 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885427 XXXX 1758016885427, Thread 9542: XXXX 1758016885427, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885427 XXXX 1758016885427, Thread 9542: XXXX 1758016885427, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9542 1758016885430 XXXX 1758016885430, Thread 9542: XXXX 1758016885430, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885430 XXXX 1758016885430, Thread 9542: XXXX 1758016885430, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1018
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1019
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9542 1758016885430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9542 1758016885430 XXXX 1758016885430, Thread 9542: XXXX 1758016885430, Entering Thread 9542: Commands::runScriptWithUpload, script name = ReadSFR  
-9542 1758016885430 XXXX 1758016885430, Thread 9542: XXXX 1758016885430, Entering Thread 9542: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9542 1758016885433 XXXX 1758016885433, Thread 9542: XXXX 1758016885433, Exiting Thread 9542: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9542 1758016885433 XXXX 1758016885433, Thread 9542: XXXX 1758016885433, Exiting Thread 9542: Commands::runScriptWithUpload  
-9542 1758016885433 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9542 1758016885433 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9542 1758016885433 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9542 1758016885433 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9553 1758016885504 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9553 1758016885504 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9553 1758016885504 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9553 1758016885504 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
-9553 1758016885504 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
-9553 1758016885504 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9553 1758016885504 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9553 1758016885504 XXXX 1758016885504, Thread 9553: XXXX 1758016885504, Entering Thread 9553: Commands::runScriptWithUpload, script name = ReadSFR  
-9553 1758016885504 XXXX 1758016885504, Thread 9553: XXXX 1758016885504, Entering Thread 9553: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9553 1758016885508 XXXX 1758016885508, Thread 9553: XXXX 1758016885508, Exiting Thread 9553: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9553 1758016885508 XXXX 1758016885508, Thread 9553: XXXX 1758016885508, Exiting Thread 9553: Commands::runScriptWithUpload  
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 e22
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 e23
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9553 1758016885508 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9553 1758016885508 XXXX 1758016885508, Thread 9553: XXXX 1758016885508, Entering Thread 9553: Commands::runScriptWithUpload, script name = ReadSFR  
-9553 1758016885508 XXXX 1758016885508, Thread 9553: XXXX 1758016885508, Entering Thread 9553: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9553 1758016885511 XXXX 1758016885511, Thread 9553: XXXX 1758016885511, Exiting Thread 9553: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9553 1758016885511 XXXX 1758016885511, Thread 9553: XXXX 1758016885511, Exiting Thread 9553: Commands::runScriptWithUpload  
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9553 1758016885511 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9553 1758016885511 XXXX 1758016885511, Thread 9553: XXXX 1758016885511, Entering Thread 9553: Commands::runScriptWithUpload, script name = ReadSFR  
-9553 1758016885511 XXXX 1758016885511, Thread 9553: XXXX 1758016885511, Entering Thread 9553: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9553 1758016885515 XXXX 1758016885515, Thread 9553: XXXX 1758016885515, Exiting Thread 9553: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9553 1758016885515 XXXX 1758016885515, Thread 9553: XXXX 1758016885515, Exiting Thread 9553: Commands::runScriptWithUpload  
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 e82
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 e83
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-9553 1758016885515 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-9553 1758016885515 XXXX 1758016885515, Thread 9553: XXXX 1758016885515, Entering Thread 9553: Commands::runScriptWithUpload, script name = ReadSFR  
-9553 1758016885515 XXXX 1758016885515, Thread 9553: XXXX 1758016885515, Entering Thread 9553: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-9553 1758016885518 XXXX 1758016885518, Thread 9553: XXXX 1758016885518, Exiting Thread 9553: ToolCommUsb::readTransfer,  cr.status = 0x0  
-9553 1758016885518 XXXX 1758016885518, Thread 9553: XXXX 1758016885518, Exiting Thread 9553: Commands::runScriptWithUpload  
-9553 1758016885518 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
-9553 1758016885518 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-9553 1758016885518 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
-9553 1758016885518 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:setTraceDescriptor
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.DataClasses.TraceDescriptor@555e6c5f
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:setTraceDescriptor
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 none
-10135 1758017264941 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
-
-10135 1758017264942 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-10135 1758017264942 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-10135 1758017264942 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
-10135 1758017264942 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0000
-10135 1758017264942 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd000b
-10135 1758017264942 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
-10135 1758017264942 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-10135 1758017264942 XXXX 1758017264942, Thread 10135: XXXX 1758017264942, Entering Thread 10135: Commands::runScriptWithUpload, script name = ReadEmu  
-10135 1758017264942 XXXX 1758017264942, Thread 10135: XXXX 1758017264942, Entering Thread 10135: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
-42 1758018234867 GEN4_CONNECT_DIAGNOSTICS:Calling Update on plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@7f98b61d
-42 1758018234867 GEN4_CONNECT_DIAGNOSTICS:Entering plug and play Update(). Attached PID = 9015
-42 1758018234868 GEN4_CONNECT_DIAGNOSTICS:Entering MPLABCommEvent handler
-42 1758018234868 GEN4_CONNECT_DIAGNOSTICS:MPLABCommEvent.pid = 9015
-42 1758018234868 GEN4_CONNECT_DIAGNOSTICS:eventType = MPLABCOMM_TOOL_UNPLUGGED
-42 1758018234868 GEN4_CONNECT_DIAGNOSTICS:Exiting plug and play Update()
-10137 1758018361447 XXXX 1758018361446, Thread 10137: ToolCommUsb::read, com.Received returned -1 
-10137 1758018361447 XXXX 1758018361447, Thread 10137: ToolCommUsb::DataReader::run, fatal RI4ControllerException: {null} 
-10135 1758018361456 XXXX 1758018361456, Thread 10135: com.Send returned false 
-
-10221 1758018361456 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
-10221 1758018361456 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-10221 1758018361456 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
-10221 1758018361456 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-10221 1758018361456 XXXX 1758018361456, Thread 10221: XXXX 1758018361456, Entering Thread 10221: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:GetFirmwareInfo
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 null
+381 1758612049881 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
+381 1758612049893 XXXX 1758612049893, Thread 381: com.Send returned false 
+381 1758612049893 XXXX 1758612049893, Thread 381: execCommand: exception after writeSideChanel null 

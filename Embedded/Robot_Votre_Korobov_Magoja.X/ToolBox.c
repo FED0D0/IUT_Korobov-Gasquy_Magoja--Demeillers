@@ -1,5 +1,6 @@
 #include "Toolbox.h"
 
+
 float Abs(float value) {
     if (value >= 0)
         return value;
