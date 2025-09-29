@@ -1,6 +1,6 @@
 #include <xc.h>
 #include "adc.h"
-
+#include "main.h"
 unsigned char ADCResultIndex = 0;
 static unsigned int ADCResult[5];
 unsigned char ADCConversionFinishedFlag;

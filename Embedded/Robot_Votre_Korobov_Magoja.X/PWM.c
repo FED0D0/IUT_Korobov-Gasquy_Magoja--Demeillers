@@ -3,7 +3,7 @@
 #include "PWM.h"
 #include "Robot.h"
 #include "ToolBox.h"
-
+#include "main.h"
 #define PWMPER 24.0
 
 void InitPWM(void) {
@@ -63,7 +63,7 @@ void PWMSetSpeedConsigne(float vitesseEnPourcents, float Moteur)
         robotState.vitesseDroiteConsigne = vitesseEnPourcents;
 }
 
-float acceleration = 5;
+float acceleration = 500;
 
 void PWMUpdateSpeed() {
     // Cette fonction est appelee sur timer et permet de suivre des rampes d acceleration
