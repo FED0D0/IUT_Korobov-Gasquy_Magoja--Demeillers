@@ -63,7 +63,7 @@ void PWMSetSpeedConsigne(float vitesseEnPourcents, float Moteur)
         robotState.vitesseDroiteConsigne = vitesseEnPourcents;
 }
 
-float acceleration = 500;
+float acceleration = 9999;
 
 void PWMUpdateSpeed() {
     // Cette fonction est appelee sur timer et permet de suivre des rampes d acceleration
