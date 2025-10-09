@@ -43,7 +43,7 @@ void SetFreqTimer4(float freq) {
 }
 
 void InitTimer1(void) {
-   SetFreqTimer1(250);
+   SetFreqTimer1(300);
    //Timer1 pour horodater les mesures (1ms)
     T1CONbits.TON = 0; // Disable Timer
  
@@ -63,7 +63,7 @@ void InitTimer1(void) {
 
 void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     IFS0bits.T1IF = 0;
-    LED_BLEUE_1 = !LED_BLEUE_1;
+//    LED_BLEUE_1 = !LED_BLEUE_1;
     PWMUpdateSpeed();
     ADC1StartConversionSequence();
     //InitADC1();
@@ -95,7 +95,7 @@ void InitTimer4(void) {
 
 void __attribute__((interrupt, no_auto_psv)) _T4Interrupt(void) {
     IFS1bits.T4IF = 0;
-    LED_ROUGE_1 = !LED_ROUGE_1;
+//    LED_ROUGE_1 = !LED_ROUGE_1;
     timestamp++;
     OperatingSystemLoop();
 }

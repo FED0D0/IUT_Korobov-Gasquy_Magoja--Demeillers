@@ -2,7 +2,7 @@
 #include "adc.h"
 #include "main.h"
 unsigned char ADCResultIndex = 0;
-static unsigned int ADCResult[5];
+static unsigned int ADCResult[6];
 unsigned char ADCConversionFinishedFlag;
 
 /****************************************************************************************************/
@@ -26,7 +26,7 @@ void InitADC1(void) {
     AD1CON2bits.VCFG = 0b000; // 000 : Voltage Reference = AVDD AVss
     AD1CON2bits.CSCNA = 1; // 1 : Enable Channel Scanning
     AD1CON2bits.CHPS = 0b00; // Converts CH0 only
-    AD1CON2bits.SMPI = 2; // 2+1 conversions successives avant interrupt
+    AD1CON2bits.SMPI = 4; // 2+1 conversions successives avant interrupt
     AD1CON2bits.ALTS = 0;
     AD1CON2bits.BUFM = 0;
     /************************************************************/
@@ -56,7 +56,7 @@ void InitADC1(void) {
     /* Assign MUXA inputs */
     AD1CHS0bits.CH0SA = 0; // CH0SA bits ignored for CH0 +ve input selection
     AD1CHS0bits.CH0NA = 0; // Select VREF- for CH0 -ve inpu
-    //IFS0bits.AD1IF = 0; // Clear the A/D interrupt flag bit
+    IFS0bits.AD1IF = 0; // Clear the A/D interrupt flag bit
     IEC0bits.AD1IE = 1; // Enable A/D interrupt
     AD1CON1bits.ADON = 1; // Turn on the A/D converter
 }
