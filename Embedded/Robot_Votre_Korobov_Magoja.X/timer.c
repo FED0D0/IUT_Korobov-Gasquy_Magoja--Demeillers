@@ -43,7 +43,7 @@ void SetFreqTimer4(float freq) {
 }
 
 void InitTimer1(void) {
-   SetFreqTimer1(300);
+   SetFreqTimer1(500);
    //Timer1 pour horodater les mesures (1ms)
     T1CONbits.TON = 0; // Disable Timer
  
