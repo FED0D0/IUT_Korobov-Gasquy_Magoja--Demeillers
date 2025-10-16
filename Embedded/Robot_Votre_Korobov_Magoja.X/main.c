@@ -157,7 +157,7 @@ void SetNextRobotStateInAutomaticMode() {
     if (robotState.distanceTelemetreDroit < 30 &&
             robotState.distanceTelemetreCentre > 25 &&
             robotState.distanceTelemetreGauche > 30 &&
-            robotState.distanceTelemetreUltraGauche > 30) //Obstacle ?droite
+            robotState.distanceTelemetreUltraGauche > 35) //Obstacle ?droite
         positionObstacle = OBSTACLE_A_DROITE;
     else if (robotState.distanceTelemetreUltraDroit < 35 &&
             robotState.distanceTelemetreCentre > 25 &&
