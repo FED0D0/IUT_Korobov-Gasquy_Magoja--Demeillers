@@ -25,5 +25,10 @@ namespace WpfApp1
         {
 
         }
+
+        private void buttonEnvoyer_Click(object sender, RoutedEventArgs e)
+        {
+            buttonEnvoyer.Background = Brushes.RoyalBlue;
+        }
     }
 }
