@@ -25,10 +25,45 @@ namespace WpfApp1
         {
 
         }
-
+        private int compteurMessages = 1;
+        private void EnvoyerMessage()
+        {
+            textBoxReception.Text += "\nreçu : Message" + compteurMessages;
+            compteurMessages++;
+            textBoxEmission.Text = "";
+        }
         private void buttonEnvoyer_Click(object sender, RoutedEventArgs e)
         {
-            buttonEnvoyer.Background = Brushes.RoyalBlue;
+            
+            if (buttonEnvoyer.Background != Brushes.Beige)
+            {
+                buttonEnvoyer.Background = Brushes.Beige;
+            }
+            else
+            {
+                buttonEnvoyer.Background = Brushes.RoyalBlue;
+            }
+            EnvoyerMessage();
+
+
+            string message = textBoxEmission.Text;
         }
+
+        private void textBoxEmission_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                EnvoyerMessage();
+                e.Handled = true; 
+            }
+        }
+        /* string message = textBoxEmission.Text;   
+
+if (!string.IsNullOrWhiteSpace(message))
+{
+    textBoxReception.Text += "\nReçu : " + message;  
+    textBoxEmission.Text = ""; 
+}*/
+
     }
-}
+    }
