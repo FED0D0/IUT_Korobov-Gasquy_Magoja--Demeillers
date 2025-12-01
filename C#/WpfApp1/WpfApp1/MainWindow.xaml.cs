@@ -11,6 +11,7 @@ using System.Windows.Shapes;
 using ExtendedSerialPort_NS;
 using System.IO.Ports;
 using System.Windows.Threading;
+using WpfApp1;
 namespace WpfApp1
 {
     /// <summary>
@@ -18,19 +19,20 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        bool toogle;
+        string receivedText;
         ExtendedSerialPort serialPort1;
-        string receivedText = "";
         DispatcherTimer timerAffichage;
         public MainWindow()
         {
-            InitializeComponent();
-            serialPort1 = new ExtendedSerialPort("COM6", 115200, Parity.None, 8, StopBits.One);
-            serialPort1.DataReceived += SerialPort1_DataReceived;
-            serialPort1.Open();
             timerAffichage = new DispatcherTimer();
             timerAffichage.Interval = new TimeSpan(0, 0, 0, 0, 100);
             timerAffichage.Tick += TimerAffichage_Tick;
             timerAffichage.Start();
+            InitializeComponent();
+            serialPort1 = new ExtendedSerialPort("COM6", 115200, Parity.None, 8, StopBits.One);
+            serialPort1.DataReceived += SerialPort1_DataReceived;
+            serialPort1.Open();
 
         }
         public void SerialPort1_DataReceived(object sender, DataReceivedArgs e)
@@ -38,13 +40,13 @@ namespace WpfApp1
             receivedText += Encoding.UTF8.GetString(e.Data, 0, e.Data.Length);
 
         }
-        private void TimerAffichage_Tick(object? sender, EventArgs e)
+        public void TimerAffichage_Tick(object? sender, EventArgs e)
         {
 
             if (receivedText != "")
                 textBoxReception.Text += receivedText;
             receivedText = "";
-            
+
         }
 
         
@@ -53,47 +55,43 @@ namespace WpfApp1
         {
 
         }
-        private int compteurMessages = 1;
-        private void EnvoyerMessage()
-        {
-            //textBoxReception.Text += "\nenvoyé : Message" + compteurMessages;
-            compteurMessages++;
-            textBoxEmission.Text = "";
 
-            serialPort1.WriteLine(textBoxEmission.Text);
-        }
         private void buttonEnvoyer_Click(object sender, RoutedEventArgs e)
         {
-            
-            if (buttonEnvoyer.Background != Brushes.Beige)
+
+            textBoxReception.Text += ("Reçu : " + textBoxEmission.Text + "\n");
+            textBoxEmission.Text = "";
+
+            if (toogle == false)
             {
-                buttonEnvoyer.Background = Brushes.Beige;   
+                buttonEnvoyer.Background = Brushes.RoyalBlue;
+                toogle = !toogle;
             }
             else
             {
-                buttonEnvoyer.Background = Brushes.RoyalBlue;
+                buttonEnvoyer.Background = Brushes.Beige;
+                toogle = !toogle;
+
             }
-            EnvoyerMessage();
-
-
-            string message = textBoxEmission.Text;
         }
 
         private void textBoxEmission_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
             {
-                EnvoyerMessage();
-                //e.Handled = true; 
+
+                //TextBoxréception.Text += ("Reçu : " + textBoxEmission.Text);
+                serialPort1.WriteLine(textBoxEmission.Text);
+                //receivedText =textBoxEmission.Text ;
+
+                textBoxEmission.Text = "";
             }
         }
-        /* string message = textBoxEmission.Text;   
-
-if (!string.IsNullOrWhiteSpace(message))
-{
-    textBoxReception.Text += "\nReçu : " + message;  
-    textBoxEmission.Text = ""; 
-}*/
 
     }
-    }
+}
+
+
+
+
+
