@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{82D89CCA-D8E0-45C7-8E01-6A760BDF772E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedSerialPort", "..\ExtendedSerialPort .NET6\ExtendedSerialPort .NET6\ExtendedSerialPort\ExtendedSerialPort\ExtendedSerialPort.csproj", "{DFD826FA-A8A7-49D6-8547-4AB81C4DBFCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{82D89CCA-D8E0-45C7-8E01-6A760BDF772E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82D89CCA-D8E0-45C7-8E01-6A760BDF772E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82D89CCA-D8E0-45C7-8E01-6A760BDF772E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD826FA-A8A7-49D6-8547-4AB81C4DBFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD826FA-A8A7-49D6-8547-4AB81C4DBFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD826FA-A8A7-49D6-8547-4AB81C4DBFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD826FA-A8A7-49D6-8547-4AB81C4DBFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

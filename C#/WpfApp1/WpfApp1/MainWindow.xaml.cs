@@ -8,7 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using ExtendedSerialPort_NS;
+using System.IO.Ports;
+using System.Windows.Threading;
 namespace WpfApp1
 {
     /// <summary>
@@ -16,10 +18,36 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        ExtendedSerialPort serialPort1;
+        string receivedText = "";
+        DispatcherTimer timerAffichage;
         public MainWindow()
         {
             InitializeComponent();
+            serialPort1 = new ExtendedSerialPort("COM6", 115200, Parity.None, 8, StopBits.One);
+            serialPort1.DataReceived += SerialPort1_DataReceived;
+            serialPort1.Open();
+            timerAffichage = new DispatcherTimer();
+            timerAffichage.Interval = new TimeSpan(0, 0, 0, 0, 100);
+            timerAffichage.Tick += TimerAffichage_Tick;
+            timerAffichage.Start();
+
         }
+        public void SerialPort1_DataReceived(object sender, DataReceivedArgs e)
+        {
+            receivedText += Encoding.UTF8.GetString(e.Data, 0, e.Data.Length);
+
+        }
+        private void TimerAffichage_Tick(object? sender, EventArgs e)
+        {
+
+            if (receivedText != "")
+                textBoxReception.Text += receivedText;
+            receivedText = "";
+            
+        }
+
+        
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -28,16 +56,18 @@ namespace WpfApp1
         private int compteurMessages = 1;
         private void EnvoyerMessage()
         {
-            textBoxReception.Text += "\nreçu : Message" + compteurMessages;
+            //textBoxReception.Text += "\nenvoyé : Message" + compteurMessages;
             compteurMessages++;
             textBoxEmission.Text = "";
+
+            serialPort1.WriteLine(textBoxEmission.Text);
         }
         private void buttonEnvoyer_Click(object sender, RoutedEventArgs e)
         {
             
             if (buttonEnvoyer.Background != Brushes.Beige)
             {
-                buttonEnvoyer.Background = Brushes.Beige;
+                buttonEnvoyer.Background = Brushes.Beige;   
             }
             else
             {
@@ -54,7 +84,7 @@ namespace WpfApp1
             if (e.Key == Key.Enter)
             {
                 EnvoyerMessage();
-                e.Handled = true; 
+                //e.Handled = true; 
             }
         }
         /* string message = textBoxEmission.Text;   
