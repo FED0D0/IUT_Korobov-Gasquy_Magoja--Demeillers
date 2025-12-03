@@ -54,10 +54,6 @@ namespace WpfApp1
             for (int i = 0; i < robot.byteListReceived.Count() ; i++)
             {
 
-                
-
-   
-
                 textBoxReception.Text += "0x" + robot.byteListReceived.Dequeue().ToString("X2") + " ";
             }
 
