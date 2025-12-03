@@ -28,5 +28,7 @@
             <TextBox x:Name="textBoxEmission" AcceptsReturn="True" Background="#FFABADB3" KeyUp="textBoxEmission_KeyUp" />
         </GroupBox>
         <Button x:Name="buttonEnvoyer" Grid.Column="1" Grid.Row="2" Content="Envoyer" Click="buttonEnvoyer_Click" Margin="128,30,127,0" Grid.RowSpan="2" />
+        <Button x:Name="buttonClear" Grid.Column="3" Content="Clear" Margin="127,30,128,0" Grid.Row="2" Grid.RowSpan="2" Click="buttonClear_Click"/>
+        <Button Grid.Column="1" Content="Test" Margin="320,30,320,0" Grid.Row="2" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="Button_Click"/>
     </Grid>
 </Window>
