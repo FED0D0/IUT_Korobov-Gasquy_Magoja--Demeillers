@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <xc.h>
+#include <libpic30.h>
 #include "ChipConfig.h"
 #include "IO.h"
 #include "Timer.h"
@@ -8,6 +9,8 @@
 #include "ADC.h"
 #include "Robot.h"
 #include "main.h"
+#include "UART.h"
+#include "CB_TX1.h"
 int ADCValue0;
 int ADCValue1;
 int ADCValue2;
@@ -17,7 +20,7 @@ int ADCValue4;
 int main(void) {
     InitOscillator();
     InitIO();
-
+    InitUART();
     InitTimer23();
     InitTimer1();
     InitTimer4();
@@ -40,6 +43,9 @@ int main(void) {
 
 
     while (1) {
+    SendMessage((unsigned char*) "impot", 5);
+//SendMessageDirect((unsigned char*) "Bonjour", 7);
+   __delay32(40000000);
 
         if (ADCIsConversionFinished() == 1) {
             ADCClearConversionFinishedFlag();
