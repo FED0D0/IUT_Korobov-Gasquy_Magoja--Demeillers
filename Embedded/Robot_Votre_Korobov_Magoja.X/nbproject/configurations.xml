@@ -40,6 +40,7 @@
       <itemPath>UART.c</itemPath>
       <itemPath>CB_TX1.c</itemPath>
       <itemPath>CB_RX1.c</itemPath>
+      <itemPath>UART_Protocol.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
