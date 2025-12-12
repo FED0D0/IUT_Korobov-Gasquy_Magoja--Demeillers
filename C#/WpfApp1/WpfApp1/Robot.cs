@@ -17,7 +17,7 @@ namespace WpfApp1
         public Robot()
         {
             byteListReceived = new Queue<byte>();
-
+            
 
         }
 

@@ -32,7 +32,7 @@ namespace WpfApp1
             timerAffichage.Tick += TimerAffichage_Tick;
             timerAffichage.Start();
             InitializeComponent();
-            serialPort1 = new ExtendedSerialPort("COM9", 115200, Parity.None, 8, StopBits.One);
+            serialPort1 = new ExtendedSerialPort("COM5", 115200, Parity.None, 8, StopBits.One);
             serialPort1.DataReceived += SerialPort1_DataReceived;
             serialPort1.Open();
 
@@ -111,15 +111,16 @@ namespace WpfApp1
             FunctionLSB,
             PayloadLengthMSB,
             PayloadLengthLSB,
-            Payload,
+            PayLoad,
             CheckSum
         }
 
         StateReception rcvState = StateReception.Waiting;
+
         int msgDecodedFunction = 0;
-        int msgDecodedPayloadLength = 0;
-        byte[] msgDecodedPayload;
-        int msgDecodedPayloadIndex = 0;
+        int msgDecodedPayLoadLength = 0;
+        byte[] msgDecodedPayLoad;
+        int msgDecodedPayLoadIndex = 0;
 
         int calculatedChecksum = 0;
         byte receivedChecksum = 0;
@@ -129,102 +130,81 @@ namespace WpfApp1
             switch (rcvState)
             {
                 case StateReception.Waiting:
-                    calculatedChecksum = 0;
-                    rcvState = StateReception.FunctionMSB;
-                    break;
+                    if (c == 0xFE)
+                    {
+                        rcvState = StateReception.FunctionMSB;
 
+                    }
+                    break;
+                    
                 case StateReception.FunctionMSB:
                     msgDecodedFunction = c << 8;
-                    calculatedChecksum += c;
                     rcvState = StateReception.FunctionLSB;
                     break;
-
                 case StateReception.FunctionLSB:
-                    msgDecodedFunction |= c;
-                    calculatedChecksum += c;
+                    msgDecodedFunction += c;
                     rcvState = StateReception.PayloadLengthMSB;
                     break;
-
                 case StateReception.PayloadLengthMSB:
-                    msgDecodedPayloadLength = c << 8;
-                    calculatedChecksum += c;
+                    msgDecodedPayLoadLength = c << 8;
                     rcvState = StateReception.PayloadLengthLSB;
                     break;
-
                 case StateReception.PayloadLengthLSB:
-                    msgDecodedPayloadLength |= c;
-                    calculatedChecksum += c;
-
-                    if (msgDecodedPayloadLength < 0 || msgDecodedPayloadLength > 1024)
-                    { rcvState = StateReception.Waiting; break; }
-
-                    msgDecodedPayload = new byte[msgDecodedPayloadLength];
-                    msgDecodedPayloadIndex = 0;
-
-                    if (msgDecodedPayloadLength == 0) {
+                    msgDecodedPayLoadLength += c;
+                    rcvState = StateReception.PayLoad;
+                    msgDecodedPayLoad = new byte[msgDecodedPayLoadLength];
+                    msgDecodedPayLoadIndex = 0;
+                    break;
+                case StateReception.PayLoad:
+                    msgDecodedPayLoad[msgDecodedPayLoadIndex] = c;
+                    msgDecodedPayLoadIndex++;
+                    if (msgDecodedPayLoadIndex >= msgDecodedPayLoadLength)
+                    {
                         rcvState = StateReception.CheckSum;
                     }
-                    else {
-                        rcvState = StateReception.Payload;
-                    }
                     break;
-
-                case StateReception.Payload:
-                    msgDecodedPayload[msgDecodedPayloadIndex++] = c;
-                    calculatedChecksum += c;
-
-                    if (msgDecodedPayloadIndex >= msgDecodedPayloadLength)
-                        rcvState = StateReception.CheckSum;
-
-                    break;
-
                 case StateReception.CheckSum:
                     receivedChecksum = c;
-                    calculatedChecksum &= 0xFF;
+                    calculatedChecksum = CalculateChecksum(msgDecodedFunction, msgDecodedPayLoadLength, msgDecodedPayLoad);
 
                     if (calculatedChecksum == receivedChecksum)
                     {
-                        // Message validé
-                        // (Tu mettras ton traitement ici)
+                        ProcessDecodedMessage(msgDecodedFunction, msgDecodedPayLoadLength, msgDecodedPayLoad);
+                            //Success, on a un message valide
                     }
-
-                    rcvState = StateReception.Waiting;
+                    else
+                    {
+                        rcvState = StateReception.Waiting;
+                    }
                     break;
 
                 default:
-                    rcvState = StateReception.Waiting;
-                    break;
+                    {
+                        rcvState = StateReception.Waiting;
+                        break;
+                    }
             }
         }
-
-        enum RobotFunction { Text = 0x0080, LED = 0x0020, IR = 0x0030, Motor = 0x0040 }
-
-        // Variables internes
-        string txt = ""; bool[] leds = new bool[8]; int[] ir = new int[3]; int motorL, motorR;
-
-        void ProcessDecodedMessage(int f, int len, byte[] p)
+        private void ProcessDecodedMessage(int msgFunction, int msgPayloadLength, byte[] msgPayload)
         {
-            switch ((RobotFunction)f)
+            switch (msgFunction)
             {
-                case RobotFunction.Text: txt = System.Text.Encoding.UTF8.GetString(p, 0, len); break;
-                case RobotFunction.LED: if (len >= 2) { int n = p[0]; if (n < leds.Length) leds[n] = p[1] != 0; } break;
-                case RobotFunction.IR: if (len >= 3) for (int i = 0; i < 3; i++) ir[i] = p[i]; break;
-                case RobotFunction.Motor: if (len >= 2) { motorL = p[0]; motorR = p[1]; } break;
+                case RobotFunction.Text:
+                    textBoxReception.Text += Encoding.UTF8.GetString(msgPayload);
+                    break;
+                case RobotFunction.IR:
+                    textBoxReception.Text += Encoding.UTF8.GetString(msgPayload);
+                    break;
+
             }
         }
 
-        // Simulation loopback
-        void TestLoopback()
-        {
-            byte[][] msgs ={
-        new byte[]{0x00,0x80,0x00,0x05,(byte)'H',(byte)'e',(byte)'l',(byte)'l',(byte)'o',0xF3},
-        new byte[]{0x00,0x20,0x00,0x02,0x01,0x01,0x23},
-        new byte[]{0x00,0x30,0x00,0x03,0x10,0x20,0x30,0x63},
-        new byte[]{0x00,0x40,0x00,0x02,0x50,0x60,0xF6}
-         };
-            foreach (var m in msgs) foreach (var b in m) DecodeMessage(b);
+        enum RobotFunction { 
+            Text = 0x0080, 
+            LED = 0x0020, 
+            IR = 0x0030, 
+            Motor = 0x0040 
         }
-
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -283,11 +263,13 @@ namespace WpfApp1
             if (serialPort1.IsOpen)
                 serialPort1.Write(byteList, 0, byteList.Length);*/
 
-            var payload = Encoding.UTF8.GetBytes("Bonjour");
-            UartEncodeAndSendMessage(0x0080, payload.Length, payload);
- 
-
-        } 
+            UartEncodeAndSendMessage(0x0080, 7, Encoding.UTF8.GetBytes("Bonjour"));
+            UartEncodeAndSendMessage(0x0020, 2, new byte[2] {0, 1});
+            UartEncodeAndSendMessage(0x0030, 3, new byte[3] {30,30,0});
+            UartEncodeAndSendMessage(0x0040, 2, new byte[2] {50,50});
+        }
+        
+        
 
     }
 }    

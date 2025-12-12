@@ -8,11 +8,6 @@ volatile int cbTx1Tail = 0;
 volatile unsigned char cbTx1Buffer[CBTX1_BUFFER_SIZE];
 volatile unsigned char isTransmitting = 0;
 
-
-/* ============================================================
-   ---- BUFFER CIRCULAIRE : FONCTIONS PRINCIPALES ----
-   ============================================================ */
-
 int CB_TX1_GetDataSize(void) {
     if (cbTx1Head >= cbTx1Tail)
         return cbTx1Head - cbTx1Tail;
@@ -34,18 +29,13 @@ unsigned char CB_TX1_IsTransmitting(void) {
     return isTransmitting;
 }
 
-
-/* ============================================================
-   ----  ÉCRITURE DANS LE BUFFER ----
-   ============================================================ */
-
 unsigned char CB_TX1_Add(unsigned char value) {
     int next = cbTx1Head + 1;
     if (next >= CBTX1_BUFFER_SIZE) next = 0;
 
     if (next == cbTx1Tail) {
         // BUFFER PLEIN
-        return 0; 
+        return 0;
     }
 
     cbTx1Buffer[cbTx1Head] = value;
@@ -53,11 +43,6 @@ unsigned char CB_TX1_Add(unsigned char value) {
 
     return 1;
 }
-
-
-/* ============================================================
-   ----  LECTURE DU BUFFER ----
-   ============================================================ */
 
 unsigned char CB_TX1_Get(void) {
     unsigned char value = cbTx1Buffer[cbTx1Tail];
@@ -69,11 +54,6 @@ unsigned char CB_TX1_Get(void) {
     return value;
 }
 
-
-/* ============================================================
-   ----  TRANSMISSION UART ----
-   ============================================================ */
-
 void SendOne(void) {
     // Attend que le registre TX soit libre
     while (U1STAbits.UTXBF);
@@ -84,16 +64,11 @@ void SendOne(void) {
     U1TXREG = c;
 }
 
-
-/* ============================================================
-   ----  ENVOI D?UN MESSAGE ENTIER ----
-   ============================================================ */
-
 void SendMessage(unsigned char *message, int length) {
     int i;
 
     if (CB_TX1_GetRemainingSize() < length)
-        return;  // pas assez de place
+        return; // pas assez de place
 
     // Écriture dans le buffer
     for (i = 0; i < length; i++)
@@ -104,13 +79,8 @@ void SendMessage(unsigned char *message, int length) {
         SendOne();
 }
 
-
-/* ============================================================
-   ----  INTERRUPTIONS UART ----
-   ============================================================ */
-
 void __attribute__((interrupt, no_auto_psv)) _U1TXInterrupt(void) {
-    IFS0bits.U1TXIF = 0;  // reset flag
+    IFS0bits.U1TXIF = 0; // reset flag
 
     // S'il reste des données, envoyer la suivante
     if (cbTx1Tail != cbTx1Head)
