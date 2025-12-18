@@ -27,8 +27,21 @@
         <GroupBox x:Name="Emition" Background="#FFDDDDDD" BorderBrush="Black" Grid.Column="1" RenderTransformOrigin="0.5,0.5" Grid.Row="1" >
             <TextBox x:Name="textBoxEmission" AcceptsReturn="True" Background="#FFABADB3" KeyUp="textBoxEmission_KeyUp" />
         </GroupBox>
-        <Button x:Name="buttonEnvoyer" Grid.Column="1" Grid.Row="2" Content="Envoyer" Click="buttonEnvoyer_Click" Margin="128,30,127,0" Grid.RowSpan="2" />
-        <Button x:Name="buttonClear" Grid.Column="3" Content="Clear" Margin="127,30,128,0" Grid.Row="2" Grid.RowSpan="2" Click="buttonClear_Click"/>
-        <Button Grid.Column="1" Content="Test" Margin="320,30,320,0" Grid.Row="2" Grid.ColumnSpan="3" Grid.RowSpan="2" Click="Button_Click"/>
+        <Button x:Name="buttonEnvoyer" Grid.Column="3" Grid.Row="2" Content="Envoyer" Click="buttonEnvoyer_Click" Margin="10,30,245,0" Grid.RowSpan="2" />
+        <Button x:Name="buttonClear" Grid.Column="3" Content="Clear" Margin="245,30,10,0" Grid.Row="2" Grid.RowSpan="2" Click="buttonClear_Click"/>
+        <Button Grid.Column="3" Content="Test" Margin="127,30,128,0" Grid.Row="2" Grid.RowSpan="2" Click="Button_Click"/>
+        
+        <GroupBox x:Name="Leds" Header="Leds" Margin="10,1,247,3" Grid.RowSpan="3" Grid.Row="2" RenderTransformOrigin="0.38,0.208" Grid.Column="1"/>
+        <CheckBox x:Name="Led1" Content="Led 1" Grid.Column="1" Margin="16,28,247,20" Grid.Row="2" Grid.RowSpan="2" Checked="CheckBox_Checked"/>
+        <CheckBox x:Name="Led2" Content="Led 2 " Margin="16,15,262,0" Grid.Column="1" Grid.Row="3"/>
+        <CheckBox x:Name="Led3" Content="Led 3" Margin="16,5,255,10" Grid.Column="1" Grid.Row="4"/>
+       
+        <GroupBox x:Name="Télemètres" Header="Télemètres" Grid.Column="1" Margin="128,5,129,4" Grid.RowSpan="3" Grid.Row="2"/>
+        <GroupBox x:Name="Moteurs" Header="Moteurs" Grid.Column="1" Margin="247,5,10,4" Grid.RowSpan="3" Grid.Row="2"/>
+        <TextBox x:Name="IR_Gauche" TextWrapping="Wrap" Text="IR Gauche :" Grid.Column="1" Margin="128,20,131,20" Grid.RowSpan="2" Grid.Row="2" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="IR_Centre" TextWrapping="Wrap" Text="IR Centre :" Grid.Column="1" Margin="128,10,131,0" Grid.Row="3" TextChanged="IR_Centre_TextChanged"/>
+        <TextBox x:Name="IR_Droit" TextWrapping="Wrap" Text="IR Droit :" Grid.Column="1" Margin="128,30,131,10" Grid.Row="3" Grid.RowSpan="2" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="Vitesse_Gauche" TextWrapping="Wrap" Text="Vitesse Gauche :" Grid.Column="1" Margin="247,23,12,20" Grid.RowSpan="2" Grid.Row="2"/>
+        <TextBox x:Name="Vitesse_Centre" TextWrapping="Wrap" Text="Vitesse Centre :" Grid.Column="1" Margin="247,10,12,3" Grid.Row="3"/>
     </Grid>
 </Window>

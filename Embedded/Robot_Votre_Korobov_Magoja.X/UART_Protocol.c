@@ -1,16 +1,16 @@
-//#include <xc.h>
-//#include "UART_Protocol.h"
+#include <xc.h>
+#include "UART_Protocol.h"
 //unsigned char UartCalculateChecksum(int msgFunction,
 //int msgPayloadLength, unsigned char* msgPayload)
 //{
 ////Fonction prenant entree la trame et sa longueur pour calculer le checksum
-//...
+//
 //}
 //void UartEncodeAndSendMessage(int msgFunction,
 //int msgPayloadLength, unsigned char* msgPayload)
 //{
 ////Fonction d?encodage et d?envoi d?un message
-//...
+//
 //}
 //int msgDecodedFunction = 0;
 //int msgDecodedPayloadLength = 0;

@@ -51,15 +51,17 @@ namespace WpfApp1
         }
         public void TimerAffichage_Tick(object? sender, EventArgs e)
         {
-            for (int i = 0; i < robot.byteListReceived.Count() ; i++)
-            {
+            
 
-                textBoxReception.Text += "0x" + robot.byteListReceived.Dequeue().ToString("X2") + " ";
+            while(robot.byteListReceived.Count()>0)
+            {
+                var b = robot.byteListReceived.Dequeue();
+                DecodeMessage(b);
             }
 
-            if (receivedText != "")
-                textBoxReception.Text += receivedText;
-            receivedText = "";
+            //if (receivedText != "")
+            //    textBoxReception.Text += receivedText;
+            //receivedText = "";
 
         }
 
@@ -185,20 +187,19 @@ namespace WpfApp1
                     }
             }
         }
-        private void ProcessDecodedMessage(int msgFunction, int msgPayloadLength, byte[] msgPayload)
+       private void ProcessDecodedMessage(int msgFunction, int msgPayloadLength, byte[] msgPayload)
         {
             switch (msgFunction)
             {
-                case RobotFunction.Text:
+                case (int)RobotFunction.Text:
                     textBoxReception.Text += Encoding.UTF8.GetString(msgPayload);
                     break;
-                case RobotFunction.IR:
+                case (int)RobotFunction.IR:
                     textBoxReception.Text += Encoding.UTF8.GetString(msgPayload);
                     break;
-
             }
         }
-
+        
         enum RobotFunction { 
             Text = 0x0080, 
             LED = 0x0020, 
@@ -268,10 +269,24 @@ namespace WpfApp1
             UartEncodeAndSendMessage(0x0030, 3, new byte[3] {30,30,0});
             UartEncodeAndSendMessage(0x0040, 2, new byte[2] {50,50});
         }
-        
-        
+            private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+            {
+                // Code ici (ou laisse vide pour l’instant)
+            }
 
-    }
+            private void IR_Centre_TextChanged(object sender, TextChangedEventArgs e)
+            {
+                // Code ici
+            }
+
+            private void CheckBox_Checked(object sender, RoutedEventArgs e)
+            {
+                // Code ici
+            }
+        
+    
+
+}
 }    
     
 
