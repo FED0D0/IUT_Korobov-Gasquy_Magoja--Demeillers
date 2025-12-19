@@ -33,13 +33,13 @@ void SetFreqTimer4(float freq) {
             T4CONbits.TCKPS = 0b10; //10 = 1:64 prescaler value
             if (FCY / freq / 64 > 65535) {
                 T4CONbits.TCKPS = 0b11; //11 = 1:256 prescaler value
-                PR1 = (int) (FCY / freq / 256);
+                PR4 = (int) (FCY / freq / 256);
             } else
-                PR1 = (int) (FCY / freq / 64);
+                PR4 = (int) (FCY / freq / 64);
         } else
-            PR1 = (int) (FCY / freq / 8);
+            PR4 = (int) (FCY / freq / 8);
     } else
-        PR1 = (int) (FCY / freq);
+        PR4 = (int) (FCY / freq);
 }
 
 void InitTimer1(void) {

@@ -176,8 +176,8 @@ namespace WpfApp1
                     }
                     else
                     {
-                        rcvState = StateReception.Waiting;
                     }
+                    rcvState = StateReception.Waiting;
                     break;
 
                 default:
@@ -195,8 +195,21 @@ namespace WpfApp1
                     textBoxReception.Text += Encoding.UTF8.GetString(msgPayload);
                     break;
                 case (int)RobotFunction.IR:
-                    textBoxReception.Text += Encoding.UTF8.GetString(msgPayload);
+                    IR_Gauche.Text = "IR Gauche : " + Convert.ToUInt16(msgPayload[0].ToString("X2"), 16);
+                    IR_Centre.Text = "IR Centre : " + Convert.ToUInt16(msgPayload[1].ToString("X2"), 16);
+                    IR_Droit.Text = "IR Droit : " + Convert.ToUInt16(msgPayload[2].ToString("X2"), 16);
                     break;
+                case (int)RobotFunction.Motor:
+                    Vitesse_Gauche.Text = "Vitesse Gauche : " + Convert.ToUInt16(msgPayload[0].ToString("X2"), 16);
+                    Vitesse_Droit.Text = "Vitesse Droit : " + Convert.ToUInt16(msgPayload[1].ToString("X2"), 16);
+                    break;
+                    //case (int)RobotFunction.Depl:
+                    //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[0].ToString("X2"), 16);
+                    //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[1].ToString("X2"), 16);
+                    //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[2].ToString("X2"), 16);
+                    //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[3].ToString("X2"), 16);
+                    //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[4].ToString("X2"), 16);
+                    //    break;
             }
         }
         
@@ -204,7 +217,8 @@ namespace WpfApp1
             Text = 0x0080, 
             LED = 0x0020, 
             IR = 0x0030, 
-            Motor = 0x0040 
+            Motor = 0x0040,
+            Depl = 0x0050
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -266,27 +280,15 @@ namespace WpfApp1
 
             UartEncodeAndSendMessage(0x0080, 7, Encoding.UTF8.GetBytes("Bonjour"));
             UartEncodeAndSendMessage(0x0020, 2, new byte[2] {0, 1});
-            UartEncodeAndSendMessage(0x0030, 3, new byte[3] {30,30,0});
+            //UartEncodeAndSendMessage(0x0030, 3, new byte[3] {30,30,0});
             UartEncodeAndSendMessage(0x0040, 2, new byte[2] {50,50});
         }
-            private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
-            {
-                // Code ici (ou laisse vide pour l’instant)
-            }
 
-            private void IR_Centre_TextChanged(object sender, TextChangedEventArgs e)
-            {
-                // Code ici
-            }
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
 
-            private void CheckBox_Checked(object sender, RoutedEventArgs e)
-            {
-                // Code ici
-            }
-        
-    
-
-}
+        }
+    }
 }    
     
 
