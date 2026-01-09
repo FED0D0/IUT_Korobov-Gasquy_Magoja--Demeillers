@@ -41,7 +41,7 @@
         <TextBox x:Name="IR_Gauche" TextWrapping="Wrap" Text="IR Gauche :" Grid.Column="1" Margin="128,20,131,20" Grid.RowSpan="2" Grid.Row="2" />
         <TextBox x:Name="IR_Centre" TextWrapping="Wrap" Text="IR Centre :" Grid.Column="1" Margin="128,10,131,0" Grid.Row="3" />
         <TextBox x:Name="IR_Droit" TextWrapping="Wrap" Text="IR Droit :" Grid.Column="1" Margin="128,30,131,10" Grid.Row="3" Grid.RowSpan="2" />
-        <TextBox x:Name="Vitesse_Gauche" TextWrapping="Wrap" Text="Vitesse Gauche :" Grid.Column="1" Margin="247,23,12,20" Grid.RowSpan="2" Grid.Row="2"/>
+        <TextBox x:Name="Vitesse_Gauche" TextWrapping="Wrap" Text="Vit Gauche :" Grid.Column="1" Margin="247,23,12,20" Grid.RowSpan="2" Grid.Row="2"/>
         <TextBox x:Name="Vitesse_Droit" TextWrapping="Wrap" Text="Vitesse Droit :" Grid.Column="1" Margin="247,10,12,3" Grid.Row="3"/>
         <TextBox x:Name="Depl" TextWrapping="Wrap" Text="Depl" Grid.Column="3" Margin="10,314,245,0" Grid.RowSpan="2" Grid.Row="1"/>
     </Grid>

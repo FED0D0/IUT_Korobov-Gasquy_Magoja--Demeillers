@@ -200,8 +200,22 @@ namespace WpfApp1
                     IR_Droit.Text = "IR Droit : " + Convert.ToUInt16(msgPayload[2].ToString("X2"), 16);
                     break;
                 case (int)RobotFunction.Motor:
-                    Vitesse_Gauche.Text = "Vitesse Gauche : " + Convert.ToUInt16(msgPayload[0].ToString("X2"), 16);
-                    Vitesse_Droit.Text = "Vitesse Droit : " + Convert.ToUInt16(msgPayload[1].ToString("X2"), 16);
+                    sbyte vitG = (sbyte)msgPayload[0];
+                    sbyte vitD = (sbyte)msgPayload[1];
+                    Vitesse_Gauche.Text = "Vit Gauche : " + vitG;
+                    Vitesse_Droit.Text = "Vit Droit : " + vitD;
+                    break;
+                case (int)RobotFunction.Depl:
+                    int instant = (((int)msgPayload[1]) << 24) + (((int)msgPayload[2]) << 16)
+                    + (((int)msgPayload[3]) << 8) + ((int)msgPayload[4]);
+                    textBoxReception.Text += "\nRobot␣State : " +
+                    ((StateRobot)(msgPayload[0])).ToString() +
+                    " - " + instant.ToString() + " ms";
+                    Depl.Dispatcher.Invoke(() =>
+                    {
+                        Depl.Text = "Déplacement en cours : " + ((StateRobot)msgPayload[0]).ToString() +
+                                    "\nDurée : " + instant + " ms";
+                    });
                     break;
                     //case (int)RobotFunction.Depl:
                     //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[0].ToString("X2"), 16);
@@ -212,7 +226,26 @@ namespace WpfApp1
                     //    break;
             }
         }
-        
+        public enum StateRobot
+        {
+            STATE_ATTENTE = 0,
+            STATE_ATTENTE_EN_COURS = 1,
+            STATE_AVANCE = 2,
+            STATE_AVANCE_EN_COURS = 3,
+            STATE_TOURNE_GAUCHE = 4,
+            STATE_TOURNE_GAUCHE_EN_COURS = 5,
+            STATE_TOURNE_DROITE = 6,
+            STATE_TOURNE_DROITE_EN_COURS = 7,
+            STATE_TOURNE_SUR_PLACE_GAUCHE = 8,
+            STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS = 9,
+            STATE_TOURNE_SUR_PLACE_DROITE = 10,
+            STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS = 11,
+            STATE_ARRET = 12,
+            STATE_ARRET_EN_COURS = 13,
+            STATE_RECULE = 14,
+            STATE_RECULE_EN_COURS = 15
+        }
+
         enum RobotFunction { 
             Text = 0x0080, 
             LED = 0x0020, 
