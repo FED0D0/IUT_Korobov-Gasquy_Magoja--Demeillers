@@ -2,8 +2,8 @@
 #define	UART_Protocol_H
 #define SET_ROBOT_STATE 0x0051
 #define SET_ROBOT_MANUAL_CONTROL 0x0052
-
 extern unsigned char autoControlActivated;
+extern unsigned char stateRobot;
 
 unsigned char UartCalculateChecksum(int msgFunction,
 int msgPayloadLength, unsigned char* msgPayload);

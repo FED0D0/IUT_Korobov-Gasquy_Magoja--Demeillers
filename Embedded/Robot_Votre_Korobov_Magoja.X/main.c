@@ -13,6 +13,8 @@
 #include "CB_TX1.h"
 #include "CB_RX1.h"
 #include "UART_Protocol.h"
+#include "QEI.h"
+
 
 int ADCValue0;
 int ADCValue1;
@@ -57,6 +59,8 @@ int main(void) {
 //    InitQEI2();
 
     while (1) {
+        InitQEI1();
+        InitQEI2();
         // Vérifie si un octet a été reçu
         while (CB_RX1_IsDataAvailable()) {
     octetRecu = CB_RX1_Get();      
@@ -135,8 +139,8 @@ int main(void) {
                 payload2[2] = robotState.distanceTelemetreDroit;
                 UartEncodeAndSendMessage(0x0030, 3, payload2);
                 unsigned char payload3[2];
-                payload3[0] = (int8_t)robotState.vitesseGaucheCommandeCourante;
-                payload3[1] = (int8_t)robotState.vitesseDroiteCommandeCourante;
+                payload3[0] = (uint8_t)robotState.vitesseGaucheCommandeCourante;
+                payload3[1] = (uint8_t)robotState.vitesseDroiteCommandeCourante;
                 UartEncodeAndSendMessage(0x0040, 2, payload3);
             }
         }
@@ -145,7 +149,7 @@ int main(void) {
     }
 }
 
-unsigned char stateRobot;
+unsigned char stateRobot = 0;
 
 void OperatingSystemLoop(void) {
         switch (stateRobot) {
@@ -156,8 +160,10 @@ void OperatingSystemLoop(void) {
                 stateRobot = STATE_ATTENTE_EN_COURS;
                 SendDeplacementStep(STATE_ATTENTE, timestamp);
             case STATE_ATTENTE_EN_COURS:
+                if ( autoControlActivated == 1){
                 if (timestamp > 1000)
                     stateRobot = STATE_AVANCE;
+                }
                 break;
             case STATE_AVANCE:
                 PWMSetSpeedConsigne(-30, MOTEUR_DROIT);

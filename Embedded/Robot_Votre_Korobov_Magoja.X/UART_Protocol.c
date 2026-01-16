@@ -31,7 +31,7 @@ void SendDeplacementStep(uint8_t step, uint32_t timeMs) {
     payload[3] = (timeMs >> 8) & 0xFF;
     payload[4] = timeMs & 0xFF;
 
-    UartEncodeAndSendMessage(0x0051, 5, payload);
+    UartEncodeAndSendMessage(0x0050, 5, payload);
 }
 
 void UartEncodeAndSendMessage(int msgFunction,
@@ -79,7 +79,6 @@ void UartDecodeMessage(unsigned char c) {
                 rcvState = FUNCTION_MSB; // On passe à la lecture de la fonction
             }
             break;
-
         case FUNCTION_MSB:
             msgDecodedFunction = c << 8; // Premier octet de la fonction
             rcvState = FUNCTION_LSB; // On passe au second octet
@@ -145,8 +144,11 @@ void UartProcessDecodedMessage(int msgFunction, int payloadLength, unsigned char
     }
 }
 
-void SetRobotState(unsigned char stateRobot) {
-    switch (stateRobot) {
+void SetRobotState(unsigned char state) {
+    switch (state) {
+        case STATE_ATTENTE:
+            stateRobot = STATE_ATTENTE;
+            break;
         case STATE_TOURNE_SUR_PLACE_GAUCHE:
             stateRobot = STATE_TOURNE_SUR_PLACE_GAUCHE;
             break;
