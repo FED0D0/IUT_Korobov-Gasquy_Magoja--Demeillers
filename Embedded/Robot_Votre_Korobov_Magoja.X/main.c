@@ -53,6 +53,8 @@ int main(void) {
     LED_ROUGE_2 = 1;
     LED_VERTE_2 = 1;
     //    unsigned char payload[] = {'B', 'o', 'n', 'j','o', 'u', 'r', '\n'};
+//    InitQEI1();
+//    InitQEI2();
 
     while (1) {
         // Vérifie si un octet a été reçu
@@ -164,6 +166,7 @@ void OperatingSystemLoop(void) {
                 stateRobot = STATE_AVANCE_EN_COURS;
                 break;
             case STATE_AVANCE_EN_COURS:
+                if ( autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
                 break;
             case STATE_TOURNE_GAUCHE:
@@ -173,6 +176,7 @@ void OperatingSystemLoop(void) {
                 stateRobot = STATE_TOURNE_GAUCHE_EN_COURS;
                 break;
             case STATE_TOURNE_GAUCHE_EN_COURS:
+                if ( autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
                 break;
             case STATE_TOURNE_DROITE:
@@ -182,6 +186,7 @@ void OperatingSystemLoop(void) {
                 stateRobot = STATE_TOURNE_DROITE_EN_COURS;
                 break;
             case STATE_TOURNE_DROITE_EN_COURS:
+                if ( autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
                 break;
             case STATE_TOURNE_SUR_PLACE_GAUCHE:
@@ -191,6 +196,7 @@ void OperatingSystemLoop(void) {
                 stateRobot = STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS;
                 break;
             case STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS:
+                if ( autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
                 break;
             case STATE_TOURNE_SUR_PLACE_DROITE:
@@ -200,6 +206,7 @@ void OperatingSystemLoop(void) {
                 stateRobot = STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS;
                 break;
             case STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS:
+                if ( autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
                 break;
             default:

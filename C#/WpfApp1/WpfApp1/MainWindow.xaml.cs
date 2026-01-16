@@ -13,6 +13,7 @@ using System.IO.Ports;
 using System.Windows.Threading;
 using WpfApp1;
 using System.Reflection;
+using KeyboardHook_NS;
 namespace WpfApp1
 {
     /// <summary>
@@ -20,6 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        private GlobalKeyboardHook _globalKeyboardHook;
         bool toogle;
         string receivedText;
         ExtendedSerialPort serialPort1;
@@ -35,7 +37,8 @@ namespace WpfApp1
             serialPort1 = new ExtendedSerialPort("COM5", 115200, Parity.None, 8, StopBits.One);
             serialPort1.DataReceived += SerialPort1_DataReceived;
             serialPort1.Open();
-
+            _globalKeyboardHook = new GlobalKeyboardHook();
+            _globalKeyboardHook.KeyPressed += _globalKeyboardHook_KeyPressed;
         }
         public void SerialPort1_DataReceived(object sender, DataReceivedArgs e)
         {
@@ -99,7 +102,6 @@ namespace WpfApp1
 
             for (int i = 0; i < msgPayloadLength; i++)
                 frame[index++] = msgPayload[i];
-
       
             frame[index++] = CalculateChecksum(msgFunction, msgPayloadLength, msgPayload);
 
@@ -126,7 +128,7 @@ namespace WpfApp1
 
         int calculatedChecksum = 0;
         byte receivedChecksum = 0;
-
+        byte autoControlActivated = 1;
         private void DecodeMessage(byte c)
         {
             switch (rcvState)
@@ -187,7 +189,28 @@ namespace WpfApp1
                     }
             }
         }
-       private void ProcessDecodedMessage(int msgFunction, int msgPayloadLength, byte[] msgPayload)
+        private void _globalKeyboardHook_KeyPressed(object? sender, KeyArgs e)
+        {
+            switch (e.keyCode)
+            {
+                case KeyCode.LEFT:
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)StateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE });
+                    break;
+                case KeyCode.RIGHT:
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)StateRobot.STATE_TOURNE_SUR_PLACE_DROITE });
+                    break;
+                case KeyCode.UP:
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)StateRobot.STATE_AVANCE });
+                    break;
+                case KeyCode.DOWN:
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)StateRobot.STATE_ATTENTE });
+                    break;
+                case KeyCode.PAGEDOWN:
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)StateRobot.STATE_RECULE });
+                    break;
+            }
+        }
+        private void ProcessDecodedMessage(int msgFunction, int msgPayloadLength, byte[] msgPayload)
         {
             switch (msgFunction)
             {
@@ -310,11 +333,16 @@ namespace WpfApp1
 
             if (serialPort1.IsOpen)
                 serialPort1.Write(byteList, 0, byteList.Length);*/
-
-            UartEncodeAndSendMessage(0x0080, 7, Encoding.UTF8.GetBytes("Bonjour"));
-            UartEncodeAndSendMessage(0x0020, 2, new byte[2] {0, 1});
+            UartEncodeAndSendMessage(0x0052, 1, new byte[1] { 0 });
+            //UartEncodeAndSendMessage(0x0080, 7, Encoding.UTF8.GetBytes("Bonjour"));
+            // UartEncodeAndSendMessage(0x0020, 2, new byte[2] {0, 1});
             //UartEncodeAndSendMessage(0x0030, 3, new byte[3] {30,30,0});
-            UartEncodeAndSendMessage(0x0040, 2, new byte[2] {50,50});
+            //UartEncodeAndSendMessage(0x0040, 2, new byte[2] {50,50});
+            if (autoControlActivated == 1)
+                autoControlActivated = 0;
+            else
+                autoControlActivated = 1;
+            UartEncodeAndSendMessage(0x0052, autoControlActivated, new byte[1] { 1 });
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
@@ -322,6 +350,7 @@ namespace WpfApp1
 
         }
     }
+
 }    
     
 
