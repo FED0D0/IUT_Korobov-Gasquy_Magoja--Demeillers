@@ -3,6 +3,10 @@
 #include "ToolBox.h"
 #include "Robot.h"
 #include "math.h"
+#include <xc.h>
+#include "Utilities.h"
+#include "UART_Protocol.h"
+#include "Timer.h"
 #define DISTROUES 0.2812
 
 void InitQEI1()
@@ -26,6 +30,7 @@ double QeiGauchePosition;
 double FREQ_ECH_QEI = 250;
 void QEIUpdateData()
 {
+    
 //On sauvegarde les anciennes valeurs
 QeiDroitPosition_T_1 = QeiDroitPosition;
 QeiGauchePosition_T_1 = QeiGauchePosition;
@@ -51,11 +56,43 @@ robotState.xPosFromOdometry_1 = robotState.xPosFromOdometry;
 robotState.yPosFromOdometry_1 = robotState.yPosFromOdometry;
 robotState.angleRadianFromOdometry_1 = robotState.angleRadianFromOdometry;
 //Calcul des positions dans le referentiel du terrain
-robotState.xPosFromOdometry = robotState.xPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * cos (robotState.vitesseAngulaireFromOdometry/FREQ_ECH_QEI) * FREQ_ECH_QEI;
-robotState.yPosFromOdometry = robotState.yPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * sin (robotState.vitesseAngulaireFromOdometry/FREQ_ECH_QEI) * FREQ_ECH_QEI;
+robotState.xPosFromOdometry = robotState.xPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * cos (robotState.angleRadianFromOdometry_1) * FREQ_ECH_QEI;
+robotState.yPosFromOdometry = robotState.yPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * sin (robotState.angleRadianFromOdometry_1) * FREQ_ECH_QEI;
 robotState.angleRadianFromOdometry = robotState.vitesseAngulaireFromOdometry/FREQ_ECH_QEI;
 if(robotState.angleRadianFromOdometry > PI)
 robotState.angleRadianFromOdometry -= 2*PI;
 if(robotState.angleRadianFromOdometry < -PI)
 robotState.angleRadianFromOdometry += 2*PI;
+
+}
+
+#define QEI_FRAME_SIZE 12
+
+void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed)
+{
+    unsigned char txBuffer[QEI_FRAME_SIZE];
+
+    txBuffer[0] = (timestamp >> 0)  & 0xFF;
+    txBuffer[1] = (timestamp >> 8)  & 0xFF;
+    txBuffer[2] = (timestamp >> 16) & 0xFF;
+    txBuffer[3] = (timestamp >> 24) & 0xFF;
+
+    getBytesFromFloat(txBuffer, 4, position);
+
+    getBytesFromFloat(txBuffer, 8, speed);
+}
+#define POSITION_DATA 0x0061
+
+void SendPositionData(void)
+{
+    unsigned char positionPayload[24];
+
+    getBytesFromInt32(positionPayload, 0, timestamp);
+    getBytesFromFloat(positionPayload, 4, (float)(robotState.xPosFromOdometry));
+    getBytesFromFloat(positionPayload, 8, (float)(robotState.yPosFromOdometry));
+    getBytesFromFloat(positionPayload, 12, (float)(robotState.angleRadianFromOdometry));
+    getBytesFromFloat(positionPayload, 16, (float)(robotState.vitesseLineaireFromOdometry));
+    getBytesFromFloat(positionPayload, 20, (float)(robotState.vitesseAngulaireFromOdometry));
+
+    UartEncodeAndSendMessage(POSITION_DATA, 24, positionPayload);
 }

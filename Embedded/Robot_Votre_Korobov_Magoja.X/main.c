@@ -59,8 +59,8 @@ int main(void) {
 //    InitQEI2();
 
     while (1) {
-        InitQEI1();
-        InitQEI2();
+//        InitQEI1();
+//        InitQEI2();
         // Vérifie si un octet a été reçu
         while (CB_RX1_IsDataAvailable()) {
     octetRecu = CB_RX1_Get();      

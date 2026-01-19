@@ -5,7 +5,9 @@
 #include "ADC.h"
 #include "main.h"
 #include "ChipConfig.h"
-
+#include "Utilities.h"
+#include "QEI.h"
+volatile uint8_t sendPositionDivider = 0;
 //Initialisation d?un timer 16 bits
 
 
@@ -66,9 +68,16 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
 //    LED_BLEUE_1 = !LED_BLEUE_1;
     PWMUpdateSpeed();
     ADC1StartConversionSequence();
+//    SendPositionData();
+    if (sendPositionDivider >= 50)   // 50 × 2 ms = 100 ms
+    {
+        sendPositionDivider = 0;
+        SendPositionData();
+    }
     //InitADC1();
 }
-//Initialisation d?un timer 32 bits
+
+
 unsigned long timestamp;        
 unsigned long t0;
 unsigned long t1=0;
