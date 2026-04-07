@@ -41,8 +41,8 @@ int main(void) {
     robotState.vitesseDroiteCommandeCourante = 0;
 
     unsigned char octetRecu;
-    //         PWMSetSpeedConsigne(0, 0);
-    //         PWMSetSpeedConsigne(0, 1);
+//             PWMSetSpeedConsigne(0, 0);
+//             PWMSetSpeedConsigne(0, 1);
 
     //    LED_BLANCHE_1 = 1;
     //    LED_BLEUE_1 = 1;

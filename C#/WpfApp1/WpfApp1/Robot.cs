@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,13 +14,13 @@ namespace WpfApp1
         public float distanceTelemetreCentre;
         public float distanceTelemetreGauche;
         public Queue<byte> byteListReceived;
+        internal float positionXOdo;
+        internal float positionYOdo;
 
         public Robot()
         {
             byteListReceived = new Queue<byte>();
-            
-
-        }
+    }
 
 
 

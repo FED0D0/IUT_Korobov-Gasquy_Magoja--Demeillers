@@ -14,6 +14,7 @@ using System.Windows.Threading;
 using WpfApp1;
 using System.Reflection;
 using KeyboardHook_NS;
+
 namespace WpfApp1
 {
     /// <summary>
@@ -34,7 +35,7 @@ namespace WpfApp1
             timerAffichage.Tick += TimerAffichage_Tick;
             timerAffichage.Start();
             InitializeComponent();
-            serialPort1 = new ExtendedSerialPort("COM5", 115200, Parity.None, 8, StopBits.One);
+            serialPort1 = new ExtendedSerialPort("COM3", 115200, Parity.None, 8, StopBits.One);
             serialPort1.DataReceived += SerialPort1_DataReceived;
             serialPort1.Open();
             _globalKeyboardHook = new GlobalKeyboardHook();
@@ -240,6 +241,25 @@ namespace WpfApp1
                                     "\nDurée : " + instant + " ms";
                     });
                     break;
+                case (int)RobotFunction.PositionData:
+                {
+                    if (msgPayloadLength >= 12)
+                    {
+                        float x = BitConverter.ToSingle(msgPayload, 4);
+                        float y = BitConverter.ToSingle(msgPayload, 8);
+
+                        robot.positionXOdo = x;
+                        robot.positionYOdo = y;
+
+                            PositionData.Text += $"\nPosition : X={x}, Y={y}";
+                    }
+                        else
+                        {
+                            PositionData.Text += "\nErreur : payload trop court pour POSITION_DATA";
+                        }
+                        break;
+                    }
+
                     //case (int)RobotFunction.Depl:
                     //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[0].ToString("X2"), 16);
                     //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[1].ToString("X2"), 16);
@@ -247,6 +267,7 @@ namespace WpfApp1
                     //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[3].ToString("X2"), 16);
                     //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[4].ToString("X2"), 16);
                     //    break;
+
             }
         }
         public enum StateRobot
@@ -274,7 +295,8 @@ namespace WpfApp1
             LED = 0x0020, 
             IR = 0x0030, 
             Motor = 0x0040,
-            Depl = 0x0050
+            Depl = 0x0050,
+            PositionData = 0x0052
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
