@@ -26,9 +26,11 @@ typedef struct robotStateBITS {
             double xPosFromOdometry;
             double yPosFromOdometry;
             double angleRadianFromOdometry;
-            
+
         };
     };
-} ROBOT_STATE_BITS;
+}
+
+ROBOT_STATE_BITS;
 extern volatile ROBOT_STATE_BITS robotState;
 #endif /* ROBOT_H */

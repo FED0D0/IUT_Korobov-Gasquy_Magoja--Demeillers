@@ -259,7 +259,81 @@ namespace WpfInterfaceRobot
                             PositionData.Text = "Erreur : payload trop court pour POSITION_DATA";
                         }
                         break;
+
                     }
+                case (int)RobotFunction.TEST_PID:
+                    {
+                        if (msgPayloadLength >= 104)
+                        {
+                            // CONSIGNE
+                            float Con_x = BitConverter.ToSingle(msgPayload, 4);
+                            float Con_t = BitConverter.ToSingle(msgPayload, 8);
+                            asservSpeedDisplay.UpdatePolarSpeedConsigneValues(Con_x, Con_t);
+
+                            // MESURE
+                            float Mes_x = BitConverter.ToSingle(msgPayload, 12);
+                            float Mes_t = BitConverter.ToSingle(msgPayload, 16);
+                            asservSpeedDisplay.UpdatePolarOdometrySpeed(Mes_x, Mes_t);
+
+                            // ERREUR
+                            float Err_x = BitConverter.ToSingle(msgPayload, 20);
+                            float Err_t = BitConverter.ToSingle(msgPayload, 24);
+                            asservSpeedDisplay.UpdatePolarSpeedErrorValues(Err_x, Err_t);
+
+                            // COMMANDE
+                            float Com_x = BitConverter.ToSingle(msgPayload, 28);
+                            float Com_t = BitConverter.ToSingle(msgPayload, 32);
+                            asservSpeedDisplay.UpdatePolarSpeedCommandValues(Com_x, Com_t);
+
+                            // KP
+                            float Kp_x = BitConverter.ToSingle(msgPayload, 36);
+                            float Kp_t = BitConverter.ToSingle(msgPayload, 40);
+
+                            // KI
+                            float Ki_x = BitConverter.ToSingle(msgPayload, 60);
+                            float Ki_t = BitConverter.ToSingle(msgPayload, 64);
+
+                            // KD
+                            float Kd_x = BitConverter.ToSingle(msgPayload, 84);
+                            float Kd_t = BitConverter.ToSingle(msgPayload, 88);
+                            asservSpeedDisplay.UpdatePolarSpeedCorrectionGains(Kp_x, Kp_t, Ki_x, Ki_t, Kd_x, Kd_t);
+
+                            // CORRECTION P
+                            float Cor_p_x = BitConverter.ToSingle(msgPayload, 44);
+                            float Cor_p_t = BitConverter.ToSingle(msgPayload, 48);
+
+                            // CORRECTION I
+                            float Cor_i_x = BitConverter.ToSingle(msgPayload, 68);
+                            float Cor_i_t = BitConverter.ToSingle(msgPayload, 72);
+
+                            // CORRECTION D
+                            float Cor_d_x = BitConverter.ToSingle(msgPayload, 92);
+                            float Cor_d_t = BitConverter.ToSingle(msgPayload, 96);
+
+                            asservSpeedDisplay.UpdatePolarSpeedCorrectionValues(Cor_p_x, Cor_p_t, Cor_i_x, Cor_i_t, Cor_d_x, Cor_d_t);
+
+                            // CORRECTION MAX P
+                            float Cor_p_max_x = BitConverter.ToSingle(msgPayload, 52);
+                            float Cor_p_max_t = BitConverter.ToSingle(msgPayload, 56);
+
+                            // CORRECTION MAX P
+                            float Cor_i_max_x = BitConverter.ToSingle(msgPayload, 76);
+                            float Cor_i_max_t = BitConverter.ToSingle(msgPayload, 80);
+
+                            // CORRECTION MAX P
+                            float Cor_d_max_x = BitConverter.ToSingle(msgPayload, 100);
+                            float Cor_d_max_t = BitConverter.ToSingle(msgPayload, 104);
+
+                            asservSpeedDisplay.UpdatePolarSpeedCorrectionLimits(Cor_p_max_x, Cor_p_max_t, Cor_i_max_x, Cor_i_max_t, Cor_d_max_x, Cor_d_max_t);
+
+                        }
+                        else
+                        {
+                            PositionData.Text = "Erreur : payload trop court pour TEST_PID";
+                        }
+                        break;
+                    }
+
 
                     //case (int)RobotFunction.Depl:
                     //    Depl.Text = "Consigne De déplacement : " + Convert.ToUInt16(msgPayload[0].ToString("X2"), 16);
@@ -298,7 +372,8 @@ namespace WpfInterfaceRobot
             IR = 0x0030,
             Motor = 0x0040,
             Depl = 0x0050,
-            PositionData = 0x0061
+            PositionData = 0x0061,
+            TEST_PID = 0x0062
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

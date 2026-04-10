@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "CB_TX1.h"
-#define CBTX1_BUFFER_SIZE 128
+#define CBTX1_BUFFER_SIZE 512
 volatile int cbTx1Head = 0;
 volatile int cbTx1Tail = 0;
 volatile unsigned char cbTx1Buffer[CBTX1_BUFFER_SIZE];

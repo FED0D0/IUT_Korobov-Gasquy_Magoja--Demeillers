@@ -96,3 +96,67 @@ void SendPositionData(void)
 
     UartEncodeAndSendMessage(POSITION_DATA, 24, positionPayload);
 }
+
+#define TEST_PID 0x0062
+
+void PIDTest(void)
+{
+    unsigned char pidPayload[108];
+    
+    float CON_X = 1;
+    float CON_T = 2;
+    float MES_X = 3;
+    float MES_T = 4;
+    float ERR_X = 5;
+    float ERR_T = 6;
+    float COM_X = 7;
+    float COM_T = 8;
+    float KP_X = 9;
+    float KP_T = 10;
+    float COR_P_X = 11;
+    float COR_P_T = 12;
+    float COR_P_MAX_X = 13;
+    float COR_P_MAX_T = 14;
+    float KI_X = 15;
+    float KI_T = 16;
+    float COR_I_X = 17;
+    float COR_I_T = 18;
+    float COR_I_MAX_X = 19;
+    float COR_I_MAX_T = 20;
+    float KD_X = 21;
+    float KD_T = 22;
+    float COR_D_X = 23;
+    float COR_D_T = 24;
+    float COR_D_MAX_X = 25;
+    float COR_D_MAX_T = 26;
+    
+    getBytesFromInt32(pidPayload, 0, timestamp);
+    getBytesFromFloat(pidPayload, 4, CON_X);
+    getBytesFromFloat(pidPayload, 8, CON_T);
+    getBytesFromFloat(pidPayload, 12, MES_X);
+    getBytesFromFloat(pidPayload, 16, MES_T);
+    getBytesFromFloat(pidPayload, 20, ERR_X);
+    getBytesFromFloat(pidPayload, 24, ERR_T);
+    getBytesFromFloat(pidPayload, 28, COM_X);
+    getBytesFromFloat(pidPayload, 32, COM_T);
+    getBytesFromFloat(pidPayload, 36, KP_X);
+    getBytesFromFloat(pidPayload, 40, KP_T);
+    getBytesFromFloat(pidPayload, 44, COR_P_X);
+    getBytesFromFloat(pidPayload, 48, COR_P_T);
+    getBytesFromFloat(pidPayload, 52, COR_P_MAX_X);
+    getBytesFromFloat(pidPayload, 56, COR_P_MAX_T);
+    getBytesFromFloat(pidPayload, 60, KI_X);
+    getBytesFromFloat(pidPayload, 64, KI_T);
+    getBytesFromFloat(pidPayload, 68, COR_I_X);
+    getBytesFromFloat(pidPayload, 72, COR_I_T);
+    getBytesFromFloat(pidPayload, 76, COR_I_MAX_X);
+    getBytesFromFloat(pidPayload, 80, COR_I_MAX_T);
+    getBytesFromFloat(pidPayload, 84, KD_X);
+    getBytesFromFloat(pidPayload, 88, KD_T);
+    getBytesFromFloat(pidPayload, 92, COR_D_X);
+    getBytesFromFloat(pidPayload, 96, COR_D_T);
+    getBytesFromFloat(pidPayload, 100, COR_D_MAX_X);
+    getBytesFromFloat(pidPayload, 104, COR_D_MAX_T);
+    
+    UartEncodeAndSendMessage(TEST_PID, 108, pidPayload);
+}
