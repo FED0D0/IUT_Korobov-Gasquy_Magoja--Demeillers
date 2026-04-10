@@ -12,4 +12,10 @@
     <ProjectReference Include="..\..\ExtendedSerialPort .NET6\ExtendedSerialPort .NET6\ExtendedSerialPort\ExtendedSerialPort\ExtendedSerialPort.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="WpfOscilloscopeControl">
+      <HintPath>..\..\..\..\IUT_Lacote_Melvin\C#\RobotInterface\WpfOscilloscope\bin\Debug\WpfOscilloscopeControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

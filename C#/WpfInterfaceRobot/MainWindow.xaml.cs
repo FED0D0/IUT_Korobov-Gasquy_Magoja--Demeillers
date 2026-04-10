@@ -15,11 +15,12 @@ using WpfApp1;
 using System.Reflection;
 using KeyboardHook_NS;
 
-namespace WpfApp1
+namespace WpfInterfaceRobot
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+
     public partial class MainWindow : Window
     {
         private GlobalKeyboardHook _globalKeyboardHook;
@@ -44,20 +45,20 @@ namespace WpfApp1
         public void SerialPort1_DataReceived(object sender, DataReceivedArgs e)
         {
             //receivedText += Encoding.UTF8.GetString(e.Data, 0, e.Data.Length);
-            for(int i = 0; i< e.Data.Length; i++)
+            for (int i = 0; i < e.Data.Length; i++)
             {
                 robot.byteListReceived.Enqueue(e.Data[i]);
 
 
             }
-            
-                
+
+
         }
         public void TimerAffichage_Tick(object? sender, EventArgs e)
         {
-            
 
-            while(robot.byteListReceived.Count()>0)
+
+            while (robot.byteListReceived.Count() > 0)
             {
                 var b = robot.byteListReceived.Dequeue();
                 DecodeMessage(b);
@@ -86,27 +87,27 @@ namespace WpfApp1
         }
         void UartEncodeAndSendMessage(int msgFunction, int msgPayloadLength, byte[] msgPayload)
         {
-            
+
             int totalLength = 1 + 2 + 2 + msgPayloadLength + 1;
             byte[] frame = new byte[totalLength];
 
             int index = 0;
             frame[index++] = 0xFE;
 
-            
-            frame[index++] = (byte)(msgFunction>>8);
+
+            frame[index++] = (byte)(msgFunction >> 8);
             frame[index++] = (byte)(msgFunction >> 0);
 
 
-            frame[index++] = (byte)(msgPayloadLength >>8);
+            frame[index++] = (byte)(msgPayloadLength >> 8);
             frame[index++] = (byte)(msgPayloadLength >> 0);
 
             for (int i = 0; i < msgPayloadLength; i++)
                 frame[index++] = msgPayload[i];
-      
+
             frame[index++] = CalculateChecksum(msgFunction, msgPayloadLength, msgPayload);
 
-            
+
             serialPort1.Write(frame, 0, frame.Length);
         }
         public enum StateReception
@@ -141,7 +142,7 @@ namespace WpfApp1
 
                     }
                     break;
-                    
+
                 case StateReception.FunctionMSB:
                     msgDecodedFunction = c << 8;
                     rcvState = StateReception.FunctionLSB;
@@ -175,7 +176,7 @@ namespace WpfApp1
                     if (calculatedChecksum == receivedChecksum)
                     {
                         ProcessDecodedMessage(msgDecodedFunction, msgDecodedPayLoadLength, msgDecodedPayLoad);
-                            //Success, on a un message valide
+                        //Success, on a un message valide
                     }
                     else
                     {
@@ -242,17 +243,17 @@ namespace WpfApp1
                     });
                     break;
                 case (int)RobotFunction.PositionData:
-                {
-                    if (msgPayloadLength >= 12)
                     {
-                        float x = BitConverter.ToSingle(msgPayload, 4);
-                        float y = BitConverter.ToSingle(msgPayload, 8);
+                        if (msgPayloadLength >= 12)
+                        {
+                            float x = BitConverter.ToSingle(msgPayload, 4);
+                            float y = BitConverter.ToSingle(msgPayload, 8);
 
-                        robot.positionXOdo = x;
-                        robot.positionYOdo = y;
+                            robot.positionXOdo = x;
+                            robot.positionYOdo = y;
 
                             PositionData.Text = $"Position : X={x}, Y={y}";
-                    }
+                        }
                         else
                         {
                             PositionData.Text = "Erreur : payload trop court pour POSITION_DATA";
@@ -290,10 +291,11 @@ namespace WpfApp1
             STATE_RECULE_EN_COURS = 15
         }
 
-        enum RobotFunction { 
-            Text = 0x0080, 
-            LED = 0x0020, 
-            IR = 0x0030, 
+        enum RobotFunction
+        {
+            Text = 0x0080,
+            LED = 0x0020,
+            IR = 0x0030,
             Motor = 0x0040,
             Depl = 0x0050,
             PositionData = 0x0061

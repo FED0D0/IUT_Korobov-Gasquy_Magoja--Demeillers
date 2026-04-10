@@ -11,4 +11,10 @@
     <PackageReference Include="System.Management" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="WpfAsservissementDisplay">
+      <HintPath>..\..\..\..\..\..\..\Users\E306-PC5\Downloads\WpfAsservissementDisplay\WpfAsservissementDisplay\obj\Debug\net8.0-windows\WpfAsservissementDisplay.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
