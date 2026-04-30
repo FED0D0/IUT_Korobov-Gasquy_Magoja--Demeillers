@@ -1,5 +1,5 @@
 build/default/production/timer.o: timer.c Timer.h IO.h PWM.h ADC.h main.h \
- ChipConfig.h
+ ChipConfig.h Utilities.h QEI.h
 
 Timer.h:
 
@@ -12,3 +12,7 @@ ADC.h:
 main.h:
 
 ChipConfig.h:
+
+Utilities.h:
+
+QEI.h:

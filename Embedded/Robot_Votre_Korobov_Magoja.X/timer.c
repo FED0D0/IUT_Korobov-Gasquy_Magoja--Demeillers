@@ -75,6 +75,7 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
         sendPositionDivider = 0;
         SendPositionData();
         PIDTest();
+        QEIUpdateData();
     }
     //InitADC1();
 }

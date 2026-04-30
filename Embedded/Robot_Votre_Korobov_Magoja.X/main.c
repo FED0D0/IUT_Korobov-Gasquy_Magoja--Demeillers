@@ -33,6 +33,8 @@ int main(void) {
 
     InitADC1();
     InitPWM();
+    
+     //def
 
     // Initialisation simple de l'état du robot
     robotState.vitesseGaucheConsigne = 0;

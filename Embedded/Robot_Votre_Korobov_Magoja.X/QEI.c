@@ -133,8 +133,8 @@ void PIDTest(void)
     getBytesFromInt32(pidPayload, 0, timestamp);
     getBytesFromFloat(pidPayload, 4, CON_X);
     getBytesFromFloat(pidPayload, 8, CON_T);
-    getBytesFromFloat(pidPayload, 12, MES_X);
-    getBytesFromFloat(pidPayload, 16, MES_T);
+    getBytesFromFloat(pidPayload, 12, (float)(robotState.vitesseLineaireFromOdometry));
+    getBytesFromFloat(pidPayload, 16, (float)(robotState.vitesseAngulaireFromOdometry));
     getBytesFromFloat(pidPayload, 20, ERR_X);
     getBytesFromFloat(pidPayload, 24, ERR_T);
     getBytesFromFloat(pidPayload, 28, COM_X);
