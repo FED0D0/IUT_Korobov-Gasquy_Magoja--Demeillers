@@ -12,6 +12,7 @@ void InitQEI1();
 void InitQEI2();
 void SendPositionData(void);
 void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed);
+#define DISTROUES 0.2812
 
 #endif	/* QEI_H */
 

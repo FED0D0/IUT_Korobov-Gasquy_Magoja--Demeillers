@@ -7,7 +7,7 @@
 #include "Utilities.h"
 #include "UART_Protocol.h"
 #include "Timer.h"
-#define DISTROUES 0.2812
+
 
 void InitQEI1()
 {
@@ -66,6 +66,8 @@ robotState.angleRadianFromOdometry += 2*PI;
 
 }
 
+
+
 #define QEI_FRAME_SIZE 12
 
 void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed)
@@ -98,6 +100,11 @@ void SendPositionData(void)
 }
 
 #define TEST_PID 0x0062
+
+void PIDSend(void)
+{
+    
+}
 
 void PIDTest(void)
 {

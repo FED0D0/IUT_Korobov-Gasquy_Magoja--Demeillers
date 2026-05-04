@@ -33,8 +33,8 @@ int main(void) {
 
     InitADC1();
     InitPWM();
-    
-     //def
+
+    //def
 
     // Initialisation simple de l'état du robot
     robotState.vitesseGaucheConsigne = 0;
@@ -43,8 +43,8 @@ int main(void) {
     robotState.vitesseDroiteCommandeCourante = 0;
 
     unsigned char octetRecu;
-//             PWMSetSpeedConsigne(0, 0);
-//             PWMSetSpeedConsigne(0, 1);
+    //             PWMSetSpeedConsigne(0, 0);
+    //             PWMSetSpeedConsigne(0, 1);
 
     //    LED_BLANCHE_1 = 1;
     //    LED_BLEUE_1 = 1;
@@ -57,20 +57,22 @@ int main(void) {
     LED_ROUGE_2 = 1;
     LED_VERTE_2 = 1;
     //    unsigned char payload[] = {'B', 'o', 'n', 'j','o', 'u', 'r', '\n'};
-//    InitQEI1();
-//    InitQEI2();
+    //    InitQEI1();
+    //    InitQEI2();
 
     while (1) {
-//        InitQEI1();
-//        InitQEI2();
+        
+        PWMSetSpeedConsignePolaire(1,0);
+        //        InitQEI1();
+        //        InitQEI2();
         // Vérifie si un octet a été reçu
         while (CB_RX1_IsDataAvailable()) {
-    octetRecu = CB_RX1_Get();      
-    UartDecodeMessage(octetRecu);  
+            octetRecu = CB_RX1_Get();
+            UartDecodeMessage(octetRecu);
         }
-        PWMUpdateSpeed();   
-        
-        OperatingSystemLoop();
+        PWMUpdateSpeed();
+
+//        OperatingSystemLoop();
         //    SendMessage((unsigned char*) "impot", 5);
         ////SendMessageDirect((unsigned char*) "Bonjour", 7);
 
@@ -82,10 +84,10 @@ int main(void) {
 
 
 
-////////        for (int i = 0; i < CB_RX1_GetDataSize(); i++) {
-////////            unsigned char c = CB_RX1_Get();
-////////            SendMessage(&c, 1);
-////////        }
+        ////////        for (int i = 0; i < CB_RX1_GetDataSize(); i++) {
+        ////////            unsigned char c = CB_RX1_Get();
+        ////////            SendMessage(&c, 1);
+        ////////        }
         //__delay32(1000);
 
         if (ADCIsConversionFinished() == 1) {
@@ -141,86 +143,104 @@ int main(void) {
                 payload2[2] = robotState.distanceTelemetreDroit;
                 UartEncodeAndSendMessage(0x0030, 3, payload2);
                 unsigned char payload3[2];
-                payload3[0] = (uint8_t)robotState.vitesseGaucheCommandeCourante;
-                payload3[1] = (uint8_t)robotState.vitesseDroiteCommandeCourante;
+                payload3[0] = (uint8_t) robotState.vitesseGaucheCommandeCourante;
+                payload3[1] = (uint8_t) robotState.vitesseDroiteCommandeCourante;
                 UartEncodeAndSendMessage(0x0040, 2, payload3);
             }
         }
 
 
     }
+
+
+    PWMSetSpeedConsignePolaire(
+            (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
+            (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
+            );
+    
+
 }
 
 unsigned char stateRobot = 0;
 
 void OperatingSystemLoop(void) {
-        switch (stateRobot) {
-            case STATE_ATTENTE:
-                timestamp = 0;
-                PWMSetSpeedConsigne(0, MOTEUR_DROIT);
-                PWMSetSpeedConsigne(0, MOTEUR_GAUCHE);
-                stateRobot = STATE_ATTENTE_EN_COURS;
-                SendDeplacementStep(STATE_ATTENTE, timestamp);
-            case STATE_ATTENTE_EN_COURS:
-                if ( autoControlActivated == 1){
+    switch (stateRobot) {
+        case STATE_ATTENTE:
+            timestamp = 0;
+            PWMSetSpeedConsignePolaire(0, 0);
+
+            stateRobot = STATE_ATTENTE_EN_COURS;
+            SendDeplacementStep(STATE_ATTENTE, timestamp);
+        case STATE_ATTENTE_EN_COURS:
+            if (autoControlActivated == 1) {
                 if (timestamp > 1000)
                     stateRobot = STATE_AVANCE;
-                }
-                break;
-            case STATE_AVANCE:
-                PWMSetSpeedConsigne(-30, MOTEUR_DROIT);
-                PWMSetSpeedConsigne(30, MOTEUR_GAUCHE);
-                SendDeplacementStep(STATE_AVANCE, timestamp);
-                stateRobot = STATE_AVANCE_EN_COURS;
-                break;
-            case STATE_AVANCE_EN_COURS:
-                if ( autoControlActivated == 1)
+            }
+            break;
+        case STATE_AVANCE:
+            PWMSetSpeedConsignePolaire(
+                    (-30 + 30) / 2.0f,
+                    (-30 - 30) / (2.0f * DISTROUES)
+                    );
+            SendDeplacementStep(STATE_AVANCE, timestamp);
+            stateRobot = STATE_AVANCE_EN_COURS;
+            break;
+        case STATE_AVANCE_EN_COURS:
+            if (autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
-                break;
-            case STATE_TOURNE_GAUCHE:
-                PWMSetSpeedConsigne(-13, MOTEUR_DROIT);
-                PWMSetSpeedConsigne(0, MOTEUR_GAUCHE);
-                SendDeplacementStep(STATE_TOURNE_GAUCHE, timestamp);
-                stateRobot = STATE_TOURNE_GAUCHE_EN_COURS;
-                break;
-            case STATE_TOURNE_GAUCHE_EN_COURS:
-                if ( autoControlActivated == 1)
+            break;
+        case STATE_TOURNE_GAUCHE:
+            PWMSetSpeedConsignePolaire(
+                    (-13 + 0) / 2.0f,
+                    (-13 - 0) / (2.0f * DISTROUES)
+                    );
+            SendDeplacementStep(STATE_TOURNE_GAUCHE, timestamp);
+            stateRobot = STATE_TOURNE_GAUCHE_EN_COURS;
+            break;
+        case STATE_TOURNE_GAUCHE_EN_COURS:
+            if (autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
-                break;
-            case STATE_TOURNE_DROITE:
-                PWMSetSpeedConsigne(0, MOTEUR_DROIT);
-                PWMSetSpeedConsigne(13, MOTEUR_GAUCHE);
-                SendDeplacementStep(STATE_TOURNE_DROITE, timestamp);
-                stateRobot = STATE_TOURNE_DROITE_EN_COURS;
-                break;
-            case STATE_TOURNE_DROITE_EN_COURS:
-                if ( autoControlActivated == 1)
+            break;
+        case STATE_TOURNE_DROITE:
+            PWMSetSpeedConsignePolaire(
+                    (0 + 13) / 2.0f,
+                    (0 - 13) / (2.0f * DISTROUES)
+                    );
+            SendDeplacementStep(STATE_TOURNE_DROITE, timestamp);
+            stateRobot = STATE_TOURNE_DROITE_EN_COURS;
+            break;
+        case STATE_TOURNE_DROITE_EN_COURS:
+            if (autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
-                break;
-            case STATE_TOURNE_SUR_PLACE_GAUCHE:
-                PWMSetSpeedConsigne(13, MOTEUR_DROIT);
-                PWMSetSpeedConsigne(13, MOTEUR_GAUCHE);
-                SendDeplacementStep(STATE_TOURNE_SUR_PLACE_GAUCHE, timestamp);
-                stateRobot = STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS;
-                break;
-            case STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS:
-                if ( autoControlActivated == 1)
+            break;
+        case STATE_TOURNE_SUR_PLACE_GAUCHE:
+            PWMSetSpeedConsignePolaire(
+                    (13 + 13) / 2.0f,
+                    (13 - 13) / (2.0f * DISTROUES)
+                    );
+            SendDeplacementStep(STATE_TOURNE_SUR_PLACE_GAUCHE, timestamp);
+            stateRobot = STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS;
+            break;
+        case STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS:
+            if (autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
-                break;
-            case STATE_TOURNE_SUR_PLACE_DROITE:
-                PWMSetSpeedConsigne(-13, MOTEUR_DROIT);
-                PWMSetSpeedConsigne(-13, MOTEUR_GAUCHE);
-                SendDeplacementStep(STATE_TOURNE_SUR_PLACE_DROITE, timestamp);
-                stateRobot = STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS;
-                break;
-            case STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS:
-                if ( autoControlActivated == 1)
+            break;
+        case STATE_TOURNE_SUR_PLACE_DROITE:
+            PWMSetSpeedConsignePolaire(
+                    (-13 + -13) / 2.0f,
+                    (-13 - (-13)) / (2.0f * DISTROUES)
+                    );
+            SendDeplacementStep(STATE_TOURNE_SUR_PLACE_DROITE, timestamp);
+            stateRobot = STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS;
+            break;
+        case STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS:
+            if (autoControlActivated == 1)
                 SetNextRobotStateInAutomaticMode();
-                break;
-            default:
-                stateRobot = STATE_ATTENTE;
-                break;
-        }
+            break;
+        default:
+            stateRobot = STATE_ATTENTE;
+            break;
+    }
 }
 
 unsigned char nextStateRobot = 0;
