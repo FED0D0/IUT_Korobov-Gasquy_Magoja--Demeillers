@@ -10,6 +10,7 @@
 
 
 //void PWMSetSpeed(float vitesseEnPourcents, float Moteur);
+void PWMSetSpeedConsignePolaire(float vitesseLineaire, float vitesseAngulaire);
 void PWMSetSpeedConsigne(float vitesseEnPourcents, float Moteur);
 void PWMUpdateSpeed();
 void InitPWM(void );

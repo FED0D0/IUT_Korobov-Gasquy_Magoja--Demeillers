@@ -66,46 +66,46 @@ float acceleration = 99999;
 
 void PWMUpdateSpeed() {
     // Cette fonction est appelee sur timer et permet de suivre des rampes d acceleration
-    if (robotState.vitesseGaucheCommandeCourante < robotState.vitesseGaucheConsigne)
-        robotState.vitesseGaucheCommandeCourante = Min(
-            robotState.vitesseGaucheCommandeCourante + acceleration,
-            robotState.vitesseGaucheConsigne);
-    if (robotState.vitesseGaucheCommandeCourante > robotState.vitesseGaucheConsigne)
-        robotState.vitesseGaucheCommandeCourante = Max(
-            robotState.vitesseGaucheCommandeCourante - acceleration,
-            robotState.vitesseGaucheConsigne);
-    if (robotState.vitesseGaucheCommandeCourante > 0) {
-        PDC1 = robotState.vitesseGaucheCommandeCourante * PWMPER + talon;
+    if (robotState.vitesseGaucheCommandeCourantePercent < robotState.vitesseGaucheConsignePercent)
+        robotState.vitesseGaucheCommandeCourantePercent = Min(
+            robotState.vitesseGaucheCommandeCourantePercent + acceleration,
+            robotState.vitesseGaucheConsignePercent);
+    if (robotState.vitesseGaucheCommandeCourantePercent > robotState.vitesseGaucheConsignePercent)
+        robotState.vitesseGaucheCommandeCourantePercent = Max(
+            robotState.vitesseGaucheCommandeCourantePercent - acceleration,
+            robotState.vitesseGaucheConsignePercent);
+    if (robotState.vitesseGaucheCommandeCourantePercent > 0) {
+        PDC1 = robotState.vitesseGaucheCommandeCourantePercent * PWMPER + talon;
         SDC1 = talon;
     } else {
         PDC1 = talon;
-        SDC1 = -robotState.vitesseGaucheCommandeCourante * PWMPER + talon;
+        SDC1 = -robotState.vitesseGaucheCommandeCourantePercent * PWMPER + talon;
     }
-    if (robotState.vitesseDroiteCommandeCourante < robotState.vitesseDroiteConsigne)
-        robotState.vitesseDroiteCommandeCourante = Min(
-            robotState.vitesseDroiteCommandeCourante + acceleration,
-            robotState.vitesseDroiteConsigne);
-    if (robotState.vitesseDroiteCommandeCourante > robotState.vitesseDroiteConsigne)
-        robotState.vitesseDroiteCommandeCourante = Max(
-            robotState.vitesseDroiteCommandeCourante - acceleration,
-            robotState.vitesseDroiteConsigne);
-    if (robotState.vitesseDroiteCommandeCourante >= 0) {
-        PDC2 = robotState.vitesseDroiteCommandeCourante * PWMPER + talon;
+    if (robotState.vitesseDroiteCommandeCourantePercent < robotState.vitesseDroiteConsignePercent)
+        robotState.vitesseDroiteCommandeCourantePercent = Min(
+            robotState.vitesseDroiteCommandeCourantePercent + acceleration,
+            robotState.vitesseDroiteConsignePercent);
+    if (robotState.vitesseDroiteCommandeCourantePercent > robotState.vitesseDroiteConsignePercent)
+        robotState.vitesseDroiteCommandeCourantePercent = Max(
+            robotState.vitesseDroiteCommandeCourantePercent - acceleration,
+            robotState.vitesseDroiteConsignePercent);
+    if (robotState.vitesseDroiteCommandeCourantePercent >= 0) {
+        PDC2 = robotState.vitesseDroiteCommandeCourantePercent * PWMPER + talon;
         SDC2 = talon;
     } else {
         PDC2 = talon;
-        SDC2 = -robotState.vitesseDroiteCommandeCourante * PWMPER + talon;
+        SDC2 = -robotState.vitesseDroiteCommandeCourantePercent * PWMPER + talon;
     }
 }
 
-#define M_TO_PERCENT 10
+#define M_TO_PERCENT 35
 void PWMSetSpeedConsignePolaire(float vitesseLineaire, float vitesseAngulaire) {
     robotState.vitesseDroiteConsigne = vitesseLineaire + (DISTROUES/2) * vitesseAngulaire;
     robotState.vitesseGaucheConsigne = vitesseLineaire - (DISTROUES/2) * vitesseAngulaire;
     
-    robotState.vitesseDroitePercent = -M_TO_PERCENT * robotState.vitesseDroiteConsigne;
-    robotState.vitesseGauchePercent = M_TO_PERCENT * robotState.vitesseGaucheConsigne;
+    robotState.vitesseDroiteConsignePercent = -M_TO_PERCENT * robotState.vitesseDroiteConsigne;
+    robotState.vitesseGaucheConsignePercent = M_TO_PERCENT * robotState.vitesseGaucheConsigne;
     
-    LimitToInterval(robotState.vitesseDroitePercent , -100, 100);
-    LimitToInterval(robotState.vitesseGauchePercent , -100, 100);
+    LimitToInterval(robotState.vitesseDroiteConsignePercent , -100, 100);
+    LimitToInterval(robotState.vitesseGaucheConsignePercent , -100, 100);
 }

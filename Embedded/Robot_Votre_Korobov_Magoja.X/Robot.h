@@ -8,9 +8,11 @@ typedef struct robotStateBITS {
         struct {
             unsigned char taskEnCours;
             float vitesseGaucheConsigne;
-            float vitesseGaucheCommandeCourante;
+            float vitesseGaucheCommandeCourantePercent;
+            float vitesseGaucheConsignePercent;
             float vitesseDroiteConsigne;
-            float vitesseDroiteCommandeCourante;
+            float vitesseDroiteCommandeCourantePercent;
+            float vitesseDroiteConsignePercent;
             float distanceTelemetreDroit;
             float distanceTelemetreCentre;
             float distanceTelemetreGauche;
@@ -26,8 +28,6 @@ typedef struct robotStateBITS {
             double xPosFromOdometry;
             double yPosFromOdometry;
             double angleRadianFromOdometry;
-            double vitesseDroitePercent;
-            double vitesseGauchePercent;
         };
     };
 }

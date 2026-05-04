@@ -39,8 +39,8 @@ int main(void) {
     // Initialisation simple de l'état du robot
     robotState.vitesseGaucheConsigne = 0;
     robotState.vitesseDroiteConsigne = 0;
-    robotState.vitesseGaucheCommandeCourante = 0;
-    robotState.vitesseDroiteCommandeCourante = 0;
+    robotState.vitesseGaucheCommandeCourantePercent = 0;
+    robotState.vitesseDroiteCommandeCourantePercent = 0;
 
     unsigned char octetRecu;
     //             PWMSetSpeedConsigne(0, 0);
@@ -143,8 +143,8 @@ int main(void) {
                 payload2[2] = robotState.distanceTelemetreDroit;
                 UartEncodeAndSendMessage(0x0030, 3, payload2);
                 unsigned char payload3[2];
-                payload3[0] = (uint8_t) robotState.vitesseGaucheCommandeCourante;
-                payload3[1] = (uint8_t) robotState.vitesseDroiteCommandeCourante;
+                payload3[0] = (uint8_t) robotState.vitesseGaucheCommandeCourantePercent;
+                payload3[1] = (uint8_t) robotState.vitesseDroiteCommandeCourantePercent;
                 UartEncodeAndSendMessage(0x0040, 2, payload3);
             }
         }

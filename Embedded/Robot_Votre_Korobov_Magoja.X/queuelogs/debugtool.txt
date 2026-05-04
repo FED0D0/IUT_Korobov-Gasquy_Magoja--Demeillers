@@ -1,20 +1,1005 @@
+3546 1777880567515 XXXX 1777880567515, Thread 3546: XXXX 1777880567515, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880567517 XXXX 1777880567517, Thread 3546: XXXX 1777880567517, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880567615 XXXX 1777880567615, Thread 3546: XXXX 1777880567615, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880567617 XXXX 1777880567617, Thread 3546: XXXX 1777880567617, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880567715 XXXX 1777880567715, Thread 3546: XXXX 1777880567715, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880567717 XXXX 1777880567717, Thread 3546: XXXX 1777880567717, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880567816 XXXX 1777880567816, Thread 3546: XXXX 1777880567816, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880567818 XXXX 1777880567818, Thread 3546: XXXX 1777880567818, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880567916 XXXX 1777880567916, Thread 3546: XXXX 1777880567916, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880567918 XXXX 1777880567918, Thread 3546: XXXX 1777880567918, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568017 XXXX 1777880568017, Thread 3546: XXXX 1777880568017, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568019 XXXX 1777880568019, Thread 3546: XXXX 1777880568019, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568118 XXXX 1777880568118, Thread 3546: XXXX 1777880568118, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568120 XXXX 1777880568120, Thread 3546: XXXX 1777880568120, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568220 XXXX 1777880568220, Thread 3546: XXXX 1777880568220, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568222 XXXX 1777880568222, Thread 3546: XXXX 1777880568222, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568321 XXXX 1777880568321, Thread 3546: XXXX 1777880568321, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568323 XXXX 1777880568323, Thread 3546: XXXX 1777880568323, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568422 XXXX 1777880568422, Thread 3546: XXXX 1777880568422, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568426 XXXX 1777880568426, Thread 3546: XXXX 1777880568426, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568522 XXXX 1777880568522, Thread 3546: XXXX 1777880568522, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568524 XXXX 1777880568524, Thread 3546: XXXX 1777880568524, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568622 XXXX 1777880568622, Thread 3546: XXXX 1777880568622, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568624 XXXX 1777880568624, Thread 3546: XXXX 1777880568624, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568723 XXXX 1777880568723, Thread 3546: XXXX 1777880568723, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568725 XXXX 1777880568725, Thread 3546: XXXX 1777880568725, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568823 XXXX 1777880568823, Thread 3546: XXXX 1777880568823, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568825 XXXX 1777880568825, Thread 3546: XXXX 1777880568825, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880568932 XXXX 1777880568932, Thread 3546: XXXX 1777880568932, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880568934 XXXX 1777880568934, Thread 3546: XXXX 1777880568934, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569040 XXXX 1777880569040, Thread 3546: XXXX 1777880569040, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569042 XXXX 1777880569042, Thread 3546: XXXX 1777880569042, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569145 XXXX 1777880569145, Thread 3546: XXXX 1777880569145, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569147 XXXX 1777880569147, Thread 3546: XXXX 1777880569147, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569245 XXXX 1777880569245, Thread 3546: XXXX 1777880569245, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569247 XXXX 1777880569247, Thread 3546: XXXX 1777880569247, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569346 XXXX 1777880569346, Thread 3546: XXXX 1777880569346, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569348 XXXX 1777880569348, Thread 3546: XXXX 1777880569348, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569446 XXXX 1777880569446, Thread 3546: XXXX 1777880569446, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569448 XXXX 1777880569448, Thread 3546: XXXX 1777880569448, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569546 XXXX 1777880569546, Thread 3546: XXXX 1777880569546, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569548 XXXX 1777880569548, Thread 3546: XXXX 1777880569548, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569646 XXXX 1777880569646, Thread 3546: XXXX 1777880569646, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569648 XXXX 1777880569648, Thread 3546: XXXX 1777880569648, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569748 XXXX 1777880569748, Thread 3546: XXXX 1777880569748, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569750 XXXX 1777880569750, Thread 3546: XXXX 1777880569750, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569848 XXXX 1777880569848, Thread 3546: XXXX 1777880569848, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569850 XXXX 1777880569850, Thread 3546: XXXX 1777880569850, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880569949 XXXX 1777880569949, Thread 3546: XXXX 1777880569949, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880569951 XXXX 1777880569951, Thread 3546: XXXX 1777880569951, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570049 XXXX 1777880570049, Thread 3546: XXXX 1777880570049, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570051 XXXX 1777880570051, Thread 3546: XXXX 1777880570051, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570152 XXXX 1777880570152, Thread 3546: XXXX 1777880570152, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570154 XXXX 1777880570154, Thread 3546: XXXX 1777880570154, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570253 XXXX 1777880570253, Thread 3546: XXXX 1777880570253, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570255 XXXX 1777880570255, Thread 3546: XXXX 1777880570255, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570353 XXXX 1777880570353, Thread 3546: XXXX 1777880570353, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570355 XXXX 1777880570355, Thread 3546: XXXX 1777880570355, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570454 XXXX 1777880570454, Thread 3546: XXXX 1777880570454, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570456 XXXX 1777880570456, Thread 3546: XXXX 1777880570456, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570554 XXXX 1777880570554, Thread 3546: XXXX 1777880570554, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570556 XXXX 1777880570556, Thread 3546: XXXX 1777880570556, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570655 XXXX 1777880570655, Thread 3546: XXXX 1777880570655, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570657 XXXX 1777880570657, Thread 3546: XXXX 1777880570657, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570756 XXXX 1777880570756, Thread 3546: XXXX 1777880570756, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570758 XXXX 1777880570758, Thread 3546: XXXX 1777880570758, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570857 XXXX 1777880570857, Thread 3546: XXXX 1777880570857, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570859 XXXX 1777880570859, Thread 3546: XXXX 1777880570859, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880570958 XXXX 1777880570958, Thread 3546: XXXX 1777880570958, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880570960 XXXX 1777880570960, Thread 3546: XXXX 1777880570960, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571059 XXXX 1777880571059, Thread 3546: XXXX 1777880571059, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571061 XXXX 1777880571061, Thread 3546: XXXX 1777880571061, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571160 XXXX 1777880571160, Thread 3546: XXXX 1777880571160, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571162 XXXX 1777880571162, Thread 3546: XXXX 1777880571162, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571261 XXXX 1777880571261, Thread 3546: XXXX 1777880571261, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571263 XXXX 1777880571263, Thread 3546: XXXX 1777880571263, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571361 XXXX 1777880571361, Thread 3546: XXXX 1777880571361, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571363 XXXX 1777880571363, Thread 3546: XXXX 1777880571363, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571462 XXXX 1777880571462, Thread 3546: XXXX 1777880571462, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571464 XXXX 1777880571464, Thread 3546: XXXX 1777880571464, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571563 XXXX 1777880571563, Thread 3546: XXXX 1777880571563, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571565 XXXX 1777880571565, Thread 3546: XXXX 1777880571565, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571663 XXXX 1777880571663, Thread 3546: XXXX 1777880571663, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571665 XXXX 1777880571665, Thread 3546: XXXX 1777880571665, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571763 XXXX 1777880571763, Thread 3546: XXXX 1777880571763, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571765 XXXX 1777880571765, Thread 3546: XXXX 1777880571765, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571863 XXXX 1777880571863, Thread 3546: XXXX 1777880571863, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571865 XXXX 1777880571865, Thread 3546: XXXX 1777880571865, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880571963 XXXX 1777880571963, Thread 3546: XXXX 1777880571963, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880571965 XXXX 1777880571965, Thread 3546: XXXX 1777880571965, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572065 XXXX 1777880572065, Thread 3546: XXXX 1777880572065, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572067 XXXX 1777880572067, Thread 3546: XXXX 1777880572067, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572167 XXXX 1777880572167, Thread 3546: XXXX 1777880572167, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572169 XXXX 1777880572169, Thread 3546: XXXX 1777880572169, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572268 XXXX 1777880572268, Thread 3546: XXXX 1777880572268, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572270 XXXX 1777880572270, Thread 3546: XXXX 1777880572270, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572369 XXXX 1777880572369, Thread 3546: XXXX 1777880572369, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572375 XXXX 1777880572375, Thread 3546: XXXX 1777880572375, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572469 XXXX 1777880572469, Thread 3546: XXXX 1777880572469, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572471 XXXX 1777880572471, Thread 3546: XXXX 1777880572471, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572570 XXXX 1777880572570, Thread 3546: XXXX 1777880572570, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572572 XXXX 1777880572572, Thread 3546: XXXX 1777880572572, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572672 XXXX 1777880572672, Thread 3546: XXXX 1777880572672, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572674 XXXX 1777880572674, Thread 3546: XXXX 1777880572674, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572773 XXXX 1777880572773, Thread 3546: XXXX 1777880572773, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572775 XXXX 1777880572775, Thread 3546: XXXX 1777880572775, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572873 XXXX 1777880572873, Thread 3546: XXXX 1777880572873, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572875 XXXX 1777880572875, Thread 3546: XXXX 1777880572875, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880572974 XXXX 1777880572974, Thread 3546: XXXX 1777880572974, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880572976 XXXX 1777880572976, Thread 3546: XXXX 1777880572976, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573074 XXXX 1777880573074, Thread 3546: XXXX 1777880573074, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573076 XXXX 1777880573076, Thread 3546: XXXX 1777880573076, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573174 XXXX 1777880573174, Thread 3546: XXXX 1777880573174, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573176 XXXX 1777880573176, Thread 3546: XXXX 1777880573176, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573274 XXXX 1777880573274, Thread 3546: XXXX 1777880573274, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573276 XXXX 1777880573276, Thread 3546: XXXX 1777880573276, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573375 XXXX 1777880573375, Thread 3546: XXXX 1777880573375, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573377 XXXX 1777880573377, Thread 3546: XXXX 1777880573377, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573476 XXXX 1777880573476, Thread 3546: XXXX 1777880573476, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573478 XXXX 1777880573478, Thread 3546: XXXX 1777880573478, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573578 XXXX 1777880573578, Thread 3546: XXXX 1777880573578, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573580 XXXX 1777880573580, Thread 3546: XXXX 1777880573580, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573679 XXXX 1777880573679, Thread 3546: XXXX 1777880573679, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573681 XXXX 1777880573681, Thread 3546: XXXX 1777880573681, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573780 XXXX 1777880573780, Thread 3546: XXXX 1777880573780, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573782 XXXX 1777880573782, Thread 3546: XXXX 1777880573782, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573881 XXXX 1777880573881, Thread 3546: XXXX 1777880573881, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573883 XXXX 1777880573883, Thread 3546: XXXX 1777880573883, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880573983 XXXX 1777880573983, Thread 3546: XXXX 1777880573983, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880573985 XXXX 1777880573985, Thread 3546: XXXX 1777880573985, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574084 XXXX 1777880574084, Thread 3546: XXXX 1777880574084, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574086 XXXX 1777880574086, Thread 3546: XXXX 1777880574086, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574184 XXXX 1777880574184, Thread 3546: XXXX 1777880574184, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574186 XXXX 1777880574186, Thread 3546: XXXX 1777880574186, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574285 XXXX 1777880574285, Thread 3546: XXXX 1777880574285, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574287 XXXX 1777880574287, Thread 3546: XXXX 1777880574287, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574386 XXXX 1777880574386, Thread 3546: XXXX 1777880574386, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574388 XXXX 1777880574388, Thread 3546: XXXX 1777880574388, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574486 XXXX 1777880574486, Thread 3546: XXXX 1777880574486, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574488 XXXX 1777880574488, Thread 3546: XXXX 1777880574488, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574586 XXXX 1777880574586, Thread 3546: XXXX 1777880574586, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574588 XXXX 1777880574588, Thread 3546: XXXX 1777880574588, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574686 XXXX 1777880574686, Thread 3546: XXXX 1777880574686, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574688 XXXX 1777880574688, Thread 3546: XXXX 1777880574688, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574787 XXXX 1777880574787, Thread 3546: XXXX 1777880574787, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574789 XXXX 1777880574789, Thread 3546: XXXX 1777880574789, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574887 XXXX 1777880574887, Thread 3546: XXXX 1777880574887, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574889 XXXX 1777880574889, Thread 3546: XXXX 1777880574889, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880574988 XXXX 1777880574988, Thread 3546: XXXX 1777880574988, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880574990 XXXX 1777880574990, Thread 3546: XXXX 1777880574990, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575089 XXXX 1777880575089, Thread 3546: XXXX 1777880575089, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575091 XXXX 1777880575091, Thread 3546: XXXX 1777880575091, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575189 XXXX 1777880575189, Thread 3546: XXXX 1777880575189, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575191 XXXX 1777880575191, Thread 3546: XXXX 1777880575191, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575291 XXXX 1777880575291, Thread 3546: XXXX 1777880575291, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575293 XXXX 1777880575293, Thread 3546: XXXX 1777880575293, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575392 XXXX 1777880575392, Thread 3546: XXXX 1777880575392, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575394 XXXX 1777880575394, Thread 3546: XXXX 1777880575394, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575493 XXXX 1777880575493, Thread 3546: XXXX 1777880575493, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575495 XXXX 1777880575495, Thread 3546: XXXX 1777880575495, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575593 XXXX 1777880575593, Thread 3546: XXXX 1777880575593, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575595 XXXX 1777880575595, Thread 3546: XXXX 1777880575595, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575694 XXXX 1777880575694, Thread 3546: XXXX 1777880575694, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575696 XXXX 1777880575696, Thread 3546: XXXX 1777880575696, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575795 XXXX 1777880575795, Thread 3546: XXXX 1777880575795, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575797 XXXX 1777880575797, Thread 3546: XXXX 1777880575797, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575895 XXXX 1777880575895, Thread 3546: XXXX 1777880575895, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575897 XXXX 1777880575897, Thread 3546: XXXX 1777880575897, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880575997 XXXX 1777880575997, Thread 3546: XXXX 1777880575997, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880575999 XXXX 1777880575999, Thread 3546: XXXX 1777880575999, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576098 XXXX 1777880576098, Thread 3546: XXXX 1777880576098, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576100 XXXX 1777880576100, Thread 3546: XXXX 1777880576100, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576198 XXXX 1777880576198, Thread 3546: XXXX 1777880576198, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576200 XXXX 1777880576200, Thread 3546: XXXX 1777880576200, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576298 XXXX 1777880576298, Thread 3546: XXXX 1777880576298, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576300 XXXX 1777880576300, Thread 3546: XXXX 1777880576300, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576398 XXXX 1777880576398, Thread 3546: XXXX 1777880576398, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576400 XXXX 1777880576400, Thread 3546: XXXX 1777880576400, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576498 XXXX 1777880576498, Thread 3546: XXXX 1777880576498, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576500 XXXX 1777880576500, Thread 3546: XXXX 1777880576500, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576598 XXXX 1777880576598, Thread 3546: XXXX 1777880576598, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576600 XXXX 1777880576600, Thread 3546: XXXX 1777880576600, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576700 XXXX 1777880576700, Thread 3546: XXXX 1777880576700, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576702 XXXX 1777880576702, Thread 3546: XXXX 1777880576702, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576800 XXXX 1777880576800, Thread 3546: XXXX 1777880576800, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576802 XXXX 1777880576802, Thread 3546: XXXX 1777880576802, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880576900 XXXX 1777880576900, Thread 3546: XXXX 1777880576900, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880576902 XXXX 1777880576902, Thread 3546: XXXX 1777880576902, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577001 XXXX 1777880577001, Thread 3546: XXXX 1777880577001, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577003 XXXX 1777880577003, Thread 3546: XXXX 1777880577003, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577101 XXXX 1777880577101, Thread 3546: XXXX 1777880577101, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577103 XXXX 1777880577103, Thread 3546: XXXX 1777880577103, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577202 XXXX 1777880577202, Thread 3546: XXXX 1777880577202, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577204 XXXX 1777880577204, Thread 3546: XXXX 1777880577204, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577303 XXXX 1777880577303, Thread 3546: XXXX 1777880577303, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577305 XXXX 1777880577305, Thread 3546: XXXX 1777880577305, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577404 XXXX 1777880577404, Thread 3546: XXXX 1777880577404, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577406 XXXX 1777880577406, Thread 3546: XXXX 1777880577406, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577504 XXXX 1777880577504, Thread 3546: XXXX 1777880577504, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577506 XXXX 1777880577506, Thread 3546: XXXX 1777880577506, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577604 XXXX 1777880577604, Thread 3546: XXXX 1777880577604, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577606 XXXX 1777880577606, Thread 3546: XXXX 1777880577606, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577706 XXXX 1777880577706, Thread 3546: XXXX 1777880577706, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577708 XXXX 1777880577708, Thread 3546: XXXX 1777880577708, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577808 XXXX 1777880577808, Thread 3546: XXXX 1777880577808, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577810 XXXX 1777880577810, Thread 3546: XXXX 1777880577810, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880577909 XXXX 1777880577909, Thread 3546: XXXX 1777880577909, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880577911 XXXX 1777880577911, Thread 3546: XXXX 1777880577911, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578009 XXXX 1777880578009, Thread 3546: XXXX 1777880578009, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578011 XXXX 1777880578011, Thread 3546: XXXX 1777880578011, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578110 XXXX 1777880578110, Thread 3546: XXXX 1777880578110, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578112 XXXX 1777880578112, Thread 3546: XXXX 1777880578112, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578211 XXXX 1777880578211, Thread 3546: XXXX 1777880578211, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578213 XXXX 1777880578213, Thread 3546: XXXX 1777880578213, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578313 XXXX 1777880578313, Thread 3546: XXXX 1777880578313, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578315 XXXX 1777880578315, Thread 3546: XXXX 1777880578315, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578416 XXXX 1777880578416, Thread 3546: XXXX 1777880578416, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578418 XXXX 1777880578418, Thread 3546: XXXX 1777880578418, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578516 XXXX 1777880578516, Thread 3546: XXXX 1777880578516, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578518 XXXX 1777880578518, Thread 3546: XXXX 1777880578518, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578618 XXXX 1777880578618, Thread 3546: XXXX 1777880578618, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578620 XXXX 1777880578620, Thread 3546: XXXX 1777880578620, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578720 XXXX 1777880578720, Thread 3546: XXXX 1777880578720, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578722 XXXX 1777880578722, Thread 3546: XXXX 1777880578722, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578820 XXXX 1777880578820, Thread 3546: XXXX 1777880578820, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578822 XXXX 1777880578822, Thread 3546: XXXX 1777880578822, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880578921 XXXX 1777880578921, Thread 3546: XXXX 1777880578921, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880578923 XXXX 1777880578923, Thread 3546: XXXX 1777880578923, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579022 XXXX 1777880579022, Thread 3546: XXXX 1777880579022, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579024 XXXX 1777880579024, Thread 3546: XXXX 1777880579024, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579123 XXXX 1777880579123, Thread 3546: XXXX 1777880579123, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579125 XXXX 1777880579125, Thread 3546: XXXX 1777880579125, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579224 XXXX 1777880579224, Thread 3546: XXXX 1777880579224, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579226 XXXX 1777880579226, Thread 3546: XXXX 1777880579226, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579325 XXXX 1777880579325, Thread 3546: XXXX 1777880579325, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579327 XXXX 1777880579327, Thread 3546: XXXX 1777880579327, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579429 XXXX 1777880579429, Thread 3546: XXXX 1777880579429, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579431 XXXX 1777880579431, Thread 3546: XXXX 1777880579431, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579530 XXXX 1777880579530, Thread 3546: XXXX 1777880579530, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579532 XXXX 1777880579532, Thread 3546: XXXX 1777880579532, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579630 XXXX 1777880579630, Thread 3546: XXXX 1777880579630, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579632 XXXX 1777880579632, Thread 3546: XXXX 1777880579632, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579732 XXXX 1777880579732, Thread 3546: XXXX 1777880579732, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579734 XXXX 1777880579734, Thread 3546: XXXX 1777880579734, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579833 XXXX 1777880579833, Thread 3546: XXXX 1777880579833, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579835 XXXX 1777880579835, Thread 3546: XXXX 1777880579835, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880579934 XXXX 1777880579934, Thread 3546: XXXX 1777880579934, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880579936 XXXX 1777880579936, Thread 3546: XXXX 1777880579936, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580036 XXXX 1777880580036, Thread 3546: XXXX 1777880580036, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580038 XXXX 1777880580038, Thread 3546: XXXX 1777880580038, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580137 XXXX 1777880580137, Thread 3546: XXXX 1777880580137, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580139 XXXX 1777880580139, Thread 3546: XXXX 1777880580139, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580238 XXXX 1777880580238, Thread 3546: XXXX 1777880580238, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580240 XXXX 1777880580240, Thread 3546: XXXX 1777880580240, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580340 XXXX 1777880580340, Thread 3546: XXXX 1777880580340, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580342 XXXX 1777880580342, Thread 3546: XXXX 1777880580342, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580440 XXXX 1777880580440, Thread 3546: XXXX 1777880580440, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580442 XXXX 1777880580442, Thread 3546: XXXX 1777880580442, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580541 XXXX 1777880580541, Thread 3546: XXXX 1777880580541, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580543 XXXX 1777880580543, Thread 3546: XXXX 1777880580543, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580641 XXXX 1777880580641, Thread 3546: XXXX 1777880580641, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580643 XXXX 1777880580643, Thread 3546: XXXX 1777880580643, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580742 XXXX 1777880580742, Thread 3546: XXXX 1777880580742, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580744 XXXX 1777880580744, Thread 3546: XXXX 1777880580744, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580843 XXXX 1777880580843, Thread 3546: XXXX 1777880580843, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580845 XXXX 1777880580845, Thread 3546: XXXX 1777880580845, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880580945 XXXX 1777880580945, Thread 3546: XXXX 1777880580945, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880580947 XXXX 1777880580947, Thread 3546: XXXX 1777880580947, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581045 XXXX 1777880581045, Thread 3546: XXXX 1777880581045, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581047 XXXX 1777880581047, Thread 3546: XXXX 1777880581047, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581146 XXXX 1777880581146, Thread 3546: XXXX 1777880581146, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581148 XXXX 1777880581148, Thread 3546: XXXX 1777880581148, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581246 XXXX 1777880581246, Thread 3546: XXXX 1777880581246, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581248 XXXX 1777880581248, Thread 3546: XXXX 1777880581248, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581347 XXXX 1777880581347, Thread 3546: XXXX 1777880581347, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581349 XXXX 1777880581349, Thread 3546: XXXX 1777880581349, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581448 XXXX 1777880581448, Thread 3546: XXXX 1777880581448, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581450 XXXX 1777880581450, Thread 3546: XXXX 1777880581450, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581549 XXXX 1777880581549, Thread 3546: XXXX 1777880581549, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581551 XXXX 1777880581551, Thread 3546: XXXX 1777880581551, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581649 XXXX 1777880581649, Thread 3546: XXXX 1777880581649, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581651 XXXX 1777880581651, Thread 3546: XXXX 1777880581651, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581750 XXXX 1777880581750, Thread 3546: XXXX 1777880581750, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581752 XXXX 1777880581752, Thread 3546: XXXX 1777880581752, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581850 XXXX 1777880581850, Thread 3546: XXXX 1777880581850, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581852 XXXX 1777880581852, Thread 3546: XXXX 1777880581852, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880581952 XXXX 1777880581952, Thread 3546: XXXX 1777880581952, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880581954 XXXX 1777880581954, Thread 3546: XXXX 1777880581954, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582052 XXXX 1777880582052, Thread 3546: XXXX 1777880582052, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582054 XXXX 1777880582054, Thread 3546: XXXX 1777880582054, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582152 XXXX 1777880582152, Thread 3546: XXXX 1777880582152, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582154 XXXX 1777880582154, Thread 3546: XXXX 1777880582154, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582253 XXXX 1777880582253, Thread 3546: XXXX 1777880582253, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582255 XXXX 1777880582255, Thread 3546: XXXX 1777880582255, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582356 XXXX 1777880582356, Thread 3546: XXXX 1777880582356, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582358 XXXX 1777880582358, Thread 3546: XXXX 1777880582358, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582457 XXXX 1777880582457, Thread 3546: XXXX 1777880582457, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582459 XXXX 1777880582459, Thread 3546: XXXX 1777880582459, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582558 XXXX 1777880582558, Thread 3546: XXXX 1777880582558, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582560 XXXX 1777880582560, Thread 3546: XXXX 1777880582560, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582660 XXXX 1777880582660, Thread 3546: XXXX 1777880582660, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582662 XXXX 1777880582662, Thread 3546: XXXX 1777880582662, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582760 XXXX 1777880582760, Thread 3546: XXXX 1777880582760, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582762 XXXX 1777880582762, Thread 3546: XXXX 1777880582762, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582861 XXXX 1777880582861, Thread 3546: XXXX 1777880582861, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582863 XXXX 1777880582863, Thread 3546: XXXX 1777880582863, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880582962 XXXX 1777880582962, Thread 3546: XXXX 1777880582962, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880582964 XXXX 1777880582964, Thread 3546: XXXX 1777880582964, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583063 XXXX 1777880583063, Thread 3546: XXXX 1777880583063, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583065 XXXX 1777880583065, Thread 3546: XXXX 1777880583065, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583165 XXXX 1777880583165, Thread 3546: XXXX 1777880583165, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583167 XXXX 1777880583167, Thread 3546: XXXX 1777880583167, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583267 XXXX 1777880583267, Thread 3546: XXXX 1777880583267, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583269 XXXX 1777880583269, Thread 3546: XXXX 1777880583269, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583368 XXXX 1777880583368, Thread 3546: XXXX 1777880583368, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583370 XXXX 1777880583370, Thread 3546: XXXX 1777880583370, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583470 XXXX 1777880583470, Thread 3546: XXXX 1777880583470, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583472 XXXX 1777880583472, Thread 3546: XXXX 1777880583472, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583573 XXXX 1777880583573, Thread 3546: XXXX 1777880583573, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583575 XXXX 1777880583575, Thread 3546: XXXX 1777880583575, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583674 XXXX 1777880583674, Thread 3546: XXXX 1777880583674, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583676 XXXX 1777880583676, Thread 3546: XXXX 1777880583676, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583775 XXXX 1777880583775, Thread 3546: XXXX 1777880583775, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583777 XXXX 1777880583777, Thread 3546: XXXX 1777880583777, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583877 XXXX 1777880583877, Thread 3546: XXXX 1777880583877, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583879 XXXX 1777880583879, Thread 3546: XXXX 1777880583879, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880583978 XXXX 1777880583978, Thread 3546: XXXX 1777880583978, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880583980 XXXX 1777880583980, Thread 3546: XXXX 1777880583980, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584080 XXXX 1777880584080, Thread 3546: XXXX 1777880584080, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584082 XXXX 1777880584082, Thread 3546: XXXX 1777880584082, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584182 XXXX 1777880584182, Thread 3546: XXXX 1777880584182, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584184 XXXX 1777880584184, Thread 3546: XXXX 1777880584184, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584283 XXXX 1777880584283, Thread 3546: XXXX 1777880584283, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584285 XXXX 1777880584285, Thread 3546: XXXX 1777880584285, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584385 XXXX 1777880584385, Thread 3546: XXXX 1777880584385, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584387 XXXX 1777880584387, Thread 3546: XXXX 1777880584387, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584486 XXXX 1777880584486, Thread 3546: XXXX 1777880584486, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584488 XXXX 1777880584488, Thread 3546: XXXX 1777880584488, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584587 XXXX 1777880584587, Thread 3546: XXXX 1777880584587, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584589 XXXX 1777880584589, Thread 3546: XXXX 1777880584589, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584688 XXXX 1777880584688, Thread 3546: XXXX 1777880584688, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584690 XXXX 1777880584690, Thread 3546: XXXX 1777880584690, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584789 XXXX 1777880584789, Thread 3546: XXXX 1777880584789, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584791 XXXX 1777880584791, Thread 3546: XXXX 1777880584791, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584890 XXXX 1777880584890, Thread 3546: XXXX 1777880584890, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584892 XXXX 1777880584892, Thread 3546: XXXX 1777880584892, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880584990 XXXX 1777880584990, Thread 3546: XXXX 1777880584990, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880584992 XXXX 1777880584992, Thread 3546: XXXX 1777880584992, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585090 XXXX 1777880585090, Thread 3546: XXXX 1777880585090, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585092 XXXX 1777880585092, Thread 3546: XXXX 1777880585092, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585191 XXXX 1777880585191, Thread 3546: XXXX 1777880585191, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585193 XXXX 1777880585193, Thread 3546: XXXX 1777880585193, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585293 XXXX 1777880585293, Thread 3546: XXXX 1777880585293, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585295 XXXX 1777880585295, Thread 3546: XXXX 1777880585295, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585395 XXXX 1777880585395, Thread 3546: XXXX 1777880585395, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585397 XXXX 1777880585397, Thread 3546: XXXX 1777880585397, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585496 XXXX 1777880585496, Thread 3546: XXXX 1777880585496, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585498 XXXX 1777880585498, Thread 3546: XXXX 1777880585498, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585605 XXXX 1777880585605, Thread 3546: XXXX 1777880585605, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585607 XXXX 1777880585607, Thread 3546: XXXX 1777880585607, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585707 XXXX 1777880585707, Thread 3546: XXXX 1777880585707, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585709 XXXX 1777880585709, Thread 3546: XXXX 1777880585709, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585807 XXXX 1777880585807, Thread 3546: XXXX 1777880585807, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585809 XXXX 1777880585809, Thread 3546: XXXX 1777880585809, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880585909 XXXX 1777880585909, Thread 3546: XXXX 1777880585909, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880585911 XXXX 1777880585911, Thread 3546: XXXX 1777880585911, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586009 XXXX 1777880586009, Thread 3546: XXXX 1777880586009, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586011 XXXX 1777880586011, Thread 3546: XXXX 1777880586011, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586110 XXXX 1777880586110, Thread 3546: XXXX 1777880586110, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586112 XXXX 1777880586112, Thread 3546: XXXX 1777880586112, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586211 XXXX 1777880586211, Thread 3546: XXXX 1777880586211, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586213 XXXX 1777880586213, Thread 3546: XXXX 1777880586213, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586312 XXXX 1777880586312, Thread 3546: XXXX 1777880586312, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586314 XXXX 1777880586314, Thread 3546: XXXX 1777880586314, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586413 XXXX 1777880586413, Thread 3546: XXXX 1777880586413, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586415 XXXX 1777880586415, Thread 3546: XXXX 1777880586415, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586514 XXXX 1777880586514, Thread 3546: XXXX 1777880586514, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586516 XXXX 1777880586516, Thread 3546: XXXX 1777880586516, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586614 XXXX 1777880586614, Thread 3546: XXXX 1777880586614, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586616 XXXX 1777880586616, Thread 3546: XXXX 1777880586616, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586716 XXXX 1777880586716, Thread 3546: XXXX 1777880586716, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586718 XXXX 1777880586718, Thread 3546: XXXX 1777880586718, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586818 XXXX 1777880586818, Thread 3546: XXXX 1777880586818, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586820 XXXX 1777880586820, Thread 3546: XXXX 1777880586820, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880586920 XXXX 1777880586920, Thread 3546: XXXX 1777880586920, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880586922 XXXX 1777880586922, Thread 3546: XXXX 1777880586922, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587022 XXXX 1777880587022, Thread 3546: XXXX 1777880587022, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587024 XXXX 1777880587024, Thread 3546: XXXX 1777880587024, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587122 XXXX 1777880587122, Thread 3546: XXXX 1777880587122, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587124 XXXX 1777880587124, Thread 3546: XXXX 1777880587124, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587224 XXXX 1777880587224, Thread 3546: XXXX 1777880587224, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587226 XXXX 1777880587226, Thread 3546: XXXX 1777880587226, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587326 XXXX 1777880587326, Thread 3546: XXXX 1777880587326, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587328 XXXX 1777880587328, Thread 3546: XXXX 1777880587328, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587427 XXXX 1777880587427, Thread 3546: XXXX 1777880587427, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587429 XXXX 1777880587429, Thread 3546: XXXX 1777880587429, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587536 XXXX 1777880587536, Thread 3546: XXXX 1777880587536, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587538 XXXX 1777880587538, Thread 3546: XXXX 1777880587538, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587638 XXXX 1777880587638, Thread 3546: XXXX 1777880587638, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587640 XXXX 1777880587640, Thread 3546: XXXX 1777880587640, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587740 XXXX 1777880587740, Thread 3546: XXXX 1777880587740, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587742 XXXX 1777880587742, Thread 3546: XXXX 1777880587742, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587842 XXXX 1777880587842, Thread 3546: XXXX 1777880587842, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587844 XXXX 1777880587844, Thread 3546: XXXX 1777880587844, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880587943 XXXX 1777880587943, Thread 3546: XXXX 1777880587943, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880587945 XXXX 1777880587945, Thread 3546: XXXX 1777880587945, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588045 XXXX 1777880588045, Thread 3546: XXXX 1777880588045, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588047 XXXX 1777880588047, Thread 3546: XXXX 1777880588047, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588146 XXXX 1777880588146, Thread 3546: XXXX 1777880588146, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588148 XXXX 1777880588148, Thread 3546: XXXX 1777880588148, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588248 XXXX 1777880588248, Thread 3546: XXXX 1777880588248, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588250 XXXX 1777880588250, Thread 3546: XXXX 1777880588250, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588350 XXXX 1777880588350, Thread 3546: XXXX 1777880588350, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588352 XXXX 1777880588352, Thread 3546: XXXX 1777880588352, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588451 XXXX 1777880588451, Thread 3546: XXXX 1777880588451, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588453 XXXX 1777880588453, Thread 3546: XXXX 1777880588453, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588551 XXXX 1777880588551, Thread 3546: XXXX 1777880588551, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588553 XXXX 1777880588553, Thread 3546: XXXX 1777880588553, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588653 XXXX 1777880588653, Thread 3546: XXXX 1777880588653, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588655 XXXX 1777880588655, Thread 3546: XXXX 1777880588655, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588755 XXXX 1777880588755, Thread 3546: XXXX 1777880588755, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588757 XXXX 1777880588757, Thread 3546: XXXX 1777880588757, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588856 XXXX 1777880588856, Thread 3546: XXXX 1777880588856, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588858 XXXX 1777880588858, Thread 3546: XXXX 1777880588858, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880588957 XXXX 1777880588957, Thread 3546: XXXX 1777880588957, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880588959 XXXX 1777880588959, Thread 3546: XXXX 1777880588959, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589059 XXXX 1777880589059, Thread 3546: XXXX 1777880589059, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589061 XXXX 1777880589061, Thread 3546: XXXX 1777880589061, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589159 XXXX 1777880589159, Thread 3546: XXXX 1777880589159, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589161 XXXX 1777880589161, Thread 3546: XXXX 1777880589161, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589261 XXXX 1777880589261, Thread 3546: XXXX 1777880589261, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589263 XXXX 1777880589263, Thread 3546: XXXX 1777880589263, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589362 XXXX 1777880589362, Thread 3546: XXXX 1777880589362, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589364 XXXX 1777880589364, Thread 3546: XXXX 1777880589364, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589464 XXXX 1777880589464, Thread 3546: XXXX 1777880589464, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589466 XXXX 1777880589466, Thread 3546: XXXX 1777880589466, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589566 XXXX 1777880589566, Thread 3546: XXXX 1777880589566, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589568 XXXX 1777880589568, Thread 3546: XXXX 1777880589568, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589668 XXXX 1777880589668, Thread 3546: XXXX 1777880589668, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589670 XXXX 1777880589670, Thread 3546: XXXX 1777880589670, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589769 XXXX 1777880589769, Thread 3546: XXXX 1777880589769, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589771 XXXX 1777880589771, Thread 3546: XXXX 1777880589771, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589870 XXXX 1777880589870, Thread 3546: XXXX 1777880589870, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589872 XXXX 1777880589872, Thread 3546: XXXX 1777880589872, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880589972 XXXX 1777880589972, Thread 3546: XXXX 1777880589972, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880589974 XXXX 1777880589974, Thread 3546: XXXX 1777880589974, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590074 XXXX 1777880590074, Thread 3546: XXXX 1777880590074, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590076 XXXX 1777880590076, Thread 3546: XXXX 1777880590076, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590176 XXXX 1777880590176, Thread 3546: XXXX 1777880590176, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590178 XXXX 1777880590178, Thread 3546: XXXX 1777880590178, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590278 XXXX 1777880590278, Thread 3546: XXXX 1777880590278, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590280 XXXX 1777880590280, Thread 3546: XXXX 1777880590280, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590380 XXXX 1777880590380, Thread 3546: XXXX 1777880590380, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590382 XXXX 1777880590382, Thread 3546: XXXX 1777880590382, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590482 XXXX 1777880590482, Thread 3546: XXXX 1777880590482, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590484 XXXX 1777880590484, Thread 3546: XXXX 1777880590484, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590584 XXXX 1777880590584, Thread 3546: XXXX 1777880590584, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590586 XXXX 1777880590586, Thread 3546: XXXX 1777880590586, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590686 XXXX 1777880590686, Thread 3546: XXXX 1777880590686, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590688 XXXX 1777880590688, Thread 3546: XXXX 1777880590688, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590788 XXXX 1777880590788, Thread 3546: XXXX 1777880590788, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590790 XXXX 1777880590790, Thread 3546: XXXX 1777880590790, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590891 XXXX 1777880590891, Thread 3546: XXXX 1777880590891, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590893 XXXX 1777880590893, Thread 3546: XXXX 1777880590893, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880590993 XXXX 1777880590993, Thread 3546: XXXX 1777880590993, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880590995 XXXX 1777880590995, Thread 3546: XXXX 1777880590995, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591095 XXXX 1777880591095, Thread 3546: XXXX 1777880591095, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591097 XXXX 1777880591097, Thread 3546: XXXX 1777880591097, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591197 XXXX 1777880591197, Thread 3546: XXXX 1777880591197, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591199 XXXX 1777880591199, Thread 3546: XXXX 1777880591199, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591299 XXXX 1777880591299, Thread 3546: XXXX 1777880591299, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591301 XXXX 1777880591301, Thread 3546: XXXX 1777880591301, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591401 XXXX 1777880591401, Thread 3546: XXXX 1777880591401, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591403 XXXX 1777880591403, Thread 3546: XXXX 1777880591403, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591502 XXXX 1777880591502, Thread 3546: XXXX 1777880591502, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591504 XXXX 1777880591504, Thread 3546: XXXX 1777880591504, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591607 XXXX 1777880591607, Thread 3546: XXXX 1777880591607, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591609 XXXX 1777880591609, Thread 3546: XXXX 1777880591609, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591709 XXXX 1777880591709, Thread 3546: XXXX 1777880591709, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591711 XXXX 1777880591711, Thread 3546: XXXX 1777880591711, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591810 XXXX 1777880591810, Thread 3546: XXXX 1777880591810, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591812 XXXX 1777880591812, Thread 3546: XXXX 1777880591812, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880591912 XXXX 1777880591912, Thread 3546: XXXX 1777880591912, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880591914 XXXX 1777880591914, Thread 3546: XXXX 1777880591914, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592014 XXXX 1777880592014, Thread 3546: XXXX 1777880592014, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592016 XXXX 1777880592016, Thread 3546: XXXX 1777880592016, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592116 XXXX 1777880592116, Thread 3546: XXXX 1777880592116, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592118 XXXX 1777880592118, Thread 3546: XXXX 1777880592118, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592217 XXXX 1777880592217, Thread 3546: XXXX 1777880592217, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592219 XXXX 1777880592219, Thread 3546: XXXX 1777880592219, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592318 XXXX 1777880592318, Thread 3546: XXXX 1777880592318, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592320 XXXX 1777880592320, Thread 3546: XXXX 1777880592320, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592420 XXXX 1777880592420, Thread 3546: XXXX 1777880592420, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592422 XXXX 1777880592422, Thread 3546: XXXX 1777880592422, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592521 XXXX 1777880592521, Thread 3546: XXXX 1777880592521, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592523 XXXX 1777880592523, Thread 3546: XXXX 1777880592523, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592622 XXXX 1777880592622, Thread 3546: XXXX 1777880592622, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592624 XXXX 1777880592624, Thread 3546: XXXX 1777880592624, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592723 XXXX 1777880592723, Thread 3546: XXXX 1777880592723, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592725 XXXX 1777880592725, Thread 3546: XXXX 1777880592725, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592828 XXXX 1777880592828, Thread 3546: XXXX 1777880592828, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592830 XXXX 1777880592830, Thread 3546: XXXX 1777880592830, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880592931 XXXX 1777880592931, Thread 3546: XXXX 1777880592931, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880592933 XXXX 1777880592933, Thread 3546: XXXX 1777880592933, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593032 XXXX 1777880593032, Thread 3546: XXXX 1777880593032, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593034 XXXX 1777880593034, Thread 3546: XXXX 1777880593034, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593133 XXXX 1777880593133, Thread 3546: XXXX 1777880593133, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593135 XXXX 1777880593135, Thread 3546: XXXX 1777880593135, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593235 XXXX 1777880593235, Thread 3546: XXXX 1777880593235, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593237 XXXX 1777880593237, Thread 3546: XXXX 1777880593237, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593336 XXXX 1777880593336, Thread 3546: XXXX 1777880593336, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593338 XXXX 1777880593338, Thread 3546: XXXX 1777880593338, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593437 XXXX 1777880593437, Thread 3546: XXXX 1777880593437, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593439 XXXX 1777880593439, Thread 3546: XXXX 1777880593439, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593538 XXXX 1777880593538, Thread 3546: XXXX 1777880593538, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593540 XXXX 1777880593540, Thread 3546: XXXX 1777880593540, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593639 XXXX 1777880593639, Thread 3546: XXXX 1777880593639, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593641 XXXX 1777880593641, Thread 3546: XXXX 1777880593641, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593741 XXXX 1777880593741, Thread 3546: XXXX 1777880593741, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593743 XXXX 1777880593743, Thread 3546: XXXX 1777880593743, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593843 XXXX 1777880593843, Thread 3546: XXXX 1777880593843, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593845 XXXX 1777880593845, Thread 3546: XXXX 1777880593845, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880593944 XXXX 1777880593944, Thread 3546: XXXX 1777880593944, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880593946 XXXX 1777880593946, Thread 3546: XXXX 1777880593946, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594046 XXXX 1777880594046, Thread 3546: XXXX 1777880594046, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594048 XXXX 1777880594048, Thread 3546: XXXX 1777880594048, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594147 XXXX 1777880594147, Thread 3546: XXXX 1777880594147, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594149 XXXX 1777880594149, Thread 3546: XXXX 1777880594149, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594248 XXXX 1777880594248, Thread 3546: XXXX 1777880594248, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594250 XXXX 1777880594250, Thread 3546: XXXX 1777880594250, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594349 XXXX 1777880594349, Thread 3546: XXXX 1777880594349, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594351 XXXX 1777880594351, Thread 3546: XXXX 1777880594351, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594450 XXXX 1777880594450, Thread 3546: XXXX 1777880594450, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594452 XXXX 1777880594452, Thread 3546: XXXX 1777880594452, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594551 XXXX 1777880594551, Thread 3546: XXXX 1777880594551, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594553 XXXX 1777880594553, Thread 3546: XXXX 1777880594553, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594652 XXXX 1777880594652, Thread 3546: XXXX 1777880594652, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594654 XXXX 1777880594654, Thread 3546: XXXX 1777880594654, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594754 XXXX 1777880594754, Thread 3546: XXXX 1777880594754, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594756 XXXX 1777880594756, Thread 3546: XXXX 1777880594756, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594856 XXXX 1777880594856, Thread 3546: XXXX 1777880594856, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594858 XXXX 1777880594858, Thread 3546: XXXX 1777880594858, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880594958 XXXX 1777880594958, Thread 3546: XXXX 1777880594958, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880594960 XXXX 1777880594960, Thread 3546: XXXX 1777880594960, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595061 XXXX 1777880595061, Thread 3546: XXXX 1777880595061, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595063 XXXX 1777880595063, Thread 3546: XXXX 1777880595063, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595161 XXXX 1777880595161, Thread 3546: XXXX 1777880595161, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595163 XXXX 1777880595163, Thread 3546: XXXX 1777880595163, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595263 XXXX 1777880595263, Thread 3546: XXXX 1777880595263, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595265 XXXX 1777880595265, Thread 3546: XXXX 1777880595265, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595364 XXXX 1777880595364, Thread 3546: XXXX 1777880595364, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595366 XXXX 1777880595366, Thread 3546: XXXX 1777880595366, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595466 XXXX 1777880595466, Thread 3546: XXXX 1777880595466, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595468 XXXX 1777880595468, Thread 3546: XXXX 1777880595468, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595567 XXXX 1777880595567, Thread 3546: XXXX 1777880595567, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595569 XXXX 1777880595569, Thread 3546: XXXX 1777880595569, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595669 XXXX 1777880595669, Thread 3546: XXXX 1777880595669, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595671 XXXX 1777880595671, Thread 3546: XXXX 1777880595671, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595771 XXXX 1777880595771, Thread 3546: XXXX 1777880595771, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595773 XXXX 1777880595773, Thread 3546: XXXX 1777880595773, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595872 XXXX 1777880595872, Thread 3546: XXXX 1777880595872, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595874 XXXX 1777880595874, Thread 3546: XXXX 1777880595874, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880595974 XXXX 1777880595974, Thread 3546: XXXX 1777880595974, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880595976 XXXX 1777880595976, Thread 3546: XXXX 1777880595976, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596075 XXXX 1777880596075, Thread 3546: XXXX 1777880596075, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596077 XXXX 1777880596077, Thread 3546: XXXX 1777880596077, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596177 XXXX 1777880596177, Thread 3546: XXXX 1777880596177, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596179 XXXX 1777880596179, Thread 3546: XXXX 1777880596179, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596278 XXXX 1777880596278, Thread 3546: XXXX 1777880596278, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596280 XXXX 1777880596280, Thread 3546: XXXX 1777880596280, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596380 XXXX 1777880596380, Thread 3546: XXXX 1777880596380, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596382 XXXX 1777880596382, Thread 3546: XXXX 1777880596382, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596482 XXXX 1777880596482, Thread 3546: XXXX 1777880596482, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596484 XXXX 1777880596484, Thread 3546: XXXX 1777880596484, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596583 XXXX 1777880596583, Thread 3546: XXXX 1777880596583, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596585 XXXX 1777880596585, Thread 3546: XXXX 1777880596585, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596684 XXXX 1777880596684, Thread 3546: XXXX 1777880596684, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596686 XXXX 1777880596686, Thread 3546: XXXX 1777880596686, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596786 XXXX 1777880596786, Thread 3546: XXXX 1777880596786, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596788 XXXX 1777880596788, Thread 3546: XXXX 1777880596788, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596888 XXXX 1777880596888, Thread 3546: XXXX 1777880596888, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596890 XXXX 1777880596890, Thread 3546: XXXX 1777880596890, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880596989 XXXX 1777880596989, Thread 3546: XXXX 1777880596989, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880596991 XXXX 1777880596991, Thread 3546: XXXX 1777880596991, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597090 XXXX 1777880597090, Thread 3546: XXXX 1777880597090, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597092 XXXX 1777880597092, Thread 3546: XXXX 1777880597092, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597191 XXXX 1777880597191, Thread 3546: XXXX 1777880597191, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597193 XXXX 1777880597193, Thread 3546: XXXX 1777880597193, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597293 XXXX 1777880597293, Thread 3546: XXXX 1777880597293, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597295 XXXX 1777880597295, Thread 3546: XXXX 1777880597295, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597394 XXXX 1777880597394, Thread 3546: XXXX 1777880597394, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597396 XXXX 1777880597396, Thread 3546: XXXX 1777880597396, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597496 XXXX 1777880597496, Thread 3546: XXXX 1777880597496, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597498 XXXX 1777880597498, Thread 3546: XXXX 1777880597498, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597598 XXXX 1777880597598, Thread 3546: XXXX 1777880597598, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597600 XXXX 1777880597600, Thread 3546: XXXX 1777880597600, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597699 XXXX 1777880597699, Thread 3546: XXXX 1777880597699, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597701 XXXX 1777880597701, Thread 3546: XXXX 1777880597701, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597801 XXXX 1777880597801, Thread 3546: XXXX 1777880597801, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597803 XXXX 1777880597803, Thread 3546: XXXX 1777880597803, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880597902 XXXX 1777880597902, Thread 3546: XXXX 1777880597902, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880597904 XXXX 1777880597904, Thread 3546: XXXX 1777880597904, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598003 XXXX 1777880598003, Thread 3546: XXXX 1777880598003, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598005 XXXX 1777880598005, Thread 3546: XXXX 1777880598005, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598104 XXXX 1777880598104, Thread 3546: XXXX 1777880598104, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598106 XXXX 1777880598106, Thread 3546: XXXX 1777880598106, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598204 XXXX 1777880598204, Thread 3546: XXXX 1777880598204, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598206 XXXX 1777880598206, Thread 3546: XXXX 1777880598206, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598306 XXXX 1777880598306, Thread 3546: XXXX 1777880598306, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598308 XXXX 1777880598308, Thread 3546: XXXX 1777880598308, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598408 XXXX 1777880598408, Thread 3546: XXXX 1777880598408, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598410 XXXX 1777880598410, Thread 3546: XXXX 1777880598410, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598510 XXXX 1777880598510, Thread 3546: XXXX 1777880598510, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598512 XXXX 1777880598512, Thread 3546: XXXX 1777880598512, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598611 XXXX 1777880598611, Thread 3546: XXXX 1777880598611, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598613 XXXX 1777880598613, Thread 3546: XXXX 1777880598613, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598712 XXXX 1777880598712, Thread 3546: XXXX 1777880598712, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598714 XXXX 1777880598714, Thread 3546: XXXX 1777880598714, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598813 XXXX 1777880598813, Thread 3546: XXXX 1777880598813, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598815 XXXX 1777880598815, Thread 3546: XXXX 1777880598815, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880598914 XXXX 1777880598914, Thread 3546: XXXX 1777880598914, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880598916 XXXX 1777880598916, Thread 3546: XXXX 1777880598916, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599022 XXXX 1777880599022, Thread 3546: XXXX 1777880599022, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599024 XXXX 1777880599024, Thread 3546: XXXX 1777880599024, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599124 XXXX 1777880599124, Thread 3546: XXXX 1777880599124, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599126 XXXX 1777880599126, Thread 3546: XXXX 1777880599126, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599226 XXXX 1777880599226, Thread 3546: XXXX 1777880599226, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599228 XXXX 1777880599228, Thread 3546: XXXX 1777880599228, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599327 XXXX 1777880599327, Thread 3546: XXXX 1777880599327, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599329 XXXX 1777880599329, Thread 3546: XXXX 1777880599329, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599428 XXXX 1777880599428, Thread 3546: XXXX 1777880599428, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599430 XXXX 1777880599430, Thread 3546: XXXX 1777880599430, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599530 XXXX 1777880599530, Thread 3546: XXXX 1777880599530, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599532 XXXX 1777880599532, Thread 3546: XXXX 1777880599532, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599632 XXXX 1777880599632, Thread 3546: XXXX 1777880599632, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599634 XXXX 1777880599634, Thread 3546: XXXX 1777880599634, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599733 XXXX 1777880599733, Thread 3546: XXXX 1777880599733, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599735 XXXX 1777880599735, Thread 3546: XXXX 1777880599735, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599835 XXXX 1777880599835, Thread 3546: XXXX 1777880599835, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599837 XXXX 1777880599837, Thread 3546: XXXX 1777880599837, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880599937 XXXX 1777880599937, Thread 3546: XXXX 1777880599937, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880599939 XXXX 1777880599939, Thread 3546: XXXX 1777880599939, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600039 XXXX 1777880600039, Thread 3546: XXXX 1777880600039, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600041 XXXX 1777880600041, Thread 3546: XXXX 1777880600041, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600140 XXXX 1777880600140, Thread 3546: XXXX 1777880600140, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600142 XXXX 1777880600142, Thread 3546: XXXX 1777880600142, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600242 XXXX 1777880600242, Thread 3546: XXXX 1777880600242, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600244 XXXX 1777880600244, Thread 3546: XXXX 1777880600244, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600344 XXXX 1777880600344, Thread 3546: XXXX 1777880600344, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600346 XXXX 1777880600346, Thread 3546: XXXX 1777880600346, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600445 XXXX 1777880600445, Thread 3546: XXXX 1777880600445, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600447 XXXX 1777880600447, Thread 3546: XXXX 1777880600447, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600550 XXXX 1777880600550, Thread 3546: XXXX 1777880600550, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600552 XXXX 1777880600552, Thread 3546: XXXX 1777880600552, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600652 XXXX 1777880600652, Thread 3546: XXXX 1777880600652, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600654 XXXX 1777880600654, Thread 3546: XXXX 1777880600654, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600754 XXXX 1777880600754, Thread 3546: XXXX 1777880600754, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600756 XXXX 1777880600756, Thread 3546: XXXX 1777880600756, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600856 XXXX 1777880600856, Thread 3546: XXXX 1777880600856, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600858 XXXX 1777880600858, Thread 3546: XXXX 1777880600858, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880600957 XXXX 1777880600957, Thread 3546: XXXX 1777880600957, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880600959 XXXX 1777880600959, Thread 3546: XXXX 1777880600959, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601061 XXXX 1777880601061, Thread 3546: XXXX 1777880601061, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601063 XXXX 1777880601063, Thread 3546: XXXX 1777880601063, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601162 XXXX 1777880601162, Thread 3546: XXXX 1777880601162, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601164 XXXX 1777880601164, Thread 3546: XXXX 1777880601164, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601263 XXXX 1777880601263, Thread 3546: XXXX 1777880601263, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601265 XXXX 1777880601265, Thread 3546: XXXX 1777880601265, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601365 XXXX 1777880601365, Thread 3546: XXXX 1777880601365, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601366 XXXX 1777880601366, Thread 3546: XXXX 1777880601366, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601466 XXXX 1777880601466, Thread 3546: XXXX 1777880601466, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601468 XXXX 1777880601468, Thread 3546: XXXX 1777880601468, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601568 XXXX 1777880601568, Thread 3546: XXXX 1777880601568, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601570 XXXX 1777880601570, Thread 3546: XXXX 1777880601570, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601670 XXXX 1777880601670, Thread 3546: XXXX 1777880601670, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601672 XXXX 1777880601672, Thread 3546: XXXX 1777880601672, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601772 XXXX 1777880601772, Thread 3546: XXXX 1777880601772, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601774 XXXX 1777880601774, Thread 3546: XXXX 1777880601774, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601874 XXXX 1777880601874, Thread 3546: XXXX 1777880601874, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601876 XXXX 1777880601876, Thread 3546: XXXX 1777880601876, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880601976 XXXX 1777880601976, Thread 3546: XXXX 1777880601976, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880601978 XXXX 1777880601978, Thread 3546: XXXX 1777880601978, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602079 XXXX 1777880602079, Thread 3546: XXXX 1777880602079, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602081 XXXX 1777880602081, Thread 3546: XXXX 1777880602081, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602180 XXXX 1777880602180, Thread 3546: XXXX 1777880602180, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602182 XXXX 1777880602182, Thread 3546: XXXX 1777880602182, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602282 XXXX 1777880602282, Thread 3546: XXXX 1777880602282, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602284 XXXX 1777880602284, Thread 3546: XXXX 1777880602284, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602384 XXXX 1777880602384, Thread 3546: XXXX 1777880602384, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602386 XXXX 1777880602386, Thread 3546: XXXX 1777880602386, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602485 XXXX 1777880602485, Thread 3546: XXXX 1777880602485, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602487 XXXX 1777880602487, Thread 3546: XXXX 1777880602487, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602587 XXXX 1777880602587, Thread 3546: XXXX 1777880602587, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602589 XXXX 1777880602589, Thread 3546: XXXX 1777880602589, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602688 XXXX 1777880602688, Thread 3546: XXXX 1777880602688, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602690 XXXX 1777880602690, Thread 3546: XXXX 1777880602690, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602789 XXXX 1777880602789, Thread 3546: XXXX 1777880602789, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602791 XXXX 1777880602791, Thread 3546: XXXX 1777880602791, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602891 XXXX 1777880602891, Thread 3546: XXXX 1777880602891, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602893 XXXX 1777880602893, Thread 3546: XXXX 1777880602893, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880602992 XXXX 1777880602992, Thread 3546: XXXX 1777880602992, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880602993 XXXX 1777880602993, Thread 3546: XXXX 1777880602993, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603098 XXXX 1777880603098, Thread 3546: XXXX 1777880603098, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603100 XXXX 1777880603100, Thread 3546: XXXX 1777880603100, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603199 XXXX 1777880603199, Thread 3546: XXXX 1777880603199, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603201 XXXX 1777880603201, Thread 3546: XXXX 1777880603201, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603301 XXXX 1777880603301, Thread 3546: XXXX 1777880603301, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603302 XXXX 1777880603302, Thread 3546: XXXX 1777880603302, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603402 XXXX 1777880603402, Thread 3546: XXXX 1777880603402, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603404 XXXX 1777880603404, Thread 3546: XXXX 1777880603404, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603503 XXXX 1777880603503, Thread 3546: XXXX 1777880603503, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603505 XXXX 1777880603505, Thread 3546: XXXX 1777880603505, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603604 XXXX 1777880603604, Thread 3546: XXXX 1777880603604, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603606 XXXX 1777880603606, Thread 3546: XXXX 1777880603606, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603705 XXXX 1777880603705, Thread 3546: XXXX 1777880603705, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603707 XXXX 1777880603707, Thread 3546: XXXX 1777880603707, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603807 XXXX 1777880603807, Thread 3546: XXXX 1777880603807, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603809 XXXX 1777880603809, Thread 3546: XXXX 1777880603809, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880603909 XXXX 1777880603909, Thread 3546: XXXX 1777880603909, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880603933 XXXX 1777880603933, Thread 3546: XXXX 1777880603933, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604009 XXXX 1777880604009, Thread 3546: XXXX 1777880604009, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604011 XXXX 1777880604011, Thread 3546: XXXX 1777880604011, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604111 XXXX 1777880604111, Thread 3546: XXXX 1777880604111, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604113 XXXX 1777880604113, Thread 3546: XXXX 1777880604113, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604212 XXXX 1777880604212, Thread 3546: XXXX 1777880604212, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604214 XXXX 1777880604214, Thread 3546: XXXX 1777880604214, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604317 XXXX 1777880604317, Thread 3546: XXXX 1777880604317, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604318 XXXX 1777880604318, Thread 3546: XXXX 1777880604318, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604423 XXXX 1777880604423, Thread 3546: XXXX 1777880604423, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604424 XXXX 1777880604424, Thread 3546: XXXX 1777880604424, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604524 XXXX 1777880604524, Thread 3546: XXXX 1777880604524, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604526 XXXX 1777880604526, Thread 3546: XXXX 1777880604526, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604624 XXXX 1777880604624, Thread 3546: XXXX 1777880604624, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604626 XXXX 1777880604626, Thread 3546: XXXX 1777880604626, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604727 XXXX 1777880604727, Thread 3546: XXXX 1777880604727, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604728 XXXX 1777880604728, Thread 3546: XXXX 1777880604728, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604828 XXXX 1777880604828, Thread 3546: XXXX 1777880604828, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604830 XXXX 1777880604830, Thread 3546: XXXX 1777880604830, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880604929 XXXX 1777880604929, Thread 3546: XXXX 1777880604929, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880604930 XXXX 1777880604930, Thread 3546: XXXX 1777880604930, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605031 XXXX 1777880605031, Thread 3546: XXXX 1777880605031, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605032 XXXX 1777880605032, Thread 3546: XXXX 1777880605032, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605133 XXXX 1777880605133, Thread 3546: XXXX 1777880605133, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605135 XXXX 1777880605135, Thread 3546: XXXX 1777880605135, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605234 XXXX 1777880605234, Thread 3546: XXXX 1777880605234, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605236 XXXX 1777880605236, Thread 3546: XXXX 1777880605236, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605336 XXXX 1777880605336, Thread 3546: XXXX 1777880605336, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605337 XXXX 1777880605337, Thread 3546: XXXX 1777880605337, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605438 XXXX 1777880605438, Thread 3546: XXXX 1777880605438, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605439 XXXX 1777880605439, Thread 3546: XXXX 1777880605439, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605540 XXXX 1777880605540, Thread 3546: XXXX 1777880605540, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605542 XXXX 1777880605542, Thread 3546: XXXX 1777880605542, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605641 XXXX 1777880605641, Thread 3546: XXXX 1777880605641, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605643 XXXX 1777880605643, Thread 3546: XXXX 1777880605643, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605743 XXXX 1777880605743, Thread 3546: XXXX 1777880605743, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605745 XXXX 1777880605745, Thread 3546: XXXX 1777880605745, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605844 XXXX 1777880605844, Thread 3546: XXXX 1777880605844, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605845 XXXX 1777880605845, Thread 3546: XXXX 1777880605845, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880605946 XXXX 1777880605946, Thread 3546: XXXX 1777880605946, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880605948 XXXX 1777880605948, Thread 3546: XXXX 1777880605948, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606048 XXXX 1777880606048, Thread 3546: XXXX 1777880606048, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606050 XXXX 1777880606050, Thread 3546: XXXX 1777880606050, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606150 XXXX 1777880606150, Thread 3546: XXXX 1777880606150, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606152 XXXX 1777880606152, Thread 3546: XXXX 1777880606152, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606252 XXXX 1777880606252, Thread 3546: XXXX 1777880606252, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606254 XXXX 1777880606254, Thread 3546: XXXX 1777880606254, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606354 XXXX 1777880606354, Thread 3546: XXXX 1777880606354, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606355 XXXX 1777880606355, Thread 3546: XXXX 1777880606355, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606459 XXXX 1777880606459, Thread 3546: XXXX 1777880606459, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606460 XXXX 1777880606460, Thread 3546: XXXX 1777880606460, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606561 XXXX 1777880606561, Thread 3546: XXXX 1777880606561, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606563 XXXX 1777880606563, Thread 3546: XXXX 1777880606563, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606663 XXXX 1777880606663, Thread 3546: XXXX 1777880606663, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606665 XXXX 1777880606665, Thread 3546: XXXX 1777880606665, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606764 XXXX 1777880606764, Thread 3546: XXXX 1777880606764, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606766 XXXX 1777880606766, Thread 3546: XXXX 1777880606766, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606865 XXXX 1777880606865, Thread 3546: XXXX 1777880606865, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606866 XXXX 1777880606866, Thread 3546: XXXX 1777880606866, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880606967 XXXX 1777880606967, Thread 3546: XXXX 1777880606967, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880606969 XXXX 1777880606969, Thread 3546: XXXX 1777880606969, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607069 XXXX 1777880607069, Thread 3546: XXXX 1777880607069, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607071 XXXX 1777880607071, Thread 3546: XXXX 1777880607071, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607170 XXXX 1777880607170, Thread 3546: XXXX 1777880607170, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607172 XXXX 1777880607172, Thread 3546: XXXX 1777880607172, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607271 XXXX 1777880607271, Thread 3546: XXXX 1777880607271, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607272 XXXX 1777880607272, Thread 3546: XXXX 1777880607272, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607373 XXXX 1777880607373, Thread 3546: XXXX 1777880607373, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607374 XXXX 1777880607374, Thread 3546: XXXX 1777880607374, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607474 XXXX 1777880607474, Thread 3546: XXXX 1777880607474, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607475 XXXX 1777880607475, Thread 3546: XXXX 1777880607475, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607575 XXXX 1777880607575, Thread 3546: XXXX 1777880607575, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607577 XXXX 1777880607577, Thread 3546: XXXX 1777880607577, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607677 XXXX 1777880607677, Thread 3546: XXXX 1777880607677, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607679 XXXX 1777880607679, Thread 3546: XXXX 1777880607679, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607778 XXXX 1777880607778, Thread 3546: XXXX 1777880607778, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607780 XXXX 1777880607780, Thread 3546: XXXX 1777880607780, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607879 XXXX 1777880607879, Thread 3546: XXXX 1777880607879, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607880 XXXX 1777880607880, Thread 3546: XXXX 1777880607880, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880607980 XXXX 1777880607980, Thread 3546: XXXX 1777880607980, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880607981 XXXX 1777880607981, Thread 3546: XXXX 1777880607981, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608082 XXXX 1777880608082, Thread 3546: XXXX 1777880608082, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608084 XXXX 1777880608084, Thread 3546: XXXX 1777880608084, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608182 XXXX 1777880608182, Thread 3546: XXXX 1777880608182, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608184 XXXX 1777880608184, Thread 3546: XXXX 1777880608184, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608283 XXXX 1777880608283, Thread 3546: XXXX 1777880608283, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608285 XXXX 1777880608285, Thread 3546: XXXX 1777880608285, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608391 XXXX 1777880608391, Thread 3546: XXXX 1777880608391, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608392 XXXX 1777880608392, Thread 3546: XXXX 1777880608392, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608493 XXXX 1777880608493, Thread 3546: XXXX 1777880608493, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608494 XXXX 1777880608494, Thread 3546: XXXX 1777880608494, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608595 XXXX 1777880608595, Thread 3546: XXXX 1777880608595, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608597 XXXX 1777880608597, Thread 3546: XXXX 1777880608597, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608695 XXXX 1777880608695, Thread 3546: XXXX 1777880608695, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608697 XXXX 1777880608697, Thread 3546: XXXX 1777880608697, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608796 XXXX 1777880608796, Thread 3546: XXXX 1777880608796, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608798 XXXX 1777880608798, Thread 3546: XXXX 1777880608798, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608897 XXXX 1777880608897, Thread 3546: XXXX 1777880608897, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608898 XXXX 1777880608898, Thread 3546: XXXX 1777880608898, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880608998 XXXX 1777880608998, Thread 3546: XXXX 1777880608998, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880608999 XXXX 1777880608999, Thread 3546: XXXX 1777880608999, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609099 XXXX 1777880609099, Thread 3546: XXXX 1777880609099, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609101 XXXX 1777880609101, Thread 3546: XXXX 1777880609101, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609200 XXXX 1777880609200, Thread 3546: XXXX 1777880609200, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609202 XXXX 1777880609202, Thread 3546: XXXX 1777880609202, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609301 XXXX 1777880609301, Thread 3546: XXXX 1777880609301, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609302 XXXX 1777880609302, Thread 3546: XXXX 1777880609302, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609401 XXXX 1777880609401, Thread 3546: XXXX 1777880609401, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609402 XXXX 1777880609402, Thread 3546: XXXX 1777880609402, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609505 XXXX 1777880609505, Thread 3546: XXXX 1777880609505, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609506 XXXX 1777880609506, Thread 3546: XXXX 1777880609506, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609607 XXXX 1777880609607, Thread 3546: XXXX 1777880609607, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609608 XXXX 1777880609608, Thread 3546: XXXX 1777880609608, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609707 XXXX 1777880609707, Thread 3546: XXXX 1777880609707, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609709 XXXX 1777880609709, Thread 3546: XXXX 1777880609709, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609808 XXXX 1777880609808, Thread 3546: XXXX 1777880609808, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609809 XXXX 1777880609809, Thread 3546: XXXX 1777880609809, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880609909 XXXX 1777880609909, Thread 3546: XXXX 1777880609909, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880609911 XXXX 1777880609911, Thread 3546: XXXX 1777880609911, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610010 XXXX 1777880610010, Thread 3546: XXXX 1777880610010, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610011 XXXX 1777880610011, Thread 3546: XXXX 1777880610011, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610110 XXXX 1777880610110, Thread 3546: XXXX 1777880610110, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610112 XXXX 1777880610112, Thread 3546: XXXX 1777880610112, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610211 XXXX 1777880610211, Thread 3546: XXXX 1777880610211, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610213 XXXX 1777880610213, Thread 3546: XXXX 1777880610213, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610312 XXXX 1777880610312, Thread 3546: XXXX 1777880610312, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610314 XXXX 1777880610314, Thread 3546: XXXX 1777880610314, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610412 XXXX 1777880610412, Thread 3546: XXXX 1777880610412, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610414 XXXX 1777880610414, Thread 3546: XXXX 1777880610414, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610517 XXXX 1777880610517, Thread 3546: XXXX 1777880610517, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610518 XXXX 1777880610518, Thread 3546: XXXX 1777880610518, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610618 XXXX 1777880610618, Thread 3546: XXXX 1777880610618, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610620 XXXX 1777880610620, Thread 3546: XXXX 1777880610620, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610719 XXXX 1777880610719, Thread 3546: XXXX 1777880610719, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610721 XXXX 1777880610721, Thread 3546: XXXX 1777880610721, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610824 XXXX 1777880610824, Thread 3546: XXXX 1777880610824, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610825 XXXX 1777880610825, Thread 3546: XXXX 1777880610825, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880610926 XXXX 1777880610926, Thread 3546: XXXX 1777880610926, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880610928 XXXX 1777880610928, Thread 3546: XXXX 1777880610928, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611026 XXXX 1777880611026, Thread 3546: XXXX 1777880611026, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611027 XXXX 1777880611027, Thread 3546: XXXX 1777880611027, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611126 XXXX 1777880611126, Thread 3546: XXXX 1777880611126, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611128 XXXX 1777880611128, Thread 3546: XXXX 1777880611128, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611227 XXXX 1777880611227, Thread 3546: XXXX 1777880611227, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611229 XXXX 1777880611229, Thread 3546: XXXX 1777880611229, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611328 XXXX 1777880611328, Thread 3546: XXXX 1777880611328, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611329 XXXX 1777880611329, Thread 3546: XXXX 1777880611329, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611429 XXXX 1777880611429, Thread 3546: XXXX 1777880611429, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611430 XXXX 1777880611430, Thread 3546: XXXX 1777880611430, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611529 XXXX 1777880611529, Thread 3546: XXXX 1777880611529, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611530 XXXX 1777880611530, Thread 3546: XXXX 1777880611530, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611630 XXXX 1777880611630, Thread 3546: XXXX 1777880611630, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611632 XXXX 1777880611632, Thread 3546: XXXX 1777880611632, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611730 XXXX 1777880611730, Thread 3546: XXXX 1777880611730, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611732 XXXX 1777880611732, Thread 3546: XXXX 1777880611732, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611830 XXXX 1777880611830, Thread 3546: XXXX 1777880611830, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611831 XXXX 1777880611831, Thread 3546: XXXX 1777880611831, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880611930 XXXX 1777880611930, Thread 3546: XXXX 1777880611930, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880611932 XXXX 1777880611932, Thread 3546: XXXX 1777880611932, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612031 XXXX 1777880612031, Thread 3546: XXXX 1777880612031, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612033 XXXX 1777880612033, Thread 3546: XXXX 1777880612033, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612131 XXXX 1777880612131, Thread 3546: XXXX 1777880612131, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612133 XXXX 1777880612133, Thread 3546: XXXX 1777880612133, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612232 XXXX 1777880612232, Thread 3546: XXXX 1777880612232, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612233 XXXX 1777880612233, Thread 3546: XXXX 1777880612233, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612332 XXXX 1777880612332, Thread 3546: XXXX 1777880612332, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612333 XXXX 1777880612333, Thread 3546: XXXX 1777880612333, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612432 XXXX 1777880612432, Thread 3546: XXXX 1777880612432, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612433 XXXX 1777880612433, Thread 3546: XXXX 1777880612433, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612533 XXXX 1777880612533, Thread 3546: XXXX 1777880612533, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612534 XXXX 1777880612534, Thread 3546: XXXX 1777880612534, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612633 XXXX 1777880612633, Thread 3546: XXXX 1777880612633, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612634 XXXX 1777880612634, Thread 3546: XXXX 1777880612634, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612733 XXXX 1777880612733, Thread 3546: XXXX 1777880612733, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612734 XXXX 1777880612734, Thread 3546: XXXX 1777880612734, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612833 XXXX 1777880612833, Thread 3546: XXXX 1777880612833, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612834 XXXX 1777880612834, Thread 3546: XXXX 1777880612834, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880612934 XXXX 1777880612934, Thread 3546: XXXX 1777880612934, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880612935 XXXX 1777880612935, Thread 3546: XXXX 1777880612935, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613035 XXXX 1777880613035, Thread 3546: XXXX 1777880613035, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613036 XXXX 1777880613036, Thread 3546: XXXX 1777880613036, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613135 XXXX 1777880613135, Thread 3546: XXXX 1777880613135, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613137 XXXX 1777880613137, Thread 3546: XXXX 1777880613137, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613236 XXXX 1777880613236, Thread 3546: XXXX 1777880613236, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613237 XXXX 1777880613237, Thread 3546: XXXX 1777880613237, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613336 XXXX 1777880613336, Thread 3546: XXXX 1777880613336, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613337 XXXX 1777880613337, Thread 3546: XXXX 1777880613337, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613437 XXXX 1777880613437, Thread 3546: XXXX 1777880613437, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613438 XXXX 1777880613438, Thread 3546: XXXX 1777880613438, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613544 XXXX 1777880613544, Thread 3546: XXXX 1777880613544, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613545 XXXX 1777880613545, Thread 3546: XXXX 1777880613545, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613644 XXXX 1777880613644, Thread 3546: XXXX 1777880613644, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613646 XXXX 1777880613646, Thread 3546: XXXX 1777880613646, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613744 XXXX 1777880613744, Thread 3546: XXXX 1777880613744, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613745 XXXX 1777880613745, Thread 3546: XXXX 1777880613745, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613845 XXXX 1777880613845, Thread 3546: XXXX 1777880613845, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613846 XXXX 1777880613846, Thread 3546: XXXX 1777880613846, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880613946 XXXX 1777880613946, Thread 3546: XXXX 1777880613946, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880613947 XXXX 1777880613947, Thread 3546: XXXX 1777880613947, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614046 XXXX 1777880614046, Thread 3546: XXXX 1777880614046, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614049 XXXX 1777880614049, Thread 3546: XXXX 1777880614049, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614148 XXXX 1777880614148, Thread 3546: XXXX 1777880614148, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614149 XXXX 1777880614149, Thread 3546: XXXX 1777880614149, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614248 XXXX 1777880614248, Thread 3546: XXXX 1777880614248, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614250 XXXX 1777880614250, Thread 3546: XXXX 1777880614250, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614349 XXXX 1777880614349, Thread 3546: XXXX 1777880614349, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614350 XXXX 1777880614350, Thread 3546: XXXX 1777880614350, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614449 XXXX 1777880614449, Thread 3546: XXXX 1777880614449, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614450 XXXX 1777880614450, Thread 3546: XXXX 1777880614450, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614550 XXXX 1777880614550, Thread 3546: XXXX 1777880614550, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614551 XXXX 1777880614551, Thread 3546: XXXX 1777880614551, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614651 XXXX 1777880614651, Thread 3546: XXXX 1777880614651, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614653 XXXX 1777880614653, Thread 3546: XXXX 1777880614653, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614752 XXXX 1777880614752, Thread 3546: XXXX 1777880614752, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614753 XXXX 1777880614753, Thread 3546: XXXX 1777880614753, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614853 XXXX 1777880614853, Thread 3546: XXXX 1777880614853, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614854 XXXX 1777880614854, Thread 3546: XXXX 1777880614854, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880614953 XXXX 1777880614953, Thread 3546: XXXX 1777880614953, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880614954 XXXX 1777880614954, Thread 3546: XXXX 1777880614954, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615054 XXXX 1777880615054, Thread 3546: XXXX 1777880615054, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615055 XXXX 1777880615055, Thread 3546: XXXX 1777880615055, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615154 XXXX 1777880615154, Thread 3546: XXXX 1777880615154, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615156 XXXX 1777880615156, Thread 3546: XXXX 1777880615156, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615255 XXXX 1777880615255, Thread 3546: XXXX 1777880615255, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615256 XXXX 1777880615256, Thread 3546: XXXX 1777880615256, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615356 XXXX 1777880615356, Thread 3546: XXXX 1777880615356, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615357 XXXX 1777880615357, Thread 3546: XXXX 1777880615357, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615458 XXXX 1777880615458, Thread 3546: XXXX 1777880615458, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615459 XXXX 1777880615459, Thread 3546: XXXX 1777880615459, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615559 XXXX 1777880615559, Thread 3546: XXXX 1777880615559, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615560 XXXX 1777880615560, Thread 3546: XXXX 1777880615560, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615659 XXXX 1777880615659, Thread 3546: XXXX 1777880615659, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615660 XXXX 1777880615660, Thread 3546: XXXX 1777880615660, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615760 XXXX 1777880615760, Thread 3546: XXXX 1777880615760, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615761 XXXX 1777880615761, Thread 3546: XXXX 1777880615761, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615861 XXXX 1777880615861, Thread 3546: XXXX 1777880615861, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615862 XXXX 1777880615862, Thread 3546: XXXX 1777880615862, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880615961 XXXX 1777880615961, Thread 3546: XXXX 1777880615961, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880615962 XXXX 1777880615962, Thread 3546: XXXX 1777880615962, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880616062 XXXX 1777880616062, Thread 3546: XXXX 1777880616062, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880616063 XXXX 1777880616063, Thread 3546: XXXX 1777880616063, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880616162 XXXX 1777880616162, Thread 3546: XXXX 1777880616162, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880616163 XXXX 1777880616163, Thread 3546: XXXX 1777880616163, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880616262 XXXX 1777880616262, Thread 3546: XXXX 1777880616262, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880616263 XXXX 1777880616263, Thread 3546: XXXX 1777880616263, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880616363 XXXX 1777880616363, Thread 3546: XXXX 1777880616363, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880616364 XXXX 1777880616364, Thread 3546: XXXX 1777880616364, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880616464 XXXX 1777880616464, Thread 3546: XXXX 1777880616464, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880616465 XXXX 1777880616465, Thread 3546: XXXX 1777880616465, Exiting Thread 3546: Commands::runScriptBasic  
+3546 1777880616564 XXXX 1777880616564, Thread 3546: XXXX 1777880616564, Entering Thread 3546: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3546 1777880616566 XXXX 1777880616566, Thread 3546: XXXX 1777880616566, Exiting Thread 3546: Commands::runScriptBasic  
 
-7594 1768827793353 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
-7594 1768827793353 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
-7594 1768827793353 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
-7594 1768827793353 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
-7594 1768827793353 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
-7594 1768827793353 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
-7594 1768827793353 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
-7594 1768827793353 XXXX 1768827793353, Thread 7594: XXXX 1768827793353, Entering Thread 7594: Commands::runScriptWithUpload, script name = ReadSFR  
-7594 1768827793353 XXXX 1768827793353, Thread 7594: XXXX 1768827793353, Entering Thread 7594: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
-7594 1768827793365 XXXX 1768827793365, Thread 7594: com.Send returned false 
-7594 1768827793365 XXXX 1768827793365, Thread 7594: readTransfer: exception after writeHeaderAndGetAck null 
-7594 1768827793365 XXXX 1768827793365, Thread 7594: XXXX 1768827793365, Entering Thread 7594: ToolCommUsb::recoverFromProtocolError, type = NO_SCRIPT  
-7594 1768827793365 XXXX 1768827793365, Thread 7594: Send Abort Script Engine Command 
-7594 1768827793365 XXXX 1768827793365, Thread 7594: XXXX 1768827793365, Entering Thread 7594: ToolCommUsb::killScriptEngine  
-7594 1768827793373 XXXX 1768827793373, Thread 7594: com.Send returned false 
-7594 1768827793373 XXXX 1768827793373, Thread 7594: Failed sending Abort Script Engine Command. Set nuclear option = true 
-7594 1768827793373 XXXX 1768827793373, Thread 7594: About to nuke 
-7594 1768827793373 XXXX 1768827793373, Thread 7594: XXXX 1768827793373, Entering Thread 7594: ToolCommUsb::nuclearOption  
-7594 1768827793381 XXXX 1768827793381, Thread 7594: com.Send returned false 
+3546 1777880616612 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:HaltTarget
+3546 1777880616612 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+3546 1777880616612 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
+3546 1777880616612 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+3546 1777880616612 XXXX 1777880616612, Thread 3546: XXXX 1777880616612, Entering Thread 3546: Commands::runScriptBasic, script name = Halt, timeOut = -1 ms  
+3546 1777880617615 XXXX 1777880617615, Thread 3546: Type = runScript, Script name = Halt, Status = 0xc00
+ 
+
+5057 1777880617645 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
+5057 1777880617645 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+5057 1777880617645 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
+5057 1777880617645 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+5057 1777880617645 XXXX 1777880617645, Thread 5057: XXXX 1777880617645, Entering Thread 5057: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
+5057 1777880619646 XXXX 1777880619646, Thread 5057: Type = runScript, Script name = GetPC, Status = 0xc06
+ 
+
+5057 1777880619658 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+5057 1777880619658 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+5057 1777880619658 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+5057 1777880619658 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
+5057 1777880619658 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
+5057 1777880619658 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+5057 1777880619658 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+5057 1777880619658 XXXX 1777880619658, Thread 5057: XXXX 1777880619658, Entering Thread 5057: Commands::runScriptWithUpload, script name = ReadSFR  
+5057 1777880619658 XXXX 1777880619658, Thread 5057: XXXX 1777880619658, Entering Thread 5057: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+48 1777880763771 GEN4_CONNECT_DIAGNOSTICS:Calling Update on plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@75866a48
+48 1777880763771 GEN4_CONNECT_DIAGNOSTICS:Entering plug and play Update(). Attached PID = 9015
+48 1777880763772 GEN4_CONNECT_DIAGNOSTICS:Entering MPLABCommEvent handler
+48 1777881229644 GEN4_CONNECT_DIAGNOSTICS:MPLABCommEvent.pid = 9015
+48 1777881229644 GEN4_CONNECT_DIAGNOSTICS:eventType = MPLABCOMM_TOOL_UNPLUGGED
+5061 1777881229661 XXXX 1777881229661, Thread 5061: ToolCommUsb::read, com.Received returned -1 
+5061 1777881229661 XXXX 1777881229661, Thread 5061: ToolCommUsb::DataReader::run, fatal RI4ControllerException: {null} 
+48 1777881229663 GEN4_CONNECT_DIAGNOSTICS:Exiting plug and play Update()
+5057 1777881229672 XXXX 1777881229672, Thread 5057: com.Send returned false 

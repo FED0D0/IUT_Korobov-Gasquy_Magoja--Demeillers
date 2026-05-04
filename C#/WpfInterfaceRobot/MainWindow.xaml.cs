@@ -471,19 +471,37 @@ namespace WpfInterfaceRobot
         {
             List<byte> caca = new List<byte>();
             caca.AddRange(BitConverter.GetBytes(robot.Kp_x));
-            caca.AddRange(BitConverter.GetBytes(robot.Kd_x));
             caca.AddRange(BitConverter.GetBytes(robot.Ki_x));
+            caca.AddRange(BitConverter.GetBytes(robot.Kd_x));
             caca.AddRange(BitConverter.GetBytes(robot.Cor_p_max_x));
             caca.AddRange(BitConverter.GetBytes(robot.Cor_i_max_x));
             caca.AddRange(BitConverter.GetBytes(robot.Cor_d_max_x));
+
+            caca.Add(0); // 0 = PID linéaire (PidX)
+
             byte[] payloadConX = caca.ToArray();
 
+            UartEncodeAndSendMessage(0x0050, payloadConX.Length, payloadConX);
         }
 
         private void buttonConsT_Click(object sender, RoutedEventArgs e)
         {
+            List<byte> caca = new List<byte>();
 
+            caca.AddRange(BitConverter.GetBytes(robot.Kp_t));
+            caca.AddRange(BitConverter.GetBytes(robot.Ki_t));
+            caca.AddRange(BitConverter.GetBytes(robot.Kd_t));
+            caca.AddRange(BitConverter.GetBytes(robot.Cor_p_max_t));
+            caca.AddRange(BitConverter.GetBytes(robot.Cor_i_max_t));
+            caca.AddRange(BitConverter.GetBytes(robot.Cor_d_max_t));
+
+            caca.Add(1); // 1 = PID angulaire
+
+            byte[] payloadConT = caca.ToArray();
+
+            UartEncodeAndSendMessage(0x0050, payloadConT.Length, payloadConT);
         }
     }
+    
 
 }
