@@ -4,7 +4,7 @@
 #include "CB_TX1.h"
 #include "main.h"
 
-unsigned char autoControlActivated = 1;
+unsigned char autoControlActivated = 0;
 unsigned char currentRobotState = 0;
 
 unsigned char UartCalculateChecksum(int msgFunction,

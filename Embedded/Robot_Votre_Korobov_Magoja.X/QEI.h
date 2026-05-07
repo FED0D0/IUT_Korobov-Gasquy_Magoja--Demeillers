@@ -7,12 +7,19 @@
 
 #ifndef QEI_H
 #define	QEI_H
-#include <stdint.h>
+
+#define DISTROUES 0.2812
+#define FREQ_ECH_QEI  250
+
+//#include <stdint.h>
 void InitQEI1();
 void InitQEI2();
-void SendPositionData(void);
-void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed);
-#define DISTROUES 0.2812
+void SendPositionData();
+void QEIUpdateData();
+//void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed);
+void PIDTest();
+
+
 
 #endif	/* QEI_H */
 

@@ -1,68 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <xc.h>
+#include "ChipConfig.h"
 #include "QEI.h"
 #include "IO.h"
 #include "ToolBox.h"
 #include "Robot.h"
 #include "math.h"
-#include <xc.h>
 #include "Utilities.h"
 #include "UART_Protocol.h"
 #include "Timer.h"
 
+#define TEST_PID 0x0062
 
-void InitQEI1()
-{
-QEI1IOCbits.SWPAB = 1; //QEAx and QEBx are swapped
-QEI1GECL = 0xFFFF;
-QEI1GECH = 0xFFFF;
-QEI1CONbits.QEIEN = 1; // Enable QEI Module
-}
-void InitQEI2(){
-QEI2IOCbits.SWPAB = 1; //QEAx and QEBx are not swapped
-QEI2GECL = 0xFFFF;
-QEI2GECH = 0xFFFF;
-QEI2CONbits.QEIEN = 1; // Enable QEI Module
+double QeiDroitPosition_T_1 = 0;
+double QeiGauchePosition_T_1 = 0;
+double QeiDroitPosition = 0;
+double QeiGauchePosition = 0;
+
+void InitQEI1() {
+    QEI1IOCbits.SWPAB = 1; //QEAx and QEBx are swapped
+    QEI1GECL = 0xFFFF;
+    QEI1GECH = 0xFFFF;
+    QEI1CONbits.QEIEN = 1; // Enable QEI Module
 }
 
-double QeiDroitPosition_T_1;
-double QeiGauchePosition_T_1;
-double QeiDroitPosition;
-double QeiGauchePosition;
-double FREQ_ECH_QEI = 250;
-void QEIUpdateData()
-{
-    
-//On sauvegarde les anciennes valeurs
-QeiDroitPosition_T_1 = QeiDroitPosition;
-QeiGauchePosition_T_1 = QeiGauchePosition;
-//On actualise les valeurs des positions
-long QEI1RawValue = POS1CNTL;
-QEI1RawValue += ((long)POS1HLD<<16);
-long QEI2RawValue = POS2CNTL;
-QEI2RawValue += ((long)POS2HLD<<16);
-//Conversion en mm (regle pour la taille des roues codeuses)
-double QeiDroitPosition = 0.00001620*QEI1RawValue;
-double QeiGauchePosition = -0.00001620*QEI2RawValue;
-//Calcul des deltas de position
-double delta_d = QeiDroitPosition - QeiDroitPosition_T_1;
-double delta_g = QeiGauchePosition - QeiGauchePosition_T_1;
-//Calcul des vitesses
-//attention a remultiplier par la frequence d echantillonnage
-robotState.vitesseDroitFromOdometry = delta_d*FREQ_ECH_QEI;
-robotState.vitesseGaucheFromOdometry = delta_g*FREQ_ECH_QEI;
-robotState.vitesseLineaireFromOdometry = (robotState.vitesseDroitFromOdometry+robotState.vitesseGaucheFromOdometry)/2;
-robotState.vitesseAngulaireFromOdometry = robotState.vitesseLineaireFromOdometry/DISTROUES;
-//Mise a jour du positionnement terrain a t-1
-robotState.xPosFromOdometry_1 = robotState.xPosFromOdometry;
-robotState.yPosFromOdometry_1 = robotState.yPosFromOdometry;
-robotState.angleRadianFromOdometry_1 = robotState.angleRadianFromOdometry;
-//Calcul des positions dans le referentiel du terrain
-robotState.xPosFromOdometry = robotState.xPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * cos (robotState.angleRadianFromOdometry_1) * FREQ_ECH_QEI;
-robotState.yPosFromOdometry = robotState.yPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * sin (robotState.angleRadianFromOdometry_1) * FREQ_ECH_QEI;
-robotState.angleRadianFromOdometry = robotState.vitesseAngulaireFromOdometry/FREQ_ECH_QEI;
-if(robotState.angleRadianFromOdometry > PI)
-robotState.angleRadianFromOdometry -= 2*PI;
-if(robotState.angleRadianFromOdometry < -PI)
-robotState.angleRadianFromOdometry += 2*PI;
+void InitQEI2() {
+    QEI2IOCbits.SWPAB = 1; //QEAx and QEBx are not swapped
+    QEI2GECL = 0xFFFF;
+    QEI2GECH = 0xFFFF;
+    QEI2CONbits.QEIEN = 1; // Enable QEI Module
+}
+
+void QEIUpdateData() {
+
+    //On sauvegarde les anciennes valeurs
+    QeiDroitPosition_T_1 = QeiDroitPosition;
+    QeiGauchePosition_T_1 = QeiGauchePosition;
+    //On actualise les valeurs des positions
+    long QEI1RawValue = POS1CNTL;
+    QEI1RawValue += ((long) POS1HLD << 16);
+    long QEI2RawValue = POS2CNTL;
+    QEI2RawValue += ((long) POS2HLD << 16);
+    //Conversion en mm (regle pour la taille des roues codeuses)
+    double QeiDroitPosition = 0.00001620 * QEI1RawValue;
+    double QeiGauchePosition = -0.00001620 * QEI2RawValue;
+    //Calcul des deltas de position
+    double delta_d = QeiDroitPosition - QeiDroitPosition_T_1;
+    double delta_g = QeiGauchePosition - QeiGauchePosition_T_1;
+    //Calcul des vitesses
+    //attention a remultiplier par la frequence d echantillonnage
+    robotState.vitesseDroitFromOdometry = delta_d*FREQ_ECH_QEI;
+    robotState.vitesseGaucheFromOdometry = delta_g*FREQ_ECH_QEI;
+    robotState.vitesseLineaireFromOdometry = (robotState.vitesseDroitFromOdometry + robotState.vitesseGaucheFromOdometry) / 2;
+    robotState.vitesseAngulaireFromOdometry = robotState.vitesseLineaireFromOdometry / DISTROUES;
+    //Mise a jour du positionnement terrain a t-1
+    robotState.xPosFromOdometry_1 = robotState.xPosFromOdometry;
+    robotState.yPosFromOdometry_1 = robotState.yPosFromOdometry;
+    robotState.angleRadianFromOdometry_1 = robotState.angleRadianFromOdometry;
+    //Calcul des positions dans le referentiel du terrain
+    robotState.xPosFromOdometry = robotState.xPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * cos(robotState.angleRadianFromOdometry_1) * FREQ_ECH_QEI;
+    robotState.yPosFromOdometry = robotState.yPosFromOdometry_1 + robotState.vitesseLineaireFromOdometry * sin(robotState.angleRadianFromOdometry_1) * FREQ_ECH_QEI;
+    robotState.angleRadianFromOdometry = robotState.vitesseAngulaireFromOdometry / FREQ_ECH_QEI;
+    if (robotState.angleRadianFromOdometry > PI)
+        robotState.angleRadianFromOdometry -= 2 * PI;
+    if (robotState.angleRadianFromOdometry < -PI)
+        robotState.angleRadianFromOdometry += 2 * PI;
 
 }
 
@@ -70,58 +73,50 @@ robotState.angleRadianFromOdometry += 2*PI;
 
 #define QEI_FRAME_SIZE 12
 
-void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed)
-{
-    unsigned char txBuffer[QEI_FRAME_SIZE];
-
-    txBuffer[0] = (timestamp >> 0)  & 0xFF;
-    txBuffer[1] = (timestamp >> 8)  & 0xFF;
-    txBuffer[2] = (timestamp >> 16) & 0xFF;
-    txBuffer[3] = (timestamp >> 24) & 0xFF;
-
-    getBytesFromFloat(txBuffer, 4, position);
-
-    getBytesFromFloat(txBuffer, 8, speed);
-}
+//void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed) {
+//    unsigned char txBuffer[QEI_FRAME_SIZE];
+//
+//    txBuffer[0] = (timestamp >> 0) & 0xFF;
+//    txBuffer[1] = (timestamp >> 8) & 0xFF;
+//    txBuffer[2] = (timestamp >> 16) & 0xFF;
+//    txBuffer[3] = (timestamp >> 24) & 0xFF;
+//
+//    getBytesFromFloat(txBuffer, 4, position);
+//
+//    getBytesFromFloat(txBuffer, 8, speed);
+//}
 #define POSITION_DATA 0x0061
 
-void SendPositionData(void)
-{
+void SendPositionData() {
     unsigned char positionPayload[24];
 
     getBytesFromInt32(positionPayload, 0, timestamp);
-    getBytesFromFloat(positionPayload, 4, (float)(robotState.xPosFromOdometry));
-    getBytesFromFloat(positionPayload, 8, (float)(robotState.yPosFromOdometry));
-    getBytesFromFloat(positionPayload, 12, (float)(robotState.angleRadianFromOdometry));
-    getBytesFromFloat(positionPayload, 16, (float)(robotState.vitesseLineaireFromOdometry));
-    getBytesFromFloat(positionPayload, 20, (float)(robotState.vitesseAngulaireFromOdometry));
+    getBytesFromFloat(positionPayload, 4, (float) (robotState.xPosFromOdometry));
+    getBytesFromFloat(positionPayload, 8, (float) (robotState.yPosFromOdometry));
+    getBytesFromFloat(positionPayload, 12, (float) (robotState.angleRadianFromOdometry));
+    getBytesFromFloat(positionPayload, 16, (float) (robotState.vitesseLineaireFromOdometry));
+    getBytesFromFloat(positionPayload, 20, (float) (robotState.vitesseAngulaireFromOdometry));
 
     UartEncodeAndSendMessage(POSITION_DATA, 24, positionPayload);
 }
 
-#define TEST_PID 0x0062
 
-void PIDSend(void)
-{
-    
-}
 
-void PIDTest(void)
-{
+void PIDTest() {
     unsigned char pidPayload[108];
-    
-    float CON_X = 1;
-    float CON_T = 2;
-    float MES_X = 3;
-    float MES_T = 4;
-    float ERR_X = 5;
-    float ERR_T = 6;
+
+    float CON_X = robotState.vitesseDroiteConsigne;
+    float CON_T = robotState.vitesseGaucheConsigne;
+    float MES_X = robotState.vitesseLineaireFromOdometry;
+    float MES_T = robotState.vitesseAngulaireFromOdometry;
+    float ERR_X = robotState.PidX.erreur;
+    float ERR_T = robotState.PidTheta.erreur;
     float COM_X = 7;
     float COM_T = 8;
     float KP_X = 9;
     float KP_T = 10;
-    float COR_P_X = 11;
-    float COR_P_T = 12;
+    float COR_P_X = robotState.CorrectionVitesseLineaire;
+    float COR_P_T = robotState.CorrectionVitesseAngulaire;
     float COR_P_MAX_X = 13;
     float COR_P_MAX_T = 14;
     float KI_X = 15;
@@ -136,12 +131,12 @@ void PIDTest(void)
     float COR_D_T = 24;
     float COR_D_MAX_X = 25;
     float COR_D_MAX_T = 26;
-    
+
     getBytesFromInt32(pidPayload, 0, timestamp);
     getBytesFromFloat(pidPayload, 4, CON_X);
     getBytesFromFloat(pidPayload, 8, CON_T);
-    getBytesFromFloat(pidPayload, 12, (float)(robotState.vitesseLineaireFromOdometry));
-    getBytesFromFloat(pidPayload, 16, (float)(robotState.vitesseAngulaireFromOdometry));
+    getBytesFromFloat(pidPayload, 12, MES_X);
+    getBytesFromFloat(pidPayload, 16, MES_T);
     getBytesFromFloat(pidPayload, 20, ERR_X);
     getBytesFromFloat(pidPayload, 24, ERR_T);
     getBytesFromFloat(pidPayload, 28, COM_X);
@@ -164,6 +159,6 @@ void PIDTest(void)
     getBytesFromFloat(pidPayload, 96, COR_D_T);
     getBytesFromFloat(pidPayload, 100, COR_D_MAX_X);
     getBytesFromFloat(pidPayload, 104, COR_D_MAX_T);
-    
+
     UartEncodeAndSendMessage(TEST_PID, 108, pidPayload);
 }

@@ -5,8 +5,12 @@
         <group>
             <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/QEI.c</file>
             <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/PWM.h</file>
+            <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/ADC.h</file>
+            <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/Robot.c</file>
+            <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/asservissement.h</file>
             <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/PWM.c</file>
             <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/timer.c</file>
+            <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/asservissement.c</file>
             <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/Robot.h</file>
             <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/main.c</file>
             <file>file:/C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/QEI.h</file>

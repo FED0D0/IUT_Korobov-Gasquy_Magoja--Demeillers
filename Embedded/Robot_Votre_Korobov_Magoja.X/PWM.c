@@ -6,7 +6,7 @@
 #include "main.h"
 #include "QEI.h"
 #define PWMPER 24.0
-
+#define M_TO_PERCENT 35
 
 void InitPWM(void) {
     PTCON2bits.PCLKDIV = 0b000; //Divide by 1
@@ -98,7 +98,6 @@ void PWMUpdateSpeed() {
     }
 }
 
-#define M_TO_PERCENT 35
 void PWMSetSpeedConsignePolaire(float vitesseLineaire, float vitesseAngulaire) {
     robotState.vitesseDroiteConsigne = vitesseLineaire + (DISTROUES/2) * vitesseAngulaire;
     robotState.vitesseGaucheConsigne = vitesseLineaire - (DISTROUES/2) * vitesseAngulaire;

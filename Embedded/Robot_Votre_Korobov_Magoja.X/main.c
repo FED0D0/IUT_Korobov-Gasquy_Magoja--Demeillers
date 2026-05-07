@@ -30,6 +30,8 @@ int main(void) {
     InitTimer23();
     InitTimer1();
     InitTimer4();
+    InitQEI1();
+    InitQEI2();
 
     InitADC1();
     InitPWM();
