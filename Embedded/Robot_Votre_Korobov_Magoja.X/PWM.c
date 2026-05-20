@@ -98,7 +98,7 @@ void PWMUpdateSpeed() {
     }
 }
 
-void PWMSetSpeedConsignePolaire(float vitesseLineaire, float vitesseAngulaire) {
+void PWMSetSpeedCommandePolaire(float vitesseLineaire, float vitesseAngulaire) {
     robotState.vitesseDroiteConsigne = vitesseLineaire + (DISTROUES/2) * vitesseAngulaire;
     robotState.vitesseGaucheConsigne = vitesseLineaire - (DISTROUES/2) * vitesseAngulaire;
     
@@ -107,4 +107,8 @@ void PWMSetSpeedConsignePolaire(float vitesseLineaire, float vitesseAngulaire) {
     
     LimitToInterval(robotState.vitesseDroiteConsignePercent , -100, 100);
     LimitToInterval(robotState.vitesseGaucheConsignePercent , -100, 100);
+}
+void PWMSetSpeedConsignePolaire(float vitesseLineaire, float vitesseAngulaire) {
+    robotState.vitesseLineaireConsigne = vitesseLineaire;
+    robotState.vitesseAngulaireConsigne = vitesseAngulaire;
 }

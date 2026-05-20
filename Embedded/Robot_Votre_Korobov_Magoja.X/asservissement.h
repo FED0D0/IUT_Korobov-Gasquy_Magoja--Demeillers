@@ -22,6 +22,7 @@ extern "C" {
     } PidCorrector;
 
 void SetupPidAsservissement();
+void UpdateAsservissement();
 
 #ifdef	__cplusplus
 }

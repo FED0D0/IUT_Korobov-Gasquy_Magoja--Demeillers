@@ -34,9 +34,6 @@ void InitQEI2() {
 
 void QEIUpdateData() {
 
-    //On sauvegarde les anciennes valeurs
-    QeiDroitPosition_T_1 = QeiDroitPosition;
-    QeiGauchePosition_T_1 = QeiGauchePosition;
     //On actualise les valeurs des positions
     long QEI1RawValue = POS1CNTL;
     QEI1RawValue += ((long) POS1HLD << 16);
@@ -48,6 +45,11 @@ void QEIUpdateData() {
     //Calcul des deltas de position
     double delta_d = QeiDroitPosition - QeiDroitPosition_T_1;
     double delta_g = QeiGauchePosition - QeiGauchePosition_T_1;
+        
+    //On sauvegarde les anciennes valeurs
+    QeiDroitPosition_T_1 = QeiDroitPosition;
+    QeiGauchePosition_T_1 = QeiGauchePosition;
+    
     //Calcul des vitesses
     //attention a remultiplier par la frequence d echantillonnage
     robotState.vitesseDroitFromOdometry = delta_d*FREQ_ECH_QEI;

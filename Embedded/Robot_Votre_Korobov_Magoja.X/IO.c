@@ -30,15 +30,6 @@ void InitIO() {
     _TRISA9 = 0; // LED Bleue2
     _TRISA10 = 0; // LED Rouge2
     _TRISH3 = 0; // LED Verte2
-
-    //******************** QEI *****************
-    _QEA2R = 97; //assign QEI A to pin RP97
-    _QEB2R = 96; //assign QEI B to pin RP96
-    _QEA1R = 70; //assign QEI A to pin RP70
-    _QEB1R = 69; //assign QEI B to pin RP69
-
-
-
     //****** Moteurs ************************
 
     // Configuration des entrées
@@ -50,6 +41,11 @@ void InitIO() {
     UnlockIO(); // On unlock les registres d'entrées/sorties, ainsi que les registres des PPS
     _U1RXR = 18; //Remappe la RP... sur l?éentre Rx1
     _RP98R = 0b00001; //Remappe la sortie Tx1 vers RP...
+        
+    _QEA2R = 97; //assign QEI A to pin RP97
+    _QEB2R = 113; //assign QEI B to pin RP96
+    _QEA1R = 126; //assign QEI A to pin RP70
+    _QEB1R = 124; //assign QEI B to pin RP69
     //Assignation des remappable pins
 
     LockIO(); // On lock les registres d'entrées/sorties, ainsi que les registres des PPS

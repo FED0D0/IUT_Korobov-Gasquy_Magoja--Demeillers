@@ -68,18 +68,18 @@ void InitTimer1(void) {
 void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     IFS0bits.T1IF = 0;
 //    LED_BLEUE_1 = !LED_BLEUE_1;
-    PWMUpdateSpeed();
+    QEIUpdateData();
     UpdateAsservissement();
-    SendPIDData();
+    PWMUpdateSpeed();
     ADC1StartConversionSequence();
 //    SendPositionData();
     sendPositionDivider++;
-    if (sendPositionDivider >= 500)   // 500 × 2 ms = 1000 ms
+    if (sendPositionDivider >= 50)   // 500 × 2 ms = 1000 ms
     {
         sendPositionDivider = 0;
         SendPositionData();
+        SendPIDData();
         //PIDTest();
-        QEIUpdateData();
     }
     //InitADC1();
 }
