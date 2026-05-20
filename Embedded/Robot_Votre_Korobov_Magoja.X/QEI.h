@@ -17,7 +17,8 @@ void InitQEI2();
 void SendPositionData();
 void QEIUpdateData();
 //void QEI_SendPositionSpeed(uint32_t timestamp, float position, float speed);
-void PIDTest();
+//void PIDTest();
+void SendPIDData();
 
 
 

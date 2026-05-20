@@ -14,6 +14,7 @@
 #include "CB_RX1.h"
 #include "UART_Protocol.h"
 #include "QEI.h"
+#include "asservissement.h"
 
 
 int ADCValue0;
@@ -35,6 +36,23 @@ int main(void) {
 
     InitADC1();
     InitPWM();
+    
+
+    SetupPidAsservissement(&robotState.PidX,
+            0,
+            0,
+            0,
+            100,
+            100,
+            100);
+
+    SetupPidAsservissement(&robotState.PidTheta,
+            0,
+            0,
+            0,
+            100,
+            100,
+            100);
 
     //def
 
@@ -63,8 +81,8 @@ int main(void) {
     //    InitQEI2();
 
     while (1) {
-        
-        PWMSetSpeedConsignePolaire(1,0);
+
+        //        PWMSetSpeedConsignePolaire(1,0);
         //        InitQEI1();
         //        InitQEI2();
         // Vérifie si un octet a été reçu
@@ -74,7 +92,7 @@ int main(void) {
         }
         PWMUpdateSpeed();
 
-//        OperatingSystemLoop();
+        //        OperatingSystemLoop();
         //    SendMessage((unsigned char*) "impot", 5);
         ////SendMessageDirect((unsigned char*) "Bonjour", 7);
 
@@ -159,7 +177,7 @@ int main(void) {
             (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
             (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
             );
-    
+
 
 }
 

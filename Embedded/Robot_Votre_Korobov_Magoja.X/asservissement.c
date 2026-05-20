@@ -10,6 +10,17 @@ void SetupPidAsservissement(volatile PidCorrector* PidCorr, double Kp, double Ki
     PidCorr->erreurIntegraleMax = integralMax; //On limite la correction due au Ki
     PidCorr->Kd = Kd;
     PidCorr->erreurDeriveeMax = deriveeMax;
+    
+    // DEBUG 
+    PidCorr->erreur = 123;
+
+    PidCorr->corrP = 10;
+    PidCorr->corrI = 20;
+    PidCorr->corrD = 30;
+
+    PidCorr->erreurIntegrale = 40;
+
+    PidCorr->epsilon_1 = 50;
 }
 
 double Correcteur(volatile PidCorrector* PidCorr, double erreur) {

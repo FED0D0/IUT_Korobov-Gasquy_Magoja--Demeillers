@@ -7,6 +7,8 @@
 #include "ChipConfig.h"
 #include "Utilities.h"
 #include "QEI.h"
+#include "asservissement.h"
+
 volatile int sendPositionDivider = 0;
 //Initialisation d?un timer 16 bits
 
@@ -67,6 +69,8 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     IFS0bits.T1IF = 0;
 //    LED_BLEUE_1 = !LED_BLEUE_1;
     PWMUpdateSpeed();
+    UpdateAsservissement();
+    SendPIDData();
     ADC1StartConversionSequence();
 //    SendPositionData();
     sendPositionDivider++;
@@ -74,7 +78,7 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     {
         sendPositionDivider = 0;
         SendPositionData();
-        PIDTest();
+        //PIDTest();
         QEIUpdateData();
     }
     //InitADC1();
@@ -109,6 +113,7 @@ void __attribute__((interrupt, no_auto_psv)) _T4Interrupt(void) {
     IFS1bits.T4IF = 0;
 //    LED_ROUGE_1 = !LED_ROUGE_1;
     timestamp++;
+    
 //    OperatingSystemLoop();
 }
 

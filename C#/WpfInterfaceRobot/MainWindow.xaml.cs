@@ -158,6 +158,12 @@ namespace WpfInterfaceRobot
                 case StateReception.PayloadLengthLSB:
                     msgDecodedPayLoadLength += c;
                     rcvState = StateReception.PayLoad;
+                    if(msgDecodedPayLoadLength==0)
+                    { 
+                        rcvState = StateReception.CheckSum;
+                        break;
+                    }
+                    
                     msgDecodedPayLoad = new byte[msgDecodedPayLoadLength];
                     msgDecodedPayLoadIndex = 0;
                     break;
