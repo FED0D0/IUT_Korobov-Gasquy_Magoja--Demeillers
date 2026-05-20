@@ -3,7 +3,7 @@
 #include "QEI.h"
 #include "PWM.h"
 
-void SetupPidAsservissement(volatile PidCorrector* PidCorr, double Kp, double Ki, double Kd, double proportionelleMax, double integralMax, double deriveeMax) {
+void SetupPidAsservissement(volatile PidCorrector* PidCorr, float Kp, float Ki, float Kd, float proportionelleMax, float integralMax, float deriveeMax) {
     PidCorr->Kp = Kp;
     PidCorr->erreurProportionelleMax = proportionelleMax; //On limite la correction due au Kp
     PidCorr->Ki = Ki;

@@ -36,7 +36,7 @@ int main(void) {
 
     InitADC1();
     InitPWM();
-    
+
 
     SetupPidAsservissement(&robotState.PidX,
             0,
@@ -54,6 +54,12 @@ int main(void) {
             100,
             100);
 
+    //    PWMSetSpeedCommandePolaire(
+    //            (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
+    //            (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
+    //            );
+    PWMSetSpeedCommandePolaire(
+            (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f, 0);
     //def
 
     // Initialisation simple de l'état du robot
@@ -173,10 +179,7 @@ int main(void) {
     }
 
 
-    PWMSetSpeedConsignePolaire(
-            (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
-            (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
-            );
+
 
 
 }

@@ -47,7 +47,7 @@ void SetFreqTimer4(float freq) {
 }
 
 void InitTimer1(void) {
-   SetFreqTimer1(500);
+   SetFreqTimer1(250);
    //Timer1 pour horodater les mesures (1ms)
     T1CONbits.TON = 0; // Disable Timer
  
@@ -74,7 +74,7 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     ADC1StartConversionSequence();
 //    SendPositionData();
     sendPositionDivider++;
-    if (sendPositionDivider >= 50)   // 500 × 2 ms = 1000 ms
+    if (sendPositionDivider >= 25)   // 500 × 2 ms = 1000 ms
     {
         sendPositionDivider = 0;
         SendPositionData();

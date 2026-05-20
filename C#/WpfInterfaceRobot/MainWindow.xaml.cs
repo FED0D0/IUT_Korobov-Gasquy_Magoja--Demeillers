@@ -36,7 +36,7 @@ namespace WpfInterfaceRobot
             timerAffichage.Tick += TimerAffichage_Tick;
             timerAffichage.Start();
             InitializeComponent();
-            serialPort1 = new ExtendedSerialPort("COM3", 115200, Parity.None, 8, StopBits.One);
+            serialPort1 = new ExtendedSerialPort("COM4", 115200, Parity.None, 8, StopBits.One);
             serialPort1.DataReceived += SerialPort1_DataReceived;
             serialPort1.Open();
             _globalKeyboardHook = new GlobalKeyboardHook();
@@ -250,11 +250,12 @@ namespace WpfInterfaceRobot
                     break;
                 case (int)RobotFunction.PositionData:
                     {
-                        if (msgPayloadLength >= 12)
+                        if (msgPayloadLength >= 24)
                         {
                             float x = BitConverter.ToSingle(msgPayload, 4);
                             float y = BitConverter.ToSingle(msgPayload, 8);
 
+                            asservSpeedDisplay.UpdatePolarOdometrySpeed(BitConverter.ToSingle(msgPayload, 16), BitConverter.ToSingle(msgPayload, 20));
                             robot.positionXOdo = x;
                             robot.positionYOdo = y;
 
