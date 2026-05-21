@@ -99,11 +99,9 @@ void PWMUpdateSpeed() {
 }
 
 void PWMSetSpeedCommandePolaire(float vitesseLineaire, float vitesseAngulaire) {
-    robotState.vitesseDroiteConsigne = vitesseLineaire + (DISTROUES/2) * vitesseAngulaire;
-    robotState.vitesseGaucheConsigne = vitesseLineaire - (DISTROUES/2) * vitesseAngulaire;
-    
-    robotState.vitesseDroiteConsignePercent = -M_TO_PERCENT * robotState.vitesseDroiteConsigne;
-    robotState.vitesseGaucheConsignePercent = M_TO_PERCENT * robotState.vitesseGaucheConsigne;
+
+    robotState.vitesseDroiteConsignePercent = -M_TO_PERCENT * (vitesseLineaire + DISTROUES/2 * vitesseAngulaire);
+    robotState.vitesseGaucheConsignePercent = M_TO_PERCENT * (vitesseLineaire - DISTROUES/2 * vitesseAngulaire);
     
     LimitToInterval(robotState.vitesseDroiteConsignePercent , -100, 100);
     LimitToInterval(robotState.vitesseGaucheConsignePercent , -100, 100);

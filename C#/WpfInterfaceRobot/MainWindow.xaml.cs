@@ -255,9 +255,14 @@ namespace WpfInterfaceRobot
                             float x = BitConverter.ToSingle(msgPayload, 4);
                             float y = BitConverter.ToSingle(msgPayload, 8);
 
-                            asservSpeedDisplay.UpdatePolarOdometrySpeed(BitConverter.ToSingle(msgPayload, 16), BitConverter.ToSingle(msgPayload, 20));
+                            //asservSpeedDisplay.UpdatePolarOdometrySpeed(BitConverter.ToSingle(msgPayload, 16), BitConverter.ToSingle(msgPayload, 20));
                             robot.positionXOdo = x;
                             robot.positionYOdo = y;
+
+                            // MESURE
+                            robot.Mes_x = BitConverter.ToSingle(msgPayload, 16);
+                            robot.Mes_t = BitConverter.ToSingle(msgPayload, 20);
+                            asservSpeedDisplay.UpdatePolarOdometrySpeed(robot.Mes_x, robot.Mes_t);
 
                             PositionData.Text = $"Position : X={x}, Y={y}";
                         }
@@ -270,69 +275,82 @@ namespace WpfInterfaceRobot
                     }
                 case (int)RobotFunction.TEST_PID:
                     {
-                        if (msgPayloadLength >= 104)
+                        if (msgPayloadLength >= 100)
                         {
                             // CONSIGNE
                             robot.Con_x = BitConverter.ToSingle(msgPayload, 4);
                             robot.Con_t = BitConverter.ToSingle(msgPayload, 8);
                             asservSpeedDisplay.UpdatePolarSpeedConsigneValues(robot.Con_x, robot.Con_t);
 
-                            // MESURE
-                            robot.Mes_x = BitConverter.ToSingle(msgPayload, 12);
-                            robot.Mes_t = BitConverter.ToSingle(msgPayload, 16);
-                            asservSpeedDisplay.UpdatePolarOdometrySpeed(robot.Mes_x, robot.Mes_t);
-
                             // ERREUR
-                            robot.Err_x = BitConverter.ToSingle(msgPayload, 20);
-                            robot.Err_t = BitConverter.ToSingle(msgPayload, 24);
+                            robot.Err_x = BitConverter.ToSingle(msgPayload, 12);
+                            robot.Err_t = BitConverter.ToSingle(msgPayload, 16);
                             asservSpeedDisplay.UpdatePolarSpeedErrorValues(robot.Err_x, robot.Err_t);
 
                             // COMMANDE
-                            robot.Com_x = BitConverter.ToSingle(msgPayload, 28);
-                            robot.Com_t = BitConverter.ToSingle(msgPayload, 32);
+                            robot.Com_x = BitConverter.ToSingle(msgPayload, 20);
+                            robot.Com_t = BitConverter.ToSingle(msgPayload, 24);
                             asservSpeedDisplay.UpdatePolarSpeedCommandValues(robot.Com_x, robot.Com_t);
 
                             // KP
-                            robot.Kp_x = BitConverter.ToSingle(msgPayload, 36);
-                            robot.Kp_t = BitConverter.ToSingle(msgPayload, 40);
+                            robot.Kp_x = BitConverter.ToSingle(msgPayload, 28);
+                            robot.Kp_t = BitConverter.ToSingle(msgPayload, 32);
 
                             // KI
-                            robot.Ki_x = BitConverter.ToSingle(msgPayload, 60);
-                            robot.Ki_t = BitConverter.ToSingle(msgPayload, 64);
+                            robot.Ki_x = BitConverter.ToSingle(msgPayload, 36);
+                            robot.Ki_t = BitConverter.ToSingle(msgPayload, 40);
 
                             // KD
-                            robot.Kd_x = BitConverter.ToSingle(msgPayload, 84);
-                            robot.Kd_t = BitConverter.ToSingle(msgPayload, 88);
-                            asservSpeedDisplay.UpdatePolarSpeedCorrectionGains(robot.Kp_x, robot.Kp_t, robot.Ki_x, robot.Ki_t, robot.Kd_x, robot.Kd_t);
+                            robot.Kd_x = BitConverter.ToSingle(msgPayload, 44);
+                            robot.Kd_t = BitConverter.ToSingle(msgPayload, 48);
+
+                            asservSpeedDisplay.UpdatePolarSpeedCorrectionGains(
+                                robot.Kp_x,
+                                robot.Kp_t,
+                                robot.Ki_x,
+                                robot.Ki_t,
+                                robot.Kd_x,
+                                robot.Kd_t);
 
                             // CORRECTION P
-                            robot.Cor_p_x = BitConverter.ToSingle(msgPayload, 44);
-                            robot.Cor_p_t = BitConverter.ToSingle(msgPayload, 48);
+                            robot.Cor_p_x = BitConverter.ToSingle(msgPayload, 52);
+                            robot.Cor_p_t = BitConverter.ToSingle(msgPayload, 56);
 
                             // CORRECTION I
-                            robot.Cor_i_x = BitConverter.ToSingle(msgPayload, 68);
-                            robot.Cor_i_t = BitConverter.ToSingle(msgPayload, 72);
+                            robot.Cor_i_x = BitConverter.ToSingle(msgPayload, 60);
+                            robot.Cor_i_t = BitConverter.ToSingle(msgPayload, 64);
 
                             // CORRECTION D
-                            robot.Cor_d_x = BitConverter.ToSingle(msgPayload, 92);
-                            robot.Cor_d_t = BitConverter.ToSingle(msgPayload, 96);
+                            robot.Cor_d_x = BitConverter.ToSingle(msgPayload, 68);
+                            robot.Cor_d_t = BitConverter.ToSingle(msgPayload, 72);
 
-                            asservSpeedDisplay.UpdatePolarSpeedCorrectionValues(robot.Cor_p_x, robot.Cor_p_t, robot.Cor_i_x, robot.Cor_i_t, robot.Cor_d_x, robot.Cor_d_t);
+                            asservSpeedDisplay.UpdatePolarSpeedCorrectionValues(
+                                robot.Cor_p_x,
+                                robot.Cor_p_t,
+                                robot.Cor_i_x,
+                                robot.Cor_i_t,
+                                robot.Cor_d_x,
+                                robot.Cor_d_t);
 
-                            // CORRECTION MAX P
-                            robot.Cor_p_max_x = BitConverter.ToSingle(msgPayload, 52);
-                            robot.Cor_p_max_t = BitConverter.ToSingle(msgPayload, 56);
+                            // LIMITES P
+                            robot.Cor_p_max_x = BitConverter.ToSingle(msgPayload, 76);
+                            robot.Cor_p_max_t = BitConverter.ToSingle(msgPayload, 80);
 
-                            // CORRECTION MAX P
-                            robot.Cor_i_max_x = BitConverter.ToSingle(msgPayload, 76);
-                            robot.Cor_i_max_t = BitConverter.ToSingle(msgPayload, 80);
+                            // LIMITES I
+                            robot.Cor_i_max_x = BitConverter.ToSingle(msgPayload, 84);
+                            robot.Cor_i_max_t = BitConverter.ToSingle(msgPayload, 88);
 
-                            // CORRECTION MAX P
-                            robot.Cor_d_max_x = BitConverter.ToSingle(msgPayload, 100);
-                            robot.Cor_d_max_t = BitConverter.ToSingle(msgPayload, 104);
+                            // LIMITES D
+                            robot.Cor_d_max_x = BitConverter.ToSingle(msgPayload, 92);
+                            robot.Cor_d_max_t = BitConverter.ToSingle(msgPayload, 96);
 
-                            asservSpeedDisplay.UpdatePolarSpeedCorrectionLimits(robot.Cor_p_max_x, robot.Cor_p_max_t, robot.Cor_i_max_x, robot.Cor_i_max_t, robot.Cor_d_max_x, robot.Cor_d_max_t);
-
+                            asservSpeedDisplay.UpdatePolarSpeedCorrectionLimits(
+                                robot.Cor_p_max_x,
+                                robot.Cor_p_max_t,
+                                robot.Cor_i_max_x,
+                                robot.Cor_i_max_t,
+                                robot.Cor_d_max_x,
+                                robot.Cor_d_max_t);
                         }
                         else
                         {
@@ -507,6 +525,11 @@ namespace WpfInterfaceRobot
             byte[] payloadConT = caca.ToArray();
 
             UartEncodeAndSendMessage(0x0050, payloadConT.Length, payloadConT);
+        }
+
+        private void PositionData_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
     

@@ -43,14 +43,14 @@ void QEIUpdateData() {
     long QEI2RawValue = POS2CNTL;
     QEI2RawValue += ((long) POS2HLD << 16);
     //Conversion en mm (regle pour la taille des roues codeuses)
-    double QeiDroitPosition = 0.00001620 * QEI1RawValue;
-    double QeiGauchePosition = -0.00001620 * QEI2RawValue;
+    QeiDroitPosition = 0.00001620 * QEI1RawValue;
+    QeiGauchePosition = -0.00001620 * QEI2RawValue;
     //Calcul des deltas de position
     double delta_d = QeiDroitPosition - QeiDroitPosition_T_1;
     double delta_g = QeiGauchePosition - QeiGauchePosition_T_1;
-        
-    
-    
+
+
+
     //Calcul des vitesses
     //attention a remultiplier par la frequence d echantillonnage
     robotState.vitesseDroitFromOdometry = delta_d*FREQ_ECH_QEI;
@@ -180,89 +180,83 @@ void SendPIDData() {
     getBytesFromFloat(pidPayload, 8,
             robotState.vitesseAngulaireConsigne);
 
-    // MESURES
-    getBytesFromFloat(pidPayload, 12,
-            robotState.vitesseLineaireFromOdometry);
-
-    getBytesFromFloat(pidPayload, 16,
-            robotState.vitesseAngulaireFromOdometry);
-
     // ERREURS
-    getBytesFromFloat(pidPayload, 20,
+    getBytesFromFloat(pidPayload, 12,
             robotState.PidX.erreur);
 
-    getBytesFromFloat(pidPayload, 24,
+    getBytesFromFloat(pidPayload, 16,
             robotState.PidTheta.erreur);
 
-    // SORTIES PID
-    getBytesFromFloat(pidPayload, 28,
+    // COMMANDES PID
+    getBytesFromFloat(pidPayload, 20,
             robotState.CorrectionVitesseLineaire);
 
-    getBytesFromFloat(pidPayload, 32,
+    getBytesFromFloat(pidPayload, 24,
             robotState.CorrectionVitesseAngulaire);
 
     // KP
-    getBytesFromFloat(pidPayload, 36,
+    getBytesFromFloat(pidPayload, 28,
             robotState.PidX.Kp);
 
-    getBytesFromFloat(pidPayload, 40,
+    getBytesFromFloat(pidPayload, 32,
             robotState.PidTheta.Kp);
 
-    // CORRECTION P
-    getBytesFromFloat(pidPayload, 44,
-            robotState.PidX.corrP);
-
-    getBytesFromFloat(pidPayload, 48,
-            robotState.PidTheta.corrP);
-
-    // MAX ERREUR P
-    getBytesFromFloat(pidPayload, 52,
-            robotState.PidX.erreurProportionelleMax);
-
-    getBytesFromFloat(pidPayload, 56,
-            robotState.PidTheta.erreurProportionelleMax);
-
     // KI
-    getBytesFromFloat(pidPayload, 60,
+    getBytesFromFloat(pidPayload, 36,
             robotState.PidX.Ki);
 
-    getBytesFromFloat(pidPayload, 64,
+    getBytesFromFloat(pidPayload, 40,
             robotState.PidTheta.Ki);
 
-    // CORRECTION I
-    getBytesFromFloat(pidPayload, 68,
-            robotState.PidX.corrI);
-
-    getBytesFromFloat(pidPayload, 72,
-            robotState.PidTheta.corrI);
-
-    // MAX ERREUR I
-    getBytesFromFloat(pidPayload, 76,
-            robotState.PidX.erreurIntegraleMax);
-
-    getBytesFromFloat(pidPayload, 80,
-            robotState.PidTheta.erreurIntegraleMax);
-
     // KD
-    getBytesFromFloat(pidPayload, 84,
+    getBytesFromFloat(pidPayload, 44,
             robotState.PidX.Kd);
 
-    getBytesFromFloat(pidPayload, 88,
+    getBytesFromFloat(pidPayload, 48,
             robotState.PidTheta.Kd);
 
+    // CORRECTION P
+    getBytesFromFloat(pidPayload, 52,
+            robotState.PidX.corrP);
+
+    getBytesFromFloat(pidPayload, 56,
+            robotState.PidTheta.corrP);
+
+    // CORRECTION I
+    getBytesFromFloat(pidPayload, 60,
+            robotState.PidX.corrI);
+
+    getBytesFromFloat(pidPayload, 64,
+            robotState.PidTheta.corrI);
+
     // CORRECTION D
-    getBytesFromFloat(pidPayload, 92,
+    getBytesFromFloat(pidPayload, 68,
             robotState.PidX.corrD);
 
-    getBytesFromFloat(pidPayload, 96,
+    getBytesFromFloat(pidPayload, 72,
             robotState.PidTheta.corrD);
 
+    // MAX ERREUR P
+    getBytesFromFloat(pidPayload, 76,
+            robotState.PidX.erreurProportionelleMax);
+
+    getBytesFromFloat(pidPayload, 80,
+            robotState.PidTheta.erreurProportionelleMax);
+
+    // MAX ERREUR I
+    getBytesFromFloat(pidPayload, 84,
+            robotState.PidX.erreurIntegraleMax);
+
+    getBytesFromFloat(pidPayload, 88,
+            robotState.PidTheta.erreurIntegraleMax);
+
     // MAX ERREUR D
-    getBytesFromFloat(pidPayload, 100,
+    getBytesFromFloat(pidPayload, 92,
             robotState.PidX.erreurDeriveeMax);
 
-    getBytesFromFloat(pidPayload, 104,
+    getBytesFromFloat(pidPayload, 96,
             robotState.PidTheta.erreurDeriveeMax);
 
-    UartEncodeAndSendMessage(TEST_PID, 108, pidPayload);
+
+    UartEncodeAndSendMessage(TEST_PID, 100, pidPayload);
 }

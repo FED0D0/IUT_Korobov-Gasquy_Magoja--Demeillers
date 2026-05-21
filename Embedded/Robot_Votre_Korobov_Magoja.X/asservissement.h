@@ -22,6 +22,7 @@ extern "C" {
     } PidCorrector;
 
 void SetupPidAsservissement(volatile PidCorrector* PidCorr, float Kp, float Ki, float Kd, float proportionelleMax, float integralMax, float deriveeMax);
+double Correcteur(volatile PidCorrector* PidCorr, float erreur);
 void UpdateAsservissement();
 
 #ifdef	__cplusplus

@@ -2,6 +2,7 @@
 #include "Robot.h"
 #include "QEI.h"
 #include "PWM.h"
+#include "ToolBox.h"
 
 void SetupPidAsservissement(volatile PidCorrector* PidCorr, float Kp, float Ki, float Kd, float proportionelleMax, float integralMax, float deriveeMax) {
     PidCorr->Kp = Kp;
@@ -23,17 +24,17 @@ void SetupPidAsservissement(volatile PidCorrector* PidCorr, float Kp, float Ki, 
 //    PidCorr->epsilon_1 = 50;
 }
 
-double Correcteur(volatile PidCorrector* PidCorr, double erreur) {
+double Correcteur(volatile PidCorrector* PidCorr, float erreur) {
     PidCorr->erreur = erreur;
-    double erreurProportionnelle = LimitToInterval(erreur, -PidCorr->erreurProportionelleMax / PidCorr->Kp, PidCorr->erreurProportionelleMax / PidCorr->Kp);
+    float erreurProportionnelle = LimitToInterval(erreur, -PidCorr->erreurProportionelleMax / PidCorr->Kp, PidCorr->erreurProportionelleMax / PidCorr->Kp);
     PidCorr->corrP = erreurProportionnelle * PidCorr->Kp;
     PidCorr->erreurIntegrale += erreur / FREQ_ECH_QEI;
     PidCorr->erreurIntegrale = LimitToInterval(PidCorr->erreurIntegrale,
             -PidCorr->erreurIntegraleMax / PidCorr->Ki,
             PidCorr->erreurIntegraleMax / PidCorr->Ki);
     PidCorr->corrI = PidCorr->erreurIntegrale * PidCorr->Ki;
-    double erreurDerivee = (erreur - PidCorr->epsilon_1) * FREQ_ECH_QEI;
-    double deriveeBornee = LimitToInterval(erreurDerivee, -PidCorr->erreurDeriveeMax / PidCorr->Kd,
+    float erreurDerivee = (erreur - PidCorr->epsilon_1) * FREQ_ECH_QEI;
+    float deriveeBornee = LimitToInterval(erreurDerivee, -PidCorr->erreurDeriveeMax / PidCorr->Kd,
             PidCorr->erreurDeriveeMax / PidCorr->Kd);
     PidCorr->epsilon_1 = erreur;
     PidCorr->corrD = deriveeBornee * PidCorr->Kd;
@@ -41,9 +42,9 @@ double Correcteur(volatile PidCorrector* PidCorr, double erreur) {
 }
 
 void UpdateAsservissement() {
-    robotState.PidX.erreur = 0;
-//            robotState.vitesseLineaireConsigne -
-//            robotState.vitesseLineaireFromOdometry;
+    robotState.PidX.erreur =
+            robotState.vitesseLineaireConsigne -
+            robotState.vitesseLineaireFromOdometry;
 
     robotState.PidTheta.erreur =
             robotState.vitesseAngulaireConsigne -
@@ -60,4 +61,3 @@ void UpdateAsservissement() {
             robotState.CorrectionVitesseAngulaire
             );
 }
-
