@@ -39,27 +39,25 @@ int main(void) {
 
 
     SetupPidAsservissement(&robotState.PidX,
-            9, //9
-            560, //550
+            6, //9
+            230, //550 ancien nouveau : 210
             0,
             10000,
             10000,
             10000);
 
     SetupPidAsservissement(&robotState.PidTheta,
-            9, //9
-            280, //280
+            6, //9
+            230, //280 ancien nouuveau : 350
             0,
             10000,
             10000,
             10000);
 
-    //    PWMSetSpeedCommandePolaire(
-    //            (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
-    //            (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
-    //            );
-    PWMSetSpeedCommandePolaire(
-            0, 0);
+        PWMSetSpeedCommandePolaire(
+                (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
+                (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
+                );
     //def
 
     // Initialisation simple de l'état du robot

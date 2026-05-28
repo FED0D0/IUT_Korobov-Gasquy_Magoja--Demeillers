@@ -1,28 +1,1023 @@
-291 1779375026041 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is null
+2189 1779969448822 XXXX 1779969448822, Thread 2189: XXXX 1779969448822, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969448921 XXXX 1779969448921, Thread 2189: XXXX 1779969448921, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969448923 XXXX 1779969448923, Thread 2189: XXXX 1779969448923, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449021 XXXX 1779969449021, Thread 2189: XXXX 1779969449021, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449023 XXXX 1779969449023, Thread 2189: XXXX 1779969449023, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449122 XXXX 1779969449122, Thread 2189: XXXX 1779969449122, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449124 XXXX 1779969449124, Thread 2189: XXXX 1779969449124, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449222 XXXX 1779969449222, Thread 2189: XXXX 1779969449222, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449224 XXXX 1779969449224, Thread 2189: XXXX 1779969449224, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449323 XXXX 1779969449323, Thread 2189: XXXX 1779969449323, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449325 XXXX 1779969449325, Thread 2189: XXXX 1779969449325, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449424 XXXX 1779969449424, Thread 2189: XXXX 1779969449424, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449426 XXXX 1779969449426, Thread 2189: XXXX 1779969449426, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449525 XXXX 1779969449525, Thread 2189: XXXX 1779969449525, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449527 XXXX 1779969449527, Thread 2189: XXXX 1779969449527, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449625 XXXX 1779969449625, Thread 2189: XXXX 1779969449625, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449627 XXXX 1779969449627, Thread 2189: XXXX 1779969449627, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449725 XXXX 1779969449725, Thread 2189: XXXX 1779969449725, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449727 XXXX 1779969449727, Thread 2189: XXXX 1779969449727, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449825 XXXX 1779969449825, Thread 2189: XXXX 1779969449825, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449827 XXXX 1779969449827, Thread 2189: XXXX 1779969449827, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969449926 XXXX 1779969449926, Thread 2189: XXXX 1779969449926, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969449928 XXXX 1779969449928, Thread 2189: XXXX 1779969449928, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450026 XXXX 1779969450026, Thread 2189: XXXX 1779969450026, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450028 XXXX 1779969450028, Thread 2189: XXXX 1779969450028, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450127 XXXX 1779969450127, Thread 2189: XXXX 1779969450127, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450129 XXXX 1779969450129, Thread 2189: XXXX 1779969450129, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450227 XXXX 1779969450227, Thread 2189: XXXX 1779969450227, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450229 XXXX 1779969450229, Thread 2189: XXXX 1779969450229, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450328 XXXX 1779969450328, Thread 2189: XXXX 1779969450328, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450330 XXXX 1779969450330, Thread 2189: XXXX 1779969450330, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450429 XXXX 1779969450429, Thread 2189: XXXX 1779969450429, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450431 XXXX 1779969450431, Thread 2189: XXXX 1779969450431, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450530 XXXX 1779969450530, Thread 2189: XXXX 1779969450530, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450532 XXXX 1779969450532, Thread 2189: XXXX 1779969450532, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450630 XXXX 1779969450630, Thread 2189: XXXX 1779969450630, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450632 XXXX 1779969450632, Thread 2189: XXXX 1779969450632, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450730 XXXX 1779969450730, Thread 2189: XXXX 1779969450730, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450732 XXXX 1779969450732, Thread 2189: XXXX 1779969450732, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450832 XXXX 1779969450832, Thread 2189: XXXX 1779969450832, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450834 XXXX 1779969450834, Thread 2189: XXXX 1779969450834, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969450933 XXXX 1779969450933, Thread 2189: XXXX 1779969450933, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969450935 XXXX 1779969450935, Thread 2189: XXXX 1779969450935, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451033 XXXX 1779969451033, Thread 2189: XXXX 1779969451033, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451035 XXXX 1779969451035, Thread 2189: XXXX 1779969451035, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451133 XXXX 1779969451133, Thread 2189: XXXX 1779969451133, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451135 XXXX 1779969451135, Thread 2189: XXXX 1779969451135, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451233 XXXX 1779969451233, Thread 2189: XXXX 1779969451233, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451235 XXXX 1779969451235, Thread 2189: XXXX 1779969451235, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451333 XXXX 1779969451333, Thread 2189: XXXX 1779969451333, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451335 XXXX 1779969451335, Thread 2189: XXXX 1779969451335, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451434 XXXX 1779969451434, Thread 2189: XXXX 1779969451434, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451436 XXXX 1779969451436, Thread 2189: XXXX 1779969451436, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451535 XXXX 1779969451535, Thread 2189: XXXX 1779969451535, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451537 XXXX 1779969451537, Thread 2189: XXXX 1779969451537, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451636 XXXX 1779969451636, Thread 2189: XXXX 1779969451636, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451638 XXXX 1779969451638, Thread 2189: XXXX 1779969451638, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451736 XXXX 1779969451736, Thread 2189: XXXX 1779969451736, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451738 XXXX 1779969451738, Thread 2189: XXXX 1779969451738, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451837 XXXX 1779969451837, Thread 2189: XXXX 1779969451837, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451839 XXXX 1779969451839, Thread 2189: XXXX 1779969451839, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969451937 XXXX 1779969451937, Thread 2189: XXXX 1779969451937, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969451939 XXXX 1779969451939, Thread 2189: XXXX 1779969451939, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452037 XXXX 1779969452037, Thread 2189: XXXX 1779969452037, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452039 XXXX 1779969452039, Thread 2189: XXXX 1779969452039, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452137 XXXX 1779969452137, Thread 2189: XXXX 1779969452137, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452139 XXXX 1779969452139, Thread 2189: XXXX 1779969452139, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452237 XXXX 1779969452237, Thread 2189: XXXX 1779969452237, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452239 XXXX 1779969452239, Thread 2189: XXXX 1779969452239, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452337 XXXX 1779969452337, Thread 2189: XXXX 1779969452337, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452339 XXXX 1779969452339, Thread 2189: XXXX 1779969452339, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452438 XXXX 1779969452438, Thread 2189: XXXX 1779969452438, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452440 XXXX 1779969452440, Thread 2189: XXXX 1779969452440, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452538 XXXX 1779969452538, Thread 2189: XXXX 1779969452538, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452540 XXXX 1779969452540, Thread 2189: XXXX 1779969452540, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452639 XXXX 1779969452639, Thread 2189: XXXX 1779969452639, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452641 XXXX 1779969452641, Thread 2189: XXXX 1779969452641, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452740 XXXX 1779969452740, Thread 2189: XXXX 1779969452740, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452742 XXXX 1779969452742, Thread 2189: XXXX 1779969452742, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452841 XXXX 1779969452841, Thread 2189: XXXX 1779969452841, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452843 XXXX 1779969452843, Thread 2189: XXXX 1779969452843, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969452942 XXXX 1779969452942, Thread 2189: XXXX 1779969452942, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969452944 XXXX 1779969452944, Thread 2189: XXXX 1779969452944, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453043 XXXX 1779969453043, Thread 2189: XXXX 1779969453043, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453045 XXXX 1779969453045, Thread 2189: XXXX 1779969453045, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453143 XXXX 1779969453143, Thread 2189: XXXX 1779969453143, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453145 XXXX 1779969453145, Thread 2189: XXXX 1779969453145, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453243 XXXX 1779969453243, Thread 2189: XXXX 1779969453243, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453245 XXXX 1779969453245, Thread 2189: XXXX 1779969453245, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453343 XXXX 1779969453343, Thread 2189: XXXX 1779969453343, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453345 XXXX 1779969453345, Thread 2189: XXXX 1779969453345, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453443 XXXX 1779969453443, Thread 2189: XXXX 1779969453443, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453445 XXXX 1779969453445, Thread 2189: XXXX 1779969453445, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453543 XXXX 1779969453543, Thread 2189: XXXX 1779969453543, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453545 XXXX 1779969453545, Thread 2189: XXXX 1779969453545, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453643 XXXX 1779969453643, Thread 2189: XXXX 1779969453643, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453645 XXXX 1779969453645, Thread 2189: XXXX 1779969453645, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453743 XXXX 1779969453743, Thread 2189: XXXX 1779969453743, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453745 XXXX 1779969453745, Thread 2189: XXXX 1779969453745, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453844 XXXX 1779969453844, Thread 2189: XXXX 1779969453844, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453846 XXXX 1779969453846, Thread 2189: XXXX 1779969453846, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969453944 XXXX 1779969453944, Thread 2189: XXXX 1779969453944, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969453946 XXXX 1779969453946, Thread 2189: XXXX 1779969453946, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454044 XXXX 1779969454044, Thread 2189: XXXX 1779969454044, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454046 XXXX 1779969454046, Thread 2189: XXXX 1779969454046, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454144 XXXX 1779969454144, Thread 2189: XXXX 1779969454144, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454146 XXXX 1779969454146, Thread 2189: XXXX 1779969454146, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454244 XXXX 1779969454244, Thread 2189: XXXX 1779969454244, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454246 XXXX 1779969454246, Thread 2189: XXXX 1779969454246, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454344 XXXX 1779969454344, Thread 2189: XXXX 1779969454344, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454346 XXXX 1779969454346, Thread 2189: XXXX 1779969454346, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454445 XXXX 1779969454445, Thread 2189: XXXX 1779969454445, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454447 XXXX 1779969454447, Thread 2189: XXXX 1779969454447, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454545 XXXX 1779969454545, Thread 2189: XXXX 1779969454545, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454547 XXXX 1779969454547, Thread 2189: XXXX 1779969454547, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454646 XXXX 1779969454646, Thread 2189: XXXX 1779969454646, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454648 XXXX 1779969454648, Thread 2189: XXXX 1779969454648, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454746 XXXX 1779969454746, Thread 2189: XXXX 1779969454746, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454748 XXXX 1779969454748, Thread 2189: XXXX 1779969454748, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454847 XXXX 1779969454847, Thread 2189: XXXX 1779969454847, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454849 XXXX 1779969454849, Thread 2189: XXXX 1779969454849, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969454947 XXXX 1779969454947, Thread 2189: XXXX 1779969454947, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969454949 XXXX 1779969454949, Thread 2189: XXXX 1779969454949, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455048 XXXX 1779969455048, Thread 2189: XXXX 1779969455048, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455050 XXXX 1779969455050, Thread 2189: XXXX 1779969455050, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455149 XXXX 1779969455149, Thread 2189: XXXX 1779969455149, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455151 XXXX 1779969455151, Thread 2189: XXXX 1779969455151, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455249 XXXX 1779969455249, Thread 2189: XXXX 1779969455249, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455251 XXXX 1779969455251, Thread 2189: XXXX 1779969455251, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455350 XXXX 1779969455350, Thread 2189: XXXX 1779969455350, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455352 XXXX 1779969455352, Thread 2189: XXXX 1779969455352, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455450 XXXX 1779969455450, Thread 2189: XXXX 1779969455450, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455452 XXXX 1779969455452, Thread 2189: XXXX 1779969455452, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455550 XXXX 1779969455550, Thread 2189: XXXX 1779969455550, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455552 XXXX 1779969455552, Thread 2189: XXXX 1779969455552, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455651 XXXX 1779969455651, Thread 2189: XXXX 1779969455651, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455653 XXXX 1779969455653, Thread 2189: XXXX 1779969455653, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455751 XXXX 1779969455751, Thread 2189: XXXX 1779969455751, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455753 XXXX 1779969455753, Thread 2189: XXXX 1779969455753, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455852 XXXX 1779969455852, Thread 2189: XXXX 1779969455852, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455854 XXXX 1779969455854, Thread 2189: XXXX 1779969455854, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969455953 XXXX 1779969455953, Thread 2189: XXXX 1779969455953, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969455955 XXXX 1779969455955, Thread 2189: XXXX 1779969455955, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456053 XXXX 1779969456053, Thread 2189: XXXX 1779969456053, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456055 XXXX 1779969456055, Thread 2189: XXXX 1779969456055, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456153 XXXX 1779969456153, Thread 2189: XXXX 1779969456153, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456155 XXXX 1779969456155, Thread 2189: XXXX 1779969456155, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456254 XXXX 1779969456254, Thread 2189: XXXX 1779969456254, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456256 XXXX 1779969456256, Thread 2189: XXXX 1779969456256, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456355 XXXX 1779969456355, Thread 2189: XXXX 1779969456355, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456357 XXXX 1779969456357, Thread 2189: XXXX 1779969456357, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456456 XXXX 1779969456456, Thread 2189: XXXX 1779969456456, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456458 XXXX 1779969456458, Thread 2189: XXXX 1779969456458, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456556 XXXX 1779969456556, Thread 2189: XXXX 1779969456556, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456559 XXXX 1779969456559, Thread 2189: XXXX 1779969456559, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456656 XXXX 1779969456656, Thread 2189: XXXX 1779969456656, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456658 XXXX 1779969456658, Thread 2189: XXXX 1779969456658, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456757 XXXX 1779969456757, Thread 2189: XXXX 1779969456757, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456759 XXXX 1779969456759, Thread 2189: XXXX 1779969456759, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456857 XXXX 1779969456857, Thread 2189: XXXX 1779969456857, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456859 XXXX 1779969456859, Thread 2189: XXXX 1779969456859, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969456958 XXXX 1779969456958, Thread 2189: XXXX 1779969456958, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969456960 XXXX 1779969456960, Thread 2189: XXXX 1779969456960, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457059 XXXX 1779969457059, Thread 2189: XXXX 1779969457059, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457061 XXXX 1779969457061, Thread 2189: XXXX 1779969457061, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457159 XXXX 1779969457159, Thread 2189: XXXX 1779969457159, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457161 XXXX 1779969457161, Thread 2189: XXXX 1779969457161, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457260 XXXX 1779969457260, Thread 2189: XXXX 1779969457260, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457262 XXXX 1779969457262, Thread 2189: XXXX 1779969457262, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457361 XXXX 1779969457361, Thread 2189: XXXX 1779969457361, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457363 XXXX 1779969457363, Thread 2189: XXXX 1779969457363, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457461 XXXX 1779969457461, Thread 2189: XXXX 1779969457461, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457463 XXXX 1779969457463, Thread 2189: XXXX 1779969457463, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457563 XXXX 1779969457563, Thread 2189: XXXX 1779969457563, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457565 XXXX 1779969457565, Thread 2189: XXXX 1779969457565, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457664 XXXX 1779969457664, Thread 2189: XXXX 1779969457664, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457666 XXXX 1779969457666, Thread 2189: XXXX 1779969457666, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457764 XXXX 1779969457764, Thread 2189: XXXX 1779969457764, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457766 XXXX 1779969457766, Thread 2189: XXXX 1779969457766, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457865 XXXX 1779969457865, Thread 2189: XXXX 1779969457865, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457867 XXXX 1779969457867, Thread 2189: XXXX 1779969457867, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969457966 XXXX 1779969457966, Thread 2189: XXXX 1779969457966, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969457968 XXXX 1779969457968, Thread 2189: XXXX 1779969457968, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458066 XXXX 1779969458066, Thread 2189: XXXX 1779969458066, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458068 XXXX 1779969458068, Thread 2189: XXXX 1779969458068, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458168 XXXX 1779969458168, Thread 2189: XXXX 1779969458168, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458170 XXXX 1779969458170, Thread 2189: XXXX 1779969458170, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458267 XXXX 1779969458267, Thread 2189: XXXX 1779969458267, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458269 XXXX 1779969458269, Thread 2189: XXXX 1779969458269, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458368 XXXX 1779969458368, Thread 2189: XXXX 1779969458368, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458370 XXXX 1779969458370, Thread 2189: XXXX 1779969458370, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458469 XXXX 1779969458469, Thread 2189: XXXX 1779969458469, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458471 XXXX 1779969458471, Thread 2189: XXXX 1779969458471, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458570 XXXX 1779969458570, Thread 2189: XXXX 1779969458570, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458572 XXXX 1779969458572, Thread 2189: XXXX 1779969458572, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458671 XXXX 1779969458671, Thread 2189: XXXX 1779969458671, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458673 XXXX 1779969458673, Thread 2189: XXXX 1779969458673, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458772 XXXX 1779969458772, Thread 2189: XXXX 1779969458772, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458774 XXXX 1779969458774, Thread 2189: XXXX 1779969458774, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458872 XXXX 1779969458872, Thread 2189: XXXX 1779969458872, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458874 XXXX 1779969458874, Thread 2189: XXXX 1779969458874, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969458973 XXXX 1779969458973, Thread 2189: XXXX 1779969458973, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969458975 XXXX 1779969458975, Thread 2189: XXXX 1779969458975, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459074 XXXX 1779969459074, Thread 2189: XXXX 1779969459074, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459076 XXXX 1779969459076, Thread 2189: XXXX 1779969459076, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459174 XXXX 1779969459174, Thread 2189: XXXX 1779969459174, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459176 XXXX 1779969459176, Thread 2189: XXXX 1779969459176, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459275 XXXX 1779969459275, Thread 2189: XXXX 1779969459275, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459277 XXXX 1779969459277, Thread 2189: XXXX 1779969459277, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459376 XXXX 1779969459376, Thread 2189: XXXX 1779969459376, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459378 XXXX 1779969459378, Thread 2189: XXXX 1779969459378, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459476 XXXX 1779969459476, Thread 2189: XXXX 1779969459476, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459478 XXXX 1779969459478, Thread 2189: XXXX 1779969459478, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459577 XXXX 1779969459577, Thread 2189: XXXX 1779969459577, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459579 XXXX 1779969459579, Thread 2189: XXXX 1779969459579, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459678 XXXX 1779969459678, Thread 2189: XXXX 1779969459678, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459680 XXXX 1779969459680, Thread 2189: XXXX 1779969459680, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459778 XXXX 1779969459778, Thread 2189: XXXX 1779969459778, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459780 XXXX 1779969459780, Thread 2189: XXXX 1779969459780, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459879 XXXX 1779969459879, Thread 2189: XXXX 1779969459879, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459881 XXXX 1779969459881, Thread 2189: XXXX 1779969459881, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969459980 XXXX 1779969459980, Thread 2189: XXXX 1779969459980, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969459982 XXXX 1779969459982, Thread 2189: XXXX 1779969459982, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460081 XXXX 1779969460081, Thread 2189: XXXX 1779969460081, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460083 XXXX 1779969460083, Thread 2189: XXXX 1779969460083, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460181 XXXX 1779969460181, Thread 2189: XXXX 1779969460181, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460183 XXXX 1779969460183, Thread 2189: XXXX 1779969460183, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460282 XXXX 1779969460282, Thread 2189: XXXX 1779969460282, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460284 XXXX 1779969460284, Thread 2189: XXXX 1779969460284, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460383 XXXX 1779969460383, Thread 2189: XXXX 1779969460383, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460385 XXXX 1779969460385, Thread 2189: XXXX 1779969460385, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460483 XXXX 1779969460483, Thread 2189: XXXX 1779969460483, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460485 XXXX 1779969460485, Thread 2189: XXXX 1779969460485, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460585 XXXX 1779969460585, Thread 2189: XXXX 1779969460585, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460587 XXXX 1779969460587, Thread 2189: XXXX 1779969460587, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460686 XXXX 1779969460686, Thread 2189: XXXX 1779969460686, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460688 XXXX 1779969460688, Thread 2189: XXXX 1779969460688, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460787 XXXX 1779969460787, Thread 2189: XXXX 1779969460787, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460789 XXXX 1779969460789, Thread 2189: XXXX 1779969460789, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460887 XXXX 1779969460887, Thread 2189: XXXX 1779969460887, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460889 XXXX 1779969460889, Thread 2189: XXXX 1779969460889, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969460988 XXXX 1779969460988, Thread 2189: XXXX 1779969460988, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969460990 XXXX 1779969460990, Thread 2189: XXXX 1779969460990, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461088 XXXX 1779969461088, Thread 2189: XXXX 1779969461088, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461090 XXXX 1779969461090, Thread 2189: XXXX 1779969461090, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461188 XXXX 1779969461188, Thread 2189: XXXX 1779969461188, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461190 XXXX 1779969461190, Thread 2189: XXXX 1779969461190, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461288 XXXX 1779969461288, Thread 2189: XXXX 1779969461288, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461290 XXXX 1779969461290, Thread 2189: XXXX 1779969461290, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461389 XXXX 1779969461389, Thread 2189: XXXX 1779969461389, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461391 XXXX 1779969461391, Thread 2189: XXXX 1779969461391, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461489 XXXX 1779969461489, Thread 2189: XXXX 1779969461489, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461491 XXXX 1779969461491, Thread 2189: XXXX 1779969461491, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461590 XXXX 1779969461590, Thread 2189: XXXX 1779969461590, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461592 XXXX 1779969461592, Thread 2189: XXXX 1779969461592, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461692 XXXX 1779969461692, Thread 2189: XXXX 1779969461692, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461694 XXXX 1779969461694, Thread 2189: XXXX 1779969461694, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461792 XXXX 1779969461792, Thread 2189: XXXX 1779969461792, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461794 XXXX 1779969461794, Thread 2189: XXXX 1779969461794, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461892 XXXX 1779969461892, Thread 2189: XXXX 1779969461892, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461894 XXXX 1779969461894, Thread 2189: XXXX 1779969461894, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969461993 XXXX 1779969461993, Thread 2189: XXXX 1779969461993, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969461995 XXXX 1779969461995, Thread 2189: XXXX 1779969461995, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462093 XXXX 1779969462093, Thread 2189: XXXX 1779969462093, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462095 XXXX 1779969462095, Thread 2189: XXXX 1779969462095, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462194 XXXX 1779969462194, Thread 2189: XXXX 1779969462194, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462196 XXXX 1779969462196, Thread 2189: XXXX 1779969462196, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462294 XXXX 1779969462294, Thread 2189: XXXX 1779969462294, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462296 XXXX 1779969462296, Thread 2189: XXXX 1779969462296, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462395 XXXX 1779969462395, Thread 2189: XXXX 1779969462395, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462397 XXXX 1779969462397, Thread 2189: XXXX 1779969462397, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462495 XXXX 1779969462495, Thread 2189: XXXX 1779969462495, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462497 XXXX 1779969462497, Thread 2189: XXXX 1779969462497, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462596 XXXX 1779969462596, Thread 2189: XXXX 1779969462596, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462598 XXXX 1779969462598, Thread 2189: XXXX 1779969462598, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462697 XXXX 1779969462697, Thread 2189: XXXX 1779969462697, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462699 XXXX 1779969462699, Thread 2189: XXXX 1779969462699, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462797 XXXX 1779969462797, Thread 2189: XXXX 1779969462797, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462799 XXXX 1779969462799, Thread 2189: XXXX 1779969462799, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969462899 XXXX 1779969462899, Thread 2189: XXXX 1779969462899, Entering Thread 2189: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+2189 1779969462903 XXXX 1779969462903, Thread 2189: XXXX 1779969462903, Exiting Thread 2189: Commands::runScriptBasic  
 
-291 1779375026041 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:GetFirmwareInfo
-291 1779375026041 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
-291 1779375026041 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 null
-291 1779375026041 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Post:GetFirmwareInfo
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return Value
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 FirmwareInfo: Values:
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 FirmwareInfo: boot = false, bootVer = 01.00.00, apVer = 02.03.32, fpgaVer = 01.00.14, scriptVer = 00.08.91, macAddress = 0495683578952544957485155485049, devID = a1020e01, devID1 = 2, devSN0 = ffffffff, devSN1 = ffffffff, serialNumber = BUR202671152, appCommitID = null, scriptCommitID = 0674c1b56b, PCB_ID = 3
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Return End
+2189 1779969462915 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2189 1779969462915 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2189 1779969462915 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
+2189 1779969462915 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0068
+2189 1779969462915 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd006b
+2189 1779969462915 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 4
+2189 1779969462915 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2189 1779969462915 XXXX 1779969462915, Thread 2189: XXXX 1779969462915, Entering Thread 2189: Commands::runScriptWithUpload, script name = ReadEmu  
+2189 1779969462915 XXXX 1779969462915, Thread 2189: XXXX 1779969462915, Entering Thread 2189: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x4 bytes long  
+2189 1779969462931 XXXX 1779969462931, Thread 2189: XXXX 1779969462931, Exiting Thread 2189: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2189 1779969462931 XXXX 1779969462931, Thread 2189: XXXX 1779969462931, Exiting Thread 2189: Commands::runScriptWithUpload  
+2189 1779969462931 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2189 1779969462931 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2189 1779969462931 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2189 1779969462931 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
 
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Pre:SetPowerInfo
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 PowerInfo: Values:
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 PowerInfo: shotDownSystem = true, isToolPower = false, voltage = 0,000000, useVppFirst = false, useLowVoltageProgramming = true, useMaintainActivePower = false
-291 1779375026042 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_dsPIC33EP512MU814 Payload End
-291 1779375026043 XXXX 1779375026043, Thread 291: XXXX 1779375026043, Entering Thread 291: Commands::runScriptBasic with script contents. contents[0] = 0x39, ...  
-291 1779375026049 XXXX 1779375026049, Thread 291: ToolCommUsb::writeHeaderAndGetResponse, response does not meach. got = 0x200afe1, expected 0xd 
-291 1779375026049 XXXX 1779375026049, Thread 291: transfer: exception after writeHeaderAndGetResult Protocol failure: In writeHeaderAndGetResponse expected 0xd received 0x200afe1 
-291 1779375026049 XXXX 1779375026049, Thread 291: XXXX 1779375026049, Entering Thread 291: ToolCommUsb::recoverFromProtocolError, type = NO_SCRIPT  
-291 1779375026049 XXXX 1779375026049, Thread 291: Send Abort Script Engine Command 
-291 1779375026050 XXXX 1779375026050, Thread 291: XXXX 1779375026049, Entering Thread 291: ToolCommUsb::killScriptEngine  
-291 1779375026050 XXXX 1779375026050, Thread 291: XXXX 1779375026050, Exiting Thread 291: ToolCommUsb::killScriptEngine  
-291 1779375026050 XXXX 1779375026050, Thread 291: Successfully Sent Abort Script EngineCommand 
-291 1779375026050 XXXX 1779375026050, Thread 291: Exiting recoverFromProtocolError 
-291 1779375026050 XXXX 1779375026050, Thread 291: XXXX 1779375026050, Exiting Thread 291: ToolCommUsb::recoverFromProtocolError,  
-291 1779375026050 XXXX 1779375026050, Thread 291: transfer: after recoverFromProtocolError 
+2189 1779969462932 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2189 1779969462932 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2189 1779969462932 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
+2189 1779969462932 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0000
+2189 1779969462932 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd000b
+2189 1779969462932 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
+2189 1779969462932 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2189 1779969462932 XXXX 1779969462932, Thread 2189: XXXX 1779969462932, Entering Thread 2189: Commands::runScriptWithUpload, script name = ReadEmu  
+2189 1779969462932 XXXX 1779969462932, Thread 2189: XXXX 1779969462932, Entering Thread 2189: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
+2189 1779969462960 XXXX 1779969462960, Thread 2189: XXXX 1779969462960, Exiting Thread 2189: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2189 1779969462960 XXXX 1779969462960, Thread 2189: XXXX 1779969462960, Exiting Thread 2189: Commands::runScriptWithUpload  
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugWriteTargetMemory
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0000
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd006b
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 108
+2189 1779969462960 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2189 1779969462960 XXXX 1779969462960, Thread 2189: XXXX 1779969462960, Entering Thread 2189: Commands::runScriptWithUpload, script name = ReadEmu  
+2189 1779969462961 XXXX 1779969462961, Thread 2189: XXXX 1779969462961, Entering Thread 2189: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x6c bytes long  
+2189 1779969463023 XXXX 1779969463023, Thread 2189: XXXX 1779969463023, Exiting Thread 2189: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2189 1779969463023 XXXX 1779969463023, Thread 2189: XXXX 1779969463023, Exiting Thread 2189: Commands::runScriptWithUpload  
+2189 1779969463023 XXXX 1779969463023, Thread 2189: XXXX 1779969463023, Entering Thread 2189: Commands::runScriptWithDownload, script name = WriteEmu  
+2189 1779969463051 XXXX 1779969463051, Thread 2189: XXXX 1779969463051, Exiting Thread 2189: Commands::runScriptWithDownload(WriteEmu)  
+2189 1779969463051 XXXX 1779969463051, Thread 2189: XXXX 1779969463051, Entering Thread 2189: Commands::runScriptWithDownload, script name = WriteEmu  
+2189 1779969463113 XXXX 1779969463113, Thread 2189: XXXX 1779969463113, Exiting Thread 2189: Commands::runScriptWithDownload(WriteEmu)  
+2189 1779969463113 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugWriteTargetMemory
+2189 1779969463113 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2189 1779969463113 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2189 1779969463113 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2189 1779969463114 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
+2189 1779969463114 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2189 1779969463114 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
+2189 1779969463114 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2189 1779969463114 XXXX 1779969463114, Thread 2189: XXXX 1779969463114, Entering Thread 2189: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
+2189 1779969463141 XXXX 1779969463141, Thread 2189: XXXX 1779969463141, Exiting Thread 2189: Commands::runScriptBasic  
+2189 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:GetPC
+2189 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2189 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
+2189 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:GetPC
+2031 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 null
+2031 1779969463141 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463141 XXXX 1779969463141, Thread 2031: XXXX 1779969463141, Entering Thread 2031: Commands::runScriptBasic, script name = GetPC, timeOut = -1 ms  
+2031 1779969463166 XXXX 1779969463166, Thread 2031: XXXX 1779969463166, Exiting Thread 2031: Commands::runScriptBasic  
+2031 1779969463166 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:GetPC
+2031 1779969463166 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463166 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
+2031 1779969463166 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463168 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463168 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463168 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463168 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
+2031 1779969463168 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
+2031 1779969463168 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463168 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463168 XXXX 1779969463168, Thread 2031: XXXX 1779969463168, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463168 XXXX 1779969463168, Thread 2031: XXXX 1779969463168, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463191 XXXX 1779969463191, Thread 2031: XXXX 1779969463191, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463192 XXXX 1779969463192, Thread 2031: XXXX 1779969463192, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1c
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1d
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463192 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463192 XXXX 1779969463192, Thread 2031: XXXX 1779969463192, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463192 XXXX 1779969463192, Thread 2031: XXXX 1779969463192, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463218 XXXX 1779969463218, Thread 2031: XXXX 1779969463218, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463218 XXXX 1779969463218, Thread 2031: XXXX 1779969463218, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463218 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463218 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463218 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463218 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463219 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463219 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463219 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463219 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1018
+2031 1779969463219 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1019
+2031 1779969463219 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463219 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463219 XXXX 1779969463219, Thread 2031: XXXX 1779969463219, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463219 XXXX 1779969463219, Thread 2031: XXXX 1779969463219, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463243 XXXX 1779969463243, Thread 2031: XXXX 1779969463243, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463243 XXXX 1779969463243, Thread 2031: XXXX 1779969463243, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1008
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1013
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
+2031 1779969463243 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463243 XXXX 1779969463243, Thread 2031: XXXX 1779969463243, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463243 XXXX 1779969463243, Thread 2031: XXXX 1779969463243, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
+2031 1779969463272 XXXX 1779969463272, Thread 2031: XXXX 1779969463272, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463272 XXXX 1779969463272, Thread 2031: XXXX 1779969463272, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 c
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 17
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
+2031 1779969463272 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463272 XXXX 1779969463272, Thread 2031: XXXX 1779969463272, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463272 XXXX 1779969463272, Thread 2031: XXXX 1779969463272, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
+2031 1779969463298 XXXX 1779969463298, Thread 2031: XXXX 1779969463298, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463298 XXXX 1779969463298, Thread 2031: XXXX 1779969463298, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1014
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1017
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 4
+2031 1779969463298 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463298 XXXX 1779969463298, Thread 2031: XXXX 1779969463298, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463298 XXXX 1779969463298, Thread 2031: XXXX 1779969463298, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x4 bytes long  
+2031 1779969463321 XXXX 1779969463321, Thread 2031: XXXX 1779969463321, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463321 XXXX 1779969463321, Thread 2031: XXXX 1779969463321, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1c
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1d
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463321 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463321 XXXX 1779969463321, Thread 2031: XXXX 1779969463321, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463321 XXXX 1779969463321, Thread 2031: XXXX 1779969463321, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463345 XXXX 1779969463345, Thread 2031: XXXX 1779969463345, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463345 XXXX 1779969463345, Thread 2031: XXXX 1779969463345, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1018
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1019
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463345 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463345 XXXX 1779969463345, Thread 2031: XXXX 1779969463345, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463345 XXXX 1779969463345, Thread 2031: XXXX 1779969463345, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463370 XXXX 1779969463370, Thread 2031: XXXX 1779969463370, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463370 XXXX 1779969463370, Thread 2031: XXXX 1779969463370, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463370 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463370 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463370 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463370 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463372 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463372 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463372 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463372 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 0
+2031 1779969463372 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1
+2031 1779969463372 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463372 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463372 XXXX 1779969463372, Thread 2031: XXXX 1779969463372, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463372 XXXX 1779969463372, Thread 2031: XXXX 1779969463372, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463395 XXXX 1779969463395, Thread 2031: XXXX 1779969463395, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463395 XXXX 1779969463395, Thread 2031: XXXX 1779969463395, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1c
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1d
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463395 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463395 XXXX 1779969463395, Thread 2031: XXXX 1779969463395, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463395 XXXX 1779969463395, Thread 2031: XXXX 1779969463395, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463421 XXXX 1779969463421, Thread 2031: XXXX 1779969463421, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463421 XXXX 1779969463421, Thread 2031: XXXX 1779969463421, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1018
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 1019
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463421 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463421 XXXX 1779969463421, Thread 2031: XXXX 1779969463421, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463421 XXXX 1779969463421, Thread 2031: XXXX 1779969463421, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463446 XXXX 1779969463446, Thread 2031: XXXX 1779969463446, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463446 XXXX 1779969463446, Thread 2031: XXXX 1779969463446, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969463450 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969463450 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969463450 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969463450 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101e
+2031 1779969463450 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101f
+2031 1779969463450 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969463450 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969463450 XXXX 1779969463450, Thread 2031: XXXX 1779969463450, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969463450 XXXX 1779969463450, Thread 2031: XXXX 1779969463450, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969463473 XXXX 1779969463473, Thread 2031: XXXX 1779969463473, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969463473 XXXX 1779969463473, Thread 2031: XXXX 1779969463473, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969463473 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969463473 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969463473 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969463473 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969464171 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969464171 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969464171 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969464171 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101e
+2031 1779969464171 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101f
+2031 1779969464171 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969464171 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969464171 XXXX 1779969464171, Thread 2031: XXXX 1779969464171, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969464171 XXXX 1779969464171, Thread 2031: XXXX 1779969464171, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969464182 XXXX 1779969464182, Thread 2031: XXXX 1779969464182, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969464182 XXXX 1779969464182, Thread 2031: XXXX 1779969464182, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969464182 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969464182 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969464182 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969464182 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2031 1779969464183 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2031 1779969464183 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2031 1779969464183 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 FileRegs
+2031 1779969464183 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101e
+2031 1779969464183 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 101f
+2031 1779969464183 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 2
+2031 1779969464183 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2031 1779969464184 XXXX 1779969464184, Thread 2031: XXXX 1779969464183, Entering Thread 2031: Commands::runScriptWithUpload, script name = ReadSFR  
+2031 1779969464184 XXXX 1779969464184, Thread 2031: XXXX 1779969464184, Entering Thread 2031: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2031 1779969464207 XXXX 1779969464207, Thread 2031: XXXX 1779969464207, Exiting Thread 2031: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2031 1779969464207 XXXX 1779969464207, Thread 2031: XXXX 1779969464207, Exiting Thread 2031: Commands::runScriptWithUpload  
+2031 1779969464207 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2031 1779969464207 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2031 1779969464207 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2031 1779969464207 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2737 1779969771430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:setTraceDescriptor
+2737 1779969771430 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 com.microchip.mplab.libs.RI4ToolsController.DataClasses.TraceDescriptor@4cc15c0d
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:setTraceDescriptor
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 none
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugReadTargetMemory
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0000
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd000b
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 12
+2737 1779969771434 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2737 1779969771434 XXXX 1779969771434, Thread 2737: XXXX 1779969771434, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadEmu  
+2737 1779969771434 XXXX 1779969771434, Thread 2737: XXXX 1779969771434, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0xc bytes long  
+2737 1779969771445 XXXX 1779969771445, Thread 2737: XXXX 1779969771445, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969771446 XXXX 1779969771446, Thread 2737: XXXX 1779969771446, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugReadTargetMemory
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:DebugWriteTargetMemory
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Emulation
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd0000
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 fd006b
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Length = 108
+2737 1779969771446 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2737 1779969771446 XXXX 1779969771446, Thread 2737: XXXX 1779969771446, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadEmu  
+2737 1779969771446 XXXX 1779969771446, Thread 2737: XXXX 1779969771446, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x6c bytes long  
+2737 1779969771507 XXXX 1779969771507, Thread 2737: XXXX 1779969771507, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969771507 XXXX 1779969771507, Thread 2737: XXXX 1779969771507, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969771507 XXXX 1779969771507, Thread 2737: XXXX 1779969771507, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteEmu  
+2737 1779969771536 XXXX 1779969771536, Thread 2737: XXXX 1779969771536, Exiting Thread 2737: Commands::runScriptWithDownload(WriteEmu)  
+2737 1779969771536 XXXX 1779969771536, Thread 2737: XXXX 1779969771536, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteEmu  
+2737 1779969771599 XXXX 1779969771599, Thread 2737: XXXX 1779969771599, Exiting Thread 2737: Commands::runScriptWithDownload(WriteEmu)  
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Post:DebugWriteTargetMemory
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return Value
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 true
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Return End
+
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Pre:SetFreezePerihperalInfo
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 104, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 110, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 112, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 11e, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 120, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 12c, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 12e, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 13a, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 13c, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 140, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 148, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 150, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 158, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 160, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 168, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 170, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 178, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 180, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 188, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 190, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 198, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 1a0, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 1a8, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 1b0, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 1b8, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 206, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 216, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 220, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 230, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 240, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 250, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 260, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 280, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 2a0, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 2b0, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 2c0, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 320, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 360, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 4dc, Mask = 20, SetVal = 20, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 600, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 626, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 640, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 900, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 90a, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 914, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 91e, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 928, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 932, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 93c, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 946, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 950, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 95a, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 964, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 96e, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 978, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 982, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 98c, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = 996, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = a80, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = c00, Mask = 4000, SetVal = 4000, Type = FileRegs
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Values:
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 BitSetInfo: Address = fd0036, Mask = 1, SetVal = 1, Type = Emulation
+2737 1779969771599 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_dsPIC33EP512MU814 Payload End
+2737 1779969771599 XXXX 1779969771599, Thread 2737: XXXX 1779969771599, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969771599 XXXX 1779969771599, Thread 2737: XXXX 1779969771599, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969771626 XXXX 1779969771626, Thread 2737: XXXX 1779969771626, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969771626 XXXX 1779969771626, Thread 2737: XXXX 1779969771626, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969771626 XXXX 1779969771626, Thread 2737: XXXX 1779969771626, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969771935 XXXX 1779969771935, Thread 2737: XXXX 1779969771935, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969771935 XXXX 1779969771935, Thread 2737: XXXX 1779969771935, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969771935 XXXX 1779969771935, Thread 2737: XXXX 1779969771935, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969771962 XXXX 1779969771962, Thread 2737: XXXX 1779969771962, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969771962 XXXX 1779969771962, Thread 2737: XXXX 1779969771962, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969771962 XXXX 1779969771962, Thread 2737: XXXX 1779969771962, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969772271 XXXX 1779969772271, Thread 2737: XXXX 1779969772271, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969772271 XXXX 1779969772271, Thread 2737: XXXX 1779969772271, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969772271 XXXX 1779969772271, Thread 2737: XXXX 1779969772271, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969772298 XXXX 1779969772298, Thread 2737: XXXX 1779969772298, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969772298 XXXX 1779969772298, Thread 2737: XXXX 1779969772298, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969772298 XXXX 1779969772298, Thread 2737: XXXX 1779969772298, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969772607 XXXX 1779969772607, Thread 2737: XXXX 1779969772607, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969772607 XXXX 1779969772607, Thread 2737: XXXX 1779969772607, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969772607 XXXX 1779969772607, Thread 2737: XXXX 1779969772607, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969772634 XXXX 1779969772634, Thread 2737: XXXX 1779969772634, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969772634 XXXX 1779969772634, Thread 2737: XXXX 1779969772634, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969772634 XXXX 1779969772634, Thread 2737: XXXX 1779969772634, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969772943 XXXX 1779969772943, Thread 2737: XXXX 1779969772943, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969772943 XXXX 1779969772943, Thread 2737: XXXX 1779969772943, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969772943 XXXX 1779969772943, Thread 2737: XXXX 1779969772943, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969772970 XXXX 1779969772970, Thread 2737: XXXX 1779969772970, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969772970 XXXX 1779969772970, Thread 2737: XXXX 1779969772970, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969772970 XXXX 1779969772970, Thread 2737: XXXX 1779969772970, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969773280 XXXX 1779969773280, Thread 2737: XXXX 1779969773280, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969773280 XXXX 1779969773280, Thread 2737: XXXX 1779969773280, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969773280 XXXX 1779969773280, Thread 2737: XXXX 1779969773280, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969773306 XXXX 1779969773306, Thread 2737: XXXX 1779969773306, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969773306 XXXX 1779969773306, Thread 2737: XXXX 1779969773306, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969773306 XXXX 1779969773306, Thread 2737: XXXX 1779969773306, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969773615 XXXX 1779969773615, Thread 2737: XXXX 1779969773615, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969773615 XXXX 1779969773615, Thread 2737: XXXX 1779969773615, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969773616 XXXX 1779969773616, Thread 2737: XXXX 1779969773616, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969773642 XXXX 1779969773642, Thread 2737: XXXX 1779969773642, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969773642 XXXX 1779969773642, Thread 2737: XXXX 1779969773642, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969773643 XXXX 1779969773643, Thread 2737: XXXX 1779969773643, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969773952 XXXX 1779969773952, Thread 2737: XXXX 1779969773952, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969773952 XXXX 1779969773952, Thread 2737: XXXX 1779969773952, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969773952 XXXX 1779969773952, Thread 2737: XXXX 1779969773952, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969773978 XXXX 1779969773978, Thread 2737: XXXX 1779969773978, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969773979 XXXX 1779969773978, Thread 2737: XXXX 1779969773978, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969773979 XXXX 1779969773979, Thread 2737: XXXX 1779969773979, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969774288 XXXX 1779969774288, Thread 2737: XXXX 1779969774288, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969774288 XXXX 1779969774288, Thread 2737: XXXX 1779969774288, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969774288 XXXX 1779969774288, Thread 2737: XXXX 1779969774288, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969774315 XXXX 1779969774315, Thread 2737: XXXX 1779969774315, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969774315 XXXX 1779969774315, Thread 2737: XXXX 1779969774315, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969774315 XXXX 1779969774315, Thread 2737: XXXX 1779969774315, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969774624 XXXX 1779969774624, Thread 2737: XXXX 1779969774624, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969774624 XXXX 1779969774624, Thread 2737: XXXX 1779969774624, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969774624 XXXX 1779969774624, Thread 2737: XXXX 1779969774624, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969774651 XXXX 1779969774651, Thread 2737: XXXX 1779969774651, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969774651 XXXX 1779969774651, Thread 2737: XXXX 1779969774651, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969774651 XXXX 1779969774651, Thread 2737: XXXX 1779969774651, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969774960 XXXX 1779969774960, Thread 2737: XXXX 1779969774960, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969774960 XXXX 1779969774960, Thread 2737: XXXX 1779969774960, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969774960 XXXX 1779969774960, Thread 2737: XXXX 1779969774960, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969774987 XXXX 1779969774987, Thread 2737: XXXX 1779969774987, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969774987 XXXX 1779969774987, Thread 2737: XXXX 1779969774987, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969774987 XXXX 1779969774987, Thread 2737: XXXX 1779969774987, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969775296 XXXX 1779969775296, Thread 2737: XXXX 1779969775296, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969775296 XXXX 1779969775296, Thread 2737: XXXX 1779969775296, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969775296 XXXX 1779969775296, Thread 2737: XXXX 1779969775296, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969775323 XXXX 1779969775323, Thread 2737: XXXX 1779969775323, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969775323 XXXX 1779969775323, Thread 2737: XXXX 1779969775323, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969775323 XXXX 1779969775323, Thread 2737: XXXX 1779969775323, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969775632 XXXX 1779969775632, Thread 2737: XXXX 1779969775632, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969775632 XXXX 1779969775632, Thread 2737: XXXX 1779969775632, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969775632 XXXX 1779969775632, Thread 2737: XXXX 1779969775632, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969775659 XXXX 1779969775659, Thread 2737: XXXX 1779969775659, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969775659 XXXX 1779969775659, Thread 2737: XXXX 1779969775659, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969775659 XXXX 1779969775659, Thread 2737: XXXX 1779969775659, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969775968 XXXX 1779969775968, Thread 2737: XXXX 1779969775968, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969775968 XXXX 1779969775968, Thread 2737: XXXX 1779969775968, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969775968 XXXX 1779969775968, Thread 2737: XXXX 1779969775968, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969775995 XXXX 1779969775995, Thread 2737: XXXX 1779969775995, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969775995 XXXX 1779969775995, Thread 2737: XXXX 1779969775995, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969775995 XXXX 1779969775995, Thread 2737: XXXX 1779969775995, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969776304 XXXX 1779969776304, Thread 2737: XXXX 1779969776304, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969776304 XXXX 1779969776304, Thread 2737: XXXX 1779969776304, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969776305 XXXX 1779969776305, Thread 2737: XXXX 1779969776305, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969776331 XXXX 1779969776331, Thread 2737: XXXX 1779969776331, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969776331 XXXX 1779969776331, Thread 2737: XXXX 1779969776331, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969776331 XXXX 1779969776331, Thread 2737: XXXX 1779969776331, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969776640 XXXX 1779969776640, Thread 2737: XXXX 1779969776640, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969776640 XXXX 1779969776640, Thread 2737: XXXX 1779969776640, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969776641 XXXX 1779969776641, Thread 2737: XXXX 1779969776641, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969776667 XXXX 1779969776667, Thread 2737: XXXX 1779969776667, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969776667 XXXX 1779969776667, Thread 2737: XXXX 1779969776667, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969776668 XXXX 1779969776668, Thread 2737: XXXX 1779969776668, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969776977 XXXX 1779969776977, Thread 2737: XXXX 1779969776977, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969776977 XXXX 1779969776977, Thread 2737: XXXX 1779969776977, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969776977 XXXX 1779969776977, Thread 2737: XXXX 1779969776977, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969777004 XXXX 1779969777004, Thread 2737: XXXX 1779969777003, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969777004 XXXX 1779969777004, Thread 2737: XXXX 1779969777004, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969777004 XXXX 1779969777004, Thread 2737: XXXX 1779969777004, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969777313 XXXX 1779969777313, Thread 2737: XXXX 1779969777313, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969777313 XXXX 1779969777313, Thread 2737: XXXX 1779969777313, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969777313 XXXX 1779969777313, Thread 2737: XXXX 1779969777313, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969777340 XXXX 1779969777340, Thread 2737: XXXX 1779969777340, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969777340 XXXX 1779969777340, Thread 2737: XXXX 1779969777340, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969777340 XXXX 1779969777340, Thread 2737: XXXX 1779969777340, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969777649 XXXX 1779969777649, Thread 2737: XXXX 1779969777649, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969777649 XXXX 1779969777649, Thread 2737: XXXX 1779969777649, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969777649 XXXX 1779969777649, Thread 2737: XXXX 1779969777649, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969777676 XXXX 1779969777676, Thread 2737: XXXX 1779969777676, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969777676 XXXX 1779969777676, Thread 2737: XXXX 1779969777676, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969777676 XXXX 1779969777676, Thread 2737: XXXX 1779969777676, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969777985 XXXX 1779969777985, Thread 2737: XXXX 1779969777985, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969777985 XXXX 1779969777985, Thread 2737: XXXX 1779969777985, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969777985 XXXX 1779969777985, Thread 2737: XXXX 1779969777985, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969778012 XXXX 1779969778012, Thread 2737: XXXX 1779969778012, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969778012 XXXX 1779969778012, Thread 2737: XXXX 1779969778012, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969778012 XXXX 1779969778012, Thread 2737: XXXX 1779969778012, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969778321 XXXX 1779969778321, Thread 2737: XXXX 1779969778321, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969778321 XXXX 1779969778321, Thread 2737: XXXX 1779969778321, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969778321 XXXX 1779969778321, Thread 2737: XXXX 1779969778321, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969778348 XXXX 1779969778348, Thread 2737: XXXX 1779969778348, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969778348 XXXX 1779969778348, Thread 2737: XXXX 1779969778348, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969778348 XXXX 1779969778348, Thread 2737: XXXX 1779969778348, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969778657 XXXX 1779969778657, Thread 2737: XXXX 1779969778657, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969778657 XXXX 1779969778657, Thread 2737: XXXX 1779969778657, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969778657 XXXX 1779969778657, Thread 2737: XXXX 1779969778657, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969778684 XXXX 1779969778684, Thread 2737: XXXX 1779969778684, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969778684 XXXX 1779969778684, Thread 2737: XXXX 1779969778684, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969778684 XXXX 1779969778684, Thread 2737: XXXX 1779969778684, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969778993 XXXX 1779969778993, Thread 2737: XXXX 1779969778993, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969778993 XXXX 1779969778993, Thread 2737: XXXX 1779969778993, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969778993 XXXX 1779969778993, Thread 2737: XXXX 1779969778993, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969779020 XXXX 1779969779020, Thread 2737: XXXX 1779969779020, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969779020 XXXX 1779969779020, Thread 2737: XXXX 1779969779020, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969779020 XXXX 1779969779020, Thread 2737: XXXX 1779969779020, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969779329 XXXX 1779969779329, Thread 2737: XXXX 1779969779329, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969779329 XXXX 1779969779329, Thread 2737: XXXX 1779969779329, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969779329 XXXX 1779969779329, Thread 2737: XXXX 1779969779329, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969779356 XXXX 1779969779356, Thread 2737: XXXX 1779969779356, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969779356 XXXX 1779969779356, Thread 2737: XXXX 1779969779356, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969779356 XXXX 1779969779356, Thread 2737: XXXX 1779969779356, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969779665 XXXX 1779969779665, Thread 2737: XXXX 1779969779665, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969779665 XXXX 1779969779665, Thread 2737: XXXX 1779969779665, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969779665 XXXX 1779969779665, Thread 2737: XXXX 1779969779665, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969779692 XXXX 1779969779692, Thread 2737: XXXX 1779969779692, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969779692 XXXX 1779969779692, Thread 2737: XXXX 1779969779692, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969779692 XXXX 1779969779692, Thread 2737: XXXX 1779969779692, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969780001 XXXX 1779969780001, Thread 2737: XXXX 1779969780001, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969780001 XXXX 1779969780001, Thread 2737: XXXX 1779969780001, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969780001 XXXX 1779969780001, Thread 2737: XXXX 1779969780001, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969780028 XXXX 1779969780028, Thread 2737: XXXX 1779969780028, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969780028 XXXX 1779969780028, Thread 2737: XXXX 1779969780028, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969780028 XXXX 1779969780028, Thread 2737: XXXX 1779969780028, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969780337 XXXX 1779969780337, Thread 2737: XXXX 1779969780337, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969780337 XXXX 1779969780337, Thread 2737: XXXX 1779969780337, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969780337 XXXX 1779969780337, Thread 2737: XXXX 1779969780337, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969780364 XXXX 1779969780364, Thread 2737: XXXX 1779969780364, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969780364 XXXX 1779969780364, Thread 2737: XXXX 1779969780364, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969780364 XXXX 1779969780364, Thread 2737: XXXX 1779969780364, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969780673 XXXX 1779969780673, Thread 2737: XXXX 1779969780673, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969780673 XXXX 1779969780673, Thread 2737: XXXX 1779969780673, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969780673 XXXX 1779969780673, Thread 2737: XXXX 1779969780673, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969780700 XXXX 1779969780700, Thread 2737: XXXX 1779969780700, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969780700 XXXX 1779969780700, Thread 2737: XXXX 1779969780700, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969780700 XXXX 1779969780700, Thread 2737: XXXX 1779969780700, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969781009 XXXX 1779969781009, Thread 2737: XXXX 1779969781009, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969781009 XXXX 1779969781009, Thread 2737: XXXX 1779969781009, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969781009 XXXX 1779969781009, Thread 2737: XXXX 1779969781009, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969781036 XXXX 1779969781036, Thread 2737: XXXX 1779969781036, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969781036 XXXX 1779969781036, Thread 2737: XXXX 1779969781036, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969781036 XXXX 1779969781036, Thread 2737: XXXX 1779969781036, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969781345 XXXX 1779969781345, Thread 2737: XXXX 1779969781345, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969781345 XXXX 1779969781345, Thread 2737: XXXX 1779969781345, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969781345 XXXX 1779969781345, Thread 2737: XXXX 1779969781345, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969781372 XXXX 1779969781372, Thread 2737: XXXX 1779969781372, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969781372 XXXX 1779969781372, Thread 2737: XXXX 1779969781372, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969781372 XXXX 1779969781372, Thread 2737: XXXX 1779969781372, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969781681 XXXX 1779969781681, Thread 2737: XXXX 1779969781681, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969781681 XXXX 1779969781681, Thread 2737: XXXX 1779969781681, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969781681 XXXX 1779969781681, Thread 2737: XXXX 1779969781681, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969781708 XXXX 1779969781708, Thread 2737: XXXX 1779969781708, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969781708 XXXX 1779969781708, Thread 2737: XXXX 1779969781708, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969781708 XXXX 1779969781708, Thread 2737: XXXX 1779969781708, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969782017 XXXX 1779969782017, Thread 2737: XXXX 1779969782017, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969782017 XXXX 1779969782017, Thread 2737: XXXX 1779969782017, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969782017 XXXX 1779969782017, Thread 2737: XXXX 1779969782017, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969782044 XXXX 1779969782044, Thread 2737: XXXX 1779969782044, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969782044 XXXX 1779969782044, Thread 2737: XXXX 1779969782044, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969782044 XXXX 1779969782044, Thread 2737: XXXX 1779969782044, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969782353 XXXX 1779969782353, Thread 2737: XXXX 1779969782353, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969782353 XXXX 1779969782353, Thread 2737: XXXX 1779969782353, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969782353 XXXX 1779969782353, Thread 2737: XXXX 1779969782353, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969782380 XXXX 1779969782380, Thread 2737: XXXX 1779969782380, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969782380 XXXX 1779969782380, Thread 2737: XXXX 1779969782380, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969782380 XXXX 1779969782380, Thread 2737: XXXX 1779969782380, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969782689 XXXX 1779969782689, Thread 2737: XXXX 1779969782689, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969782689 XXXX 1779969782689, Thread 2737: XXXX 1779969782689, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969782689 XXXX 1779969782689, Thread 2737: XXXX 1779969782689, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969782716 XXXX 1779969782716, Thread 2737: XXXX 1779969782716, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969782716 XXXX 1779969782716, Thread 2737: XXXX 1779969782716, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969782716 XXXX 1779969782716, Thread 2737: XXXX 1779969782716, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969783025 XXXX 1779969783025, Thread 2737: XXXX 1779969783025, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969783025 XXXX 1779969783025, Thread 2737: XXXX 1779969783025, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969783025 XXXX 1779969783025, Thread 2737: XXXX 1779969783025, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969783078 XXXX 1779969783078, Thread 2737: XXXX 1779969783078, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969783078 XXXX 1779969783078, Thread 2737: XXXX 1779969783078, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969783078 XXXX 1779969783078, Thread 2737: XXXX 1779969783078, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969783402 XXXX 1779969783402, Thread 2737: XXXX 1779969783402, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969783402 XXXX 1779969783402, Thread 2737: XXXX 1779969783402, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969783402 XXXX 1779969783402, Thread 2737: XXXX 1779969783402, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969783412 XXXX 1779969783412, Thread 2737: XXXX 1779969783412, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969783412 XXXX 1779969783412, Thread 2737: XXXX 1779969783412, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969783412 XXXX 1779969783412, Thread 2737: XXXX 1779969783412, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969783721 XXXX 1779969783721, Thread 2737: XXXX 1779969783721, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969783721 XXXX 1779969783721, Thread 2737: XXXX 1779969783721, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969783721 XXXX 1779969783721, Thread 2737: XXXX 1779969783721, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969783748 XXXX 1779969783748, Thread 2737: XXXX 1779969783748, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969783748 XXXX 1779969783748, Thread 2737: XXXX 1779969783748, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969783748 XXXX 1779969783748, Thread 2737: XXXX 1779969783748, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969784057 XXXX 1779969784057, Thread 2737: XXXX 1779969784057, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969784057 XXXX 1779969784057, Thread 2737: XXXX 1779969784057, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969784057 XXXX 1779969784057, Thread 2737: XXXX 1779969784057, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969784084 XXXX 1779969784084, Thread 2737: XXXX 1779969784084, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969784084 XXXX 1779969784084, Thread 2737: XXXX 1779969784084, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969784084 XXXX 1779969784084, Thread 2737: XXXX 1779969784084, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969784393 XXXX 1779969784393, Thread 2737: XXXX 1779969784393, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969784393 XXXX 1779969784393, Thread 2737: XXXX 1779969784393, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969784393 XXXX 1779969784393, Thread 2737: XXXX 1779969784393, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969784420 XXXX 1779969784420, Thread 2737: XXXX 1779969784420, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969784420 XXXX 1779969784420, Thread 2737: XXXX 1779969784420, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969784420 XXXX 1779969784420, Thread 2737: XXXX 1779969784420, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969784729 XXXX 1779969784729, Thread 2737: XXXX 1779969784729, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969784729 XXXX 1779969784729, Thread 2737: XXXX 1779969784729, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969784729 XXXX 1779969784729, Thread 2737: XXXX 1779969784729, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969784756 XXXX 1779969784756, Thread 2737: XXXX 1779969784756, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969784756 XXXX 1779969784756, Thread 2737: XXXX 1779969784756, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969784756 XXXX 1779969784756, Thread 2737: XXXX 1779969784756, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969785065 XXXX 1779969785065, Thread 2737: XXXX 1779969785065, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969785065 XXXX 1779969785065, Thread 2737: XXXX 1779969785065, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969785065 XXXX 1779969785065, Thread 2737: XXXX 1779969785065, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969785092 XXXX 1779969785092, Thread 2737: XXXX 1779969785092, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969785092 XXXX 1779969785092, Thread 2737: XXXX 1779969785092, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969785092 XXXX 1779969785092, Thread 2737: XXXX 1779969785092, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969785401 XXXX 1779969785401, Thread 2737: XXXX 1779969785401, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969785401 XXXX 1779969785401, Thread 2737: XXXX 1779969785401, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969785401 XXXX 1779969785401, Thread 2737: XXXX 1779969785401, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969785428 XXXX 1779969785428, Thread 2737: XXXX 1779969785428, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969785428 XXXX 1779969785428, Thread 2737: XXXX 1779969785428, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969785428 XXXX 1779969785428, Thread 2737: XXXX 1779969785428, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969785737 XXXX 1779969785737, Thread 2737: XXXX 1779969785737, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969785737 XXXX 1779969785737, Thread 2737: XXXX 1779969785737, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969785737 XXXX 1779969785737, Thread 2737: XXXX 1779969785737, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969785764 XXXX 1779969785764, Thread 2737: XXXX 1779969785764, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969785764 XXXX 1779969785764, Thread 2737: XXXX 1779969785764, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969785764 XXXX 1779969785764, Thread 2737: XXXX 1779969785764, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969786073 XXXX 1779969786073, Thread 2737: XXXX 1779969786073, Exiting Thread 2737: Commands::runScriptWithDownload(WriteSFR)  
+2737 1779969786073 XXXX 1779969786073, Thread 2737: XXXX 1779969786073, Entering Thread 2737: Commands::runScriptWithUpload, script name = ReadSFR  
+2737 1779969786073 XXXX 1779969786073, Thread 2737: XXXX 1779969786073, Entering Thread 2737: ToolCommUsb::readTransfer, sideData is 0x18 bytes long, transferDataLength is 0x2 bytes long  
+2737 1779969786100 XXXX 1779969786100, Thread 2737: XXXX 1779969786100, Exiting Thread 2737: ToolCommUsb::readTransfer,  cr.status = 0x0  
+2737 1779969786100 XXXX 1779969786100, Thread 2737: XXXX 1779969786100, Exiting Thread 2737: Commands::runScriptWithUpload  
+2737 1779969786100 XXXX 1779969786100, Thread 2737: XXXX 1779969786100, Entering Thread 2737: Commands::runScriptWithDownload, script name = WriteSFR  
+2737 1779969786212 XXXX 1779969786212, Thread 2737: ToolCommUsb::read, com.Received returned -1 
+2737 1779969786212 XXXX 1779969786212, Thread 2737: writeTransfer: exception after sendScriptDone null 
+2737 1779969786212 XXXX 1779969786212, Thread 2737: XXXX 1779969786212, Entering Thread 2737: ToolCommUsb::recoverFromProtocolError, type = NO_SCRIPT  
+2737 1779969786212 XXXX 1779969786212, Thread 2737: Send Abort Script Engine Command 
+2737 1779969786212 XXXX 1779969786212, Thread 2737: XXXX 1779969786212, Entering Thread 2737: ToolCommUsb::killScriptEngine  
+2737 1779969786227 XXXX 1779969786227, Thread 2737: com.Send returned false 
+2737 1779969786227 XXXX 1779969786227, Thread 2737: Failed sending Abort Script Engine Command. Set nuclear option = true 
+2737 1779969786227 XXXX 1779969786227, Thread 2737: About to nuke 
+2737 1779969786227 XXXX 1779969786227, Thread 2737: XXXX 1779969786227, Entering Thread 2737: ToolCommUsb::nuclearOption  
+2737 1779969786239 XXXX 1779969786239, Thread 2737: com.Send returned false 

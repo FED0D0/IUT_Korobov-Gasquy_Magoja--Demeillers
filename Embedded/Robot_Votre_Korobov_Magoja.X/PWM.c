@@ -6,7 +6,7 @@
 #include "main.h"
 #include "QEI.h"
 #define PWMPER 24.0
-#define M_TO_PERCENT 35
+#define M_TO_PERCENT 35 //35
 
 void InitPWM(void) {
     PTCON2bits.PCLKDIV = 0b000; //Divide by 1

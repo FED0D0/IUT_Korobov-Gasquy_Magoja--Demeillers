@@ -42,11 +42,11 @@ double Correcteur(volatile PidCorrector* PidCorr, float erreur) {
 }
 
 void UpdateAsservissement() {
-    robotState.PidX.erreur =
+    robotState.PidX.erreur = 
             robotState.vitesseLineaireConsigne -
             robotState.vitesseLineaireFromOdometry;
 
-    robotState.PidTheta.erreur =
+    robotState.PidTheta.erreur = 
             robotState.vitesseAngulaireConsigne -
             robotState.vitesseAngulaireFromOdometry;
 
