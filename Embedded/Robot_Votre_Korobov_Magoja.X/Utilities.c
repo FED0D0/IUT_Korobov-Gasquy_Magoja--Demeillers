@@ -9,6 +9,13 @@ double Modulo2PIAngleRadian(double angleRadian) {
     return fmod(angleTemp + PI, 2 * PI) - PI;
 }
 
+double ModuloByAngle(double angleToCenterAround, double angle){
+    double interAngle = Modulo2PIAngleRadian(angle - angleToCenterAround);
+    if(interAngle > M_PI)
+        interAngle -= M_2_PI;
+    return interAngle + angleToCenterAround;
+}
+
 float getFloat(unsigned char *p, int index)
 {
     float *result_ptr = (float*)(p + index);

@@ -36,7 +36,7 @@ namespace WpfInterfaceRobot
             timerAffichage.Tick += TimerAffichage_Tick;
             timerAffichage.Start();
             InitializeComponent();
-            serialPort1 = new ExtendedSerialPort("COM4", 115200, Parity.None, 8, StopBits.One);
+            serialPort1 = new ExtendedSerialPort("COM6", 115200, Parity.None, 8, StopBits.One);
             serialPort1.DataReceived += SerialPort1_DataReceived;
             serialPort1.Open();
             _globalKeyboardHook = new GlobalKeyboardHook();
@@ -398,7 +398,9 @@ namespace WpfInterfaceRobot
             Motor = 0x0040,
             Depl = 0x0050,
             PositionData = 0x0061,
-            TEST_PID = 0x0062
+            TEST_PID = 0x0062,
+            ghost = 0x0090
+
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
