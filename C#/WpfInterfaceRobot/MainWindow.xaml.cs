@@ -158,12 +158,12 @@ namespace WpfInterfaceRobot
                 case StateReception.PayloadLengthLSB:
                     msgDecodedPayLoadLength += c;
                     rcvState = StateReception.PayLoad;
-                    if(msgDecodedPayLoadLength==0)
-                    { 
+                    if (msgDecodedPayLoadLength == 0)
+                    {
                         rcvState = StateReception.CheckSum;
                         break;
                     }
-                    
+
                     msgDecodedPayLoad = new byte[msgDecodedPayLoadLength];
                     msgDecodedPayLoadIndex = 0;
                     break;
@@ -358,6 +358,30 @@ namespace WpfInterfaceRobot
                         }
                         break;
                     }
+                case (int)RobotFunction.ghostRX:
+                    {
+                        if (msgPayloadLength >= 12)
+                        {
+                            float thetaGhost = BitConverter.ToSingle(msgPayload, 0);
+                            float thetaWaypoint = BitConverter.ToSingle(msgPayload, 4);
+                            float vitesseTheta = BitConverter.ToSingle(msgPayload, 8);
+
+                            float thetaGhostDeg = thetaGhost * 180.0f / MathF.PI;
+                            float thetaWaypointDeg = thetaWaypoint * 180.0f / MathF.PI;
+
+                            VGhost.Text =
+                                $"Theta Ghost : {thetaGhostDeg:F2}°\n" +
+                                $"Waypoint : {thetaWaypointDeg:F2}°\n" +
+                                $"Vitesse Theta : {vitesseTheta:F2}\n";
+                        }
+                        else
+                        {
+                            VGhost.Text = "Erreur : payload Ghost trop court";
+                        }
+
+                        break;
+                    }
+
 
 
                     //case (int)RobotFunction.Depl:
@@ -399,7 +423,8 @@ namespace WpfInterfaceRobot
             Depl = 0x0050,
             PositionData = 0x0061,
             TEST_PID = 0x0062,
-            ghost = 0x0090
+            SetGhostWaypoint = 0x0090,
+            ghostRX = 0x0091
 
         }
 
@@ -493,7 +518,7 @@ namespace WpfInterfaceRobot
         {
 
         }
-        
+
         private void buttonConsX_Click(object sender, RoutedEventArgs e)
         {
             List<byte> caca = new List<byte>();
@@ -533,7 +558,21 @@ namespace WpfInterfaceRobot
         {
 
         }
-    }
-    
+        private void carre_Click(object sender, RoutedEventArgs e)
+        {
+            var payload = new byte[] { 0, 1 };
+            UartEncodeAndSendMessage(
+                (int)RobotFunction.SetGhostWaypoint,
+                payload.Length,
+                payload
+            );
+        }
 
+        private void VGhost_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+
+    }
 }

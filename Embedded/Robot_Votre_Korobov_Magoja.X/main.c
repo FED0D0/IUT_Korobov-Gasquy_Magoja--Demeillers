@@ -15,6 +15,7 @@
 #include "UART_Protocol.h"
 #include "QEI.h"
 #include "asservissement.h"
+#include "ghost.h"
 
 
 int ADCValue0;
@@ -23,6 +24,7 @@ int ADCValue2;
 int ADCValue3;
 int ADCValue4;
 int counterDisplayAdc = 0;
+
 
 int main(void) {
     InitOscillator();
@@ -38,6 +40,8 @@ int main(void) {
     InitPWM();
 
 
+    GhostStartPoint();
+    
     SetupPidAsservissement(&robotState.PidX,
             6, //9
             230, //550 ancien nouveau : 210
@@ -94,6 +98,7 @@ int main(void) {
             octetRecu = CB_RX1_Get();
             UartDecodeMessage(octetRecu);
         }
+        
         PWMUpdateSpeed();
 
         //        OperatingSystemLoop();

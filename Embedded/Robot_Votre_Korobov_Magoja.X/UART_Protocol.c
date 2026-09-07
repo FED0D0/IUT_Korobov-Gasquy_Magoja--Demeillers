@@ -3,6 +3,7 @@
 #include "CB_RX1.h"
 #include "CB_TX1.h"
 #include "main.h"
+#include "ghost.h"
 
 unsigned char autoControlActivated = 0;
 unsigned char currentRobotState = 0;
@@ -133,12 +134,21 @@ void UartProcessDecodedMessage(int msgFunction, int payloadLength, unsigned char
     //Fonction appelée après le édcodage pour éexcuter l?action
     //correspondant au message çreu
     switch (msgFunction) {
+
         case SET_ROBOT_STATE:
             SetRobotState(msgPayload[0]);
             break;
+
         case SET_ROBOT_MANUAL_CONTROL:
             SetRobotAutoControlState(msgPayload[0]);
             break;
+
+        case SET_GHOST_WAYPOINT:
+            gState.XWaypoint = msgPayload [0];
+            gState.YWaypoint = msgPayload [1];
+            SendGhostData();
+            break;
+
         default:
             break;
     }

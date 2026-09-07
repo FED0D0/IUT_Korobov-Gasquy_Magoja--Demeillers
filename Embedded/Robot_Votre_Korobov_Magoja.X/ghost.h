@@ -4,18 +4,26 @@
 //#include "asservissement.h"
 
 typedef struct gState {
-    union {
-        struct {
-            float ThetaRestant;
-            float ThetaGhost;
-            float VitesseTheta;
-            float AccTheta;
-            float VitesseThetaMax;
-            float incrementTheta;
-            float ThetaWaypoint;
-            float ThetaArret;
-        };
-    };
-};
+    float XGhost;
+    float YGhost;
+    float ThetaGhost;
+    
+    float XWaypoint;
+    float YWaypoint;
+    
+    float ThetaRestant;
+    float VitesseTheta;
+    float AccTheta;
+    float VitesseThetaMax;
+    float incrementTheta;
+    
+    //float ThetaWaypoint;
+    float ThetaArret;
+    //float GhostEtape;
+} GhostState;
 
+extern GhostState gState;
+void ComputeGhost();
+void SendGhostData(void);
+void GhostStartPoint(void);
 #endif 

@@ -8,6 +8,7 @@
 #include "Utilities.h"
 #include "QEI.h"
 #include "asservissement.h"
+#include "ghost.h"
 
 volatile int sendPositionDivider = 0;
 //Initialisation d?un timer 16 bits
@@ -74,6 +75,12 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     ADC1StartConversionSequence();
 //    SendPositionData();
     sendPositionDivider++;
+    
+    // Calcul du mouvement du Ghost toutes les 4 ms
+        ComputeGhost();
+        
+      
+    
     if (sendPositionDivider >= 25)   // 500 × 2 ms = 1000 ms
     {
         sendPositionDivider = 0;
