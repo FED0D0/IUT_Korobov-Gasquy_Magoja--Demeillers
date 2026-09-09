@@ -572,7 +572,74 @@ namespace WpfInterfaceRobot
         {
 
         }
+        private byte[] CreateWaypointPayload(float x, float y)
+        {
+            byte[] payload = new byte[8];
 
+            byte[] xBytes = BitConverter.GetBytes(x);
+            byte[] yBytes = BitConverter.GetBytes(y);
+
+            Buffer.BlockCopy(xBytes, 0, payload, 0, 4);
+            Buffer.BlockCopy(yBytes, 0, payload, 4, 4);
+
+            return payload;
+        }
+
+        private void x1y0_Click(object sender, RoutedEventArgs e)
+        {
+            float x = 1.0f;
+            float y = 0.0f;
+
+            var payload = CreateWaypointPayload(x, y);
+
+            UartEncodeAndSendMessage(
+                (int)RobotFunction.SetGhostWaypoint,
+                payload.Length,
+                payload
+            );
+        }
+
+        private void x0y1_Click(object sender, RoutedEventArgs e)
+        {
+            float x = 0.0f;
+            float y = 1.0f;
+
+            var payload = CreateWaypointPayload(x, y);
+
+            UartEncodeAndSendMessage(
+                (int)RobotFunction.SetGhostWaypoint,
+                payload.Length,
+                payload
+            );
+        }
+
+        private void xm1y0_Click(object sender, RoutedEventArgs e)
+        {
+            float x = -1.0f;
+            float y = 0.0f;
+
+            var payload = CreateWaypointPayload(x, y);
+
+            UartEncodeAndSendMessage(
+                (int)RobotFunction.SetGhostWaypoint,
+                payload.Length,
+                payload
+            );
+        }
+
+        private void x0ym1_Click(object sender, RoutedEventArgs e)
+        {
+            float x = 0.0f;
+            float y = -1.0f;
+
+            var payload = CreateWaypointPayload(x, y);
+
+            UartEncodeAndSendMessage(
+                (int)RobotFunction.SetGhostWaypoint,
+                payload.Length,
+                payload
+            );
+        }
 
     }
 }

@@ -4,6 +4,7 @@
 #include "CB_TX1.h"
 #include "main.h"
 #include "ghost.h"
+#include <string.h>
 
 unsigned char autoControlActivated = 0;
 unsigned char currentRobotState = 0;
@@ -133,6 +134,8 @@ void UartDecodeMessage(unsigned char c) {
 void UartProcessDecodedMessage(int msgFunction, int payloadLength, unsigned char msgPayload[]) {
     //Fonction appelée après le édcodage pour éexcuter l?action
     //correspondant au message çreu
+    float x;
+    float y;
     switch (msgFunction) {
 
         case SET_ROBOT_STATE:
@@ -144,10 +147,20 @@ void UartProcessDecodedMessage(int msgFunction, int payloadLength, unsigned char
             break;
 
         case SET_GHOST_WAYPOINT:
-            gState.XWaypoint = msgPayload [0];
-            gState.YWaypoint = msgPayload [1];
-            SendGhostData();
+
+            
+
+            x = *(float*) &msgPayload[0];
+            y = *(float*) &msgPayload[4];
+
+            gState.XWaypoint = x;
+            gState.YWaypoint = y;
+
+            
+
             break;
+
+
 
         default:
             break;

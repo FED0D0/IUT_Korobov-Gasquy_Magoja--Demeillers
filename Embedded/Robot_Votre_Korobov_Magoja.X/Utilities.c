@@ -2,18 +2,16 @@
 #include "math.h"
 #include <xc.h>
 
-
-
-double Modulo2PIAngleRadian(double angleRadian) {
-    double angleTemp = fmod(angleRadian - PI, 2 * PI) + PI;
-    return fmod(angleTemp + PI, 2 * PI) - PI;
-}
-
 double ModuloByAngle(double angleToCenterAround, double angle){
     double interAngle = Modulo2PIAngleRadian(angle - angleToCenterAround);
     if(interAngle > M_PI)
         interAngle -= M_2_PI;
     return interAngle + angleToCenterAround;
+}
+
+double Modulo2PIAngleRadian(double angleRadian) {
+    double angleTemp = fmod(angleRadian - PI, 2 * PI) + PI;
+    return fmod(angleTemp + PI, 2 * PI) - PI;
 }
 
 float getFloat(unsigned char *p, int index)

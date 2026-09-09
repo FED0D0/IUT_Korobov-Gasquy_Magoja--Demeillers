@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <xc.h>
-#include <math.h>
 #include "main.h"
 #include "ghost.h"
 #include "QEI.h"
@@ -12,12 +11,23 @@
 #include "Utilities.h"
 #include "UART_Protocol.h"
 #include "Timer.h"
+#include <math.h>
+
 
 float ThetaWaypoint;
 GhostState gState;
 
+
 void ComputeGhost() {
-    ThetaWaypoint = atan2f(gState.YWaypoint, gState.XWaypoint);
+    if (gState.XWaypoint==0)
+        if(gState.YWaypoint>0)
+            ThetaWaypoint=M_PI_2;
+        else if(gState.YWaypoint<0)
+            ThetaWaypoint=-M_PI_2;
+    if (gState.XWaypoint>0)        
+        ThetaWaypoint = atan2f(gState.YWaypoint, gState.XWaypoint);
+            
+    //ThetaWaypoint = atan2f(gState.YWaypoint, gState.XWaypoint);
         
     // Calcul de l'angle restant jusqu'au waypoint
     gState.ThetaRestant = ModuloByAngle(gState.ThetaGhost, ThetaWaypoint) - gState.ThetaGhost;
@@ -74,6 +84,8 @@ void ComputeGhost() {
     if ((gState.VitesseTheta == 0.0f) && (fabsf(gState.ThetaRestant) < 0.01f)) {
         gState.ThetaGhost = ThetaWaypoint;
     }
+    
+    
 }
 
 void SendGhostData(void)
@@ -98,7 +110,6 @@ void SendGhostData(void)
     payload7[10] = ((unsigned char*)&gState.VitesseTheta)[2];
     payload7[11] = ((unsigned char*)&gState.VitesseTheta)[3];
 
-    // Étape du Ghost
 
 
     // Envoi vers C#
@@ -112,6 +123,7 @@ void GhostStartPoint(void)
     gState.ThetaArret = 0.0f;
     gState.incrementTheta = 0.0f;
 
-    gState.VitesseTheta = 0.0f;
+    gState.VitesseTheta = 0.5f;
+    gState.AccTheta = 1.0f;
 
 }
