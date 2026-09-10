@@ -35,6 +35,16 @@ void getBytesFromFloat(unsigned char *p, int index, float f)
         p[index + i] = f_ptr[i];
 }
 
+float getFloatFromBytes(const unsigned char *p, int index)
+{
+    float f;
+    unsigned char *f_ptr = (unsigned char*)&f;
+    
+    for(int i = 0; i < 4; i++)
+        f_ptr[i] = p[index + i];
+    return f;
+}
+
 void getBytesFromInt32(unsigned char *p, int index, long in)
 {
     int i;

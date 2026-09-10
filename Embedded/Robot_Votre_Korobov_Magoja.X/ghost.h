@@ -7,17 +7,15 @@ typedef struct gState {
     float XGhost;
     float YGhost;
     float ThetaGhost;
+    float ThetaWaypoint;
     
     float XWaypoint;
     float YWaypoint;
     
     float ThetaRestant;
-    float VitesseTheta;
-    float AccTheta;
     float VitesseThetaMax;
     float incrementTheta;
     
-    //float ThetaWaypoint;
     float ThetaArret;
     //float GhostEtape;
 } GhostState;

@@ -4,6 +4,7 @@
 #include "CB_TX1.h"
 #include "main.h"
 #include "ghost.h"
+#include "Utilities.h"
 #include <string.h>
 
 unsigned char autoControlActivated = 0;
@@ -150,9 +151,9 @@ void UartProcessDecodedMessage(int msgFunction, int payloadLength, unsigned char
 
             
 
-            x = *(float*) &msgPayload[0];
-            y = *(float*) &msgPayload[4];
-
+            x = 0.0;
+            //y = getFloatFromBytes(msgPayload,4);
+            y = 1.0;
             gState.XWaypoint = x;
             gState.YWaypoint = y;
 

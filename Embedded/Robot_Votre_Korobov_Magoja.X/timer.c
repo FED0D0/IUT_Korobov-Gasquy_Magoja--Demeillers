@@ -76,7 +76,7 @@ void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
 //    SendPositionData();
     sendPositionDivider++;
     
-    // Calcul du mouvement du Ghost toutes les 4 ms
+    
         ComputeGhost();
         
       
