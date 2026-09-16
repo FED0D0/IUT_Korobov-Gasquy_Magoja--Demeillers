@@ -454,6 +454,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7fffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/GitHub/IUT_Korobov-Gasquy_Magoja--Demeillers/Embedded/Robot_Votre_Korobov_Magoja.X/debug/default/Robot_Votre_Korobov_Magoja_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>

@@ -19,7 +19,14 @@ float AccTheta = 1.0f;
 GhostState gState;
 
 void ComputeGhost() {
-    gState.ThetaWaypoint = atan2f(gState.YWaypoint, gState.XWaypoint);
+    //gState.ThetaWaypoint = atan2f(gState.YWaypoint, gState.XWaypoint);
+    if (gState.XWaypoint==0)
+        if(gState.YWaypoint>0)
+            gState.ThetaWaypoint=M_2_PI;
+        else if(gState.YWaypoint<0)
+            gState.ThetaWaypoint=-M_2_PI;
+    if (gState.XWaypoint>0)        
+        gState.ThetaWaypoint = atan2f(gState.YWaypoint, gState.XWaypoint);
 
     //ThetaWaypoint = atan2f(gState.YWaypoint, gState.XWaypoint);
 
@@ -39,27 +46,27 @@ void ComputeGhost() {
     // Vérification de la possibilité d'accélérer ou nécessité de freiner
     if (((gState.ThetaArret >= 0.0f && gState.ThetaRestant >= 0.0f) ||
             (gState.ThetaArret <= 0.0f && gState.ThetaRestant <= 0.0f)) &&
-            (fabsf(gState.ThetaRestant) >= fabsf(gState.ThetaArret))) {
+            (Abs(gState.ThetaRestant) >= Abs(gState.ThetaArret))) {
         // On accélère en rampe saturée
         if (gState.ThetaRestant > 0.0f) {
             // Si la destination est devant,
             // on accélère en positif en saturant la vitesse à VitesseThetaMax
-            VitesseTheta = fminf(VitesseTheta + AccTheta / FREQ_ECH_QEI, gState.VitesseThetaMax);
+            VitesseTheta = Min(VitesseTheta + AccTheta / FREQ_ECH_QEI, gState.VitesseThetaMax);
         } else if (gState.ThetaRestant < 0.0f) {
             // Si la destination est derrière,
             // on accélère en négatif en saturant la vitesse à -VitesseThetaMax
-            VitesseTheta = fmaxf(VitesseTheta - AccTheta / FREQ_ECH_QEI, -gState.VitesseThetaMax);
+            VitesseTheta = Max(VitesseTheta - AccTheta / FREQ_ECH_QEI, -gState.VitesseThetaMax);
         }
     } else {
         // On freine en rampe saturée
         if (VitesseTheta > 0.0f) {
             // Si la vitesse est positive,
             // on freine en positif en saturant la vitesse à 0
-            VitesseTheta = fmaxf(VitesseTheta - AccTheta / FREQ_ECH_QEI, 0.0f);
+            VitesseTheta = Max(VitesseTheta - AccTheta / FREQ_ECH_QEI, 0.0f);
         } else if (VitesseTheta < 0.0f) {
             // Si la vitesse est négative,
             // on freine en négatif en saturant la vitesse à 0
-            VitesseTheta = fminf(VitesseTheta + AccTheta / FREQ_ECH_QEI, 0.0f);
+            VitesseTheta = Min(VitesseTheta + AccTheta / FREQ_ECH_QEI, 0.0f);
         }
     }
 
@@ -67,7 +74,7 @@ void ComputeGhost() {
     gState.incrementTheta = VitesseTheta / FREQ_ECH_QEI;
 
     // Si on dépasse la destination, on s'arrête exactement dessus
-    if (fabsf(gState.ThetaRestant) < fabsf(gState.incrementTheta)) {
+    if (Abs(gState.ThetaRestant) < Abs(gState.incrementTheta)) {
         gState.incrementTheta = gState.ThetaRestant;
     }
 
@@ -75,7 +82,7 @@ void ComputeGhost() {
     gState.ThetaGhost = gState.ThetaGhost + gState.incrementTheta;
 
     // On gère les erreurs numériques d'arrondis
-    if ((VitesseTheta == 0.0f) && (fabsf(gState.ThetaRestant) < 0.01f)) {
+    if ((VitesseTheta == 0.0f) && (Abs(gState.ThetaRestant) < 0.01f)) {
         gState.ThetaGhost = gState.ThetaWaypoint;
     }
 
