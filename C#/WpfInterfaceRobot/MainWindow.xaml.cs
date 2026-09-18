@@ -360,11 +360,12 @@ namespace WpfInterfaceRobot
                     }
                 case (int)RobotFunction.ghostRX:
                     {
-                        if (msgPayloadLength >= 12)
+                        if (msgPayloadLength >= 16)
                         {
                             float thetaGhost = BitConverter.ToSingle(msgPayload, 0);
                             float thetaWaypoint = BitConverter.ToSingle(msgPayload, 4);
                             float vitesseTheta = BitConverter.ToSingle(msgPayload, 8);
+                            float increment = BitConverter.ToSingle(msgPayload, 12);
 
                             float thetaGhostDeg = thetaGhost * 180.0f / MathF.PI;
                             float thetaWaypointDeg = thetaWaypoint * 180.0f / MathF.PI;
@@ -372,7 +373,8 @@ namespace WpfInterfaceRobot
                             VGhost.Text =
                                 $"Theta Ghost : {thetaGhostDeg:F2}°\n" +
                                 $"Waypoint : {thetaWaypointDeg:F2}°\n" +
-                                $"Vitesse Theta : {vitesseTheta:F2}\n";
+                                $"Vitesse Theta : {vitesseTheta:F2}\n" +
+                                $"increment : {increment:F2}\n";
                         }
                         else
                         {

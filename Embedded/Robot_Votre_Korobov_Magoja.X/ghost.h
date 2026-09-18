@@ -13,7 +13,6 @@ typedef struct gState {
     float YWaypoint;
     
     float ThetaRestant;
-    float VitesseThetaMax;
     float incrementTheta;
     
     float ThetaArret;
