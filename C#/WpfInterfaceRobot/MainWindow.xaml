@@ -18,6 +18,8 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <GroupBox x:Name="Réception" Background="#FFDDDDDD" BorderBrush="Black" Grid.Column="1" Grid.Row="0" >
+            
+            
             <TextBox x:Name="textBoxReception" TextChanged="TextBox_TextChanged" Background="#FFABADB3" BorderBrush="#FFABADB3" AcceptsReturn="True" IsReadOnly="True" SelectionTextBrush="White" />
         </GroupBox>
         <GroupBox x:Name="Asserv" Background="#FFDDDDDD" BorderBrush="Black" Grid.Column="2" Grid.Row="0" >

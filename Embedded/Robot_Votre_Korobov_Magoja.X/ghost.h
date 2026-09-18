@@ -1,26 +1,52 @@
 #ifndef GHOST_H
-#define	GHOST_H
+#define GHOST_H
 
-//#include "asservissement.h"
+typedef enum
+{
+    Idle,
+    Rotation,
+    DeplacementLineaire
+} GhostMovementState;
 
-typedef struct gState {
+typedef struct gState
+{
+    // Position du Ghost
     float XGhost;
     float YGhost;
     float ThetaGhost;
-    float ThetaWaypoint;
-    
+
+    // Position du waypoint
     float XWaypoint;
     float YWaypoint;
-    
+    float ThetaWaypoint;
+
+    // Rotation
     float ThetaRestant;
     float incrementTheta;
-    
     float ThetaArret;
-    //float GhostEtape;
+
+    // Déplacement linéaire
+    float DistanceRestante;
+    float incrementDistance;
+    float DistanceArret;
+
+    // Angle entre le Ghost et le waypoint
+    float AngleWaypoint;
+
+    // Etat du générateur de trajectoire
+    GhostMovementState state;
+
 } GhostState;
 
 extern GhostState gState;
-void ComputeGhost();
+
+// Génération de la trajectoire du Ghost
+void ComputeGhost(void);
+
+// Envoi des données du Ghost vers le PC
 void SendGhostData(void);
+
+// Initialisation du Ghost
 void GhostStartPoint(void);
-#endif 
+
+#endif

@@ -360,21 +360,43 @@ namespace WpfInterfaceRobot
                     }
                 case (int)RobotFunction.ghostRX:
                     {
-                        if (msgPayloadLength >= 16)
+                        if (msgPayloadLength >= 36)
                         {
-                            float thetaGhost = BitConverter.ToSingle(msgPayload, 0);
-                            float thetaWaypoint = BitConverter.ToSingle(msgPayload, 4);
-                            float vitesseTheta = BitConverter.ToSingle(msgPayload, 8);
-                            float increment = BitConverter.ToSingle(msgPayload, 12);
+                            float xGhost = BitConverter.ToSingle(msgPayload, 0);
+                            float yGhost = BitConverter.ToSingle(msgPayload, 4);
+                            float thetaGhost = BitConverter.ToSingle(msgPayload, 8);
 
-                            float thetaGhostDeg = thetaGhost * 180.0f / MathF.PI;
-                            float thetaWaypointDeg = thetaWaypoint * 180.0f / MathF.PI;
+                            float xWaypoint = BitConverter.ToSingle(msgPayload, 12);
+                            float yWaypoint = BitConverter.ToSingle(msgPayload, 16);
+                            float thetaWaypoint = BitConverter.ToSingle(msgPayload, 20);
+
+                            float vitesseTheta = BitConverter.ToSingle(msgPayload, 24);
+                            float vitesseLineaire = BitConverter.ToSingle(msgPayload, 28);
+                            float distanceRestante = BitConverter.ToSingle(msgPayload, 32);
+
+                            float thetaGhostDeg =
+                                thetaGhost * 180.0f / MathF.PI;
+
+                            float thetaWaypointDeg =
+                                thetaWaypoint * 180.0f / MathF.PI;
 
                             VGhost.Text =
-                                $"Theta Ghost : {thetaGhostDeg:F2}°\n" +
-                                $"Waypoint : {thetaWaypointDeg:F2}°\n" +
-                                $"Vitesse Theta : {vitesseTheta:F2}\n" +
-                                $"increment : {increment:F2}\n";
+                                $"GHOST\n" +
+                                $"X : {xGhost:F2}\n" +
+                                $"Y : {yGhost:F2}\n" +
+                                $"Theta : {thetaGhostDeg:F2}°\n\n" +
+
+                                $"WAYPOINT\n" +
+                                $"X : {xWaypoint:F2}\n" +
+                                $"Y : {yWaypoint:F2}\n" +
+                                $"Theta : {thetaWaypointDeg:F2}°\n\n" +
+
+                                $"VITESSES\n" +
+                                $"V Theta : {vitesseTheta:F2} rad/s\n" +
+                                $"V Linéaire : {vitesseLineaire:F2} m/s\n\n" +
+
+                                $"DISTANCE RESTANTE\n" +
+                                $"{distanceRestante:F2}";
                         }
                         else
                         {
