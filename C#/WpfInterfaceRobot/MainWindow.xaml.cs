@@ -379,6 +379,14 @@ namespace WpfInterfaceRobot
 
                             float thetaWaypointDeg =
                                 thetaWaypoint * 180.0f / MathF.PI;
+                            RobotPosition.SetRobotPosition(
+                                xGhost,
+                                yGhost,
+                                thetaGhostDeg);
+                            RobotPosition.SetWaypoint(
+                                xWaypoint,
+                                yWaypoint,
+                                thetaWaypointDeg);
 
                             VGhost.Text =
                                 $"GHOST\n" +
@@ -402,6 +410,7 @@ namespace WpfInterfaceRobot
                         {
                             VGhost.Text = "Erreur : payload Ghost trop court";
                         }
+
 
                         break;
                     }
@@ -665,5 +674,9 @@ namespace WpfInterfaceRobot
             );
         }
 
+        private void asservSpeedDisplay_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

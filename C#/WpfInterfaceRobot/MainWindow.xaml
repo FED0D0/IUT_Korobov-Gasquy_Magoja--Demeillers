@@ -4,83 +4,319 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:asserv="clr-namespace:WpfAsservissementDisplay_NS;assembly=WpfAsservissementDisplay"
+        xmlns:local="clr-namespace:WpfInterfaceRobot"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1000">
+
     <Grid>
+
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="40"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <GroupBox x:Name="Réception" Background="#FFDDDDDD" BorderBrush="Black" Grid.Column="1" Grid.Row="0" >
 
-            <TextBox x:Name="VGhost" TextWrapping="Wrap" Text="Valeur Ghost : " Grid.Column="0" Grid.Row="0" Margin="5" Width="260" TextChanged="VGhost_TextChanged" />
 
-            
+        <!-- ====================================================== -->
+        <!-- AJOUT : ROBOT POSITION CONTROL - 4e COLONNE           -->
+        <!-- ====================================================== -->
+
+        <GroupBox x:Name="RobotPositionGroup"
+                  Header="Position Robot"
+                  Grid.Column="3"
+                  Grid.Row="0"
+                  Margin="5">
+
+            <local:RobotPositionControl
+                x:Name="RobotPosition"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"/>
+
         </GroupBox>
-        <GroupBox x:Name="Asserv" Background="#FFDDDDDD" BorderBrush="Black" Grid.Column="2" Grid.Row="0" >
-            <asserv:AsservissementRobot2RouesDisplayControl x:Name="asservSpeedDisplay"/>
+
+
+        <!-- ====================================================== -->
+        <!-- CODE EXISTANT                                          -->
+        <!-- ====================================================== -->
+
+        <GroupBox x:Name="Réception"
+                  Background="#FFDDDDDD"
+                  BorderBrush="Black"
+                  Grid.Column="1"
+                  Grid.Row="0">
+
+            <TextBox x:Name="VGhost"
+                     TextWrapping="Wrap"
+                     Text="Valeur Ghost : "
+                     Grid.Column="0"
+                     Grid.Row="0"
+                     Margin="5"
+                     Width="260"
+                     TextChanged="VGhost_TextChanged" />
+
         </GroupBox>
 
-        <GroupBox x:Name="Emition" Background="#FFDDDDDD" BorderBrush="Black" Grid.Column="0" RenderTransformOrigin="0.5,0.5" Grid.Row="0" Margin="0,0,0,148" >
-            <TextBox x:Name="textBoxEmission" AcceptsReturn="True" Background="#FFABADB3" KeyUp="textBoxEmission_KeyUp" />
+
+        <GroupBox x:Name="Asserv"
+                  Background="#FFDDDDDD"
+                  BorderBrush="Black"
+                  Grid.Column="2"
+                  Grid.Row="0">
+
+            <asserv:AsservissementRobot2RouesDisplayControl
+                x:Name="asservSpeedDisplay"/>
+
         </GroupBox>
-        <GroupBox x:Name="Vitesse" Background="#FFDDDDDD" BorderBrush="Black" Grid.Column="0" RenderTransformOrigin="0.5,0.5" Grid.Row="0" Margin="0,148,0,0" >
-            <TextBox x:Name="textBoxVitesse" AcceptsReturn="True" Background="#FFABADB3" KeyUp="textBoxVitesse_KeyUp" TextChanged="textBoxVitesse_TextChanged" />
+
+
+        <GroupBox x:Name="Emition"
+                  Background="#FFDDDDDD"
+                  BorderBrush="Black"
+                  Grid.Column="0"
+                  RenderTransformOrigin="0.5,0.5"
+                  Grid.Row="0"
+                  Margin="0,0,0,148">
+
+            <TextBox x:Name="textBoxEmission"
+                     AcceptsReturn="True"
+                     Background="#FFABADB3"
+                     KeyUp="textBoxEmission_KeyUp" />
+
         </GroupBox>
 
 
+        <GroupBox x:Name="Vitesse"
+                  Background="#FFDDDDDD"
+                  BorderBrush="Black"
+                  Grid.Column="0"
+                  RenderTransformOrigin="0.5,0.5"
+                  Grid.Row="0"
+                  Margin="0,148,0,0">
+
+            <TextBox x:Name="textBoxVitesse"
+                     AcceptsReturn="True"
+                     Background="#FFABADB3"
+                     KeyUp="textBoxVitesse_KeyUp"
+                     TextChanged="textBoxVitesse_TextChanged" />
+
+        </GroupBox>
 
 
-        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
-            <Button x:Name="buttonEnvoyer" Grid.Column="3" Grid.Row="2" Content="Envoyer" Click="buttonEnvoyer_Click" Grid.RowSpan="2" Margin="5" />
-            <Button x:Name="buttonClear" Grid.Column="3" Content="Clear" Grid.Row="2" Grid.RowSpan="2" Click="buttonClear_Click" Margin="5" />
-            <Button Grid.Column="3" Content="Test" Grid.Row="2" Grid.RowSpan="2" Click="Button_Click" Margin="5" />
-            <TextBox x:Name="Depl" TextWrapping="Wrap" Text="Deplacement" Grid.Column="3" Grid.Row="2" Width="116" Margin="5"/>
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3">
+
+            <Button x:Name="buttonEnvoyer"
+                    Grid.Column="3"
+                    Grid.Row="2"
+                    Content="Envoyer"
+                    Click="buttonEnvoyer_Click"
+                    Grid.RowSpan="2"
+                    Margin="5" />
+
+            <Button x:Name="buttonClear"
+                    Grid.Column="3"
+                    Content="Clear"
+                    Grid.Row="2"
+                    Grid.RowSpan="2"
+                    Click="buttonClear_Click"
+                    Margin="5" />
+
+            <Button Grid.Column="3"
+                    Content="Test"
+                    Grid.Row="2"
+                    Grid.RowSpan="2"
+                    Click="Button_Click"
+                    Margin="5" />
+
+            <TextBox x:Name="Depl"
+                     TextWrapping="Wrap"
+                     Text="Deplacement"
+                     Grid.Column="3"
+                     Grid.Row="2"
+                     Width="116"
+                     Margin="5"/>
+
         </StackPanel>
-        
-        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3">
-            <TextBox x:Name="PositionData" TextWrapping="Wrap" Text="POSITION_DATA :" Grid.Column="3"  Grid.Row="2" Width="264" TextChanged="PositionData_TextChanged"/>
+
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="3">
+
+            <TextBox x:Name="PositionData"
+                     TextWrapping="Wrap"
+                     Text="POSITION_DATA :"
+                     Grid.Column="3"
+                     Grid.Row="2"
+                     Width="264"
+                     TextChanged="PositionData_TextChanged"/>
+
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3">
-            <StackPanel Orientation="Vertical" Margin="5">
-                <GroupBox x:Name="Leds" Header="Leds"  Grid.RowSpan="3" Grid.Row="2" RenderTransformOrigin="0.38,0.208" Grid.Column="1"/>
-                <CheckBox x:Name="Led1" Content="Led 1" Grid.Column="1" Grid.Row="2" />
-                <CheckBox x:Name="Led2" Content="Led 2 " Grid.Column="1" Grid.Row="3"/>
-                <CheckBox x:Name="Led3" Content="Led 3" Grid.Column="1" Grid.Row="4"/>
+
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3">
+
+            <StackPanel Orientation="Vertical"
+                        Margin="5">
+
+                <GroupBox x:Name="Leds"
+                          Header="Leds"
+                          Grid.RowSpan="3"
+                          Grid.Row="2"
+                          RenderTransformOrigin="0.38,0.208"
+                          Grid.Column="1"/>
+
+                <CheckBox x:Name="Led1"
+                          Content="Led 1"
+                          Grid.Column="1"
+                          Grid.Row="2" />
+
+                <CheckBox x:Name="Led2"
+                          Content="Led 2 "
+                          Grid.Column="1"
+                          Grid.Row="3"/>
+
+                <CheckBox x:Name="Led3"
+                          Content="Led 3"
+                          Grid.Column="1"
+                          Grid.Row="4"/>
+
             </StackPanel>
-            <StackPanel Orientation="Vertical" Margin="5">
-                <GroupBox x:Name="Télemètres" Header="Télemètres" Grid.Column="1" Grid.RowSpan="3" Grid.Row="2"/>
-                <TextBox x:Name="IR_Gauche" TextWrapping="Wrap" Text="IR Gauche :" Grid.Column="1" Grid.RowSpan="2" Grid.Row="2" />
-                <TextBox x:Name="IR_Centre" TextWrapping="Wrap" Text="IR Centre :" Grid.Column="1"  Grid.Row="3" />
-                <TextBox x:Name="IR_Droit" TextWrapping="Wrap" Text="IR Droit :" Grid.Column="1"  Grid.Row="3" Grid.RowSpan="2" />
+
+
+            <StackPanel Orientation="Vertical"
+                        Margin="5">
+
+                <GroupBox x:Name="Télemètres"
+                          Header="Télemètres"
+                          Grid.Column="1"
+                          Grid.RowSpan="3"
+                          Grid.Row="2"/>
+
+                <TextBox x:Name="IR_Gauche"
+                         TextWrapping="Wrap"
+                         Text="IR Gauche :"
+                         Grid.Column="1"
+                         Grid.RowSpan="2"
+                         Grid.Row="2" />
+
+                <TextBox x:Name="IR_Centre"
+                         TextWrapping="Wrap"
+                         Text="IR Centre :"
+                         Grid.Column="1"
+                         Grid.Row="3" />
+
+                <TextBox x:Name="IR_Droit"
+                         TextWrapping="Wrap"
+                         Text="IR Droit :"
+                         Grid.Column="1"
+                         Grid.Row="3"
+                         Grid.RowSpan="2" />
+
             </StackPanel>
-            <StackPanel Orientation="Vertical" Margin="5">
-                <GroupBox x:Name="Moteurs" Header="Moteurs" Grid.Column="1"  Grid.RowSpan="3" Grid.Row="2"/>
-                <TextBox x:Name="Vitesse_Gauche" TextWrapping="Wrap" Text="Vit Gauche :" Grid.Column="1"  Grid.RowSpan="2" Grid.Row="2"/>
-                <TextBox x:Name="Vitesse_Droit" TextWrapping="Wrap" Text="Vitesse Droit :" Grid.Column="1"  Grid.Row="3"/>
+
+
+            <StackPanel Orientation="Vertical"
+                        Margin="5">
+
+                <GroupBox x:Name="Moteurs"
+                          Header="Moteurs"
+                          Grid.Column="1"
+                          Grid.RowSpan="3"
+                          Grid.Row="2"/>
+
+                <TextBox x:Name="Vitesse_Gauche"
+                         TextWrapping="Wrap"
+                         Text="Vit Gauche :"
+                         Grid.Column="1"
+                         Grid.RowSpan="2"
+                         Grid.Row="2"/>
+
+                <TextBox x:Name="Vitesse_Droit"
+                         TextWrapping="Wrap"
+                         Text="Vitesse Droit :"
+                         Grid.Column="1"
+                         Grid.Row="3"/>
+
             </StackPanel>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3">
-            <TextBox x:Name="textBoxReception" TextChanged="TextBox_TextChanged" Background="#FFABADB3" BorderBrush="#FFABADB3" AcceptsReturn="True" IsReadOnly="True" SelectionTextBrush="White" Width="260" Margin="5" />
-        </StackPanel>
-        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3">
-            <Button x:Name="Carre" Content="Création carré" Click="carre_Click" />
-            <Button x:Name="x1y0" Content="1;0" Click="x1y0_Click" />
-            <Button x:Name="x0y1" Content="0;1" Click="x0y1_Click"/>
-            <Button x:Name="xm1y0" Content="-1;0" Click="xm1y0_Click"/>
-            <Button x:Name="x0ym1" Content="0;-1" Click="x0ym1_Click"/>
 
         </StackPanel>
 
-        <Button x:Name="buttonConsX" Grid.Column="2" Content="Send Consigne Lin" Grid.Row="1" Grid.RowSpan="1" Click="buttonConsX_Click" Margin="5,5,133,5" />
-        <Button x:Name="buttonConsT" Grid.Column="2" Content="Send Consigne Ang" Grid.Row="1" Grid.RowSpan="1" Click="buttonConsT_Click" Margin="134,5,5,5" />
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="3">
+
+            <TextBox x:Name="textBoxReception"
+                     TextChanged="TextBox_TextChanged"
+                     Background="#FFABADB3"
+                     BorderBrush="#FFABADB3"
+                     AcceptsReturn="True"
+                     IsReadOnly="True"
+                     SelectionTextBrush="White"
+                     Width="250" />
+
+        </StackPanel>
+
+
+        <StackPanel Orientation="Vertical"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Grid.ColumnSpan="1">
+
+            <Button x:Name="Carre"
+                    Content="Création carré"
+                    Click="carre_Click" />
+
+            <Button x:Name="x1y0"
+                    Content="1;0"
+                    Click="x1y0_Click" />
+
+            <Button x:Name="x0y1"
+                    Content="0;1"
+                    Click="x0y1_Click"/>
+
+            <Button x:Name="xm1y0"
+                    Content="-1;0"
+                    Click="xm1y0_Click"/>
+
+            <Button x:Name="x0ym1"
+                    Content="0;-1"
+                    Click="x0ym1_Click"/>
+
+        </StackPanel>
+
+
+        <Button x:Name="buttonConsX"
+                Grid.Column="2"
+                Content="Send Consigne Lin"
+                Grid.Row="1"
+                Grid.RowSpan="1"
+                Click="buttonConsX_Click"
+                Margin="5,5,133,5" />
+
+        <Button x:Name="buttonConsT"
+                Grid.Column="2"
+                Content="Send Consigne Ang"
+                Grid.Row="1"
+                Grid.RowSpan="1"
+                Click="buttonConsT_Click"
+                Margin="134,5,5,5" />
 
     </Grid>
-</Window>
 
+</Window>
