@@ -137,7 +137,7 @@ void UartProcessDecodedMessage(int msgFunction, int payloadLength, unsigned char
     //correspondant au message çreu
     float x;
     float y;
-    
+
     switch (msgFunction) {
 
         case SET_ROBOT_STATE:
@@ -149,18 +149,19 @@ void UartProcessDecodedMessage(int msgFunction, int payloadLength, unsigned char
             break;
 
         case SET_GHOST_WAYPOINT:
+        {
+            x = getFloatFromBytes(msgPayload, 0);
+            y = getFloatFromBytes(msgPayload, 4);
 
-            
-
-            x = getFloatFromBytes(msgPayload,0);
-            y = getFloatFromBytes(msgPayload,4);
-            
             gState.XWaypoint = x;
             gState.YWaypoint = y;
-            
-            
+
+            /* Nouveau waypoint ? on commence par s'orienter */
+            gState.state = Rotation;
 
             break;
+        }
+
 
 
 

@@ -40,13 +40,8 @@ typedef struct gState
 
 extern GhostState gState;
 
-// Génération de la trajectoire du Ghost
 void ComputeGhost(void);
-
-// Envoi des données du Ghost vers le PC
 void SendGhostData(void);
-
-// Initialisation du Ghost
 void GhostStartPoint(void);
 
 #endif
