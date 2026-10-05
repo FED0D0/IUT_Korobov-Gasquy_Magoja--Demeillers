@@ -40,6 +40,9 @@ typedef struct gState
 
 extern GhostState gState;
 
+extern float KpLineaire;
+extern float KpAngulaire;
+
 void ComputeGhost(void);
 void SendGhostData(void);
 void GhostStartPoint(void);

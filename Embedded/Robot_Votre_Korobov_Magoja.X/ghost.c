@@ -12,7 +12,18 @@
 #include "Utilities.h"
 #include "UART_Protocol.h"
 #include "Timer.h"
+#include "Robot.h"
 
+
+/* ============================================================
+ * PARAMETRES POUR L'ASSERVISSEMENT
+ * ============================================================ */
+
+float KpLineaire = 0.01f;
+float KpAngulaire = 1.0f;
+
+float erreurLineaire = 0.0f;
+float erreurAngulaire = 0.0f;
 
 /* ============================================================
  * PARAMETRES DU GENERATEUR DE TRAJECTOIRE
@@ -423,6 +434,29 @@ void ComputeGhost(void)
             break;
         }
     }
+    /*
+     * Erreur de position entre le robot réel et le Ghost
+     */
+    dx = gState.XGhost - robotState.xPosFromOdometry;
+    dy = gState.YGhost - robotState.yPosFromOdometry;
+
+    /*
+     * Projection de l'erreur de position
+     * sur l'axe du robot réel.
+     */
+     erreurLineaire =
+            dx * cosf(robotState.angleRadianFromOdometry)
+            + dy * sinf(robotState.angleRadianFromOdometry);
+
+    erreurAngulaire =
+            gState.ThetaGhost
+            - robotState.angleRadianFromOdometry;
+
+//    robotState.vitesseLineaireConsigne =
+//            VitesseLineaire + KpLineaire * erreurLineaire;
+//
+//    robotState.vitesseAngulaireConsigne =
+//            VitesseTheta + KpAngulaire * erreurAngulaire;
 }
 
 void SendGhostData(void) {
