@@ -452,11 +452,11 @@ void ComputeGhost(void)
             gState.ThetaGhost
             - robotState.angleRadianFromOdometry;
 
-//    robotState.vitesseLineaireConsigne =
-//            VitesseLineaire + KpLineaire * erreurLineaire;
-//
-//    robotState.vitesseAngulaireConsigne =
-//            VitesseTheta + KpAngulaire * erreurAngulaire;
+    robotState.vitesseLineaireConsigne =
+            VitesseLineaire + KpLineaire * erreurLineaire;
+
+    robotState.vitesseAngulaireConsigne =
+            VitesseTheta + KpAngulaire * erreurAngulaire;
 }
 
 void SendGhostData(void) {
