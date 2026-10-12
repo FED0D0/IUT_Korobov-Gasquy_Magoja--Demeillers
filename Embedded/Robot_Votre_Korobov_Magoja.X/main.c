@@ -25,13 +25,15 @@ int ADCValue3;
 int ADCValue4;
 int counterDisplayAdc = 0;
 
+volatile unsigned char parcoursActif = 0;
+unsigned char arretVerrouille = 0;
+unsigned char boutonStartPrecedent = 0;
 
 int main(void) {
     InitOscillator();
     InitIO();
     InitUART();
     InitTimer23();
-    InitTimer1();
     InitTimer4();
     InitQEI1();
     InitQEI2();
@@ -41,7 +43,7 @@ int main(void) {
 
 
     GhostStartPoint();
-    
+
     SetupPidAsservissement(&robotState.PidX,
             6, //9
             230, //550 ancien nouveau : 210
@@ -58,10 +60,10 @@ int main(void) {
             10000,
             10000);
 
-        PWMSetSpeedCommandePolaire(
-                (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
-                (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
-                );
+    PWMSetSpeedCommandePolaire(
+            (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
+            (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
+            );
     //def
 
     // Initialisation simple de l'état du robot
@@ -88,8 +90,32 @@ int main(void) {
     //    InitQEI1();
     //    InitQEI2();
 
-    while (1) {
+    InitTimer1();
+    // Arret prioritaire avec INTER3
+    if (BOUTON_STOP == 1) {
+        arretVerrouille = 1;
+        parcoursActif = 0;
+    }
 
+    // Demarrage avec INTER2
+    if (BOUTON_START == 1 && boutonStartPrecedent == 0 && arretVerrouille == 0) {
+        parcoursActif = 1;
+    }
+
+    boutonStartPrecedent = BOUTON_START;
+    while (1) {
+        // Arret prioritaire avec INTER3
+        if (BOUTON_STOP == 1) {
+            arretVerrouille = 1;
+            parcoursActif = 0;
+        }
+
+        // Demarrage avec INTER2
+        if (BOUTON_START == 1 && boutonStartPrecedent == 0 && arretVerrouille == 0) {
+            parcoursActif = 1;
+        }
+
+        boutonStartPrecedent = BOUTON_START;
         //        PWMSetSpeedConsignePolaire(1,0);
         //        InitQEI1();
         //        InitQEI2();
@@ -98,8 +124,8 @@ int main(void) {
             octetRecu = CB_RX1_Get();
             UartDecodeMessage(octetRecu);
         }
-        
-        PWMUpdateSpeed();
+
+        //PWMUpdateSpeed();
 
         //        OperatingSystemLoop();
         //    SendMessage((unsigned char*) "impot", 5);

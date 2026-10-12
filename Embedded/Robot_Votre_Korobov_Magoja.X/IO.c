@@ -32,6 +32,10 @@ void InitIO() {
     _TRISH3 = 0; // LED Verte2
     //****** Moteurs ************************
 
+    // Boutons de commande du robot
+    _TRISH2 = 1; // INTER2 : démarrage du parcours
+    _TRISH3 = 1; // INTER3 : arrêt du parcours
+
     // Configuration des entrées
 
 
@@ -41,7 +45,7 @@ void InitIO() {
     UnlockIO(); // On unlock les registres d'entrées/sorties, ainsi que les registres des PPS
     _U1RXR = 18; //Remappe la RP... sur l?éentre Rx1
     _RP98R = 0b00001; //Remappe la sortie Tx1 vers RP...
-        
+
     _QEA2R = 97; //assign QEI A to pin RP97
     _QEB2R = 113; //assign QEI B to pin RP96
     _QEA1R = 126; //assign QEI A to pin RP70

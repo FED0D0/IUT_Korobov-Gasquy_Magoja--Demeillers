@@ -1,5 +1,5 @@
 build/default/production/timer.o: timer.c Timer.h IO.h PWM.h ADC.h main.h \
- ChipConfig.h Utilities.h QEI.h asservissement.h ghost.h
+ ChipConfig.h Utilities.h QEI.h asservissement.h ghost.h Robot.h
 
 Timer.h:
 
@@ -20,3 +20,5 @@ QEI.h:
 asservissement.h:
 
 ghost.h:
+
+Robot.h:

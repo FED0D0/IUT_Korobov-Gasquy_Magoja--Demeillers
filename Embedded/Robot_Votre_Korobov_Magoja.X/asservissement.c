@@ -1,63 +1,143 @@
+
 #include "asservissement.h"
 #include "Robot.h"
 #include "QEI.h"
 #include "PWM.h"
 #include "ToolBox.h"
 
-void SetupPidAsservissement(volatile PidCorrector* PidCorr, float Kp, float Ki, float Kd, float proportionelleMax, float integralMax, float deriveeMax) {
+/*
+ * Initialisation des correcteurs PID
+ */
+void SetupPidAsservissement(
+        volatile PidCorrector* PidCorr,
+        float Kp,
+        float Ki,
+        float Kd,
+        float proportionelleMax,
+        float integralMax,
+        float deriveeMax) {
     PidCorr->Kp = Kp;
-    PidCorr->erreurProportionelleMax = proportionelleMax; //On limite la correction due au Kp
     PidCorr->Ki = Ki;
-    PidCorr->erreurIntegraleMax = integralMax; //On limite la correction due au Ki
     PidCorr->Kd = Kd;
+
+    PidCorr->erreurProportionelleMax = proportionelleMax;
+    PidCorr->erreurIntegraleMax = integralMax;
     PidCorr->erreurDeriveeMax = deriveeMax;
 
-//    // DEBUG 
-//    PidCorr->erreur = 123;
-//
-//    PidCorr->corrP = 10;
-//    PidCorr->corrI = 20;
-//    PidCorr->corrD = 30;
-//
-//    PidCorr->erreurIntegrale = 40;
-//
-//    PidCorr->epsilon_1 = 50;
+    // Initialisation des variables internes
+    PidCorr->erreur = 0.0f;
+    PidCorr->erreurIntegrale = 0.0f;
+    PidCorr->epsilon_1 = 0.0f;
+
+    PidCorr->corrP = 0.0f;
+    PidCorr->corrI = 0.0f;
+    PidCorr->corrD = 0.0f;
 }
 
+/*
+ * Calcul du correcteur PID
+ *
+ * P : correction proportionnelle
+ * I : correction intégrale
+ * D : correction dérivée
+ *
+ * Chaque correction est limitée indépendamment.
+ */
 double Correcteur(volatile PidCorrector* PidCorr, float erreur) {
     PidCorr->erreur = erreur;
-    float erreurProportionnelle = LimitToInterval(erreur, -PidCorr->erreurProportionelleMax / PidCorr->Kp, PidCorr->erreurProportionelleMax / PidCorr->Kp);
-    PidCorr->corrP = erreurProportionnelle * PidCorr->Kp;
-    PidCorr->erreurIntegrale += erreur / FREQ_ECH_QEI;
-    PidCorr->erreurIntegrale = LimitToInterval(PidCorr->erreurIntegrale,
-            -PidCorr->erreurIntegraleMax / PidCorr->Ki,
-            PidCorr->erreurIntegraleMax / PidCorr->Ki);
-    PidCorr->corrI = PidCorr->erreurIntegrale * PidCorr->Ki;
-    float erreurDerivee = (erreur - PidCorr->epsilon_1) * FREQ_ECH_QEI;
-    float deriveeBornee = LimitToInterval(erreurDerivee, -PidCorr->erreurDeriveeMax / PidCorr->Kd,
-            PidCorr->erreurDeriveeMax / PidCorr->Kd);
+
+    // CORRECTION PROPORTIONNELLE
+
+    PidCorr->corrP = PidCorr->Kp * erreur;
+
+    PidCorr->corrP = LimitToInterval(
+            PidCorr->corrP,
+            -PidCorr->erreurProportionelleMax,
+            PidCorr->erreurProportionelleMax);
+
+    // CORRECTION INTEGRALE
+
+    if (PidCorr->Ki != 0.0f) {
+        PidCorr->erreurIntegrale +=
+                erreur / FREQ_ECH_QEI;
+
+        float limiteIntegrale =
+                PidCorr->erreurIntegraleMax /
+                ((PidCorr->Ki > 0.0f) ?
+                PidCorr->Ki : -PidCorr->Ki);
+
+        PidCorr->erreurIntegrale = LimitToInterval(
+                PidCorr->erreurIntegrale,
+                -limiteIntegrale,
+                limiteIntegrale);
+
+        PidCorr->corrI =
+                PidCorr->Ki * PidCorr->erreurIntegrale;
+    } else {
+        PidCorr->erreurIntegrale = 0.0f;
+        PidCorr->corrI = 0.0f;
+    }
+
+    // CORRECTION DERIVEE
+
+    if (PidCorr->Kd != 0.0f) {
+        float erreurDerivee =
+                (erreur - PidCorr->epsilon_1)
+                * FREQ_ECH_QEI;
+
+        PidCorr->corrD =
+                PidCorr->Kd * erreurDerivee;
+
+        PidCorr->corrD = LimitToInterval(
+                PidCorr->corrD,
+                -PidCorr->erreurDeriveeMax,
+                PidCorr->erreurDeriveeMax);
+    } else {
+        PidCorr->corrD = 0.0f;
+    }
+
+    // Sauvegarde de l'erreur précédente
     PidCorr->epsilon_1 = erreur;
-    PidCorr->corrD = deriveeBornee * PidCorr->Kd;
-    return PidCorr->corrP + PidCorr->corrI + PidCorr->corrD;
+
+    // COMMANDE PID TOTALE
+
+    return PidCorr->corrP
+            + PidCorr->corrI
+            + PidCorr->corrD;
 }
 
-void UpdateAsservissement() {
-    robotState.PidX.erreur = 
-            robotState.vitesseLineaireConsigne -
-            robotState.vitesseLineaireFromOdometry;
+/*
+ * Mise à jour de l'asservissement polaire
+ *
+ * Cette fonction est appelée à 250 Hz
+ * depuis l'interruption Timer1.
+ */
+void UpdateAsservissement(void) {
+    // ERREURS DE VITESSE
 
-    robotState.PidTheta.erreur = 
-            robotState.vitesseAngulaireConsigne -
-            robotState.vitesseAngulaireFromOdometry;
+    robotState.PidX.erreur =
+            robotState.vitesseLineaireConsigne
+            - robotState.vitesseLineaireFromOdometry;
+
+    robotState.PidTheta.erreur =
+            robotState.vitesseAngulaireConsigne
+            - robotState.vitesseAngulaireFromOdometry;
+
+    // CORRECTIONS PID
 
     robotState.CorrectionVitesseLineaire =
-            Correcteur(&robotState.PidX, robotState.PidX.erreur);
+            Correcteur(
+            &robotState.PidX,
+            robotState.PidX.erreur);
 
     robotState.CorrectionVitesseAngulaire =
-            Correcteur(&robotState.PidTheta, robotState.PidTheta.erreur);
+            Correcteur(
+            &robotState.PidTheta,
+            robotState.PidTheta.erreur);
+
+    // APPLICATION DES COMMANDES AUX MOTEURS
 
     PWMSetSpeedCommandePolaire(
             robotState.CorrectionVitesseLineaire,
-            robotState.CorrectionVitesseAngulaire
-            );
+            robotState.CorrectionVitesseAngulaire);
 }

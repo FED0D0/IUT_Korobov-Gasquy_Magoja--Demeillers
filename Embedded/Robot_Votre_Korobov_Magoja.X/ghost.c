@@ -19,8 +19,9 @@
  * PARAMETRES POUR L'ASSERVISSEMENT
  * ============================================================ */
 
-float KpLineaire = 0.01f;
-float KpAngulaire = 1.0f;
+float KpLineaire = 0.8f;
+float KpAngulaire = 1.5f;
+float KpLateral = 1.0f;
 
 float erreurLineaire = 0.0f;
 float erreurAngulaire = 0.0f;
@@ -31,11 +32,12 @@ float erreurAngulaire = 0.0f;
 
 float VitesseTheta = 0.5f;
 float AccTheta = 1.0f;
-float VitesseThetaMax = 1.0f;
 
+float VitesseThetaMax = 0.6f;
 float VitesseLineaire = 0.0f;
+
 float AccLineaire = 0.5f;
-float VitesseLineaireMax = 0.5f;
+float VitesseLineaireMax = 0.15f;
 
 GhostState gState;
 
@@ -43,19 +45,28 @@ GhostState gState;
  * CALCUL DU GHOST
  * ============================================================ */
 
+
 void ComputeGhost(void)
 {
+    const float dt = 1.0f / FREQ_ECH_QEI;
+
     float dx;
     float dy;
     float distance;
-    float angle;
-    float angleErreur;
+    float vitesseCible;
+    float variationMax;
+    float erreurLongitudinale;
+    float erreurLaterale;
+    float erreurOrientation;
+
+    /*
+     * ============================================
+     * 1. GENERATION DE LA TRAJECTOIRE GHOST
+     * ============================================
+     */
 
     switch (gState.state)
     {
-        /* ============================================================
-         * ETAT IDLE
-         * ============================================================ */
         case Idle:
         {
             VitesseTheta = 0.0f;
@@ -67,349 +78,116 @@ void ComputeGhost(void)
             break;
         }
 
-
-        /* ============================================================
-         * ETAT ROTATION
-         * ============================================================ */
         case Rotation:
         {
-            /* --------------------------------------------------------
-             * Calcul de l'angle vers le waypoint
-             * -------------------------------------------------------- */
+            VitesseLineaire = 0.0f;
+            gState.incrementDistance = 0.0f;
+
+            // Direction du waypoint
             dx = gState.XWaypoint - gState.XGhost;
             dy = gState.YWaypoint - gState.YGhost;
 
             gState.ThetaWaypoint = atan2f(dy, dx);
 
+            // Erreur angulaire normalisee
+            gState.ThetaRestant = ModuloByAngle(gState.ThetaGhost, gState.ThetaWaypoint) - gState.ThetaGhost;
 
-            /* --------------------------------------------------------
-             * Calcul de l'angle restant
-             *
-             * ModuloByAngle permet de choisir le chemin angulaire
-             * le plus court.
-             * -------------------------------------------------------- */
-            gState.ThetaRestant =
-                    ModuloByAngle(gState.ThetaGhost,
-                                  gState.ThetaWaypoint)
-                    - gState.ThetaGhost;
+            // Distance de freinage angulaire
+            gState.ThetaArret = (VitesseTheta * VitesseTheta) / (2.0f * AccTheta);
 
+            // Vitesse compatible avec l'arret
+            vitesseCible = sqrtf(2.0f * AccTheta * Abs(gState.ThetaRestant));
+            vitesseCible = Min(vitesseCible, VitesseThetaMax);
 
-            /* --------------------------------------------------------
-             * Distance nécessaire pour arrêter la rotation
-             *
-             * d = V² / (2 * Acc)
-             * -------------------------------------------------------- */
-            gState.ThetaArret =
-                    (VitesseTheta * VitesseTheta)
-                    / (2.0f * AccTheta);
+            if (gState.ThetaRestant < 0.0f)
+                vitesseCible = -vitesseCible;
 
-            if (VitesseTheta < 0.0f)
+            // Limitation de l'acceleration
+            variationMax = AccTheta * dt;
+
+            VitesseTheta += LimitToInterval(vitesseCible - VitesseTheta, -variationMax, variationMax);
+
+            // Deplacement theorique
+            gState.incrementTheta = VitesseTheta * dt;
+
+            if (Abs(gState.incrementTheta) > Abs(gState.ThetaRestant))
             {
-                gState.ThetaArret =
-                        -gState.ThetaArret;
+                gState.incrementTheta = gState.ThetaRestant;
             }
 
+            gState.ThetaGhost += gState.incrementTheta;
 
-            /* --------------------------------------------------------
-             * Accélération ou freinage
-             * -------------------------------------------------------- */
-            if (((gState.ThetaArret >= 0.0f &&
-                  gState.ThetaRestant >= 0.0f) ||
-                 (gState.ThetaArret <= 0.0f &&
-                  gState.ThetaRestant <= 0.0f)) &&
-                (Abs(gState.ThetaRestant) >=
-                 Abs(gState.ThetaArret)))
+            // Normalisation de l'orientation
+            gState.ThetaGhost = ModuloByAngle(0.0f, gState.ThetaGhost);
+
+            gState.ThetaRestant = ModuloByAngle(gState.ThetaGhost, gState.ThetaWaypoint) - gState.ThetaGhost;
+
+            // Fin de la rotation
+            if (Abs(gState.ThetaRestant) < 0.01f && Abs(VitesseTheta) < 0.03f)
             {
-                /* -------------------------
-                 * Accélération
-                 * ------------------------- */
-                if (gState.ThetaRestant > 0.0f)
-                {
-                    VitesseTheta =
-                            Min(VitesseTheta +
-                                AccTheta / FREQ_ECH_QEI,
-                                VitesseThetaMax);
-                }
-                else if (gState.ThetaRestant < 0.0f)
-                {
-                    VitesseTheta =
-                            Max(VitesseTheta -
-                                AccTheta / FREQ_ECH_QEI,
-                                -VitesseThetaMax);
-                }
-            }
-            else
-            {
-                /* -------------------------
-                 * Freinage
-                 * ------------------------- */
-                if (VitesseTheta > 0.0f)
-                {
-                    VitesseTheta =
-                            Max(VitesseTheta -
-                                AccTheta / FREQ_ECH_QEI,
-                                0.0f);
-                }
-                else if (VitesseTheta < 0.0f)
-                {
-                    VitesseTheta =
-                            Min(VitesseTheta +
-                                AccTheta / FREQ_ECH_QEI,
-                                0.0f);
-                }
-            }
-
-
-            /* --------------------------------------------------------
-             * Incrément angulaire
-             * -------------------------------------------------------- */
-            gState.incrementTheta =
-                    VitesseTheta / FREQ_ECH_QEI;
-
-
-            /* --------------------------------------------------------
-             * Ne pas dépasser la cible
-             * -------------------------------------------------------- */
-            if (Abs(gState.ThetaRestant) <
-                Abs(gState.incrementTheta))
-            {
-                gState.incrementTheta =
-                        gState.ThetaRestant;
-            }
-
-
-            /* --------------------------------------------------------
-             * Intégration
-             * -------------------------------------------------------- */
-            gState.ThetaGhost +=
-                    gState.incrementTheta;
-
-
-            /* --------------------------------------------------------
-             * Normalisation entre -PI et PI
-             * -------------------------------------------------------- */
-            if (gState.ThetaGhost > M_PI)
-            {
-                gState.ThetaGhost -= 2.0f * M_PI;
-            }
-            else if (gState.ThetaGhost < -M_PI)
-            {
-                gState.ThetaGhost += 2.0f * M_PI;
-            }
-
-
-            /* --------------------------------------------------------
-             * Recalcul de l'erreur après déplacement
-             *
-             * Cela évite de tester une ancienne valeur de
-             * ThetaRestant.
-             * -------------------------------------------------------- */
-            gState.ThetaRestant =
-                    ModuloByAngle(gState.ThetaGhost,
-                                  gState.ThetaWaypoint)
-                    - gState.ThetaGhost;
-
-
-            /* --------------------------------------------------------
-             * Fin de rotation
-             * -------------------------------------------------------- */
-            if ((VitesseTheta == 0.0f) &&
-                (Abs(gState.ThetaRestant) < 0.01f))
-            {
-                gState.ThetaGhost =
-                        gState.ThetaWaypoint;
+                gState.ThetaGhost = gState.ThetaWaypoint;
 
                 VitesseTheta = 0.0f;
-
                 gState.incrementTheta = 0.0f;
 
-                /* On commence le déplacement */
                 gState.state = DeplacementLineaire;
             }
 
             break;
         }
 
-
-        /* ============================================================
-         * ETAT DEPLACEMENT LINEAIRE
-         * ============================================================ */
         case DeplacementLineaire:
         {
-            /* --------------------------------------------------------
-             * Vecteur Ghost -> Waypoint
-             * -------------------------------------------------------- */
+            VitesseTheta = 0.0f;
+            gState.incrementTheta = 0.0f;
+
             dx = gState.XWaypoint - gState.XGhost;
             dy = gState.YWaypoint - gState.YGhost;
 
-
-            /* --------------------------------------------------------
-             * Distance géométrique
-             * -------------------------------------------------------- */
             distance = sqrtf(dx * dx + dy * dy);
 
+            // Projection sur l'axe du Ghost
+            gState.DistanceRestante = dx * cosf(gState.ThetaGhost) + dy * sinf(gState.ThetaGhost);
 
-            /* --------------------------------------------------------
-             * Angle entre l'axe du robot et le waypoint
-             * -------------------------------------------------------- */
-            angle = atan2f(dy, dx);
+            gState.AngleWaypoint = ModuloByAngle(gState.ThetaGhost, atan2f(dy, dx)) - gState.ThetaGhost;
 
-            angleErreur =
-                    ModuloByAngle(gState.ThetaGhost, angle)
-                    - gState.ThetaGhost;
+            // Distance d'arret
+            gState.DistanceArret = (VitesseLineaire * VitesseLineaire) / (2.0f * AccLineaire);
 
-            gState.AngleWaypoint = angleErreur;
+            // Vitesse cible progressive
+            vitesseCible = sqrtf(2.0f * AccLineaire * Abs(gState.DistanceRestante));
+            vitesseCible = Min(vitesseCible, VitesseLineaireMax);
 
+            if (gState.DistanceRestante < 0.0f)
+                vitesseCible = -vitesseCible;
 
-            /* --------------------------------------------------------
-             * Distance projetée sur l'axe du robot
-             *
-             * u = (cos(theta), sin(theta))
-             *
-             * d = (dx, dy)
-             *
-             * projection = d.u
-             * -------------------------------------------------------- */
-            gState.DistanceRestante =
-                    dx * cosf(gState.ThetaGhost)
-                    + dy * sinf(gState.ThetaGhost);
+            variationMax = AccLineaire * dt;
 
+            VitesseLineaire += LimitToInterval(vitesseCible - VitesseLineaire, -variationMax, variationMax);
 
-            /* --------------------------------------------------------
-             * Distance d'arrêt
-             * -------------------------------------------------------- */
-            gState.DistanceArret =
-                    (VitesseLineaire * VitesseLineaire)
-                    / (2.0f * AccLineaire);
+            // Increment de distance
+            gState.incrementDistance = VitesseLineaire * dt;
 
-            if (VitesseLineaire < 0.0f)
+            // Evite de depasser la cible
+            if (Abs(gState.incrementDistance) > Abs(gState.DistanceRestante))
             {
-                gState.DistanceArret =
-                        -gState.DistanceArret;
+                gState.incrementDistance = gState.DistanceRestante;
             }
 
+            // Mise a jour du Ghost
+            gState.XGhost += gState.incrementDistance * cosf(gState.ThetaGhost);
+            gState.YGhost += gState.incrementDistance * sinf(gState.ThetaGhost);
 
-            /* --------------------------------------------------------
-             * Détermination accélération / freinage
-             *
-             * Même principe que pour la rotation.
-             * -------------------------------------------------------- */
-            if (((gState.DistanceArret >= 0.0f &&
-                  gState.DistanceRestante >= 0.0f) ||
-                 (gState.DistanceArret <= 0.0f &&
-                  gState.DistanceRestante <= 0.0f)) &&
-                (Abs(gState.DistanceRestante) >=
-                 Abs(gState.DistanceArret)))
-            {
-                /* -------------------------
-                 * Accélération
-                 * ------------------------- */
-                if (gState.DistanceRestante > 0.0f)
-                {
-                    VitesseLineaire =
-                            Min(VitesseLineaire +
-                                AccLineaire / FREQ_ECH_QEI,
-                                VitesseLineaireMax);
-                }
-                else if (gState.DistanceRestante < 0.0f)
-                {
-                    VitesseLineaire =
-                            Max(VitesseLineaire -
-                                AccLineaire / FREQ_ECH_QEI,
-                                -VitesseLineaireMax);
-                }
-            }
-            else
-            {
-                /* -------------------------
-                 * Freinage
-                 * ------------------------- */
-                if (VitesseLineaire > 0.0f)
-                {
-                    VitesseLineaire =
-                            Max(VitesseLineaire -
-                                AccLineaire / FREQ_ECH_QEI,
-                                0.0f);
-                }
-                else if (VitesseLineaire < 0.0f)
-                {
-                    VitesseLineaire =
-                            Min(VitesseLineaire +
-                                AccLineaire / FREQ_ECH_QEI,
-                                0.0f);
-                }
-            }
-
-
-            /* --------------------------------------------------------
-             * Incrément de distance
-             * -------------------------------------------------------- */
-            gState.incrementDistance =
-                    VitesseLineaire / FREQ_ECH_QEI;
-
-
-            /* --------------------------------------------------------
-             * Ne pas dépasser la projection du waypoint
-             * -------------------------------------------------------- */
-            if (Abs(gState.DistanceRestante) <
-                Abs(gState.incrementDistance))
-            {
-                gState.incrementDistance =
-                        gState.DistanceRestante;
-            }
-
-
-            /* --------------------------------------------------------
-             * Intégration longitudinale
-             *
-             * Le Ghost avance uniquement suivant son orientation.
-             * -------------------------------------------------------- */
-            gState.XGhost +=
-                    gState.incrementDistance *
-                    cosf(gState.ThetaGhost);
-
-            gState.YGhost +=
-                    gState.incrementDistance *
-                    sinf(gState.ThetaGhost);
-
-
-            /* --------------------------------------------------------
-             * Recalcul de la distance après déplacement
-             * -------------------------------------------------------- */
             dx = gState.XWaypoint - gState.XGhost;
             dy = gState.YWaypoint - gState.YGhost;
 
-            gState.DistanceRestante =
-                    dx * cosf(gState.ThetaGhost)
-                    + dy * sinf(gState.ThetaGhost);
+            gState.DistanceRestante = dx * cosf(gState.ThetaGhost) + dy * sinf(gState.ThetaGhost);
 
-
-            /* --------------------------------------------------------
-             * Fin du déplacement
-             *
-             * On considère le mouvement terminé lorsque :
-             *
-             * - la vitesse est nulle
-             * - la distance projetée est suffisamment faible
-             * -------------------------------------------------------- */
-            if ((VitesseLineaire == 0.0f) &&
-                (Abs(gState.DistanceRestante) < 0.01f))
+            // Fin du mouvement theorique
+            if (Abs(gState.DistanceRestante) < 0.01f && Abs(VitesseLineaire) < 0.02f)
             {
                 VitesseLineaire = 0.0f;
-
                 gState.incrementDistance = 0.0f;
-
-                /*
-                 * IMPORTANT :
-                 *
-                 * On ne met pas systématiquement XGhost/YGhost
-                 * exactement sur XWaypoint/YWaypoint.
-                 *
-                 * Le sujet demande d'atteindre la projection
-                 * du waypoint sur l'axe du robot.
-                 *
-                 * Donc on conserve la position obtenue.
-                 */
 
                 gState.state = Idle;
             }
@@ -417,47 +195,61 @@ void ComputeGhost(void)
             break;
         }
 
-
-        /* ============================================================
-         * ETAT INCONNU
-         * ============================================================ */
         default:
         {
             gState.state = Idle;
-
             VitesseTheta = 0.0f;
             VitesseLineaire = 0.0f;
-
-            gState.incrementTheta = 0.0f;
-            gState.incrementDistance = 0.0f;
 
             break;
         }
     }
+
     /*
-     * Erreur de position entre le robot réel et le Ghost
+     * ============================================
+     * 2. ERREUR ENTRE ROBOT REEL ET GHOST
+     * ============================================
      */
+
     dx = gState.XGhost - robotState.xPosFromOdometry;
     dy = gState.YGhost - robotState.yPosFromOdometry;
 
+    // Erreur longitudinale signee
+    erreurLongitudinale = dx * cosf(robotState.angleRadianFromOdometry) + dy * sinf(robotState.angleRadianFromOdometry);
+
+    // Erreur laterale signee
+    // Positive : Ghost a gauche du robot
+    erreurLaterale = -dx * sinf(robotState.angleRadianFromOdometry) + dy * cosf(robotState.angleRadianFromOdometry);
+
+    // Erreur angulaire normalisee
+    erreurOrientation = ModuloByAngle(robotState.angleRadianFromOdometry, gState.ThetaGhost) - robotState.angleRadianFromOdometry;
+
+    erreurLineaire = erreurLongitudinale;
+    erreurAngulaire = erreurOrientation;
+
     /*
-     * Projection de l'erreur de position
-     * sur l'axe du robot réel.
+     * ============================================
+     * 3. ASSERVISSEMENT EN POSITION
+     * ============================================
      */
-     erreurLineaire =
-            dx * cosf(robotState.angleRadianFromOdometry)
-            + dy * sinf(robotState.angleRadianFromOdometry);
 
-    erreurAngulaire =
-            gState.ThetaGhost
-            - robotState.angleRadianFromOdometry;
+    // Vitesse lineaire : suivi du Ghost
+    robotState.vitesseLineaireConsigne = VitesseLineaire + KpLineaire * erreurLongitudinale;
 
-    robotState.vitesseLineaireConsigne =
-            VitesseLineaire + KpLineaire * erreurLineaire;
+    // Vitesse angulaire : orientation + ecart lateral
+    robotState.vitesseAngulaireConsigne = VitesseTheta + KpAngulaire * erreurOrientation;
 
-    robotState.vitesseAngulaireConsigne =
-            VitesseTheta + KpAngulaire * erreurAngulaire;
+    // Correction laterale pendant la translation
+    if (gState.state == DeplacementLineaire || (gState.state == Idle && Abs(erreurLongitudinale) > 0.01f))
+    {
+        robotState.vitesseAngulaireConsigne += KpLateral * erreurLaterale;
+    }
+
+    // Limites provisoires pour les essais
+    robotState.vitesseLineaireConsigne = LimitToInterval(robotState.vitesseLineaireConsigne, -0.15f, 0.15f);
+    robotState.vitesseAngulaireConsigne = LimitToInterval(robotState.vitesseAngulaireConsigne, -0.6f, 0.6f);
 }
+
 
 void SendGhostData(void) {
     unsigned char payload[36];
