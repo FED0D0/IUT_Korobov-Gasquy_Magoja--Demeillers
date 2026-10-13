@@ -19,8 +19,13 @@
  * PARAMETRES POUR L'ASSERVISSEMENT
  * ============================================================ */
 
+/* Gains proportionnels de la version initiale fonctionnelle */
 float KpLineaire = 0.01f;
 float KpAngulaire = 1.0f;
+
+/* Gains derives de depart tres faibles, a regler sur le robot */
+float KdLineaire = 0.005f;
+float KdAngulaire = 0.01f;
 
 float erreurLineaire = 0.0f;
 float erreurAngulaire = 0.0f;
@@ -43,19 +48,17 @@ GhostState gState;
  * CALCUL DU GHOST
  * ============================================================ */
 
-void ComputeGhost(void)
-{
+void ComputeGhost(void) {
     float dx;
     float dy;
     float distance;
     float angle;
     float angleErreur;
 
-    switch (gState.state)
-    {
-        /* ============================================================
-         * ETAT IDLE
-         * ============================================================ */
+    switch (gState.state) {
+            /* ============================================================
+             * ETAT IDLE
+             * ============================================================ */
         case Idle:
         {
             VitesseTheta = 0.0f;
@@ -68,9 +71,9 @@ void ComputeGhost(void)
         }
 
 
-        /* ============================================================
-         * ETAT ROTATION
-         * ============================================================ */
+            /* ============================================================
+             * ETAT ROTATION
+             * ============================================================ */
         case Rotation:
         {
             /* --------------------------------------------------------
@@ -90,7 +93,7 @@ void ComputeGhost(void)
              * -------------------------------------------------------- */
             gState.ThetaRestant =
                     ModuloByAngle(gState.ThetaGhost,
-                                  gState.ThetaWaypoint)
+                    gState.ThetaWaypoint)
                     - gState.ThetaGhost;
 
 
@@ -103,8 +106,7 @@ void ComputeGhost(void)
                     (VitesseTheta * VitesseTheta)
                     / (2.0f * AccTheta);
 
-            if (VitesseTheta < 0.0f)
-            {
+            if (VitesseTheta < 0.0f) {
                 gState.ThetaArret =
                         -gState.ThetaArret;
             }
@@ -114,48 +116,39 @@ void ComputeGhost(void)
              * Accélération ou freinage
              * -------------------------------------------------------- */
             if (((gState.ThetaArret >= 0.0f &&
-                  gState.ThetaRestant >= 0.0f) ||
-                 (gState.ThetaArret <= 0.0f &&
-                  gState.ThetaRestant <= 0.0f)) &&
-                (Abs(gState.ThetaRestant) >=
-                 Abs(gState.ThetaArret)))
-            {
+                    gState.ThetaRestant >= 0.0f) ||
+                    (gState.ThetaArret <= 0.0f &&
+                    gState.ThetaRestant <= 0.0f)) &&
+                    (Abs(gState.ThetaRestant) >=
+                    Abs(gState.ThetaArret))) {
                 /* -------------------------
                  * Accélération
                  * ------------------------- */
-                if (gState.ThetaRestant > 0.0f)
-                {
+                if (gState.ThetaRestant > 0.0f) {
                     VitesseTheta =
                             Min(VitesseTheta +
-                                AccTheta / FREQ_ECH_QEI,
-                                VitesseThetaMax);
-                }
-                else if (gState.ThetaRestant < 0.0f)
-                {
+                            AccTheta / FREQ_ECH_QEI,
+                            VitesseThetaMax);
+                } else if (gState.ThetaRestant < 0.0f) {
                     VitesseTheta =
                             Max(VitesseTheta -
-                                AccTheta / FREQ_ECH_QEI,
-                                -VitesseThetaMax);
+                            AccTheta / FREQ_ECH_QEI,
+                            -VitesseThetaMax);
                 }
-            }
-            else
-            {
+            } else {
                 /* -------------------------
                  * Freinage
                  * ------------------------- */
-                if (VitesseTheta > 0.0f)
-                {
+                if (VitesseTheta > 0.0f) {
                     VitesseTheta =
                             Max(VitesseTheta -
-                                AccTheta / FREQ_ECH_QEI,
-                                0.0f);
-                }
-                else if (VitesseTheta < 0.0f)
-                {
+                            AccTheta / FREQ_ECH_QEI,
+                            0.0f);
+                } else if (VitesseTheta < 0.0f) {
                     VitesseTheta =
                             Min(VitesseTheta +
-                                AccTheta / FREQ_ECH_QEI,
-                                0.0f);
+                            AccTheta / FREQ_ECH_QEI,
+                            0.0f);
                 }
             }
 
@@ -171,8 +164,7 @@ void ComputeGhost(void)
              * Ne pas dépasser la cible
              * -------------------------------------------------------- */
             if (Abs(gState.ThetaRestant) <
-                Abs(gState.incrementTheta))
-            {
+                    Abs(gState.incrementTheta)) {
                 gState.incrementTheta =
                         gState.ThetaRestant;
             }
@@ -188,12 +180,9 @@ void ComputeGhost(void)
             /* --------------------------------------------------------
              * Normalisation entre -PI et PI
              * -------------------------------------------------------- */
-            if (gState.ThetaGhost > M_PI)
-            {
+            if (gState.ThetaGhost > M_PI) {
                 gState.ThetaGhost -= 2.0f * M_PI;
-            }
-            else if (gState.ThetaGhost < -M_PI)
-            {
+            } else if (gState.ThetaGhost < -M_PI) {
                 gState.ThetaGhost += 2.0f * M_PI;
             }
 
@@ -206,7 +195,7 @@ void ComputeGhost(void)
              * -------------------------------------------------------- */
             gState.ThetaRestant =
                     ModuloByAngle(gState.ThetaGhost,
-                                  gState.ThetaWaypoint)
+                    gState.ThetaWaypoint)
                     - gState.ThetaGhost;
 
 
@@ -214,8 +203,7 @@ void ComputeGhost(void)
              * Fin de rotation
              * -------------------------------------------------------- */
             if ((VitesseTheta == 0.0f) &&
-                (Abs(gState.ThetaRestant) < 0.01f))
-            {
+                    (Abs(gState.ThetaRestant) < 0.01f)) {
                 gState.ThetaGhost =
                         gState.ThetaWaypoint;
 
@@ -231,9 +219,9 @@ void ComputeGhost(void)
         }
 
 
-        /* ============================================================
-         * ETAT DEPLACEMENT LINEAIRE
-         * ============================================================ */
+            /* ============================================================
+             * ETAT DEPLACEMENT LINEAIRE
+             * ============================================================ */
         case DeplacementLineaire:
         {
             /* --------------------------------------------------------
@@ -282,8 +270,7 @@ void ComputeGhost(void)
                     (VitesseLineaire * VitesseLineaire)
                     / (2.0f * AccLineaire);
 
-            if (VitesseLineaire < 0.0f)
-            {
+            if (VitesseLineaire < 0.0f) {
                 gState.DistanceArret =
                         -gState.DistanceArret;
             }
@@ -295,48 +282,39 @@ void ComputeGhost(void)
              * Même principe que pour la rotation.
              * -------------------------------------------------------- */
             if (((gState.DistanceArret >= 0.0f &&
-                  gState.DistanceRestante >= 0.0f) ||
-                 (gState.DistanceArret <= 0.0f &&
-                  gState.DistanceRestante <= 0.0f)) &&
-                (Abs(gState.DistanceRestante) >=
-                 Abs(gState.DistanceArret)))
-            {
+                    gState.DistanceRestante >= 0.0f) ||
+                    (gState.DistanceArret <= 0.0f &&
+                    gState.DistanceRestante <= 0.0f)) &&
+                    (Abs(gState.DistanceRestante) >=
+                    Abs(gState.DistanceArret))) {
                 /* -------------------------
                  * Accélération
                  * ------------------------- */
-                if (gState.DistanceRestante > 0.0f)
-                {
+                if (gState.DistanceRestante > 0.0f) {
                     VitesseLineaire =
                             Min(VitesseLineaire +
-                                AccLineaire / FREQ_ECH_QEI,
-                                VitesseLineaireMax);
-                }
-                else if (gState.DistanceRestante < 0.0f)
-                {
+                            AccLineaire / FREQ_ECH_QEI,
+                            VitesseLineaireMax);
+                } else if (gState.DistanceRestante < 0.0f) {
                     VitesseLineaire =
                             Max(VitesseLineaire -
-                                AccLineaire / FREQ_ECH_QEI,
-                                -VitesseLineaireMax);
+                            AccLineaire / FREQ_ECH_QEI,
+                            -VitesseLineaireMax);
                 }
-            }
-            else
-            {
+            } else {
                 /* -------------------------
                  * Freinage
                  * ------------------------- */
-                if (VitesseLineaire > 0.0f)
-                {
+                if (VitesseLineaire > 0.0f) {
                     VitesseLineaire =
                             Max(VitesseLineaire -
-                                AccLineaire / FREQ_ECH_QEI,
-                                0.0f);
-                }
-                else if (VitesseLineaire < 0.0f)
-                {
+                            AccLineaire / FREQ_ECH_QEI,
+                            0.0f);
+                } else if (VitesseLineaire < 0.0f) {
                     VitesseLineaire =
                             Min(VitesseLineaire +
-                                AccLineaire / FREQ_ECH_QEI,
-                                0.0f);
+                            AccLineaire / FREQ_ECH_QEI,
+                            0.0f);
                 }
             }
 
@@ -352,8 +330,7 @@ void ComputeGhost(void)
              * Ne pas dépasser la projection du waypoint
              * -------------------------------------------------------- */
             if (Abs(gState.DistanceRestante) <
-                Abs(gState.incrementDistance))
-            {
+                    Abs(gState.incrementDistance)) {
                 gState.incrementDistance =
                         gState.DistanceRestante;
             }
@@ -393,8 +370,7 @@ void ComputeGhost(void)
              * - la distance projetée est suffisamment faible
              * -------------------------------------------------------- */
             if ((VitesseLineaire == 0.0f) &&
-                (Abs(gState.DistanceRestante) < 0.01f))
-            {
+                    (Abs(gState.DistanceRestante) < 0.01f)) {
                 VitesseLineaire = 0.0f;
 
                 gState.incrementDistance = 0.0f;
@@ -418,9 +394,9 @@ void ComputeGhost(void)
         }
 
 
-        /* ============================================================
-         * ETAT INCONNU
-         * ============================================================ */
+            /* ============================================================
+             * ETAT INCONNU
+             * ============================================================ */
         default:
         {
             gState.state = Idle;
@@ -444,17 +420,30 @@ void ComputeGhost(void)
      * Projection de l'erreur de position
      * sur l'axe du robot réel.
      */
-     erreurLineaire =
+    erreurLineaire =
             dx * cosf(robotState.angleRadianFromOdometry)
             + dy * sinf(robotState.angleRadianFromOdometry);
 
     erreurAngulaire = ModuloByAngle(robotState.angleRadianFromOdometry, gState.ThetaGhost) - robotState.angleRadianFromOdometry;
 
+    /* PD lineaire : erreur de vitesse selon l'axe longitudinal du robot */
+    float deriveeLineaire = VitesseLineaire * cosf(gState.ThetaGhost - robotState.angleRadianFromOdometry)
+            - robotState.vitesseLineaireFromOdometry;
+
+    /* PD angulaire : ecart entre vitesses de rotation du Ghost et du robot */
+    float deriveeAngulaire = VitesseTheta - robotState.vitesseAngulaireFromOdometry;
+
     robotState.vitesseLineaireConsigne =
-            VitesseLineaire + KpLineaire * erreurLineaire;
+            VitesseLineaire + KpLineaire * erreurLineaire + KdLineaire * deriveeLineaire;
 
     robotState.vitesseAngulaireConsigne =
-            VitesseTheta + KpAngulaire * erreurAngulaire;
+            VitesseTheta + KpAngulaire * erreurAngulaire + KdAngulaire * deriveeAngulaire;
+
+    /* Limite les consignes du correcteur sans modifier la trajectoire du Ghost */
+    robotState.vitesseLineaireConsigne = LimitToInterval(
+            robotState.vitesseLineaireConsigne, -VitesseLineaireMax, VitesseLineaireMax);
+    robotState.vitesseAngulaireConsigne = LimitToInterval(
+            robotState.vitesseAngulaireConsigne, -VitesseThetaMax, VitesseThetaMax);
 }
 
 void SendGhostData(void) {

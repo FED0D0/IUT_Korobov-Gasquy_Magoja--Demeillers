@@ -26,6 +26,9 @@ int ADCValue4;
 int counterDisplayAdc = 0;
 unsigned char parcoursLance = 0;
 unsigned char etapeParcours = 0;
+unsigned char testLance = 0;
+float positionDepartX = 0.0f;
+float positionDepartY = 0.0f;
 
 int main(void) {
     InitOscillator();
@@ -40,28 +43,29 @@ int main(void) {
     InitPWM();
 
 
+
     GhostStartPoint();
-    
+
     SetupPidAsservissement(&robotState.PidX,
             6, //9
-            230, //550 ancien nouveau : 210
+            230, //230 ancien 
             0,
             10000,
             10000,
             10000);
 
     SetupPidAsservissement(&robotState.PidTheta,
-            6, //9
-            230, //280 ancien nouuveau : 350
+            4, //9
+            230, //230 ancien
             0,
             10000,
             10000,
             10000);
 
-        PWMSetSpeedCommandePolaire(
-                (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
-                (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
-                );
+    PWMSetSpeedCommandePolaire(
+            (robotState.vitesseDroiteConsigne + robotState.vitesseGaucheConsigne) / 2.0f,
+            (robotState.vitesseDroiteConsigne - robotState.vitesseGaucheConsigne) / (2.0f * DISTROUES)
+            );
     //def
 
     // Initialisation simple de l'état du robot
@@ -88,8 +92,18 @@ int main(void) {
     //    InitQEI1();
     //    InitQEI2();
     InitTimer1();
-    
+
     while (1) {
+
+
+        // Lancement du test avec INTER3
+        if (BOUTON_TEST == 1 && testLance == 0) {
+            testLance = 1;
+
+            PWMSetSpeedCommandePolaire(0.2f, 0.0f);
+        }
+
+
         // Lancement du parcours avec INTER2
         if (BOUTON_START == 1 && parcoursLance == 0 && etapeParcours == 0) {
             parcoursLance = 1;
@@ -109,20 +123,17 @@ int main(void) {
                 gState.XWaypoint = 1.0f;
                 gState.YWaypoint = 1.0f;
                 gState.state = Rotation;
-            }
-            else if (etapeParcours == 1) {
+            } else if (etapeParcours == 1) {
                 etapeParcours = 2;
                 gState.XWaypoint = 0.0f;
                 gState.YWaypoint = 1.0f;
                 gState.state = Rotation;
-            }
-            else if (etapeParcours == 2) {
+            } else if (etapeParcours == 2) {
                 etapeParcours = 3;
                 gState.XWaypoint = 0.0f;
                 gState.YWaypoint = 0.0f;
                 gState.state = Rotation;
-            }
-            else if (etapeParcours == 3) {
+            } else if (etapeParcours == 3) {
                 etapeParcours = 4;
                 parcoursLance = 0;
                 LED_BLANCHE_2 = 0;
@@ -137,8 +148,8 @@ int main(void) {
             octetRecu = CB_RX1_Get();
             UartDecodeMessage(octetRecu);
         }
-        
-        PWMUpdateSpeed();
+
+        //PWMUpdateSpeed();
 
         //        OperatingSystemLoop();
         //    SendMessage((unsigned char*) "impot", 5);

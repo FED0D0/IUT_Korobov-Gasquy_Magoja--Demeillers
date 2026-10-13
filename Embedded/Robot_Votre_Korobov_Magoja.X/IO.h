@@ -13,6 +13,7 @@
 #define LED_ROUGE_2 _LATA10
 #define LED_VERTE_2 _LATH3
 #define BOUTON_START _RH2
+#define BOUTON_TEST _RH3
 // Prototypes fonctions
 void InitIO();
 void LockIO();

@@ -26,18 +26,37 @@ void SetupPidAsservissement(volatile PidCorrector* PidCorr, float Kp, float Ki, 
 
 double Correcteur(volatile PidCorrector* PidCorr, float erreur) {
     PidCorr->erreur = erreur;
-    float erreurProportionnelle = LimitToInterval(erreur, -PidCorr->erreurProportionelleMax / PidCorr->Kp, PidCorr->erreurProportionelleMax / PidCorr->Kp);
-    PidCorr->corrP = erreurProportionnelle * PidCorr->Kp;
-    PidCorr->erreurIntegrale += erreur / FREQ_ECH_QEI;
-    PidCorr->erreurIntegrale = LimitToInterval(PidCorr->erreurIntegrale,
-            -PidCorr->erreurIntegraleMax / PidCorr->Ki,
-            PidCorr->erreurIntegraleMax / PidCorr->Ki);
-    PidCorr->corrI = PidCorr->erreurIntegrale * PidCorr->Ki;
-    float erreurDerivee = (erreur - PidCorr->epsilon_1) * FREQ_ECH_QEI;
-    float deriveeBornee = LimitToInterval(erreurDerivee, -PidCorr->erreurDeriveeMax / PidCorr->Kd,
-            PidCorr->erreurDeriveeMax / PidCorr->Kd);
+
+    // Correction proportionnelle
+    PidCorr->corrP = LimitToInterval(
+            PidCorr->Kp * erreur,
+            -PidCorr->erreurProportionelleMax,
+            PidCorr->erreurProportionelleMax);
+
+    // Correction intégrale
+    if (PidCorr->Ki != 0.0f) {
+        PidCorr->erreurIntegrale += erreur / FREQ_ECH_QEI;
+
+        PidCorr->corrI = LimitToInterval(
+                PidCorr->Ki * PidCorr->erreurIntegrale,
+                -PidCorr->erreurIntegraleMax,
+                PidCorr->erreurIntegraleMax);
+
+        PidCorr->erreurIntegrale = PidCorr->corrI / PidCorr->Ki;
+    }
+    else {
+        PidCorr->erreurIntegrale = 0.0f;
+        PidCorr->corrI = 0.0f;
+    }
+
+    // Correction dérivée
+    PidCorr->corrD = LimitToInterval(
+            PidCorr->Kd * (erreur - PidCorr->epsilon_1) * FREQ_ECH_QEI,
+            -PidCorr->erreurDeriveeMax,
+            PidCorr->erreurDeriveeMax);
+
     PidCorr->epsilon_1 = erreur;
-    PidCorr->corrD = deriveeBornee * PidCorr->Kd;
+
     return PidCorr->corrP + PidCorr->corrI + PidCorr->corrD;
 }
 

@@ -34,6 +34,7 @@ void InitIO() {
     
     // Bouton INTER2
     _TRISH2 = 1;
+    _TRISH3 = 1; // INTER3 en entrée
 
     // Configuration des entrées
 
