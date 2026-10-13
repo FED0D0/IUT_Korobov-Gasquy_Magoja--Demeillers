@@ -19,6 +19,5 @@ void InitIO();
 void LockIO();
 void UnlockIO();
 
-extern volatile unsigned char parcoursActif;
 
 #endif /* IO_H */

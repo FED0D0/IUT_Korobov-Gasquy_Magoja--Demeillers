@@ -33,5 +33,8 @@
 void OperatingSystemLoop(void);
 void SetNextRobotStateInAutomaticMode();
 
+extern volatile unsigned char parcoursTermine;
+void UpdateParcoursAutonome(void);
+
 #endif	/* MAIN_H */
 

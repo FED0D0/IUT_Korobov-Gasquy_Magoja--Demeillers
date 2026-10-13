@@ -25,6 +25,8 @@ int ADCValue3;
 int ADCValue4;
 int counterDisplayAdc = 0;
 
+volatile unsigned char parcoursTermine = 0;
+
 volatile unsigned char parcoursActif = 0;
 unsigned char arretVerrouille = 0;
 unsigned char boutonStartPrecedent = 0;
@@ -353,4 +355,68 @@ void SetNextRobotStateInAutomaticMode() {
     //Si l?on n?est pas dans la transition de l??tape en cours
     if (nextStateRobot != stateRobot - 1)
         stateRobot = nextStateRobot;
+}
+
+void UpdateParcoursAutonome(void) {
+
+    // Coordonnees des 6 waypoints
+    static const float parcoursX[6] = {1.36f, 0.86f, 1.86f, 1.86f, 0.86f, 1.36f};
+    static const float parcoursY[6] = {0.86f, 0.36f, 0.36f, 1.36f, 1.36f, 0.86f};
+
+    float dx;
+    float dy;
+    float distanceCarree;
+
+    // Parcours desactive
+    if (parcoursActif == 0) {
+        return;
+    }
+
+    // Toutes les destinations ont ete effectuees
+    if (etapeParcours >= 6) {
+        parcoursActif = 0;
+        parcoursTermine = 1;
+        return;
+    }
+
+    // Initialisation du waypoint
+    if (compteurEtape == 0) {
+        gState.XWaypoint = parcoursX[etapeParcours];
+        gState.YWaypoint = parcoursY[etapeParcours];
+        gState.state = Rotation;
+
+        compteurArrivee = 0;
+    }
+
+    compteurEtape++;
+
+    // Distance entre robot reel et waypoint
+    dx = parcoursX[etapeParcours] - robotState.xPosFromOdometry;
+    dy = parcoursY[etapeParcours] - robotState.yPosFromOdometry;
+    distanceCarree = dx * dx + dy * dy;
+
+    // Verifier que le robot reel a atteint le waypoint
+    if (gState.state == Idle &&
+        distanceCarree < 0.0016f &&
+        Abs(robotState.vitesseLineaireFromOdometry) < 0.03f &&
+        Abs(robotState.vitesseAngulaireFromOdometry) < 0.12f) {
+
+        compteurArrivee++;
+
+        // Position stable pendant 100 ms
+        if (compteurArrivee >= 25) {
+            etapeParcours++;
+            compteurEtape = 0;
+            compteurArrivee = 0;
+        }
+    }
+    else {
+        compteurArrivee = 0;
+    }
+
+    // Securite : 45 secondes maximum par etape
+    if (compteurEtape > 11250) {
+        parcoursActif = 0;
+        parcoursTermine = 1;
+    }
 }
