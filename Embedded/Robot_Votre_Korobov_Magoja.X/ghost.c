@@ -448,9 +448,7 @@ void ComputeGhost(void)
             dx * cosf(robotState.angleRadianFromOdometry)
             + dy * sinf(robotState.angleRadianFromOdometry);
 
-    erreurAngulaire =
-            gState.ThetaGhost
-            - robotState.angleRadianFromOdometry;
+    erreurAngulaire = ModuloByAngle(robotState.angleRadianFromOdometry, gState.ThetaGhost) - robotState.angleRadianFromOdometry;
 
     robotState.vitesseLineaireConsigne =
             VitesseLineaire + KpLineaire * erreurLineaire;

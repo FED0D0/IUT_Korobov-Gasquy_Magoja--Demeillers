@@ -24,14 +24,14 @@ int ADCValue2;
 int ADCValue3;
 int ADCValue4;
 int counterDisplayAdc = 0;
-
+unsigned char parcoursLance = 0;
+unsigned char etapeParcours = 0;
 
 int main(void) {
     InitOscillator();
     InitIO();
     InitUART();
     InitTimer23();
-    InitTimer1();
     InitTimer4();
     InitQEI1();
     InitQEI2();
@@ -87,8 +87,47 @@ int main(void) {
     //    unsigned char payload[] = {'B', 'o', 'n', 'j','o', 'u', 'r', '\n'};
     //    InitQEI1();
     //    InitQEI2();
-
+    InitTimer1();
+    
     while (1) {
+        // Lancement du parcours avec INTER2
+        if (BOUTON_START == 1 && parcoursLance == 0 && etapeParcours == 0) {
+            parcoursLance = 1;
+            etapeParcours = 0;
+            LED_BLANCHE_2 = 1;
+
+            gState.XWaypoint = 1.0f;
+            gState.YWaypoint = 0.0f;
+            gState.state = Rotation;
+        }
+
+        // Enchainement des waypoints
+        if (parcoursLance == 1 && gState.state == Idle) {
+
+            if (etapeParcours == 0) {
+                etapeParcours = 1;
+                gState.XWaypoint = 1.0f;
+                gState.YWaypoint = 1.0f;
+                gState.state = Rotation;
+            }
+            else if (etapeParcours == 1) {
+                etapeParcours = 2;
+                gState.XWaypoint = 0.0f;
+                gState.YWaypoint = 1.0f;
+                gState.state = Rotation;
+            }
+            else if (etapeParcours == 2) {
+                etapeParcours = 3;
+                gState.XWaypoint = 0.0f;
+                gState.YWaypoint = 0.0f;
+                gState.state = Rotation;
+            }
+            else if (etapeParcours == 3) {
+                etapeParcours = 4;
+                parcoursLance = 0;
+                LED_BLANCHE_2 = 0;
+            }
+        }
 
         //        PWMSetSpeedConsignePolaire(1,0);
         //        InitQEI1();
